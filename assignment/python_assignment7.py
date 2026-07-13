@@ -1,5 +1,4 @@
 import copy
-from gc import callbacks
 
 global_list = [1, 2, 3]
 global_dict = {'a': 10, 'b': 20}
@@ -71,12 +70,7 @@ def process_elements(func, *args, **kwargs):
     :param kwargs:
     :return:
     """
-    area_list, area_dict = [], {}
-    for item in args:
-        area_list.append(item * 2)
-
-    for key,val in kwargs.items():
-        area_dict[key] = val + 5
+    area_list, area_dict = [item * 2 for item in args], {k : v + 5 for k, v in kwargs.items()}
 
     func(area_list, area_dict)
 

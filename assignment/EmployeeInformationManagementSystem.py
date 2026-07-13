@@ -30,7 +30,8 @@ class Employee:
 
     def introduce(self):
         """打印员工的个人信息和公司名称。"""
-        company_name = Employee._Employee__company_name  # 访问私有类属性
+        # company_name = Employee._Employee__company_name
+        company_name = self.get_company_name()  # 访问私有类属性
         print(f"公司:{company_name} 员工姓名：{self.name}, 年龄:{self.age}, 员工ID:{self.employee_id}")
 
     def get_bonus(self):
@@ -84,7 +85,8 @@ class Manager(Employee):
 
     def introduce(self):
         """打印员工的个人信息和公司名称。"""
-        company_name = Employee._Employee__company_name  # 访问私有类属性
+        #company_name = Employee._Employee__company_name  # 访问私有类属性
+        company_name = self.get_company_name()  # 访问私有类属性
         print(f"公司:{company_name} 员工姓名：{self.name}, 年龄:{self.age}, "
               f"员工ID:{self.employee_id}, 部门:{self.department}, 薪资:{self.__salary}")
 

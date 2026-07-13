@@ -1,5 +1,5 @@
-from service.login_service import login
-from service.login_service import get_login_data
+from service import login
+from service import get_login_data
 
 
 if __name__ == "__main__":

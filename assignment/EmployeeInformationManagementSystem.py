@@ -33,8 +33,11 @@ class Employee:
         company_name = Employee._Employee__company_name  # 访问私有类属性
         print(f"公司:{company_name} 员工姓名：{self.name}, 年龄:{self.age}, 员工ID:{self.employee_id}")
 
+    def get_bonus(self):
+        return self.__calculate_bonus()
+
     # ----------私有方法：计算员工的奖金（此处为模拟，可以固定返回一个值或根据实际需求设计）。 ----------
-    def _calculate_bonus(self):
+    def __calculate_bonus(self):
         """计算员工奖金（模拟）"""
         # 根据年龄或职位简单计算奖金
         if self.age and self.age > 30:
@@ -170,19 +173,19 @@ if __name__ == '__main__':
 
     # 5. 测试 Manager 特有方法
     print("\n5. 测试经理特有能力")
-    print(f"  {mgr1.name} 当前薪资: {mgr1.get_salary()}")
+    print(f"  {mgr1.name} 当前薪资: {mgr1.get_salary():.2f}")
 
     # 测试升职加薪
     mgr1.promote(10)  # 加薪10%
-    print(f"  {mgr1.name} 加薪10%后薪资: {mgr1.get_salary()}")
+    print(f"  {mgr1.name} 加薪10%后薪资: {mgr1.get_salary():.2f}")
 
     mgr1.promote(5)  # 再加薪5%
-    print(f"  {mgr1.name} 再加薪5%后薪资: {mgr1.get_salary()}")
+    print(f"  {mgr1.name} 再加薪5%后薪资: {mgr1.get_salary():.2f}")
 
     # 6. 测试静态方法：计算年收入
     print("\n6. 测试年收入计算")
-    mgr1_bonus = mgr1._calculate_bonus()  # 调用私有方法（模拟）
+    mgr1_bonus = mgr1.get_bonus()  # 调用私有方法（模拟）
     annual_income = Manager.calculate_annual_income(mgr1.get_salary(), mgr1_bonus)
-    print(f"  {mgr1.name} 的月薪: {mgr1.get_salary()}, 奖金: {mgr1_bonus}")
-    print(f"  {mgr1.name} 的年收入: {annual_income} 元")
+    print(f"  {mgr1.name} 的月薪: {mgr1.get_salary()}, 奖金: {mgr1_bonus:.2f}")
+    print(f"  {mgr1.name} 的年收入: {annual_income:.2f} 元")
 

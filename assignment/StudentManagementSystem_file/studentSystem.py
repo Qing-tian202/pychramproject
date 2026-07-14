@@ -144,7 +144,7 @@ if __name__ == "__main__":
         with open(file_name, 'r', encoding='utf-8') as f:
             df = f.readlines()
 
-
+    show_menu()
     df = menu(df)
     # print(df)
 

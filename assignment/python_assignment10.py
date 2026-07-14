@@ -1,4 +1,5 @@
 import mysql.connector
+import random
 
 class InsufficientFundsError(Exception):  #自定义异常
     pass
@@ -66,6 +67,10 @@ def execute_transaction(db, username, password, withdraw_money, balance):
 
         # 检查更新是否成功
         if cursor.rowcount == 0:
+            raise DatabaseError("数据库更新失败！")
+
+        #测试抛出数据库异常
+        if random.randint(0,10) < 3:
             raise DatabaseError("数据库更新失败！")
 
         db.commit()

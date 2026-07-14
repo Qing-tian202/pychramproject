@@ -1,4 +1,4 @@
-
+import DataBaseError
 
 def insert(db,*args):
     """
@@ -12,6 +12,11 @@ def insert(db,*args):
             cursor = db.cursor()
 
             cursor.execute(sql, args)
+
+            if cursor.rowcount == 0:  # 更新的数据库条数为 0
+                db.rollback()
+                raise DataBaseError("数据库更新失败！")
+
             db.commit()
             cursor.close()
             #print("插入数据成功")

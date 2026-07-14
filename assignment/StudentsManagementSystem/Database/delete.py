@@ -1,3 +1,5 @@
+import DataBaseError
+
 
 def delete(db, info):
     """
@@ -16,6 +18,10 @@ def delete(db, info):
     else:
         sql = f"delete from students where name = %s" #根据名字删除
         cursor.execute(sql,[info])
+
+    if cursor.rowcount == 0: #更新的数据库条数为 0
+        db.rollback()
+        raise DataBaseError("数据库更新失败！")
 
     db.commit() #提交事务
     cursor.close()

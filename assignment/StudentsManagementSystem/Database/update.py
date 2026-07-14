@@ -1,3 +1,5 @@
+import DataBaseError
+
 
 def update(db, *args):
     """
@@ -19,6 +21,10 @@ def update(db, *args):
         else:  #只修改年龄
             sql = f"update students set age = %s where id = %s"
             cursor.execute(sql, [int(other[0]), id])
+
+    if cursor.rowcount == 0: #更新的数据库条数为 0
+        db.rollback()
+        raise DataBaseError("数据库更新失败！")
 
     db.commit()
     cursor.close()

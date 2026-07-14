@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="713bc543-929e-42df-bd6a-697482fe5177" name="更改" comment="软件测试作业">
-      <change beforePath="$PROJECT_DIR$/assignment/python_assignment7.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/python_assignment7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/StudentsManagementSystem/Database/DataBaseError.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/python_assignment10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment/StudentsManagementSystem/Database/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/StudentsManagementSystem/Database/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment/StudentsManagementSystem/Database/delete.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/StudentsManagementSystem/Database/delete.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment/StudentsManagementSystem/Database/insert.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/StudentsManagementSystem/Database/insert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment/StudentsManagementSystem/Database/update.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/StudentsManagementSystem/Database/update.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,22 +31,22 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Qing-tian202"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Qing-tian202&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Qing-tian202/pychramproject.git",
-    "accountId": "efe0740d-6928-4039-9a93-56163e74ebc8"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Qing-tian202/pychramproject.git&quot;,
+    &quot;accountId&quot;: &quot;efe0740d-6928-4039-9a93-56163e74ebc8&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4,
-  "fromUser": false
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3GQaJ90jF8YJQo4VkTacU0i4iEQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -52,6 +58,7 @@
     "Python 测试.test.test1.test 的 Python 测试.executor": "Run",
     "Python.EmployeeInformationManagementSystem.executor": "Run",
     "Python.a.executor": "Run",
+    "Python.python_assignment10.executor": "Run",
     "Python.python_assignment7.executor": "Run",
     "Python.test1.executor": "Run",
     "Python.test_login.executor": "Run",
@@ -60,7 +67,8 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "PyConsoleConfigurable.Python 控制台"
+    "ignore.virus.scanning.warn.message": "true",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.com.intellij.openapi.options.colors.pages.DefaultLanguageColorsPage"
   }
 }]]></component>
   <component name="PyConsoleOptionsProvider">
@@ -71,8 +79,8 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.python_assignment7">
-    <configuration name="EmployeeInformationManagementSystem" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.python_assignment10">
+    <configuration name="python_assignment10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,7 +95,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignment/EmployeeInformationManagementSystem.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignment/python_assignment10.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.python_assignment10" />
         <item itemvalue="Python.python_assignment7" />
         <item itemvalue="Python.test1" />
         <item itemvalue="Python 测试.test.test1.test 的 Python 测试" />
         <item itemvalue="Python.test_login" />
-        <item itemvalue="Python.EmployeeInformationManagementSystem" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783914346790</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="软件测试作业">
+      <option name="closed" value="true" />
+      <created>1783928840884</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1783928840884</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

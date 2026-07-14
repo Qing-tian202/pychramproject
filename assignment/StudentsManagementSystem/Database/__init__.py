@@ -7,6 +7,7 @@ from .update import update
 from .query import query
 from .delete import delete
 from .count import count
+from .DataBaseError import DataBaseError
 
 # 公共接口
 __all__ = ['connect',
@@ -15,7 +16,8 @@ __all__ = ['connect',
            'update',
            'query',
            'delete',
-           'count']
+           'count',
+           'DataBaseError',]
 
 
 __version__ = '1.0.0'

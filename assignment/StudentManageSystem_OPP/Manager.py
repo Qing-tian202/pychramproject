@@ -80,7 +80,7 @@ class Manager:
         :param index: 最大的编号（可选）
         :return: 修改后的数据列表
         """
-        if not 0:
+        if not n:
             student = Student(self.logger, Student.generate_id(self.logger),"zhangsan",20)
         else:
             for i in range(n):

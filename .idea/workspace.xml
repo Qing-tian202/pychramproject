@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="713bc543-929e-42df-bd6a-697482fe5177" name="更改" comment="软件测试作业">
-      <change afterPath="$PROJECT_DIR$/assignment/StudentScoreSystem/System.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Python_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_Project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/StudentScoreSystem/Manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/StudentScoreSystem/Manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/StudentScoreSystem/Student.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/StudentScoreSystem/Student.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/StudentScoreSystem/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/StudentScoreSystem/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/StudentScoreSystem/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/StudentScoreSystem/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/StudentScoreSystem/system.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/StudentScoreSystem/temp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment/StudentScoreSystem/Logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/StudentManageSystem_OPP/Logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment/StudentScoreSystem/Manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/StudentManageSystem_OPP/Manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment/StudentScoreSystem/Student.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/StudentManageSystem_OPP/Student.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment/StudentScoreSystem/System.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/StudentManageSystem_OPP/System.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment/StudentScoreSystem/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/StudentManageSystem_OPP/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment/StudentScoreSystem/logs/student_system_20260714.log" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/StudentManageSystem_OPP/logs/student_system_20260714.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment/StudentScoreSystem/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/StudentManageSystem_OPP/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +42,12 @@
     &quot;assignee&quot;: &quot;Qing-tian202&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Qing-tian202/pychramproject.git",
-    "accountId": "9058020f-2947-4279-a73f-98c340cdd2d5"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Qing-tian202/pychramproject.git&quot;,
+    &quot;accountId&quot;: &quot;9058020f-2947-4279-a73f-98c340cdd2d5&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4,
   &quot;fromUser&quot;: false
@@ -63,6 +63,7 @@
     "Python 测试.test.test1.test 的 Python 测试.executor": "Run",
     "Python.EmployeeInformationManagementSystem.executor": "Run",
     "Python.a.executor": "Run",
+    "Python.main (1).executor": "Run",
     "Python.main.executor": "Run",
     "Python.python_assignment10.executor": "Run",
     "Python.python_assignment7.executor": "Run",
@@ -94,7 +95,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="System" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Project" />
       <option name="ENV_FILES" value="" />
@@ -112,6 +113,30 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="E:\pychramproject\assignment\StudentScoreSystem\System.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignment/StudentManageSystem_OPP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignment/StudentManageSystem_OPP/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,31 +195,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="python_assignment7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_Project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignment" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignment/python_assignment7.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Project" />
       <option name="ENV_FILES" value="" />
@@ -222,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.System" />
         <item itemvalue="Python.test2" />
         <item itemvalue="Python.python_assignment10" />
-        <item itemvalue="Python.python_assignment7" />
       </list>
     </recent_temporary>
   </component>

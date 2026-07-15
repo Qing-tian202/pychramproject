@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="713bc543-929e-42df-bd6a-697482fe5177" name="更改" comment="软件测试作业">
+    <list default="true" id="713bc543-929e-42df-bd6a-697482fe5177" name="更改" comment="学生管理系统 面向对象实现">
       <change beforePath="$PROJECT_DIR$/.idea/Python_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_Project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/StudentScoreSystem/Logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/StudentManageSystem_OPP/Logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/StudentScoreSystem/Manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/StudentManageSystem_OPP/Manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/StudentScoreSystem/Student.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/StudentManageSystem_OPP/Student.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/StudentScoreSystem/System.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/StudentManageSystem_OPP/System.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/StudentScoreSystem/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/StudentManageSystem_OPP/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/StudentScoreSystem/logs/student_system_20260714.log" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/StudentManageSystem_OPP/logs/student_system_20260714.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/StudentScoreSystem/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/StudentManageSystem_OPP/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment/StudentManageSystem_OPP/logs/student_system_20260715.log" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/StudentManageSystem_OPP/logs/student_system_20260715.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +39,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Qing-tian202/pychramproject.git&quot;,
-    &quot;accountId&quot;: &quot;9058020f-2947-4279-a73f-98c340cdd2d5&quot;
+    &quot;accountId&quot;: &quot;efe0740d-6928-4039-9a93-56163e74ebc8&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -60,10 +54,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python 测试.Python 测试 (test_allure4.py 内).executor": "Run",
     "Python 测试.test.test1.test 的 Python 测试.executor": "Run",
     "Python.EmployeeInformationManagementSystem.executor": "Run",
+    "Python.Student.executor": "Run",
     "Python.a.executor": "Run",
     "Python.main (1).executor": "Run",
+    "Python.main (2).executor": "Run",
     "Python.main.executor": "Run",
     "Python.python_assignment10.executor": "Run",
     "Python.python_assignment7.executor": "Run",
@@ -78,6 +75,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/pycharmproject/Python_Project/test_allure/code",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -95,7 +93,47 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pycharmproject\Python_Project\test_allure\code" />
+      <recent name="D:\pycharmproject\Python_Project\test_allure" />
+      <recent name="D:\pycharmproject\Python_Project\test_pytest" />
+      <recent name="D:\pycharmproject\Python_Project\test\tools" />
+      <recent name="D:\pycharmproject\Python_Project\test\data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\pycharmproject\Python_Project\test_allure\tools" />
+      <recent name="D:\pycharmproject\Python_Project\test_allure\code" />
+      <recent name="D:\pycharmproject\Python_Project\test_allure\data" />
+      <recent name="D:\pycharmproject\Python_Project\test_allure" />
+      <recent name="D:\pycharmproject\Python_Project\test_pytest" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Student" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/common/Student.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="System" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Project" />
       <option name="ENV_FILES" value="" />
@@ -145,6 +183,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Project" />
       <option name="ENV_FILES" value="" />
@@ -170,32 +232,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="python_assignment10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_Project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignment" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignment/python_assignment10.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,7 +248,7 @@
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test2.py" />
+      <option name="SCRIPT_NAME" value="D:\pycharmproject\Python_Project\test\main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -222,11 +259,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.Student" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.System" />
-        <item itemvalue="Python.test2" />
-        <item itemvalue="Python.python_assignment10" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +323,23 @@
       <option name="project" value="LOCAL" />
       <updated>1783996852856</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="学生管理系统 OPP">
+      <option name="closed" value="true" />
+      <created>1784086064683</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1784086064683</updated>
+    </task>
+    <task id="LOCAL-00007" summary="学生管理系统 面向对象实现">
+      <option name="closed" value="true" />
+      <created>1784087410842</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1784087410842</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +358,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="软件测试作业" />
-    <option name="LAST_COMMIT_MESSAGE" value="软件测试作业" />
+    <MESSAGE value="学生管理系统 OPP" />
+    <MESSAGE value="学生管理系统 面向对象实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="学生管理系统 面向对象实现" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pychramproject$temp.coverage" NAME="temp 覆盖结果" MODIFIED="1784038916889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment/StudentScoreSystem" />

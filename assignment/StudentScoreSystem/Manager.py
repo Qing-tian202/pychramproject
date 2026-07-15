@@ -274,6 +274,7 @@ class Manager:
 
                 elif op in ["c", " 7"]:
                     n = self.count_students()
+                    print(f"学生数据：{n} ")
                     self.logger.info(f"成功统计到{n}条数据")
 
                 elif op in ["p", "8"]:

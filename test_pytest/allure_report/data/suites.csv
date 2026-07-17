@@ -1,0 +1,237 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","1","test_add[define_fixture49]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","1","test_add[define_fixture24]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture39]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture9]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","1","test_add[define_fixture54]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","1","test_add[define_fixture41]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","1","test_add[define_fixture45]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture10]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture43]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture50]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture28]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","1","test_add[define_fixture11]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture15]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture26]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture44]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","1","test_add[define_fixture29]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture1]","","2026-07-17","failed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","1","test_add[define_fixture51]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","1","test_add[define_fixture17]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture2]","","2026-07-17","failed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","1","test_add[define_fixture42]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","1","test_add[define_fixture23]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture16]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","1","test_add[define_fixture59]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","1","test_add[define_fixture38]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture22]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture0]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture35]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","1","test_add[define_fixture48]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture40]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture25]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","1","test_add[define_fixture55]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture6]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture52]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture21]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture19]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","1","test_add[define_fixture53]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture32]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","1","test_add[define_fixture57]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture12]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","1","test_add[define_fixture47]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","1","test_add[define_fixture33]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture14]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture56]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture7]","","2026-07-17","failed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture36]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture13]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","1","test_add[define_fixture27]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","1","test_add[define_fixture20]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture3]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture58]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture31]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","1","test_add[define_fixture4]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture37]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture46]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","1","test_add[define_fixture8]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture34]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture5]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""
+"
+        测试加法函数
+        使用 define_fixture 提供测试数据
+        ","0","test_add[define_fixture18]","","2026-07-17","passed","2026-07-17","TestAddFunc","test_add","",""

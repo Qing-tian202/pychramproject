@@ -2,7 +2,7 @@ from Manager import Manager
 from typing import Optional
 
 class System:
-    def __init__(self,logger, file_name: Optional[str] = 'data.json'):
+    def __init__(self,logger, file_name: Optional[str] = 'add.json'):
         """
         实例化对象
         :param logger: 日志记录器

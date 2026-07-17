@@ -1,0 +1,12 @@
+[32mINFO    [0m scripts.Logger:conftest.py:79 ============================================================
+[32mINFO    [0m scripts.Logger:conftest.py:80 测试会话开始
+[32mINFO    [0m scripts.Logger:conftest.py:81 ============================================================
+[32mINFO    [0m scripts.Logger:conftest.py:93 测试环境: dev
+[32mINFO    [0m scripts.Logger:conftest.py:94 快速模式: False
+[32mINFO    [0m scripts.Logger:conftest.py:95 重试次数: 0
+[32mINFO    [0m scripts.Logger:conftest.py:96 API超时: 30秒
+[32mINFO    [0m scripts.Logger:conftest.py:97 日志级别: INFO
+[32mINFO    [0m scripts.Logger:conftest.py:98 ------------------------------------------------------------
+[32mINFO    [0m scripts.Logger:conftest.py:132 [开始测试] TestAddFunc.test_add[12.85-3.16-16.01]
+[32mINFO    [0m scripts.Logger:conftest.py:146 [结束测试] TestAddFunc.test_add[12.85-3.16-16.01]，耗时: 0.012秒
+[32mINFO    [0m scripts.Logger:conftest.py:147 ----------------------------------------

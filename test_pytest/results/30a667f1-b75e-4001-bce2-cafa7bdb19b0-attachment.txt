@@ -1,0 +1,9 @@
+[35mDEBUG   [0m Logger:conftest.py:230 Fixture 设置: 输入数据 x=3.7, y=6.3, 期望结果=10
+[32mINFO    [0m Logger:conftest.py:131 [开始测试] TestAddFunc.test_add[define_fixture44]
+[32mINFO    [0m Logger:test_add.py:42 测试数据: x=3.7, y=6.3, 期望结果=10
+[35mDEBUG   [0m Logger:test_add.py:23 add(3.7, 6.3) = 10.0
+[32mINFO    [0m Logger:test_add.py:48 实际结果: 10.0
+[32mINFO    [0m Logger:test_add.py:54 ✓ 测试通过: add(3.7, 6.3) = 10.0
+[32mINFO    [0m Logger:conftest.py:145 [结束测试] TestAddFunc.test_add[define_fixture44]，耗时: 0.000秒
+[32mINFO    [0m Logger:conftest.py:146 ----------------------------------------
+[35mDEBUG   [0m Logger:conftest.py:237 Fixture 清理: 完成测试数据 x=3.7, y=6.3

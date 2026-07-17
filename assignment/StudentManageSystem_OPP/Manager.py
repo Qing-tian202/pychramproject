@@ -6,7 +6,7 @@ import json
 
 class Manager:
     """管理员类，负责学生数据的增删改查等操作"""
-    def __init__(self, logger , file_name: Optional[str] = 'data.json'):
+    def __init__(self, logger , file_name: Optional[str] = 'add.json'):
         """
         构造函数，实例化对象
         :param logger: 日志记录器

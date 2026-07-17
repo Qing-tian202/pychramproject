@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="713bc543-929e-42df-bd6a-697482fe5177" name="更改" comment="学生管理系统 面向对象实现">
-      <change beforePath="$PROJECT_DIR$/.idea/Python_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_Project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/StudentManageSystem_OPP/logs/student_system_20260715.log" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/StudentManageSystem_OPP/logs/student_system_20260715.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment/StudentManageSystem_OPP/Manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/StudentManageSystem_OPP/Manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment/StudentManageSystem_OPP/System.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/StudentManageSystem_OPP/System.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +61,7 @@
     "Python.a.executor": "Run",
     "Python.main (1).executor": "Run",
     "Python.main (2).executor": "Run",
+    "Python.main (3).executor": "Run",
     "Python.main.executor": "Run",
     "Python.python_assignment10.executor": "Run",
     "Python.python_assignment7.executor": "Run",
@@ -102,14 +103,14 @@
       <recent name="D:\pycharmproject\Python_Project\test\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\pycharmproject\Python_Project\test_pytest\tools" />
+      <recent name="D:\pycharmproject\Python_Project\test_pytest\case" />
+      <recent name="D:\pycharmproject\Python_Project\test_pytest\data" />
+      <recent name="D:\pycharmproject\Python_Project\test_pytest\scripts" />
       <recent name="D:\pycharmproject\Python_Project\test_allure\tools" />
-      <recent name="D:\pycharmproject\Python_Project\test_allure\code" />
-      <recent name="D:\pycharmproject\Python_Project\test_allure\data" />
-      <recent name="D:\pycharmproject\Python_Project\test_allure" />
-      <recent name="D:\pycharmproject\Python_Project\test_pytest" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main (3)">
     <configuration name="Student" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Project" />
       <option name="ENV_FILES" value="" />
@@ -126,31 +127,6 @@
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/common/Student.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="System" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_Project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignment/StudentScoreSystem" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="E:\pychramproject\assignment\StudentScoreSystem\System.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,6 +175,30 @@
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_pytest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_pytest/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -259,11 +259,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (3)" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.Student" />
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.System" />
       </list>
     </recent_temporary>
   </component>
@@ -339,7 +339,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784087410842</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="学生管理系统 面向对象实现">
+      <option name="closed" value="true" />
+      <created>1784280170843</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1784280170843</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

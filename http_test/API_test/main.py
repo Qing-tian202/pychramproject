@@ -1,7 +1,5 @@
 import os
 import pytest
-from common import build_add_data
-from common import build_multy_data
 
 if __name__ == '__main__':
     pytest.main(['--alluredir=./results'])

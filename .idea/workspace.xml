@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="713bc543-929e-42df-bd6a-697482fe5177" name="更改" comment="pytest allure">
+    <list default="true" id="713bc543-929e-42df-bd6a-697482fe5177" name="更改" comment="python测试， 学生管理系统，并用pytest测试student类的方法，保存日志">
+      <change afterPath="$PROJECT_DIR$/http_test/API_test/common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http_test/API_test/common/build_login_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http_test/API_test/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http_test/API_test/data/login_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http_test/API_test/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http_test/API_test/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http_test/API_test/tools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http_test/API_test/tools/tool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http_test/http_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Python_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_Project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -35,12 +44,12 @@
     &quot;assignee&quot;: &quot;Qing-tian202&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Qing-tian202/pychramproject.git",
-    "accountId": "efe0740d-6928-4039-9a93-56163e74ebc8"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Qing-tian202/pychramproject.git&quot;,
+    &quot;accountId&quot;: &quot;efe0740d-6928-4039-9a93-56163e74ebc8&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4,
   &quot;fromUser&quot;: false
@@ -53,11 +62,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python 测试.Python 测试 (test_http.py 内).executor": "Run",
     "Python 测试.test.test1.test 的 Python 测试.executor": "Run",
     "Python.EmployeeInformationManagementSystem.executor": "Run",
     "Python.Manage.executor": "Run",
     "Python.Student.executor": "Run",
     "Python.a.executor": "Run",
+    "Python.build_login_data.executor": "Run",
+    "Python.http_test.executor": "Run",
     "Python.main (1).executor": "Run",
     "Python.main (2).executor": "Run",
     "Python.main (3).executor": "Run",
@@ -75,7 +87,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/pycharmproject/Python_Project/exam",
+    "last_opened_file_path": "D:/pycharmproject/Python_Project/http_test/API_test",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -95,10 +107,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pycharmproject\Python_Project\http_test\API_test" />
       <recent name="D:\pycharmproject\Python_Project\exam" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (3)">
+  <component name="RunManager" selected="Python.build_login_data">
     <configuration name="Manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Project" />
       <option name="ENV_FILES" value="" />
@@ -147,7 +160,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="build_login_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,14 +169,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignment/StudentManageSystem_OPP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/http_test/API_test/common" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignment/StudentManageSystem_OPP/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/http_test/API_test/common/build_login_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,7 +184,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="http_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -181,14 +193,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_pytest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/http_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_pytest/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/http_test/http_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -221,13 +232,38 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_http" type="tests" factoryName="Autodetect">
+      <module name="Python_Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;CUSTOM&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.build_login_data" />
+      <item itemvalue="Python.http_test" />
+      <item itemvalue="Python.main (3)" />
+      <item itemvalue="Python.Manage" />
+      <item itemvalue="Python.Student" />
+      <item itemvalue="Python 测试.test_http" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.build_login_data" />
+        <item itemvalue="Python.http_test" />
         <item itemvalue="Python.main (3)" />
         <item itemvalue="Python.Manage" />
         <item itemvalue="Python.Student" />
-        <item itemvalue="Python.main (2)" />
-        <item itemvalue="Python.main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +334,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784086064683</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="python测试， 学生管理系统，并用pytest测试student类的方法，保存日志">
+      <option name="closed" value="true" />
+      <created>1784614049667</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1784614049667</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +362,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="软件测试作业" />
     <MESSAGE value="学生管理系统 OPP" />
-    <option name="LAST_COMMIT_MESSAGE" value="学生管理系统 OPP" />
+    <MESSAGE value="python测试， 学生管理系统，并用pytest测试student类的方法，保存日志" />
+    <option name="LAST_COMMIT_MESSAGE" value="python测试， 学生管理系统，并用pytest测试student类的方法，保存日志" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pychramproject$temp.coverage" NAME="temp 覆盖结果" MODIFIED="1784038916889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment/StudentScoreSystem" />

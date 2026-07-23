@@ -5,7 +5,8 @@
       <sourceFolder url="file://$MODULE_DIR$/assignment/python_assignment5" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test_allure" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/test_pytest" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/http_test/API_test" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.10" jdkType="Python SDK" />

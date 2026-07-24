@@ -1,0 +1,464 @@
+2026-07-24 10:09:07 - scripts.Logger - INFO - pytest 配置完成，环境: dev
+2026-07-24 10:09:07 - scripts.Logger - INFO - 收集测试用例: 共 90 个
+2026-07-24 10:09:07 - scripts.Logger - INFO - ============================================================
+2026-07-24 10:09:07 - scripts.Logger - INFO - 测试会话开始
+2026-07-24 10:09:07 - scripts.Logger - INFO - ============================================================
+2026-07-24 10:09:07 - scripts.Logger - INFO - 测试环境: dev
+2026-07-24 10:09:07 - scripts.Logger - INFO - 快速模式: False
+2026-07-24 10:09:07 - scripts.Logger - INFO - 重试次数: 0
+2026-07-24 10:09:07 - scripts.Logger - INFO - API超时: 30秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - 日志级别: INFO
+2026-07-24 10:09:07 - scripts.Logger - INFO - ------------------------------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[12.85-3.16-16.01]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[12.85-3.16-16.01]，耗时: 0.009秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[0.5-0.25-0.85]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[0.5-0.25-0.85]，耗时: 0.065秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[7.3-2.9-10.3]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[7.3-2.9-10.3]，耗时: 0.005秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[5.68-1.23-6.91]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[5.68-1.23-6.91]，耗时: 0.002秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[3.14-2.72-5.86]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[3.14-2.72-5.86]，耗时: 0.004秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[10.05-4.95-15]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[10.05-4.95-15]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[0-1-1]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[0-1-1]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[8.5-7.5-15.5]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[8.5-7.5-15.5]，耗时: 0.006秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[2.22-3.33-5.55]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[2.22-3.33-5.55]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[6.7-8.4-15.1]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[6.7-8.4-15.1]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[9.88-0.12-10]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[9.88-0.12-10]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[4.56-3.44-8]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[4.56-3.44-8]，耗时: 0.006秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[11.11-22.22-33.33]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[11.11-22.22-33.33]，耗时: 0.002秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[0.75-0.25-1]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[0.75-0.25-1]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[3.3-6.6-9.9]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[3.3-6.6-9.9]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[14.14-5.86-20]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[14.14-5.86-20]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[1.23-2.35-3.58]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[1.23-2.35-3.58]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[7.77-3.33-11.1]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[7.77-3.33-11.1]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[0.08-0.02-0.1]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[0.08-0.02-0.1]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[25.5-14.5-40]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[25.5-14.5-40]，耗时: 0.002秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[6.06-7.07-13.13]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[6.06-7.07-13.13]，耗时: 0.002秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[3.14-2.86-6]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[3.14-2.86-6]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[9.01-8.99-18]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[9.01-8.99-18]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[0.12-0.46-0.58]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[0.12-0.46-0.58]，耗时: 0.004秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[5.55-4.44-9.99]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[5.55-4.44-9.99]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[17.3-2.7-20]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[17.3-2.7-20]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[1.1-2.2-3.3]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[1.1-2.2-3.3]，耗时: 0.004秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[8.88-1.12-10]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[8.88-1.12-10]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[0.67-0.33-1]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[0.67-0.33-1]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[13.13-16.87-30]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[13.13-16.87-30]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[4.44-5.56-10_0]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[4.44-5.56-10_0]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[7.2-8.8-16]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[7.2-8.8-16]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[2.72-3.14-5.86]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[2.72-3.14-5.86]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[10.1-20.2-30.3]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[10.1-20.2-30.3]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[0.99-0.01-1]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[0.99-0.01-1]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[6.54-3.46-10]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[6.54-3.46-10]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[15.15-4.85-20]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[15.15-4.85-20]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[3-6.01-9.01]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[3-6.01-9.01]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[8.2-1.8-10]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[8.2-1.8-10]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[0.78-0.22-1]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[0.78-0.22-1]，耗时: 0.005秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[11.45-8.55-20]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[11.45-8.55-20]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[2.5-7.5-10]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[2.5-7.5-10]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[5.05-4.95-10]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[5.05-4.95-10]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[9.99-0.01-10]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[9.99-0.01-10]，耗时: 0.002秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[3.7-6.3-10]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[3.7-6.3-10]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[14.56-5.44-20]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[14.56-5.44-20]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[1.23-4.56-5.79]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[1.23-4.56-5.79]，耗时: 0.004秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[8.01-1.99-10]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[8.01-1.99-10]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[0.11-0.22-0.33]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[0.11-0.22-0.33]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[6.66-3.34-10]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[6.66-3.34-10]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[12.12-7.88-20]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[12.12-7.88-20]，耗时: 0.012秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[3.33-6.67-10]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[3.33-6.67-10]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[9.9-0.1-10]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[9.9-0.1-10]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[2.22-7.78-10]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[2.22-7.78-10]，耗时: 0.002秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[5.56-4.44-10]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[5.56-4.44-10]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[1.11-8.89-10]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[1.11-8.89-10]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[7.78-2.22-10]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[7.78-2.22-10]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[4.44-5.56-10_1]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[4.44-5.56-10_1]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[8.88-1.11-9.99]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[8.88-1.11-9.99]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestAddFunc.test_add[0.5-0.5-1]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestAddFunc.test_add[0.5-0.5-1]，耗时: 0.004秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestMultyFunc.test_multy[2-3-6]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestMultyFunc.test_multy[2-3-6]，耗时: 0.004秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestMultyFunc.test_multy[5-4-20]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestMultyFunc.test_multy[5-4-20]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestMultyFunc.test_multy[7-8-56]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestMultyFunc.test_multy[7-8-56]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestMultyFunc.test_multy[0-10-0]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestMultyFunc.test_multy[0-10-0]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestMultyFunc.test_multy[-3-4--12]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestMultyFunc.test_multy[-3-4--12]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestMultyFunc.test_multy[-5--6-30]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestMultyFunc.test_multy[-5--6-30]，耗时: 0.002秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestMultyFunc.test_multy[10-0-0]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestMultyFunc.test_multy[10-0-0]，耗时: 0.008秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestMultyFunc.test_multy[1-100-100]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestMultyFunc.test_multy[1-100-100]，耗时: 0.004秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestMultyFunc.test_multy[6-7-42]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestMultyFunc.test_multy[6-7-42]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestMultyFunc.test_multy[-2-8--16]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestMultyFunc.test_multy[-2-8--16]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestMultyFunc.test_multy[9-9-81]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestMultyFunc.test_multy[9-9-81]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestMultyFunc.test_multy[3--5--15]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestMultyFunc.test_multy[3--5--15]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestMultyFunc.test_multy[11-11-121]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestMultyFunc.test_multy[11-11-121]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestMultyFunc.test_multy[-7--3-21]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestMultyFunc.test_multy[-7--3-21]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestMultyFunc.test_multy[4-25-100]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestMultyFunc.test_multy[4-25-100]，耗时: 0.004秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestMultyFunc.test_multy[12-12-144]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestMultyFunc.test_multy[12-12-144]，耗时: 0.002秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestMultyFunc.test_multy[-1-50--50]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestMultyFunc.test_multy[-1-50--50]，耗时: 0.004秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestMultyFunc.test_multy[8-8-64]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestMultyFunc.test_multy[8-8-64]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestMultyFunc.test_multy[15-2-30]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestMultyFunc.test_multy[15-2-30]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestMultyFunc.test_multy[-4--5-20]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestMultyFunc.test_multy[-4--5-20]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestMultyFunc.test_multy[20-3-60]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestMultyFunc.test_multy[20-3-60]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestMultyFunc.test_multy[6-6-36]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestMultyFunc.test_multy[6-6-36]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestMultyFunc.test_multy[-10-4--40]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestMultyFunc.test_multy[-10-4--40]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestMultyFunc.test_multy[13-7-91]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestMultyFunc.test_multy[13-7-91]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestMultyFunc.test_multy[0-5-0]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestMultyFunc.test_multy[0-5-0]，耗时: 0.004秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestMultyFunc.test_multy[3-3-9]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestMultyFunc.test_multy[3-3-9]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestMultyFunc.test_multy[-6-7--42]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestMultyFunc.test_multy[-6-7--42]，耗时: 0.002秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestMultyFunc.test_multy[5-5-25]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestMultyFunc.test_multy[5-5-25]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestMultyFunc.test_multy[-2--2-4]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestMultyFunc.test_multy[-2--2-4]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[开始测试] TestMultyFunc.test_multy[4-4-16]
+2026-07-24 10:09:07 - scripts.Logger - INFO - 
+[结束测试] TestMultyFunc.test_multy[4-4-16]，耗时: 0.003秒
+2026-07-24 10:09:07 - scripts.Logger - INFO - ----------------------------------------
+2026-07-24 10:09:07 - scripts.Logger - INFO - ============================================================
+2026-07-24 10:09:07 - scripts.Logger - INFO - 测试会话结束
+2026-07-24 10:09:07 - scripts.Logger - INFO - ============================================================

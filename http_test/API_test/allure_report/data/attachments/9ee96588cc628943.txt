@@ -1,0 +1,14 @@
+[32mINFO    [0m tools.Logger:conftest.py:61 ============================================================
+[32mINFO    [0m tools.Logger:conftest.py:62 测试会话开始
+[32mINFO    [0m tools.Logger:conftest.py:63 ============================================================
+[32mINFO    [0m tools.Logger:conftest.py:71 测试环境: dev
+[32mINFO    [0m tools.Logger:conftest.py:72 快速模式: False
+[32mINFO    [0m tools.Logger:conftest.py:73 重试次数: 0
+[32mINFO    [0m tools.Logger:conftest.py:74 API超时: 30秒
+[32mINFO    [0m tools.Logger:conftest.py:75 日志级别: INFO
+[32mINFO    [0m tools.Logger:conftest.py:76 ------------------------------------------------------------
+[32mINFO    [0m tools.Logger:conftest.py:98 
+[开始测试] Testlogin[login_data0]
+[32mINFO    [0m tools.Logger:conftest.py:107 
+[结束测试] Testlogin[login_data0]，耗时: 0.029秒
+[32mINFO    [0m tools.Logger:conftest.py:108 ----------------------------------------

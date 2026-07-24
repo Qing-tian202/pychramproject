@@ -1,0 +1,8 @@
+[32mINFO    [0m tools.Logger:conftest.py:98 
+[开始测试] Testlogin[login_data3]
+[32mINFO    [0m tools.Logger:conftest.py:107 
+[结束测试] Testlogin[login_data3]，耗时: 0.021秒
+[32mINFO    [0m tools.Logger:conftest.py:108 ----------------------------------------
+[32mINFO    [0m tools.Logger:conftest.py:85 ============================================================
+[32mINFO    [0m tools.Logger:conftest.py:86 测试会话结束
+[32mINFO    [0m tools.Logger:conftest.py:87 ============================================================

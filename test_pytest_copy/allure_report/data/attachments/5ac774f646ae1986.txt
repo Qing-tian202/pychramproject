@@ -1,0 +1,5 @@
+[32mINFO    [0m scripts.Logger:conftest.py:98 
+[开始测试] TestAddFunc.test_add[1.23-4.56-5.79]
+[32mINFO    [0m scripts.Logger:conftest.py:107 
+[结束测试] TestAddFunc.test_add[1.23-4.56-5.79]，耗时: 0.004秒
+[32mINFO    [0m scripts.Logger:conftest.py:108 ----------------------------------------

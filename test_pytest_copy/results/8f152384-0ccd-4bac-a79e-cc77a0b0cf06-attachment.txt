@@ -1,0 +1,5 @@
+[32mINFO    [0m scripts.Logger:conftest.py:98 
+[开始测试] TestMultyFunc.test_multy[-10-4--40]
+[32mINFO    [0m scripts.Logger:conftest.py:107 
+[结束测试] TestMultyFunc.test_multy[-10-4--40]，耗时: 0.003秒
+[32mINFO    [0m scripts.Logger:conftest.py:108 ----------------------------------------

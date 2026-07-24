@@ -7,7 +7,7 @@ import pytest
 import os
 from tools.tool import BASE_DIR
 from common import *
-from scripts import setup_logging
+from tools import setup_logging
 
 # 初始化日志记录器
 logger = setup_logging()

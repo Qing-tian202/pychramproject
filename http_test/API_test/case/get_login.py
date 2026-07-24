@@ -12,7 +12,7 @@ def get_verify_code():
 
 
 def login(username, password,auth_code):
-    api = '/api/v0/web/authcode'
+    api = '/api/v0/web/login'
     res = get_verify_code()
     if not auth_code:
         auth_code = res.headers.get('auth-code')

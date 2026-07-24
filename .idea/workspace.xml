@@ -4,403 +4,16 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="713bc543-929e-42df-bd6a-697482fe5177" name="更改" comment="python测试， 智能网联系统">
-      <change afterPath="$PROJECT_DIR$/test_pytest_copy/case/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pytest_copy/case/test_add.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pytest_copy/common/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pytest_copy/common/build_add_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pytest_copy/common/build_multy_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pytest_copy/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pytest_copy/data/add.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pytest_copy/data/multy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pytest_copy/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pytest_copy/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pytest_copy/scripts/Logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pytest_copy/scripts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pytest_copy/tools/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pytest_copy/tools/tool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_Project.iml" afterDir="false" />
+    <list default="true" id="713bc543-929e-42df-bd6a-697482fe5177" name="更改" comment="python测试， 加法和乘法测试，路径修复">
+      <change beforePath="$PROJECT_DIR$/.idea/pySourceRootDetection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pySourceRootDetection.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/http_test/API_test/case/get_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/http_test/API_test/case/get_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http_test/API_test/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/http_test/API_test/common/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http_test/API_test/common/build_login_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/http_test/API_test/common/build_login_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/http_test/API_test/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/http_test/API_test/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http_test/API_test/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/http_test/API_test/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http_test/API_test/tools/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/http_test/API_test/tools/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/1265765cd56fbc09.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/131743a0b9fb4f7f.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/1521253f61252e94.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/1a19fb5dd43160aa.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/1a3ac8d7a0ad9ede.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/1abcc64f08a168f8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/1b0451bb1131dab.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/1b0fbdfb894bee8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/1ecb831faf668987.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/1ed3287192b55435.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/1f72a80b3f9612fc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/204614d50de6ee99.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/20ee117e81471fdd.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/20f45a2100380889.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/21916b21a10f6d0e.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/21d8180c94428783.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/22400915aa3648bf.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/23b09df02f266d95.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/248a8b7adcd825e5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/265b6fb4dfb224d0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/26eac2a6a9aa1f8e.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/2760643e0d6e9f53.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/28b665d0f6087195.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/29204350b4ffe64d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/2ad8302dab582b49.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/2bd09980923481f2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/2d973b15e3ca5914.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/2dbfe86e7de55adf.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/2f08ce425689f250.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/2f3e7bb8bd7decac.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/2f613b94c440f7a9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/315244179cf1c696.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/328bcc56e67f45fd.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/357aea374e577c5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/362abd6a6bce8474.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/3647a15a782a4c70.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/374e62fdda193ed5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/37774898cffd60f9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/37ae2e371e4a1587.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/385ba8afe4449e3f.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/3908138b041fc7a7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/3938f5976c3aa994.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/3a98cb96b8df1cb2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/3b4eb82042c696e6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/3c0f28b68aa61a9a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/3cc5ef7a7fb1a30d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/3f25939bc3561c51.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/3f3b8f6a78c69904.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/404570861b318869.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/4135c95f2a52b2d3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/41f79daef9257698.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/426373840c5ce193.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/43a69844411006fe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/469502ae4c2dc42d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/46cb5d1815e4c40d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/474f874e2fc04b8b.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/48e7a6ed2b6adf5b.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/4a7ddaa735dc5d10.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/4bc5d3de8c53272.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/4c60d5f54826a69f.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/4d12a4b1a0645537.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/4d9c21c4a037a2ef.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/4f4bab8c48417386.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/4ff8b0b936fb0e2c.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/5020953c6daa7166.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/5024d52954d5f965.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/511fef6325489e83.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/520ca35fad490d9b.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/52f1467a007e4ea.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/530d780ec22f3a6a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/53b96e88de4998b3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/53e8a26994aefd36.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/55e2b6776942730c.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/56102f8beda60b6e.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/564ba30aed87b3e7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/56e210a81fb3b2b3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/579bda8a7ca62301.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/57eb0c3500281d08.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/58ea374813ab283e.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/593f0276a35ce49a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/5a0e3e063cda1bcd.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/5a254a068dacc9c5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/5a3310cfed26bb9f.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/5b6cebaed42fc98b.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/5c767cd5e0722881.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/5db29ed05f6f4d74.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/5dd61481417160c9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/6187bae80dffadef.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/63246d32198d9fc7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/65b5a05a2a33a82c.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/663789372c3820b.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/675e4c5cfb7f024c.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/684e429112a300c3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/68722db2bd66801a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/69007bbef31c2fbe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/6bb4869eb55eaaa0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/6eba8b1018a080b5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/6eed3619e191145a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/6fe35e77d19ca596.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/70227c47d1d09d31.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/71a0a0c40a6718e5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/71be16930610fb6e.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/7229f4cc4fd3b66c.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/728b71ae8bcce4fe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/72e45af7ce8490e2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/7301ba9a1fec214b.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/73ca7aca1af910ec.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/74060b4e062d8bde.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/7518dec853e66d8d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/7529aa3744dfbe4b.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/7739a5586d86e6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/775d344f604929cf.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/776ec0206fb4c98b.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/77df99304a1e0227.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/797c84ce415a540c.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/79e8e0f6693ae0ba.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/7b0d106bd19b267c.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/7b1d6803a4719bd8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/7b9f82d2b7bd0406.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/7bc71375dcad2fc0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/7ca3dfeffb20c43b.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/7d1c73e9b7f3cb93.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/7eaca4d599dbe3a2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/7f0582f1756796c4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/7f5c7434776de79d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/7f5f1db1572ffdd2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/804565e591921efc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/8142ed282a46314e.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/815895db94a980d3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/819e214771c60232.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/81eab50ebb8c6a67.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/83134fcfeecd90c2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/83b1301b243fc33b.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/848acff5b0403d69.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/84ab56e602b76185.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/84c1c39387420964.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/85736f94a3f0192e.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/862f8bdaaf34a29.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/870d5dc09628ed68.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/877412a6f5794133.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/87cbadbdb5c3055e.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/88a26facc380e1b5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/8975f4ba13e04666.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/8a63d4a00727dc6a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/8a7323e7f763f9dd.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/8cb4b98af6b716f8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/8e890ca5afefec3d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/8f14efe6724a98cd.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/8f3d3d371b9decd1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/8fe0a3726b050c1c.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/91a6d1e35eb1e843.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/92dd787bea7de9fa.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/92ffa6dcefd470cf.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/9520dd3de15c6611.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/9540829c950367f2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/959657eecf4213e1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/970c3c7daa904d6c.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/9720f955b320a32.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/9902f89cda7a1211.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/9977047cb702dd29.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/99972507504e1ed9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/99abc266c28b672c.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/9ac71746bc9e862c.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/9b2444c34e91fc3a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/9b80fc7810bc0f3e.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/9ba21c3290f89b48.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/9d3f70bfed16f2dd.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/9dc35d1f417c29b0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/9e6cd5e3b39c03d3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/9e7916bb2754ccb6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/9e85050d5f03bfca.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/9fabce1bb087f5d8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/a2159216982ddc08.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/a32a90a162cbf560.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/a5b98f89bb8179da.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/a61accbff045eae6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/a739d9f9b6793c9a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/a77af259937f7b49.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/a92503060bb7b5a3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/ac91ce85d9388593.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/add94690017798e4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/ae22d18e8beab2e1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/aeaae8bfe5bc669a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/b05cc4cd1305c33.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/b37648e00372edcc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/b3de1c7fe4a97c42.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/b46752f20b954f35.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/b596293adbec0cad.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/b6c1cc372f9a8205.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/b7ee2b43dd5519c3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/b88a5cb2e118b726.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/b8a9e5e603ab3b26.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/b8e07646b0c2f97d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/b9822fae24b88f9e.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/bac38b9f90591168.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/bb65734784816f46.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/bb8518588a20f5a0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/bc28df87d86b6fb1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/bc5508c67475404.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/bf205079cbbd93d9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/c136c77efe57da60.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/c175b0c9063d585b.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/c1f1e31f253ed70b.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/c25a3cbc3219bb6b.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/c2dbe81adf6f05e2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/c31b3c2277cbf769.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/c3ae5bea56f672c5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/c52eca1671a7127e.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/c5322f57c0b7f3dc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/c54a1cc92ba20856.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/c55c6984bcfeb805.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/c605a1359cd9b29e.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/c60bc10aaea19c4b.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/c7583ebe38f88563.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/c775523ce03b0439.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/c797dcbee75dfd4d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/ca88d122de4e0ed5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/cbeeaaeb9f94cbf0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/cc1403602613810d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/cc1ae4a069f48488.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/ccbbfb4f5838b03f.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/cf503a880c74b7b1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/d1068c8acbbca6b2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/d14855c3b1c6f791.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/d227b0a145f87b97.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/d7321d17e9a2e67f.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/d7c70f805632c8a6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/d8a505b0f433b9fb.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/d9c89b97f594e122.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/dab53a7c05f6ccb8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/db82d16187b8a781.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/dc893fc59561a567.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/ddcbeae04587d109.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/dffebe565da97f64.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/e0fc47425df00810.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/e169261b34dab5ed.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/e299d84b8b82f71f.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/e364842aa7f8337e.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/e42c8379796c8fcc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/e4388456cb3ab0c5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/e55cc0cac1c95e.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/e627742942988789.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/e80caaed3343a62d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/e95561e450f26762.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/e96b8b815e4d084.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/ea6278b45293da6a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/ed12cd3183eac5cc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/f08cfbfc995fd5dd.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/f09221553aa99566.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/f09ec36d1d625e39.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/f12f61a6aae3608a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/f25a8356e1e0a231.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/f55402db9db8ae30.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/f581a40df56f1058.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/f5b9fdd2824547c9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/f5c669e94bcf4b5e.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/f5e797cd6d6a6d9b.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/f689a9808eb4e084.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/f7ff5ee642f8fa95.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/fa5dfc9b5fa8ac08.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/fa8818a0c16fd094.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/faa3d8c00cc98dba.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/fe82e6982fd42ace.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/attachments/ff6b46c772d78ca2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/test_pytest/allure_report/data/behaviors.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_pytest/allure_report/data/behaviors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_pytest/allure_report/data/categories.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_pytest/allure_report/data/packages.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/test_pytest/allure_report/data/suites.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_pytest/allure_report/data/suites.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/12c35f5d22577eef.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/13defdecb42cb05f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/14e558777a85c361.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/158b27d90671818b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/1f4cb0a14c6af769.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/20acbb66474672f9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/210be31c4e5fda11.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/22f446607d0f89bb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/234f35f2fa969647.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/276841a8977c1348.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/2b08e7ea67ac46fa.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/2b3d6e7f179175bb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/2e11e1874cf675cf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/307d5f6ff5ad94b0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/35d32c4332e31171.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/36de1ff199ea5644.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/38f3e6ed817a4574.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/40f69254973d3db1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/41e95990c65bc5fe.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/42513aced7044327.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/4584cf8d610fc7bc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/47919d1c8f384b5d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/4a4d983e9e384143.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/4b0b696699a0ad2c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/4c2a97af558b5d2b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/520b65b9ded253e5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/54a65883090d93e9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/572eef71ab59b158.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/5dcc6439b5cd8837.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/601b64a1535f6795.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/637bdbd323591997.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/678caaa5a99d955d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/682f072afaadfa60.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/6d62297b9dcab775.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/6f3e9b6c0ce3184a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/74aadb7a69626929.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/757f8fa3c89562ba.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/773bc945c2fdc8fe.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/78983a97ecef68ce.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/78bfdf00a486d28c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/7923ef270f8689ad.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/7d6022c3897edced.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/7e1d9cdd5cfab2a8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/7e9c79ccbfb32baf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/807281c71f43f1e6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/8267c1caee1b2d58.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/849a51343f236824.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/87b6e3363c2b1167.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/888e8c17b82e6289.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/8b27aaa07867cee.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/8bbcf278a5cf8199.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/8edf07d613be7507.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/8ee002c570eb89ec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/915900cd16d0017.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/9b1d5c55cafdb6ed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/9ea252847872807c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/a1b31e6ee8e85a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/a48476e932292639.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/ad59cc3c1d9a30cd.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/ae2d97d955215724.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/b23dfa51e356ecc7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/b59eb530f8299318.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/b66be9630db90589.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/b8913a8d5db492bd.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/b8a4f120953261b7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/b9a2643a3ca8d66.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/bd62c9bf3a27e95e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/c0593ba97548e90f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/c2f58a8d8fc34e76.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/c603bd5221669625.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/c78cb1983d13307b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/d0f8c46ff564a187.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/d6a81841c9c7c980.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/d80963f873226366.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/da62575454d0338e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/e04aa8671b68f446.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/e2ae4d8a9d4b5c97.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/e3bfd1cd0d100dc4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/e426ca5437d69f57.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/e7581a08156b8787.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/e8a8a2b9d7230f68.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/e8f6e1076e9b48c7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/eb392628d796345f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/eed4f1c55e54cde.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/f52759cc6f7fefc6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/f7ed648a98613c4a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/f9353e7ea3380148.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/fa2b645d347ed57e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/fa3e0247f75f2a2d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/test-cases/fd683aeb171ac865.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_pytest/allure_report/data/timeline.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_pytest/allure_report/export/influxDbData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_pytest/allure_report/export/prometheusData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_pytest/allure_report/history/history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test_pytest/allure_report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_pytest/allure_report/widgets/duration.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_pytest/allure_report/widgets/severity.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/allure_report/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_pytest/allure_report/widgets/status-chart.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/case/test_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pytest/case/test_add.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/common/build_add_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pytest/common/build_add_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/common/build_multy_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pytest/common/build_multy_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pytest/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pytest/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/scripts/Logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pytest/scripts/Logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pytest/tools/tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pytest/tools/tool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http_test/API_test/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/http_test/API_test/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http_test/API_test/scripts/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/http_test/API_test/scripts/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http_test/API_test/tools/Logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/http_test/API_test/tools/Logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http_test/API_test/tools/tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/http_test/API_test/tools/tool.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -454,6 +67,7 @@
     "Python.Student.executor": "Run",
     "Python.a.executor": "Run",
     "Python.build_login_data.executor": "Run",
+    "Python.get_login.executor": "Run",
     "Python.http_test.executor": "Run",
     "Python.main (1).executor": "Run",
     "Python.main (2).executor": "Run",
@@ -502,7 +116,7 @@
       <recent name="E:\pychramproject\http_test\API_test\tools" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.build_login_data">
+  <component name="RunManager" selected="Python.get_login">
     <configuration name="Manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Project" />
       <option name="ENV_FILES" value="" />
@@ -528,31 +142,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Student" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_Project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exam/Student.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="build_login_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Project" />
       <option name="ENV_FILES" value="" />
@@ -570,6 +159,30 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/http_test/API_test/common/build_login_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="get_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/http_test/API_test/case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/http_test/API_test/case/get_login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -647,8 +260,8 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.get_login" />
       <item itemvalue="Python.Manage" />
-      <item itemvalue="Python.Student" />
       <item itemvalue="Python.build_login_data" />
       <item itemvalue="Python.http_test" />
       <item itemvalue="Python.main (3)" />
@@ -656,11 +269,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.get_login" />
         <item itemvalue="Python.build_login_data" />
         <item itemvalue="Python.http_test" />
         <item itemvalue="Python.main (3)" />
         <item itemvalue="Python.Manage" />
-        <item itemvalue="Python.Student" />
       </list>
     </recent_temporary>
   </component>
@@ -741,7 +354,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784614049667</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="python测试， 加法和乘法测试，路径修复">
+      <option name="closed" value="true" />
+      <created>1784859211717</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1784859211717</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -762,7 +383,10 @@
     <MESSAGE value="软件测试作业" />
     <MESSAGE value="学生管理系统 OPP" />
     <MESSAGE value="python测试， 学生管理系统，并用pytest测试student类的方法，保存日志" />
-    <option name="LAST_COMMIT_MESSAGE" value="python测试， 学生管理系统，并用pytest测试student类的方法，保存日志" />
+    <MESSAGE value="pytest 智能网联系统" />
+    <MESSAGE value="python测试， 智能网联系统" />
+    <MESSAGE value="python测试， 加法和乘法测试，路径修复" />
+    <option name="LAST_COMMIT_MESSAGE" value="python测试， 加法和乘法测试，路径修复" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pychramproject$temp.coverage" NAME="temp 覆盖结果" MODIFIED="1784038916889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment/StudentScoreSystem" />

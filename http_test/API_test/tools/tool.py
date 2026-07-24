@@ -1,14 +1,24 @@
 import os
+import sys
 
+# 获取项目根目录（test_pytest目录）
+# __file__ 是当前文件路径：D:/pycharmproject/Python_Project/test_pytest/tools/tool.py
+# os.path.dirname(__file__) 得到：D:/pycharmproject/Python_Project/test_pytest/tools
+# 再取一次dirname得到项目根目录：D:/pycharmproject/Python_Project/test_pytest
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# __file__ 特殊的变量,表示当前代码文件名
-# path1 = os.path.abspath(__file__)
-# print(path1)
-# path2 = os.path.dirname(path1)
-# print(path2)
-# BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+# 添加项目根目录到系统路径（方便导入）
+if BASE_DIR not in sys.path:
+    sys.path.insert(0, BASE_DIR)
 
-BASE_DIR = os.path.dirname(__file__)
+# 也可以定义其他常用路径
+DATA_DIR = os.path.join(BASE_DIR, 'data')
+LOGS_DIR = os.path.join(BASE_DIR, 'logs')
+RESULTS_DIR = os.path.join(BASE_DIR, 'results')
+ALLURE_DIR = os.path.join(BASE_DIR, 'allure_report')
+
+# 导出常用路径
+__all__ = ['BASE_DIR', 'DATA_DIR', 'LOGS_DIR', 'RESULTS_DIR', 'ALLURE_DIR']
 ZNWL_HOST = "http://192.168.3.36:8000"
 
 

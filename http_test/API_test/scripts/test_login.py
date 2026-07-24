@@ -1,7 +1,15 @@
+import sys
+import os
+
+# 添加项目根目录到路径
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+
 import pytest
 import allure
-from case import login
-from common import build_login_data
+from case.get_login import login
+from common.build_login_data import build_login_data
 
 
 @allure.story("用户认证")
@@ -12,7 +20,7 @@ def Testlogin(login_data):
     assert res.status_code == login_data.get("status_code")
 
     if res.status_code >= 400:
-        assert res.errcode == login_data.get("errCode")
-        assert res.errmsg == login_data.get("errMsg")
+        assert res.json().get("errCode") == login_data.get("errCode")
+        assert res.json().get("errMsg") == login_data.get("errMsg")
 
 

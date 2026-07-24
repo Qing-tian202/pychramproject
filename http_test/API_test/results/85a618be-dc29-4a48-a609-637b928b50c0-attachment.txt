@@ -1,5 +1,5 @@
 [32mINFO    [0m tools.Logger:conftest.py:98 
-[开始测试] Testlogin[login_data2]
+[开始测试] Testlogin[login_data1]
 [32mINFO    [0m tools.Logger:conftest.py:107 
-[结束测试] Testlogin[login_data2]，耗时: 0.025秒
+[结束测试] Testlogin[login_data1]，耗时: 0.023秒
 [32mINFO    [0m tools.Logger:conftest.py:108 ----------------------------------------

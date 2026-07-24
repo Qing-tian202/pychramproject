@@ -4,16 +4,19 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="713bc543-929e-42df-bd6a-697482fe5177" name="更改" comment="python测试， 加法和乘法测试，路径修复">
+    <list default="true" id="713bc543-929e-42df-bd6a-697482fe5177" name="更改" comment="python 智能网联接口自动化测试">
+      <change afterPath="$PROJECT_DIR$/Rewrite_StudentManageSystem/common/System.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rewrite_StudentManageSystem/common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rewrite_StudentManageSystem/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rewrite_StudentManageSystem/tools/DBTool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rewrite_StudentManageSystem/tools/Logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rewrite_StudentManageSystem/tools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rewrite_StudentManageSystem/tools/tool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http_test/API_test/common/build_jsonschema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http_test/API_test/data/jsonschema_data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/pySourceRootDetection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pySourceRootDetection.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http_test/API_test/case/get_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/http_test/API_test/case/get_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http_test/API_test/common/build_login_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/http_test/API_test/common/build_login_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http_test/API_test/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/http_test/API_test/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http_test/API_test/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/http_test/API_test/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/http_test/API_test/scripts/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/http_test/API_test/scripts/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http_test/API_test/tools/Logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/http_test/API_test/tools/Logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http_test/API_test/tools/tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/http_test/API_test/tools/tool.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +89,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/pycharmproject/Python_Project/test_pytest_copy",
+    "last_opened_file_path": "D:/pycharmproject/Python_Project/Rewrite_StudentManageSystem",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -106,11 +109,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pycharmproject\Python_Project\Rewrite_StudentManageSystem" />
       <recent name="D:\pycharmproject\Python_Project\test_pytest_copy" />
       <recent name="E:\pychramproject\http_test" />
       <recent name="D:\pycharmproject\Python_Project\http_test\API_test" />
       <recent name="D:\pycharmproject\Python_Project\http_test\API_test\tools" />
-      <recent name="D:\pycharmproject\Python_Project\exam" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\pychramproject\http_test\API_test\tools" />
@@ -362,7 +365,23 @@
       <option name="project" value="LOCAL" />
       <updated>1784859211717</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="python测试， 加法和乘法测试，路径修复">
+      <option name="closed" value="true" />
+      <created>1784863279129</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1784863279129</updated>
+    </task>
+    <task id="LOCAL-00010" summary="python 智能网联接口自动化测试">
+      <option name="closed" value="true" />
+      <created>1784863356915</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1784863356915</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +405,8 @@
     <MESSAGE value="pytest 智能网联系统" />
     <MESSAGE value="python测试， 智能网联系统" />
     <MESSAGE value="python测试， 加法和乘法测试，路径修复" />
-    <option name="LAST_COMMIT_MESSAGE" value="python测试， 加法和乘法测试，路径修复" />
+    <MESSAGE value="python 智能网联接口自动化测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="python 智能网联接口自动化测试" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pychramproject$temp.coverage" NAME="temp 覆盖结果" MODIFIED="1784038916889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment/StudentScoreSystem" />

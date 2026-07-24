@@ -15,7 +15,7 @@ class DBTool:
     logger = setup_logging()
 
     @classmethod
-    def __init__(cls, host = "192.168.44.130", user = "root", password = "123456", database = "school",port = 3306):
+    def __init__(cls, host = "192.168.44.130", user = "root", password = "123456", database = "shool",port = 3306):
         """
         创建数据库连接
         :param host: 主机地址
@@ -36,18 +36,19 @@ class DBTool:
             cls.logger.info("连接数据库成功！")
             return conn
         except Exception as e:
-            cls.logger.error(f"连接数据库失败：{e} , {traceback.format_exc()}")
+            #pass
+            cls.logger.error(f"连接数据库失败：{e} \n  {traceback.format_exc()}")
 
 
     @classmethod
-    def query_data(cls,query:str,args:object | None = None ,fetch_number: int = 0):
+    def query_data(cls,query:str,args:object | None = None ,id: int = 0):
         """
         查询数据库数据
         执行查询语句并返回结果
 
         :param sql: SQL查询字符串
         :param args: 查询参数（单个值或元组/字典）
-        :param fetch_number: 0 = 获取所有结果, n>0 = 获取指定数量的结果
+        :param id: 0 = 获取所有结果, n>0 = 获取指定ID的结果
         :return: 查询结果集
         """
         conn = None
@@ -62,12 +63,13 @@ class DBTool:
             cls.logger.info(f"SQL：{query},args: {args}, affected_rows：{affected_rows}")
 
             # 根据fetcha_number返回相应数量的结果
-            if fetch_number == 0:
+            if id == 0:
                 return cursor.fetchall()  # 获取所有结果
             else:
-                return cursor.fetchmany(fetch_number)  # 获取指定数量的结果
+                return cursor.fetchone()  # 获取指定数量的结果
 
         except Exception as e:
+            #pass
             # 异常处理：记录错误日志
             cls.logger.error(f"SQL：{query},args: {args}\n \t{e}")
         finally:
@@ -85,7 +87,7 @@ class DBTool:
         :param query:SQL查询字符串
         :param args: 参数集合（可迭代对象）
         :param execute_many:
-                        False - 将args整体作为单次执行参数
+                        False - 将args整体作为单次执行参数;
                         True - 遍历args，多次执行相同SQL语句
         :return:
         """
@@ -127,3 +129,9 @@ class DBTool:
             if my_conn:
                 my_conn.close()
             cls.logger.info("更新数据库完成，关闭数据库连接！")
+
+
+# if __name__ == '__main__':
+#     sql = "select * from student6 where id = %s"
+#     args = (2,)
+#     print(DBTool.query_data(sql,args,2))

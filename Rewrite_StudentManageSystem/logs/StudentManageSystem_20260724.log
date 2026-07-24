@@ -1,0 +1,28 @@
+2026-07-24 18:04:36 - tools.Logger - INFO - 欢迎使用本系统！
+2026-07-24 18:04:55 - tools.Logger - INFO - 欢迎使用本系统！
+2026-07-24 18:05:00 - tools.Logger - INFO - 开始查询所有学生信息
+2026-07-24 18:05:00 - tools.Logger - INFO - 连接数据库成功！
+2026-07-24 18:05:00 - tools.Logger - INFO - SQL：select * from student6 ,args: None, affected_rows：None
+2026-07-24 18:05:00 - tools.Logger - INFO - 查询操作结束，关闭数据库连接！
+2026-07-24 18:05:00 - tools.Logger - INFO - 已查到所有学生信息，如下表：
+2026-07-24 18:05:00 - tools.Logger - INFO - 编号     姓名         年龄  
+2026-07-24 18:05:00 - tools.Logger - INFO - 1      jack       20  
+2026-07-24 18:05:00 - tools.Logger - INFO - 2      tom        18  
+2026-07-24 18:05:00 - tools.Logger - INFO - 3      judy       19  
+2026-07-24 18:05:00 - tools.Logger - INFO - 4      tom        18  
+2026-07-24 18:05:00 - tools.Logger - INFO - 5      judy       19  
+2026-07-24 18:05:04 - tools.Logger - INFO - 感谢使用本系统，再见！
+2026-07-24 18:05:13 - tools.Logger - INFO - 感谢使用本系统，再见！
+2026-07-24 18:05:28 - tools.Logger - INFO - 欢迎使用本系统！
+2026-07-24 18:05:30 - tools.Logger - INFO - 开始查询所有学生信息
+2026-07-24 18:05:30 - tools.Logger - INFO - 连接数据库成功！
+2026-07-24 18:05:30 - tools.Logger - INFO - SQL：select * from student6 ,args: None, affected_rows：None
+2026-07-24 18:05:30 - tools.Logger - INFO - 查询操作结束，关闭数据库连接！
+2026-07-24 18:05:30 - tools.Logger - INFO - 已查到所有学生信息，如下表：
+2026-07-24 18:05:30 - tools.Logger - INFO - 编号     姓名         年龄  
+2026-07-24 18:05:30 - tools.Logger - INFO - 1      jack       20  
+2026-07-24 18:05:30 - tools.Logger - INFO - 2      tom        18  
+2026-07-24 18:05:30 - tools.Logger - INFO - 3      judy       19  
+2026-07-24 18:05:30 - tools.Logger - INFO - 4      tom        18  
+2026-07-24 18:05:30 - tools.Logger - INFO - 5      judy       19  
+2026-07-24 18:05:32 - tools.Logger - INFO - 感谢使用本系统，再见！

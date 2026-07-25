@@ -6,7 +6,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import mysql.connector
 import traceback
-from typing import Iterable
+from typing import Iterable, Optional
 from .Logger import setup_logging
 
 
@@ -14,8 +14,18 @@ class DBTool:
 
     logger = setup_logging()
 
+    host = "192.168.44.130"
+    user = "root"
+    password = "123456"
+    database = "shool"
+    port = 3306
+
     @classmethod
-    def __init__(cls, host = "192.168.44.130", user = "root", password = "123456", database = "shool",port = 3306):
+    def __init_cnn(cls, host = None,
+                     user = None,
+                     password = None,
+                     database = None,
+                     port = None):
         """
         创建数据库连接
         :param host: 主机地址
@@ -26,13 +36,17 @@ class DBTool:
         :return: 数据库连接指针
         """
         try:
-            cls.host = host
-            cls.user = user
-            cls.password = password
-            cls.database = database
-            cls.port = port
+            cls.host = host if host else cls.host
+            cls.user = user if user else cls.user
+            cls.password = password if password else cls.password
+            cls.database = database if database else cls.database
+            cls.port = port if port else cls.port
 
-            conn = mysql.connector.connect(host = host, user = user, password = password, database = database, port = port)
+            conn = mysql.connector.connect(host = cls.host,
+                                           user = cls.user,
+                                           password = cls.password,
+                                           database = cls.database,
+                                           port = cls.port)
             cls.logger.info("连接数据库成功！")
             return conn
         except Exception as e:
@@ -41,7 +55,7 @@ class DBTool:
 
 
     @classmethod
-    def query_data(cls,query:str,args:object | None = None ,id: int = 0):
+    def query_data(cls, query:str, args: Optional[object] = None, id: int = 0):
         """
         查询数据库数据
         执行查询语句并返回结果
@@ -54,7 +68,7 @@ class DBTool:
         conn = None
         cursor = None
         try:
-            conn = cls.__init__()  # 初始化数据库连接
+            conn = cls.__init_cnn()  # 初始化数据库连接
             cursor = conn.cursor()  # 创建游标对象
 
             # 执行查询并获取影响行数
@@ -95,7 +109,7 @@ class DBTool:
         my_cursor = None
 
         try:
-            my_conn = cls.__init__()  # 初始化数据库连接
+            my_conn = cls.__init_cnn()  # 初始化数据库连接
             my_cursor = my_conn.cursor()  # 创建游标对象
 
             if execute_many:

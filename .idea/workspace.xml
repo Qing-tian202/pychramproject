@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="713bc543-929e-42df-bd6a-697482fe5177" name="更改" comment="python 智能网联接口自动化测试,添加json格式检验">
-      <change beforePath="$PROJECT_DIR$/.idea/Python_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2026_7_17_20_46____.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2026_7_17_20_46_取消提交了更改_[更改]/shelved.patch" beforeDir="false" />
+    <list default="true" id="713bc543-929e-42df-bd6a-697482fe5177" name="更改" comment="python 重构学生管理系统，数据库操作，添加日志">
+      <change afterPath="$PROJECT_DIR$/WeFinance/common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/common/build_lgoin_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/common/build_login_jsonschema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/tools/Logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/tools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/tools/tool.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rewrite_StudentManageSystem/tools/DBTool.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rewrite_StudentManageSystem/tools/DBTool.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +45,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Qing-tian202/pychramproject.git&quot;,
-    &quot;accountId&quot;: &quot;efe0740d-6928-4039-9a93-56163e74ebc8&quot;
+    &quot;url&quot;: &quot;git@github.com:Qing-tian202/pychramproject.git&quot;,
+    &quot;accountId&quot;: &quot;9058020f-2947-4279-a73f-98c340cdd2d5&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -54,46 +58,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python 测试.Python 测试 (test_http.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.test.test1.test 的 Python 测试.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DBTool.executor&quot;: &quot;Run&quot;,
-    &quot;Python.EmployeeInformationManagementSystem.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Manage.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Student.executor&quot;: &quot;Run&quot;,
-    &quot;Python.a.executor&quot;: &quot;Run&quot;,
-    &quot;Python.build_login_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.get_login.executor&quot;: &quot;Run&quot;,
-    &quot;Python.http_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (3).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.python_assignment10.executor&quot;: &quot;Run&quot;,
-    &quot;Python.python_assignment7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.temp.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_login.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/pycharmproject/Python_Project/Rewrite_StudentManageSystem&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python 测试.Python 测试 (test_http.py 内).executor": "Run",
+    "Python 测试.test.test1.test 的 Python 测试.executor": "Run",
+    "Python.DBTool.executor": "Run",
+    "Python.EmployeeInformationManagementSystem.executor": "Run",
+    "Python.Manage.executor": "Run",
+    "Python.Student.executor": "Run",
+    "Python.a.executor": "Run",
+    "Python.build_login_data.executor": "Run",
+    "Python.get_login.executor": "Run",
+    "Python.http_test.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main (2).executor": "Run",
+    "Python.main (3).executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.python_assignment10.executor": "Run",
+    "Python.python_assignment7.executor": "Run",
+    "Python.temp.executor": "Run",
+    "Python.test1.executor": "Run",
+    "Python.test2.executor": "Run",
+    "Python.test_login.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/pychramproject/WeFinance",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="Python_Project" is-module-sdk="true">
@@ -104,11 +108,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\pychramproject\WeFinance" />
       <recent name="D:\pycharmproject\Python_Project\Rewrite_StudentManageSystem" />
       <recent name="D:\pycharmproject\Python_Project\test_pytest_copy" />
       <recent name="E:\pychramproject\http_test" />
       <recent name="D:\pycharmproject\Python_Project\http_test\API_test" />
-      <recent name="D:\pycharmproject\Python_Project\http_test\API_test\tools" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\pychramproject\http_test\API_test\tools" />
@@ -296,6 +300,8 @@
       <workItem from="1784294072998" duration="728000" />
       <workItem from="1784802981243" duration="381000" />
       <workItem from="1784803398671" duration="1521000" />
+      <workItem from="1784944969491" duration="389000" />
+      <workItem from="1785042466126" duration="1574000" />
     </task>
     <task id="LOCAL-00001" summary="软件测试作业">
       <option name="closed" value="true" />
@@ -385,7 +391,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784883227554</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="python 重构学生管理系统，数据库操作，添加日志">
+      <option name="closed" value="true" />
+      <created>1784944922359</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1784944922359</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,7 +425,9 @@
     <MESSAGE value="python测试， 加法和乘法测试，路径修复" />
     <MESSAGE value="python 智能网联接口自动化测试" />
     <MESSAGE value="python 智能网联接口自动化测试,添加json格式检验" />
-    <option name="LAST_COMMIT_MESSAGE" value="python 智能网联接口自动化测试,添加json格式检验" />
+    <MESSAGE value="python 重构学生管理系统，数据库操作" />
+    <MESSAGE value="python 重构学生管理系统，数据库操作，添加日志" />
+    <option name="LAST_COMMIT_MESSAGE" value="python 重构学生管理系统，数据库操作，添加日志" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pychramproject$temp.coverage" NAME="temp 覆盖结果" MODIFIED="1784038916889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment/StudentScoreSystem" />

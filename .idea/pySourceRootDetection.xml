@@ -4,9 +4,10 @@
     <option name="sourcePathsSet">
       <set>
         <option value="$PROJECT_DIR$/test_pytest" />
-        <option value="$PROJECT_DIR$/http_test/API_test" />
         <option value="$PROJECT_DIR$/test_pytest_copy" />
+        <option value="$PROJECT_DIR$/http_test/API_test" />
         <option value="$PROJECT_DIR$/Rewrite_StudentManageSystem" />
+        <option value="$PROJECT_DIR$/WeFinance" />
       </set>
     </option>
   </component>

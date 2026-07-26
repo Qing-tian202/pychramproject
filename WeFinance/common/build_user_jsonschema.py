@@ -10,6 +10,6 @@ if project_root not in sys.path:
 import json
 from tools.tool import BASE_DIR, DATA_DIR
 
-def build_lgoin_data():
-    with open(f"{DATA_DIR}/case_data/login_data.json", 'r',encoding='utf-8') as f:
+def build_user_jsonschema():
+    with open(f"{DATA_DIR}/jsonschema/user_success.json", 'r',encoding='utf-8') as f:
         return json.load(f)

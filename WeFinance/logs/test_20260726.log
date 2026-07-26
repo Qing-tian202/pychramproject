@@ -1,0 +1,279 @@
+2026-07-26 20:59:38 - tools.Logger - INFO - pytest 配置完成，环境: dev
+2026-07-26 20:59:39 - tools.Logger - INFO - 收集测试用例: 共 0 个
+2026-07-26 21:01:14 - tools.Logger - INFO - pytest 配置完成，环境: dev
+2026-07-26 21:01:15 - tools.Logger - INFO - 收集测试用例: 共 0 个
+2026-07-26 21:02:01 - tools.Logger - INFO - pytest 配置完成，环境: dev
+2026-07-26 21:02:01 - tools.Logger - INFO - 收集测试用例: 共 5 个
+2026-07-26 21:02:01 - tools.Logger - INFO - ============================================================
+2026-07-26 21:02:01 - tools.Logger - INFO - 测试会话开始
+2026-07-26 21:02:01 - tools.Logger - INFO - ============================================================
+2026-07-26 21:02:01 - tools.Logger - INFO - 测试环境: dev
+2026-07-26 21:02:01 - tools.Logger - INFO - 快速模式: False
+2026-07-26 21:02:01 - tools.Logger - INFO - 重试次数: 0
+2026-07-26 21:02:01 - tools.Logger - INFO - API超时: 30秒
+2026-07-26 21:02:01 - tools.Logger - INFO - 日志级别: INFO
+2026-07-26 21:02:01 - tools.Logger - INFO - ------------------------------------------------------------
+2026-07-26 21:02:01 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data0]
+2026-07-26 21:02:02 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data0]，耗时: 0.494秒
+2026-07-26 21:02:02 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 21:02:02 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data1]
+2026-07-26 21:02:02 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data1]，耗时: 0.432秒
+2026-07-26 21:02:02 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 21:02:02 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data2]
+2026-07-26 21:02:02 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data2]，耗时: 0.020秒
+2026-07-26 21:02:02 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 21:02:02 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data3]
+2026-07-26 21:02:02 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data3]，耗时: 0.312秒
+2026-07-26 21:02:02 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 21:02:02 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data4]
+2026-07-26 21:02:03 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data4]，耗时: 0.561秒
+2026-07-26 21:02:03 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 21:02:03 - tools.Logger - INFO - ============================================================
+2026-07-26 21:02:03 - tools.Logger - INFO - 测试会话结束
+2026-07-26 21:02:03 - tools.Logger - INFO - ============================================================
+2026-07-26 21:26:52 - tools.Logger - INFO - pytest 配置完成，环境: dev
+2026-07-26 21:26:52 - tools.Logger - INFO - 收集测试用例: 共 8 个
+2026-07-26 21:26:52 - tools.Logger - INFO - ============================================================
+2026-07-26 21:26:52 - tools.Logger - INFO - 测试会话开始
+2026-07-26 21:26:52 - tools.Logger - INFO - ============================================================
+2026-07-26 21:26:52 - tools.Logger - INFO - 测试环境: dev
+2026-07-26 21:26:52 - tools.Logger - INFO - 快速模式: False
+2026-07-26 21:26:52 - tools.Logger - INFO - 重试次数: 0
+2026-07-26 21:26:52 - tools.Logger - INFO - API超时: 30秒
+2026-07-26 21:26:52 - tools.Logger - INFO - 日志级别: INFO
+2026-07-26 21:26:52 - tools.Logger - INFO - ------------------------------------------------------------
+2026-07-26 21:26:52 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data0]
+2026-07-26 21:26:53 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data0]，耗时: 0.352秒
+2026-07-26 21:26:53 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 21:26:53 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data1]
+2026-07-26 21:26:53 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data1]，耗时: 0.368秒
+2026-07-26 21:26:53 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 21:26:53 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data2]
+2026-07-26 21:26:53 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data2]，耗时: 0.024秒
+2026-07-26 21:26:53 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 21:26:53 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data3]
+2026-07-26 21:26:54 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data3]，耗时: 0.481秒
+2026-07-26 21:26:54 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 21:26:54 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data4]
+2026-07-26 21:26:54 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data4]，耗时: 0.535秒
+2026-07-26 21:26:54 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 21:26:54 - tools.Logger - INFO - 
+[开始测试] Testsignup[signup_data0]
+2026-07-26 21:26:54 - tools.Logger - INFO - 
+[结束测试] Testsignup[signup_data0]，耗时: 0.022秒
+2026-07-26 21:26:54 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 21:26:54 - tools.Logger - INFO - 
+[开始测试] Testsignup[signup_data1]
+2026-07-26 21:26:54 - tools.Logger - INFO - 
+[结束测试] Testsignup[signup_data1]，耗时: 0.089秒
+2026-07-26 21:26:54 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 21:26:54 - tools.Logger - INFO - 
+[开始测试] Testsignup[signup_data2]
+2026-07-26 21:26:54 - tools.Logger - INFO - 
+[结束测试] Testsignup[signup_data2]，耗时: 0.021秒
+2026-07-26 21:26:54 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 21:26:54 - tools.Logger - INFO - ============================================================
+2026-07-26 21:26:54 - tools.Logger - INFO - 测试会话结束
+2026-07-26 21:26:54 - tools.Logger - INFO - ============================================================
+2026-07-26 21:28:47 - tools.Logger - INFO - pytest 配置完成，环境: dev
+2026-07-26 21:28:48 - tools.Logger - INFO - 收集测试用例: 共 8 个
+2026-07-26 21:28:48 - tools.Logger - INFO - ============================================================
+2026-07-26 21:28:48 - tools.Logger - INFO - 测试会话开始
+2026-07-26 21:28:48 - tools.Logger - INFO - ============================================================
+2026-07-26 21:28:48 - tools.Logger - INFO - 测试环境: dev
+2026-07-26 21:28:48 - tools.Logger - INFO - 快速模式: False
+2026-07-26 21:28:48 - tools.Logger - INFO - 重试次数: 0
+2026-07-26 21:28:48 - tools.Logger - INFO - API超时: 30秒
+2026-07-26 21:28:48 - tools.Logger - INFO - 日志级别: INFO
+2026-07-26 21:28:48 - tools.Logger - INFO - ------------------------------------------------------------
+2026-07-26 21:28:48 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data0]
+2026-07-26 21:28:48 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data0]，耗时: 0.305秒
+2026-07-26 21:28:48 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 21:28:48 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data1]
+2026-07-26 21:28:48 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data1]，耗时: 0.280秒
+2026-07-26 21:28:48 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 21:28:48 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data2]
+2026-07-26 21:28:48 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data2]，耗时: 0.020秒
+2026-07-26 21:28:48 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 21:28:48 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data3]
+2026-07-26 21:28:49 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data3]，耗时: 0.373秒
+2026-07-26 21:28:49 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 21:28:49 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data4]
+2026-07-26 21:28:49 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data4]，耗时: 0.602秒
+2026-07-26 21:28:49 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 21:28:49 - tools.Logger - INFO - 
+[开始测试] Testsignup[signup_data0]
+2026-07-26 21:28:50 - tools.Logger - INFO - 
+[结束测试] Testsignup[signup_data0]，耗时: 0.351秒
+2026-07-26 21:28:50 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 21:28:50 - tools.Logger - INFO - 
+[开始测试] Testsignup[signup_data1]
+2026-07-26 21:28:50 - tools.Logger - INFO - 
+[结束测试] Testsignup[signup_data1]，耗时: 0.083秒
+2026-07-26 21:28:50 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 21:28:50 - tools.Logger - INFO - 
+[开始测试] Testsignup[signup_data2]
+2026-07-26 21:28:50 - tools.Logger - INFO - 
+[结束测试] Testsignup[signup_data2]，耗时: 0.026秒
+2026-07-26 21:28:50 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 21:28:50 - tools.Logger - INFO - ============================================================
+2026-07-26 21:28:50 - tools.Logger - INFO - 测试会话结束
+2026-07-26 21:28:50 - tools.Logger - INFO - ============================================================
+2026-07-26 21:48:56 - tools.Logger - INFO - pytest 配置完成，环境: dev
+2026-07-26 21:48:57 - tools.Logger - INFO - 收集测试用例: 共 9 个
+2026-07-26 21:48:57 - tools.Logger - INFO - ============================================================
+2026-07-26 21:48:57 - tools.Logger - INFO - 测试会话开始
+2026-07-26 21:48:57 - tools.Logger - INFO - ============================================================
+2026-07-26 21:48:57 - tools.Logger - INFO - 测试环境: dev
+2026-07-26 21:48:57 - tools.Logger - INFO - 快速模式: False
+2026-07-26 21:48:57 - tools.Logger - INFO - 重试次数: 0
+2026-07-26 21:48:57 - tools.Logger - INFO - API超时: 30秒
+2026-07-26 21:48:57 - tools.Logger - INFO - 日志级别: INFO
+2026-07-26 21:48:57 - tools.Logger - INFO - ------------------------------------------------------------
+2026-07-26 21:48:57 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data0]
+2026-07-26 21:48:57 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data0]，耗时: 0.508秒
+2026-07-26 21:48:57 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 21:48:57 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data1]
+2026-07-26 21:48:58 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data1]，耗时: 0.485秒
+2026-07-26 21:48:58 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 21:48:58 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data2]
+2026-07-26 21:48:58 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data2]，耗时: 0.021秒
+2026-07-26 21:48:58 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 21:48:58 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data3]
+2026-07-26 21:48:58 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data3]，耗时: 0.456秒
+2026-07-26 21:48:58 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 21:48:58 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data4]
+2026-07-26 21:48:59 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data4]，耗时: 0.625秒
+2026-07-26 21:48:59 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 21:48:59 - tools.Logger - INFO - 
+[开始测试] Testlogin[logout_data0]
+2026-07-26 21:48:59 - tools.Logger - INFO - 
+[结束测试] Testlogin[logout_data0]，耗时: 0.006秒
+2026-07-26 21:48:59 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 21:48:59 - tools.Logger - INFO - 
+[开始测试] Testsignup[signup_data0]
+2026-07-26 21:48:59 - tools.Logger - INFO - 
+[结束测试] Testsignup[signup_data0]，耗时: 0.033秒
+2026-07-26 21:48:59 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 21:48:59 - tools.Logger - INFO - 
+[开始测试] Testsignup[signup_data1]
+2026-07-26 21:48:59 - tools.Logger - INFO - 
+[结束测试] Testsignup[signup_data1]，耗时: 0.101秒
+2026-07-26 21:48:59 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 21:48:59 - tools.Logger - INFO - 
+[开始测试] Testsignup[signup_data2]
+2026-07-26 21:48:59 - tools.Logger - INFO - 
+[结束测试] Testsignup[signup_data2]，耗时: 0.030秒
+2026-07-26 21:48:59 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 21:48:59 - tools.Logger - INFO - ============================================================
+2026-07-26 21:48:59 - tools.Logger - INFO - 测试会话结束
+2026-07-26 21:48:59 - tools.Logger - INFO - ============================================================
+2026-07-26 22:14:21 - tools.Logger - INFO - pytest 配置完成，环境: dev
+2026-07-26 22:14:22 - tools.Logger - INFO - 收集测试用例: 共 11 个
+2026-07-26 22:14:22 - tools.Logger - INFO - ============================================================
+2026-07-26 22:14:22 - tools.Logger - INFO - 测试会话开始
+2026-07-26 22:14:22 - tools.Logger - INFO - ============================================================
+2026-07-26 22:14:22 - tools.Logger - INFO - 测试环境: dev
+2026-07-26 22:14:22 - tools.Logger - INFO - 快速模式: False
+2026-07-26 22:14:22 - tools.Logger - INFO - 重试次数: 0
+2026-07-26 22:14:22 - tools.Logger - INFO - API超时: 30秒
+2026-07-26 22:14:22 - tools.Logger - INFO - 日志级别: INFO
+2026-07-26 22:14:22 - tools.Logger - INFO - ------------------------------------------------------------
+2026-07-26 22:14:22 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data0]
+2026-07-26 22:14:22 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data0]，耗时: 0.437秒
+2026-07-26 22:14:22 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 22:14:22 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data1]
+2026-07-26 22:14:23 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data1]，耗时: 0.359秒
+2026-07-26 22:14:23 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 22:14:23 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data2]
+2026-07-26 22:14:23 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data2]，耗时: 0.023秒
+2026-07-26 22:14:23 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 22:14:23 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data3]
+2026-07-26 22:14:23 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data3]，耗时: 0.389秒
+2026-07-26 22:14:23 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 22:14:23 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data4]
+2026-07-26 22:14:24 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data4]，耗时: 0.695秒
+2026-07-26 22:14:24 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 22:14:24 - tools.Logger - INFO - 
+[开始测试] Testlogin[logout_data0]
+2026-07-26 22:14:24 - tools.Logger - INFO - 
+[结束测试] Testlogin[logout_data0]，耗时: 0.438秒
+2026-07-26 22:14:24 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 22:14:24 - tools.Logger - INFO - 
+[开始测试] Testsignup[signup_data0]
+2026-07-26 22:14:24 - tools.Logger - INFO - 
+[结束测试] Testsignup[signup_data0]，耗时: 0.022秒
+2026-07-26 22:14:24 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 22:14:24 - tools.Logger - INFO - 
+[开始测试] Testsignup[signup_data1]
+2026-07-26 22:14:24 - tools.Logger - INFO - 
+[结束测试] Testsignup[signup_data1]，耗时: 0.076秒
+2026-07-26 22:14:24 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 22:14:24 - tools.Logger - INFO - 
+[开始测试] Testsignup[signup_data2]
+2026-07-26 22:14:24 - tools.Logger - INFO - 
+[结束测试] Testsignup[signup_data2]，耗时: 0.017秒
+2026-07-26 22:14:24 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 22:14:24 - tools.Logger - INFO - 
+[开始测试] Testlogin[user_data0]
+2026-07-26 22:14:25 - tools.Logger - INFO - 
+[结束测试] Testlogin[user_data0]，耗时: 0.388秒
+2026-07-26 22:14:25 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 22:14:25 - tools.Logger - INFO - 
+[开始测试] Testlogin[user_data1]
+2026-07-26 22:14:25 - tools.Logger - INFO - 
+[结束测试] Testlogin[user_data1]，耗时: 0.022秒
+2026-07-26 22:14:25 - tools.Logger - INFO - ----------------------------------------
+2026-07-26 22:14:25 - tools.Logger - INFO - ============================================================
+2026-07-26 22:14:25 - tools.Logger - INFO - 测试会话结束
+2026-07-26 22:14:25 - tools.Logger - INFO - ============================================================

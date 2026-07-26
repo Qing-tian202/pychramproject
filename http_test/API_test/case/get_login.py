@@ -35,7 +35,7 @@ def login(username, password,auth_code):
         'username': username,
         'password': password
     }
-    print(data)
+    #print(data)
 
     response = session.post(ZNWL_HOST+api, json=data)
 

@@ -9,7 +9,7 @@ if project_root not in sys.path:
 import pytest
 import allure
 import jsonschema
-from case.ApplicationInterface import user_info
+from case.Certification import user_info
 from common.build_user_data import build_user_data
 from common.build_user_jsonschema import build_user_jsonschema
 
@@ -27,6 +27,9 @@ def Testlogin(user_data):
     if res.status_code == 200:
         with allure.step("jsonschema断言"):
             jsonschema.validate(res.json(),build_user_jsonschema())
+
+        with allure.step("响应数据断言"):
+            assert res.json().get("data") == user_data.get("data")
 
     if res.status_code >= 400:
         with allure.step("message断言"):

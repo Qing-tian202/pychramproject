@@ -11,5 +11,5 @@ import json
 from tools.tool import BASE_DIR, DATA_DIR
 
 def build_login_data():
-    with open(f"{DATA_DIR}/case_data/login_data.json", 'r',encoding='utf-8') as f:
+    with open(f"{DATA_DIR}/case_data/certification/login_data.json", 'r',encoding='utf-8') as f:
         return json.load(f)

@@ -9,7 +9,7 @@ if project_root not in sys.path:
 import pytest
 import allure
 import jsonschema
-from case.ApplicationInterface import logout
+from case.Certification import logout
 from common.build_logout_data import build_logout_data
 from common.build_logout_jsonschema import build_logout_jsonschema
 

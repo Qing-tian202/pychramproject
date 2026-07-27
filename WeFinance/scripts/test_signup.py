@@ -9,7 +9,7 @@ if project_root not in sys.path:
 import pytest
 import allure
 import jsonschema
-from case.ApplicationInterface import signup
+from case.Certification import signup
 from common.build_signup_data import build_signup_data
 from common.build_signup_jsonschema import build_signup_jsonschema
 

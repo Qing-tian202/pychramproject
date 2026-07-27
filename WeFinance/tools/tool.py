@@ -19,6 +19,6 @@ ALLURE_DIR = os.path.join(BASE_DIR, 'allure_report')
 
 # 导出常用路径
 __all__ = ['BASE_DIR', 'DATA_DIR', 'LOGS_DIR', 'RESULTS_DIR', 'ALLURE_DIR']
-WF_HOST = "http://192.168.47.136:8000"
+WF_HOST = "http://192.168.44.130:8000"
 
 

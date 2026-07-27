@@ -11,5 +11,5 @@ import json
 from tools.tool import BASE_DIR, DATA_DIR
 
 def build_user_jsonschema():
-    with open(f"{DATA_DIR}/jsonschema/user_success.json", 'r',encoding='utf-8') as f:
+    with open(f"{DATA_DIR}/jsonschema/certification/user_success.json", 'r',encoding='utf-8') as f:
         return json.load(f)

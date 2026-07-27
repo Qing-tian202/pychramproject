@@ -1,0 +1,26 @@
+[
+  {
+    "username": "testuser",
+    "password": "test123456",
+    "remember_me": true,
+    "is_online": true,
+    "data": {
+      "gender": "male",
+      "birthday": "1990-01-01",
+      "education": "本科",
+      "occupation": "软件工程师",
+      "company": "某科技公司",
+      "monthly_income": "15000",
+      "address": "北京市朝阳区xxx"
+      },
+    "status": 200
+  },
+  {
+    "username": "user1",
+    "password": "1234567890",
+    "remember_me": true,
+    "is_online": false,
+    "status": 401,
+    "message": "请先登录"
+  }
+]

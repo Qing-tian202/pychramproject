@@ -17,7 +17,7 @@ from common.build_user_jsonschema import build_user_jsonschema
 @allure.story("查询用户信息")
 @allure.title("查询信息")
 @pytest.mark.parametrize("user_data",build_user_data())
-def Testlogin(user_data):
+def Testuserinfo(user_data):
     with allure.step("查询接口"):
         res = user_info(user_data.get("username"),user_data.get("password"),user_data.get("is_online"))
 

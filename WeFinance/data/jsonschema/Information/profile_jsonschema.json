@@ -1,0 +1,79 @@
+{
+    "type": "object",
+    "properties": {
+        "status": {
+            "type": "integer"
+        },
+        "data": {
+            "type": "object",
+            "properties": {
+                "user_id": {
+                    "type": "integer"
+                },
+                "username": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string"
+                },
+                "phone": {
+                    "type": "string"
+                },
+                "real_name": {
+                    "type": "string"
+                },
+                "id_number": {
+                    "type": "string"
+                },
+                "is_verified": {
+                    "type": "boolean"
+                },
+                "verification_status": {
+                    "type": "string"
+                },
+                "gender": {
+                    "type": "string"
+                },
+                "birthday": {
+                    "type": "string"
+                },
+                "education": {
+                    "type": "string"
+                },
+                "occupation": {
+                    "type": "string"
+                },
+                "company": {
+                    "type": "string"
+                },
+                "monthly_income": {
+                    "type": "string"
+                },
+                "address": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "user_id",
+                "username",
+                "email",
+                "phone",
+                "real_name",
+                "id_number",
+                "is_verified",
+                "verification_status",
+                "gender",
+                "education",
+                "occupation",
+                "company",
+                "address"
+            ]
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "status",
+        "data"
+    ]
+}

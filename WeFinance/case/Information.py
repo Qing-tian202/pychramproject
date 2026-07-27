@@ -1,6 +1,5 @@
 import sys
 import os
-from urllib import response
 
 # 添加项目根目录到路径
 project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -22,5 +21,17 @@ def get_profile(username,password,is_online):
         response = None
 
     response = session.get(WF_HOST+api)
+
+    return response
+
+def update_profile(username,password,is_online,data):
+    api = '/auth/api/profile/update/'
+
+    if is_online:
+        response = session.post(WF_HOST+'/auth/api/login/',json={'username':username,'password':password})
+    else:
+        response = None
+
+    response = session.post(WF_HOST+api,json=data)
 
     return response

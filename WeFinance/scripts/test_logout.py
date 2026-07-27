@@ -17,7 +17,7 @@ from common.build_logout_jsonschema import build_logout_jsonschema
 @allure.story("用户退出")
 @allure.title("登录退出")
 @pytest.mark.parametrize("logout_data",build_logout_data())
-def Testlogin(logout_data):
+def Testlogout(logout_data):
     with allure.step("退出登录接口"):
         res = logout(logout_data.get("username"),logout_data.get("password"))
 

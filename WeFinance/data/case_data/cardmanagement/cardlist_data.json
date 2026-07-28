@@ -1,0 +1,16 @@
+[
+  {
+    "username": "testuser",
+    "password": "test123456",
+    "remember_me": true,
+    "is_online": true,
+    "status": 200
+  },
+  {
+    "username": "user1",
+    "password": "1234567890",
+    "remember_me": true,
+    "is_online": true,
+    "status": 200
+  }
+]

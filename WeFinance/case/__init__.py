@@ -7,6 +7,8 @@ from .Certification import logout
 from .Certification import user_info
 from .Information import get_profile
 from .Information import update_profile
+from .BankCardManagement import get_card_list
+from .BankCardManagement import add_card
 
 
 __all__ = ['login',
@@ -14,4 +16,6 @@ __all__ = ['login',
            'logout',
            'user_info',
            'get_profile',
-           'update_profile']
+           'update_profile',
+           'get_card_list',
+           'add_card']

@@ -1,0 +1,66 @@
+{
+    "type": "object",
+    "properties": {
+        "status": {
+            "type": "integer"
+        },
+        "data": {
+            "type": "object",
+            "properties": {
+                "count": {
+                    "type": "integer"
+                },
+                "cards": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "id": {
+                                "type": "integer"
+                            },
+                            "bank_name": {
+                                "type": "string"
+                            },
+                            "card_number": {
+                                "type": "string"
+                            },
+                            "cardholder_name": {
+                                "type": "string"
+                            },
+                            "card_type": {
+                                "type": "string"
+                            },
+                            "is_default": {
+                                "type": "boolean"
+                            },
+                            "created_at": {
+                                "type": "string"
+                            }
+                        },
+                        "additionalProperties": false,
+                        "required": [
+                            "id",
+                            "bank_name",
+                            "card_number",
+                            "cardholder_name",
+                            "card_type",
+                            "is_default",
+                            "created_at"
+                        ]
+                    },
+                    "minItems": 0
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "count",
+                "cards"
+            ]
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "status",
+        "data"
+    ]
+}

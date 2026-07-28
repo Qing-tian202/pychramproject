@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {
+        "status": {
+            "type": "integer"
+        },
+        "message": {
+            "type": "string"
+        },
+        "data": {
+            "type": "object",
+            "properties": {
+                "card_id": {
+                    "type": "integer"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "card_id"
+            ]
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "status",
+        "message",
+        "data"
+    ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "username": "newuser",
+    "password": "NewPass123",
+    "data" :{
+         "real_name":"张三",
+         "id_number":"110101199001011234",
+         "id_front":"C:/Users/test37/Pictures/ji.jpg",
+         "id_back":"C:/Users/test37/Pictures/jinnaluo.jpg",
+         "id_front_image":"image/jpeg",
+         "id_back_image":"image/jpeg"
+    },
+    "status": 200,
+    "message": "实名认证资料提交成功，我们将在24小时内完成审核"
+  }
+]

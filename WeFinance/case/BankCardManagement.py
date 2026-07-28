@@ -1,6 +1,5 @@
 import sys
 import os
-from urllib import response
 
 # 添加项目根目录到路径
 project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -45,6 +44,29 @@ def add_card(username,password,is_online,new_card):
 
     return response
 
+def update_card(username,password,is_online,id,new_card):
+    api = f'/auth/api/bank-cards/{id}/update/'
+
+    if is_online:
+        response = login(username, password)
+    else:
+        response = None
+
+    response = session.post(WF_HOST + api, json=new_card)
+
+    return response
+
+def delete_card(username,password,is_online,id):
+    api = f'/auth/api/bank-cards/{id}/delete/'
+
+    if is_online:
+        response = login(username, password)
+    else:
+        response = None
+
+    response = session.post(WF_HOST + api)
+
+    return response
 
 # import json
 #

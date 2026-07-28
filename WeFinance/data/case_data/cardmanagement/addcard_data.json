@@ -4,7 +4,7 @@
     "password": "test123456",
     "remember_me": true,
     "is_online": true,
-    "status": 200,
+    "status": 201,
     "new_card": {
       "bank_name": "中国工商银行",
       "card_number": "6222021234567891234",

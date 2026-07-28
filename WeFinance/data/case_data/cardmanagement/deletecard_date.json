@@ -1,0 +1,11 @@
+[
+  {
+    "username": "testuser",
+    "password": "test123456",
+    "remember_me": true,
+    "is_online": true,
+    "status": 200,
+    "card_id": 42,
+    "message": "银行卡删除成功"
+  }
+]

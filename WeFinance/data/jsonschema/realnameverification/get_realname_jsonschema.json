@@ -1,0 +1,48 @@
+{
+    "type": "object",
+    "properties": {
+        "status": {
+            "type": "integer"
+        },
+        "data": {
+            "type": "object",
+            "properties": {
+                "is_verified": {
+                    "type": "boolean"
+                },
+                "verification_status": {
+                    "type": "string"
+                },
+                "real_name": {
+                    "type": "string"
+                },
+                "id_number": {
+                    "type": "string"
+                },
+                "submitted_at": {
+                    "type": "string"
+                },
+                "verified_at": {
+                    "type": "string"
+                },
+                "review_notes": {
+                    "type": ["null","string"]
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "is_verified",
+                "verification_status",
+                "real_name",
+                "id_number",
+                "submitted_at",
+                "verified_at"
+            ]
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "status",
+        "data"
+    ]
+}

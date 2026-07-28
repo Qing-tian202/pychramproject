@@ -1,0 +1,40 @@
+[
+  {
+    "username": "testuser",
+    "password": "test123456",
+    "remember_me": true,
+    "is_online": true,
+    "status": 200,
+    "card_id": 37,
+    "new_card": {
+    "bank_name": "中国建设银行",
+    "cardholder_name": "李四",
+    "card_type": "credit"
+    }
+  },
+  {
+    "username": "testuser",
+    "password": "test123456",
+    "remember_me": true,
+    "is_online": true,
+     "status": 400,
+    "message": "请至少修改一项信息",
+    "card_id": 37,
+    "new_card": {
+    }
+  },
+  {
+    "username": "testuser",
+    "password": "test123456",
+    "remember_me": true,
+    "is_online": true,
+    "status": 404,
+    "message": "银行卡不存在或已被删除",
+    "card_id": 0,
+    "new_card": {
+    "bank_name": "中国建设银行",
+    "cardholder_name": "李四",
+    "card_type": "credit"
+    }
+  }
+]

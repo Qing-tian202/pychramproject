@@ -1,0 +1,16 @@
+[
+  {
+    "username": "testuser",
+    "password": "test123456",
+    "status": 200,
+    "data": {
+        "is_verified": true,
+        "verification_status": "approved",
+        "real_name": "张三",
+        "id_number": "110101199001011234",
+        "submitted_at": "2023-12-01T10:00:00Z",
+        "verified_at": "2023-12-01T15:30:00Z",
+        "review_notes": null
+    }
+  }
+]

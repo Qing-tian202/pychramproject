@@ -12,13 +12,12 @@ import jsonschema
 from case.BankCardManagement import get_card_list
 from common.build_cardlist import build_cardlist_data,build_cardlist_jsonschema
 
-
-@allure.story("银行卡管理")
-@allure.title("获取银行卡列表")
+@allure.epic("银行卡管理")
+@allure.story("获取银行卡列表")
+@allure.title("获取测试")
 @pytest.mark.parametrize("user_data",build_cardlist_data())
 def Testgetcardlist(user_data):
-    with allure.step("获取接口"):
-        res = get_card_list(user_data.get("username"),user_data.get("password"),user_data.get("is_online"))
+    res = get_card_list(user_data.get("username"),user_data.get("password"),user_data.get("is_online"))
 
     with allure.step("响应状态码断言"):
         assert res.status_code == user_data.get("status")

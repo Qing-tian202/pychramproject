@@ -339,3 +339,181 @@
 2026-07-28 10:18:59 - tools.Logger - INFO - ============================================================
 2026-07-28 10:18:59 - tools.Logger - INFO - 测试会话结束
 2026-07-28 10:18:59 - tools.Logger - INFO - ============================================================
+2026-07-28 11:10:23 - tools.Logger - INFO - pytest 配置完成，环境: dev
+2026-07-28 11:10:23 - tools.Logger - INFO - 收集测试用例: 共 15 个
+2026-07-28 11:10:23 - tools.Logger - INFO - ============================================================
+2026-07-28 11:10:23 - tools.Logger - INFO - 测试会话开始
+2026-07-28 11:10:23 - tools.Logger - INFO - ============================================================
+2026-07-28 11:10:23 - tools.Logger - INFO - 测试环境: dev
+2026-07-28 11:10:23 - tools.Logger - INFO - 快速模式: False
+2026-07-28 11:10:23 - tools.Logger - INFO - 重试次数: 0
+2026-07-28 11:10:23 - tools.Logger - INFO - API超时: 30秒
+2026-07-28 11:10:23 - tools.Logger - INFO - 日志级别: INFO
+2026-07-28 11:10:23 - tools.Logger - INFO - ------------------------------------------------------------
+2026-07-28 11:10:23 - tools.Logger - INFO - 
+[开始测试] Testaddcard[user_data0]
+2026-07-28 11:10:24 - tools.Logger - INFO - 
+[结束测试] Testaddcard[user_data0]，耗时: 0.496秒
+2026-07-28 11:10:24 - tools.Logger - INFO - ----------------------------------------
+2026-07-28 11:10:24 - tools.Logger - INFO - 
+[开始测试] Testgetcardlist[user_data0]
+2026-07-28 11:10:24 - tools.Logger - INFO - 
+[结束测试] Testgetcardlist[user_data0]，耗时: 0.411秒
+2026-07-28 11:10:24 - tools.Logger - INFO - ----------------------------------------
+2026-07-28 11:10:24 - tools.Logger - INFO - 
+[开始测试] Testgetcardlist[user_data1]
+2026-07-28 11:10:24 - tools.Logger - INFO - 
+[结束测试] Testgetcardlist[user_data1]，耗时: 0.027秒
+2026-07-28 11:10:24 - tools.Logger - INFO - ----------------------------------------
+2026-07-28 11:10:24 - tools.Logger - INFO - 
+[开始测试] Testprofileinfo[profile_data0]
+2026-07-28 11:10:24 - tools.Logger - INFO - 
+[结束测试] Testprofileinfo[profile_data0]，耗时: 0.415秒
+2026-07-28 11:10:24 - tools.Logger - INFO - ----------------------------------------
+2026-07-28 11:10:24 - tools.Logger - INFO - 
+[开始测试] Testprofileinfo[profile_data1]
+2026-07-28 11:10:24 - tools.Logger - INFO - 
+[结束测试] Testprofileinfo[profile_data1]，耗时: 0.012秒
+2026-07-28 11:10:24 - tools.Logger - INFO - ----------------------------------------
+2026-07-28 11:10:24 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data0]
+2026-07-28 11:10:25 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data0]，耗时: 0.402秒
+2026-07-28 11:10:25 - tools.Logger - INFO - ----------------------------------------
+2026-07-28 11:10:25 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data1]
+2026-07-28 11:10:25 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data1]，耗时: 0.403秒
+2026-07-28 11:10:25 - tools.Logger - INFO - ----------------------------------------
+2026-07-28 11:10:25 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data2]
+2026-07-28 11:10:25 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data2]，耗时: 0.011秒
+2026-07-28 11:10:25 - tools.Logger - INFO - ----------------------------------------
+2026-07-28 11:10:25 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data3]
+2026-07-28 11:10:26 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data3]，耗时: 0.393秒
+2026-07-28 11:10:26 - tools.Logger - INFO - ----------------------------------------
+2026-07-28 11:10:26 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data4]
+2026-07-28 11:10:26 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data4]，耗时: 0.394秒
+2026-07-28 11:10:26 - tools.Logger - INFO - ----------------------------------------
+2026-07-28 11:10:26 - tools.Logger - INFO - 
+[开始测试] Testlogout[logout_data0]
+2026-07-28 11:10:26 - tools.Logger - INFO - 
+[结束测试] Testlogout[logout_data0]，耗时: 0.022秒
+2026-07-28 11:10:26 - tools.Logger - INFO - ----------------------------------------
+2026-07-28 11:10:26 - tools.Logger - INFO - 
+[开始测试] Testupdateinfo[update_data0]
+2026-07-28 11:10:27 - tools.Logger - INFO - 
+[结束测试] Testupdateinfo[update_data0]，耗时: 0.422秒
+2026-07-28 11:10:27 - tools.Logger - INFO - ----------------------------------------
+2026-07-28 11:10:27 - tools.Logger - INFO - 
+[开始测试] Testupdateinfo[update_data1]
+2026-07-28 11:10:27 - tools.Logger - INFO - 
+[结束测试] Testupdateinfo[update_data1]，耗时: 0.015秒
+2026-07-28 11:10:27 - tools.Logger - INFO - ----------------------------------------
+2026-07-28 11:10:27 - tools.Logger - INFO - 
+[开始测试] Testuserinfo[user_data0]
+2026-07-28 11:10:27 - tools.Logger - INFO - 
+[结束测试] Testuserinfo[user_data0]，耗时: 0.411秒
+2026-07-28 11:10:27 - tools.Logger - INFO - ----------------------------------------
+2026-07-28 11:10:27 - tools.Logger - INFO - 
+[开始测试] Testuserinfo[user_data1]
+2026-07-28 11:10:27 - tools.Logger - INFO - 
+[结束测试] Testuserinfo[user_data1]，耗时: 0.011秒
+2026-07-28 11:10:27 - tools.Logger - INFO - ----------------------------------------
+2026-07-28 11:10:27 - tools.Logger - INFO - ============================================================
+2026-07-28 11:10:27 - tools.Logger - INFO - 测试会话结束
+2026-07-28 11:10:27 - tools.Logger - INFO - ============================================================
+2026-07-28 11:16:22 - tools.Logger - INFO - pytest 配置完成，环境: dev
+2026-07-28 11:16:23 - tools.Logger - INFO - 收集测试用例: 共 15 个
+2026-07-28 11:16:23 - tools.Logger - INFO - ============================================================
+2026-07-28 11:16:23 - tools.Logger - INFO - 测试会话开始
+2026-07-28 11:16:23 - tools.Logger - INFO - ============================================================
+2026-07-28 11:16:23 - tools.Logger - INFO - 测试环境: dev
+2026-07-28 11:16:23 - tools.Logger - INFO - 快速模式: False
+2026-07-28 11:16:23 - tools.Logger - INFO - 重试次数: 0
+2026-07-28 11:16:23 - tools.Logger - INFO - API超时: 30秒
+2026-07-28 11:16:23 - tools.Logger - INFO - 日志级别: INFO
+2026-07-28 11:16:23 - tools.Logger - INFO - ------------------------------------------------------------
+2026-07-28 11:16:23 - tools.Logger - INFO - 
+[开始测试] Testaddcard[user_data0]
+2026-07-28 11:16:23 - tools.Logger - INFO - 
+[结束测试] Testaddcard[user_data0]，耗时: 0.496秒
+2026-07-28 11:16:23 - tools.Logger - INFO - ----------------------------------------
+2026-07-28 11:16:23 - tools.Logger - INFO - 
+[开始测试] Testgetcardlist[user_data0]
+2026-07-28 11:16:24 - tools.Logger - INFO - 
+[结束测试] Testgetcardlist[user_data0]，耗时: 0.411秒
+2026-07-28 11:16:24 - tools.Logger - INFO - ----------------------------------------
+2026-07-28 11:16:24 - tools.Logger - INFO - 
+[开始测试] Testgetcardlist[user_data1]
+2026-07-28 11:16:24 - tools.Logger - INFO - 
+[结束测试] Testgetcardlist[user_data1]，耗时: 0.024秒
+2026-07-28 11:16:24 - tools.Logger - INFO - ----------------------------------------
+2026-07-28 11:16:24 - tools.Logger - INFO - 
+[开始测试] Testprofileinfo[profile_data0]
+2026-07-28 11:16:24 - tools.Logger - INFO - 
+[结束测试] Testprofileinfo[profile_data0]，耗时: 0.411秒
+2026-07-28 11:16:24 - tools.Logger - INFO - ----------------------------------------
+2026-07-28 11:16:24 - tools.Logger - INFO - 
+[开始测试] Testprofileinfo[profile_data1]
+2026-07-28 11:16:24 - tools.Logger - INFO - 
+[结束测试] Testprofileinfo[profile_data1]，耗时: 0.011秒
+2026-07-28 11:16:24 - tools.Logger - INFO - ----------------------------------------
+2026-07-28 11:16:24 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data0]
+2026-07-28 11:16:24 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data0]，耗时: 0.403秒
+2026-07-28 11:16:24 - tools.Logger - INFO - ----------------------------------------
+2026-07-28 11:16:24 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data1]
+2026-07-28 11:16:25 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data1]，耗时: 0.400秒
+2026-07-28 11:16:25 - tools.Logger - INFO - ----------------------------------------
+2026-07-28 11:16:25 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data2]
+2026-07-28 11:16:25 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data2]，耗时: 0.012秒
+2026-07-28 11:16:25 - tools.Logger - INFO - ----------------------------------------
+2026-07-28 11:16:25 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data3]
+2026-07-28 11:16:25 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data3]，耗时: 0.391秒
+2026-07-28 11:16:25 - tools.Logger - INFO - ----------------------------------------
+2026-07-28 11:16:25 - tools.Logger - INFO - 
+[开始测试] Testlogin[login_data4]
+2026-07-28 11:16:26 - tools.Logger - INFO - 
+[结束测试] Testlogin[login_data4]，耗时: 0.394秒
+2026-07-28 11:16:26 - tools.Logger - INFO - ----------------------------------------
+2026-07-28 11:16:26 - tools.Logger - INFO - 
+[开始测试] Testlogout[logout_data0]
+2026-07-28 11:16:26 - tools.Logger - INFO - 
+[结束测试] Testlogout[logout_data0]，耗时: 0.025秒
+2026-07-28 11:16:26 - tools.Logger - INFO - ----------------------------------------
+2026-07-28 11:16:26 - tools.Logger - INFO - 
+[开始测试] Testupdateinfo[update_data0]
+2026-07-28 11:16:26 - tools.Logger - INFO - 
+[结束测试] Testupdateinfo[update_data0]，耗时: 0.420秒
+2026-07-28 11:16:26 - tools.Logger - INFO - ----------------------------------------
+2026-07-28 11:16:26 - tools.Logger - INFO - 
+[开始测试] Testupdateinfo[update_data1]
+2026-07-28 11:16:26 - tools.Logger - INFO - 
+[结束测试] Testupdateinfo[update_data1]，耗时: 0.014秒
+2026-07-28 11:16:26 - tools.Logger - INFO - ----------------------------------------
+2026-07-28 11:16:26 - tools.Logger - INFO - 
+[开始测试] Testuserinfo[user_data0]
+2026-07-28 11:16:27 - tools.Logger - INFO - 
+[结束测试] Testuserinfo[user_data0]，耗时: 0.411秒
+2026-07-28 11:16:27 - tools.Logger - INFO - ----------------------------------------
+2026-07-28 11:16:27 - tools.Logger - INFO - 
+[开始测试] Testuserinfo[user_data1]
+2026-07-28 11:16:27 - tools.Logger - INFO - 
+[结束测试] Testuserinfo[user_data1]，耗时: 0.012秒
+2026-07-28 11:16:27 - tools.Logger - INFO - ----------------------------------------
+2026-07-28 11:16:27 - tools.Logger - INFO - ============================================================
+2026-07-28 11:16:27 - tools.Logger - INFO - 测试会话结束
+2026-07-28 11:16:27 - tools.Logger - INFO - ============================================================

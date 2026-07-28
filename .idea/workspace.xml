@@ -4,135 +4,126 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="713bc543-929e-42df-bd6a-697482fe5177" name="更改" comment="python WeFinance自动化测试，获取用户信息接口">
-      <change afterPath="$PROJECT_DIR$/WeFinance/common/build_add_card.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeFinance/common/build_cardlist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeFinance/data/case_data/cardmanagement/addcard_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeFinance/data/case_data/cardmanagement/cardlist_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeFinance/data/jsonschema/cardmanagement/addcard_jsonschema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeFinance/data/jsonschema/cardmanagement/cardlist_jsonschema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeFinance/scripts/test_add_card.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeFinance/scripts/test_get_cardlist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2026_7_20_09_35____.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2026_7_20_09_35_取消提交了更改_[更改]/shelved.patch" beforeDir="false" />
+    <list default="true" id="713bc543-929e-42df-bd6a-697482fe5177" name="更改" comment="python WeFinance自动化测试，添加银行卡接口">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/40b6fcc6bfde9307.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/43337fb339301ab6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/455eddb0d0c881c2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/545399b5f6320ea3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/5e0dcc68e0d98913.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/762359ea3f8d32e1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/9cc7f1a31f51f57a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/a433e996626ea838.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/a4ce29d6b428ad93.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/c60ae33114836fa9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/cd8bd8b1da5a0f3d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/ff0ce79f56fe466c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/51e246da1b646434.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/5d98dd9959470546.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/61f9b021e4b72357.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/707068a0ac22f48.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/79d90fc0677c5195.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/850a3a43551b95c5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/8635193f8715dce6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/9a320308b3df0e16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/9f60cd939c40a07f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/a44fbf09307a5112.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/c4749d174c771bd0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/c71d57406e00efc1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/d2be2885babad2c0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/eacccfab615d421.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/f46ca7df8664b4f3.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/data/behaviors.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/data/behaviors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/data/categories.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/data/categories.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/data/packages.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/data/suites.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/data/suites.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/23ebcf1281b74a6f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/2dfbe139db404aea.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/3b05adc8cfa22a3e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/87073cc414ef9196.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/886eef3a9a45f3f7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/9fb9971c3bcf6584.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/a3599f07e41e140d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/be01ad4fcf6d78d5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/c399602f42b60aab.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/cacc1f2677e95ee7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/d37f0c041045ec6f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/f38bba8bf3924aaf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/1068b435cb64343b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/3114471fbcbd0ec5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/61fa4b79b7419f10.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/63b9ebe913c74e90.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/67c93cdcae545dc9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/6c3fc28d2edd0f90.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/709c47257fc133f3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/745ff9edeb3d2715.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/876f0fea408be792.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/8948b2cf09aab9d0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/8fd41e74d25dbd0f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/b70d4cc4cdf4730e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/c36b158dd2efac98.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/c68b23db2d0f7f92.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/d44ff3ae1f2dee2.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/data/timeline.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/export/influxDbData.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/export/prometheusData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/history/categories-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/history/duration-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/history/history-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/history/history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/history/retry-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/widgets/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/widgets/behaviors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/widgets/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/widgets/categories-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/widgets/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/widgets/categories.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/widgets/duration-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/widgets/duration.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/widgets/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/widgets/history-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/widgets/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/widgets/retry-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/widgets/severity.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/widgets/status-chart.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/widgets/suites.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/widgets/summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/case/BankCardManagement.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/case/BankCardManagement.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/case/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/case/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/common/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/common/build_login_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/common/build_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/common/build_login_jsonschema.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/common/build_logout_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/common/build_logout.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/common/build_logout_jsonschema.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/common/build_profile_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/common/build_profile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/common/build_profile_jsonschema.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/common/build_signup_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/common/build_signup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/common/build_signup_jsonschema.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/common/build_update_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/common/build_update.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/common/build_update_jsonschema.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/common/build_user_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/common/build_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/common/build_user_jsonschema.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/logs/test_20260727.log" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/logs/test_20260727.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/042d9f87-f8d9-4fd7-b665-5f4363f20db8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/0573c03a-4e57-42a0-b5f3-236c37b00c81-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/0b33e369-9642-4779-b137-efbf20950041-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/0f2922a4-ee2c-45c7-8b70-c71eb0fa5aff-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/1e7465bd-996f-40a1-8135-0d026a053296-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/20b6b08e-3a0d-45d0-a179-a49eb39ba6e9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/215d7275-4f4f-47da-a91e-c578ea7e4c70-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/29455b38-5b0c-435e-b5a5-c3877e97fa9d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/2befed82-ba89-45ac-952f-07d9d781406c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/2c3c12f1-e170-48ed-91f7-226211d51b75-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/2e7e40bc-f8c3-425a-bbe6-58a211d17c7a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/38af4b85-28ac-47a7-8cda-aa75ab77292f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/3940463b-4a8f-42f1-aa2a-b497536597f2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/3ad53b50-70ec-4f64-b361-8efc1bc89003-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/410e96ff-241a-4278-925e-3313f17b41c5-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/44c10012-602a-4293-bd5f-79f580816957-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/4a510ab2-0e21-433d-9baa-6b0f8b987820-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/55956cfe-7e11-4c26-ad2e-1790e9684357-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/578a16d8-2e78-4e01-b8ef-de2dc355044e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/619a5809-8f2c-4485-974d-a0288a3c70a1-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/62cfbf07-2558-4b37-be7d-06a6d27d37af-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/6afd2bb7-03e3-4688-9d62-ace597a30cd1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/6e7be5e6-1b46-49f1-a7e4-679403dd6a1c-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/6fb55c4f-74c1-4234-9b65-87d9d336775c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/7920ea98-3b61-47f4-b6b8-7ed4ff067553-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/7ad4a08e-e2fa-427d-be09-972d5eb64aa3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/7b75aae1-1836-46d0-ad22-0d940d432ffe-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/87534211-2bc7-46f3-9bdc-a1973c53163e-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/8f273222-775e-420e-b329-35df9ebb9718-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/8f65bbd1-a3f0-4a85-a9db-a6acff3df07d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/9d9bc994-f6cf-490b-a215-47c7ff239603-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/a1b2e86e-520d-4daa-bb05-eef564e56118-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/a3f139f9-ccda-4bea-aa55-0c2a1c7b80c4-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/a54f31fc-9882-4605-af21-9a095915518e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/ab6f76fe-ba0f-4052-a8a4-8496fc798118-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/ac7da2be-139e-4c77-94fe-afc67cd98e93-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/ae80a80f-1221-43a2-b345-5af9f39706cc-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/ae8b85cd-32e2-49a8-812d-e04eceaf6c63-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/b92c4f24-ab2d-41ef-94b5-54e59ba6493b-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/be37aa8c-d76c-4df5-98a0-eed2a9c932ce-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/c47028fe-853e-49f0-ab80-7ab5dabe0716-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/ca4aa9dd-a28c-4d8c-9d6a-331432394fa5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/d3b41f6d-ed5d-410c-b5c0-5e8cd2523de7-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/d6465066-bc4a-4a08-8683-86c3ebd9b4ad-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/d7b91ebd-cec4-4bae-a92b-5e6d625e9854-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/e39837e1-05b6-4fd7-b10c-99de477c3599-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/e99bc9d7-39d6-4722-8103-26e193f7a12c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/eb8983ea-f06d-4641-9a64-f401f68f72f4-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/results/f3328ce2-74db-4d8a-8ee0-0db4af88ec8c-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/logs/test_20260728.log" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/logs/test_20260728.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/02a8a419-458e-47ef-a70c-225036ca6a9e-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/06e483c5-a9d2-43b8-9ce9-40b0908debef-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/0cf69e65-42ac-4c52-a646-74da464013c4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/122568e5-003f-4831-aaa9-b10c5fd9c348-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/156ead82-266e-4fa4-96f2-403d4df859e5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/1b7e26ab-dd44-4dd9-a214-592f5158a107-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/1d37c7f0-d6b6-45ff-a28b-c083f7b2092e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/20ba4057-dc94-4de8-8043-ce48b4b4385f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/21bf7a91-0003-4221-8f84-25e5002daedd-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/2267f82d-bb62-488f-9742-4bbd5eecf6ae-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/2a76c396-bb5e-4fed-9b74-cdb727eabf83-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/2cf51241-6f81-4b1f-bdf1-031d9393aed2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/2f34cfa5-0a38-41cd-865c-595d24dc8dd8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/33c5b94a-a6bf-4b4a-9553-591f4f16a7d7-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/381c580b-c4f3-4c9f-8644-5ce41936c664-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/39ca565d-972d-48bd-b957-323def97e99d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/3ea30269-625a-4480-a51e-1a47e62ea739-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/4236e26e-d827-4a52-8ae9-79d387b8b794-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/50b0b127-68d3-485a-aa24-98e08f9e6303-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/51b7a2f0-4969-47a1-9a05-c6fd8c9ff2da-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/57c80a78-89ed-48be-a395-b0128426685e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/585e51d8-284e-4cc4-943e-8d5d70984fb3-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/58f2d026-c232-44ca-9dcb-e2472d8383ba-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/59952838-741d-4905-944e-7da89bb71093-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/62f71fc0-fed7-4e3e-8d5d-51328735008e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/75960b1c-ed1b-43d1-b080-a7afdcfa3d57-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/7bf2f966-cd22-4cfe-bd36-2d14005aa2ba-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/7c34c16d-e13d-4984-93a3-7bdd10899ce9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/7f90f77d-3fdb-4478-9f0a-9bbe5cf02c03-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/8055b0ab-5941-4f06-91d8-4877e45cc20d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/80e8624c-0a7c-4244-904d-bdd9df26a912-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/8117a4ef-e7c8-4341-b0ec-f76f11f86080-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/8306820c-52af-4598-820a-c87c36c7c72f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/83e0f429-6943-45e4-b9b4-7bbbea8979fa-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/88f682b2-2347-46e6-bc2c-5f5e808f0810-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/901e2aa7-70e3-46da-be63-54279e95de1e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/9511a8c8-5087-4c77-a869-d5d4c17d1c9f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/979a7fff-d131-4009-af46-779db55b1150-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/9e68ab94-9bd0-4d28-80ca-5f42a19e3203-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/9fdc0869-9786-430e-b507-5920b975cdae-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/a5c82131-d467-4fbf-882f-c96d8dd0d7d2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/a73dc93a-71f2-4f69-b0b3-e773ad777ddb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/a89907c7-f1e7-4a44-891f-11bc64ceaad6-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/abd9067d-99d2-48b1-b2d8-787481b5cff5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/ac682535-d1ff-4454-a74e-81895394928a-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/adc846f2-f25e-43dc-8188-73d444738f91-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/b259dfe2-7f0b-4086-8472-7281f0197cb2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/b3e5ce2b-907e-47ae-a31f-b61c3ad1a464-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/baf6df44-6d36-4097-8184-be371cecfe03-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/bbbf9ea2-8d99-4716-bd1f-b6f7a30b0b78-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/bc2ca049-ecf8-4664-a752-6358c45cd09e-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/c170e702-dee9-4e6f-89c3-c979ad4c6682-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/c39699de-3bce-464e-b280-bcd7d935dd7f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/cca6a73c-b288-464e-b425-103d5d74c033-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/ced44a37-9d13-4b8b-98d9-677c4f313285-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/d5a9828e-2699-4bce-b143-8439054ea5a8-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/ddca591a-577f-4a5a-ba47-4e1c3e2000eb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/de67a891-a742-4f72-8316-e0cf29e458e6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/e23e632e-9e74-4d43-9758-4957b2e2bfe0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/ef01b26b-79c4-4188-833e-28ee6a99ab28-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/ffeb91ff-fba8-4a93-a645-ef4789ee8b1c-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/scripts/test_add_card.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/scripts/test_add_card.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/scripts/test_get_cardlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/scripts/test_get_cardlist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/scripts/test_get_infomation.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/scripts/test_get_infomation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/scripts/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/scripts/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/scripts/test_logout.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/scripts/test_logout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/scripts/test_signup.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/scripts/test_signup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/scripts/test_update_information.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/scripts/test_update_information.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/scripts/test_user_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/scripts/test_user_info.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -545,7 +536,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785142170780</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="python WeFinance自动化测试，添加银行卡接口">
+      <option name="closed" value="true" />
+      <created>1785207581634</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1785207581634</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -576,7 +575,8 @@
     <MESSAGE value="python WeFinance自动化测试，添加json格式验证，日志" />
     <MESSAGE value="python WeFinance自动化测试，用户认证接口" />
     <MESSAGE value="python WeFinance自动化测试，获取用户信息接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="python WeFinance自动化测试，获取用户信息接口" />
+    <MESSAGE value="python WeFinance自动化测试，添加银行卡接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="python WeFinance自动化测试，添加银行卡接口" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pychramproject$ApplicationInterface.coverage" NAME="ApplicationInterface 覆盖结果" MODIFIED="1785074997217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WeFinance/case" />

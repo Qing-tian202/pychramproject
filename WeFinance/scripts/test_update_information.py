@@ -10,16 +10,14 @@ import pytest
 import allure
 import jsonschema
 from case.Information import update_profile
-from common.build_update_data import build_update_data
-from common.build_update_jsonschema import build_update_jsonschema
+from common.build_update import build_update_data,build_update_jsonschema
 
-
+@allure.epic("用户资料")
 @allure.story("更新用户资料")
-@allure.title("更新用户资料")
+@allure.title("更新测试")
 @pytest.mark.parametrize("update_data",build_update_data())
 def Testupdateinfo(update_data):
-    with allure.step("更新接口"):
-        res = update_profile(update_data.get("username"),update_data.get("password"),update_data.get("is_online"),update_data.get("data"))
+    res = update_profile(update_data.get("username"),update_data.get("password"),update_data.get("is_online"),update_data.get("data"))
 
     with allure.step("响应状态码断言"):
         assert res.status_code == update_data.get("status")

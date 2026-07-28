@@ -10,16 +10,14 @@ import pytest
 import allure
 import jsonschema
 from case.Information import get_profile
-from common.build_profile_data import build_profile_data
-from common.build_profile_jsonschema import build_profile_jsonschema
+from common.build_profile import build_profile_data,build_profile_jsonschema
 
-
+@allure.epic("用户资料")
 @allure.story("获取用户资料")
-@allure.title("获取用户资料")
+@allure.title("获取测试")
 @pytest.mark.parametrize("profile_data",build_profile_data())
 def Testprofileinfo(profile_data):
-    with allure.step("获取接口"):
-        res = get_profile(profile_data.get("username"),profile_data.get("password"),profile_data.get("is_online"))
+    res = get_profile(profile_data.get("username"),profile_data.get("password"),profile_data.get("is_online"))
 
     with allure.step("响应状态码断言"):
         assert res.status_code == profile_data.get("status")

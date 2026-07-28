@@ -10,16 +10,14 @@ import pytest
 import allure
 import jsonschema
 from case.Certification import login
-from common.build_login_data import build_login_data
-from common.build_login_jsonschema import build_login_jsonschema
+from common.build_login import build_login_data,build_login_jsonschema
 
-
-@allure.story("用户认证")
-@allure.title("登录认证")
+@allure.epic("用户认证")
+@allure.story("登录认证")
+@allure.title("登录测试")
 @pytest.mark.parametrize("login_data",build_login_data())
 def Testlogin(login_data):
-    with allure.step("登录接口"):
-        res = login(login_data.get("username"),login_data.get("password"),login_data.get("remember_me"))
+    res = login(login_data.get("username"),login_data.get("password"),login_data.get("remember_me"))
 
     with allure.step("响应状态码断言"):
         assert res.status_code == login_data.get("status")

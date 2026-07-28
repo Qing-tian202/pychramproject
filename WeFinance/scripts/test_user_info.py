@@ -10,16 +10,14 @@ import pytest
 import allure
 import jsonschema
 from case.Certification import user_info
-from common.build_user_data import build_user_data
-from common.build_user_jsonschema import build_user_jsonschema
+from common.build_user import build_user_data,build_user_jsonschema
 
-
+@allure.epic("用户认证")
 @allure.story("查询用户信息")
 @allure.title("查询信息")
 @pytest.mark.parametrize("user_data",build_user_data())
 def Testuserinfo(user_data):
-    with allure.step("查询接口"):
-        res = user_info(user_data.get("username"),user_data.get("password"),user_data.get("is_online"))
+    res = user_info(user_data.get("username"),user_data.get("password"),user_data.get("is_online"))
 
     with allure.step("响应状态码断言"):
         assert res.status_code == user_data.get("status")

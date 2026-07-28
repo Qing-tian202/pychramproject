@@ -10,15 +10,14 @@
 # import allure
 # import jsonschema
 # from case.Certification import signup
-# from common.build_signup_data import build_signup_data
-# from common.build_signup_jsonschema import build_signup_jsonschema
+# from common.build_signup import build_signup_data,build_signup_jsonschema
 #
 #
+# @allure.epic("用户认证")
 # @allure.story("用户注册")
 # @allure.title("注册检测")
 # @pytest.mark.parametrize("signup_data",build_signup_data())
 # def Testsignup(signup_data):
-#     with allure.step("注册接口"):
 #         res = signup(signup_data.get("username"),
 #                      signup_data.get("email"),
 #                      signup_data.get("phone"),

@@ -63,19 +63,43 @@ def get_real_name_info(username,password):
 
     return response
 
+def photo_image(username,password):
+    response = login(username,password)
+
+    api = '/auth/api/avatar/'
+
+    response = session.get(WF_HOST + api)
+
+    return response
+
+def change_photo(username,password,avatar_path,image_type):
+    response = login(username,password)
+
+    api = '/auth/api/avatar/update/'
+
+    image_name = os.path.basename(avatar_path)
+    print(image_name)
+
+    with open(avatar_path, 'rb') as avatar_file:
+        files = {'avatar': (image_name, avatar_file,image_type)}
+
+        response = session.post(WF_HOST + api, files=files)
+
+    return response
+
 
 # import json
 #
 # if __name__ == '__main__':
-#     data = {
-#         "real_name":"张三",
-#         "id_number":"110101199001011234",
-#         "id_front":"C:/Users/test37/Pictures/ji.jpg",
-#         "id_back":"C:/Users/test37/Pictures/jinnaluo.jpg",
-#         "id_front_image":"image/jpeg",
-#         "id_back_image":"image/jpeg",
-#     }
+#     # data = {
+#     #     "real_name":"张三",
+#     #     "id_number":"110101199001011234",
+#     #     "id_front":"C:/Users/test37/Pictures/ji.jpg",
+#     #     "id_back":"C:/Users/test37/Pictures/jinnaluo.jpg",
+#     #     "id_front_image":"image/jpeg",
+#     #     "id_back_image":"image/jpeg",
+#     # }
 #
-#     response = submit_real_name("newuser","NewPass123",data)
+#     response = change_photo("newuser","NewPass123","C:/Users/test37/Pictures/ji.jpg","image/jpeg")
 #
 #     print(json.dumps(response.json(), indent=4))

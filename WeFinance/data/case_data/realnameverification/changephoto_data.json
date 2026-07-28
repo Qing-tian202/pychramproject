@@ -1,0 +1,9 @@
+[
+  {
+    "username": "newuser",
+    "password": "NewPass123",
+    "avatar_path": "C:/Users/test37/Pictures/jinnaluo.jpg",
+    "image_type": "image/jpeg",
+    "status": 200
+  }
+]

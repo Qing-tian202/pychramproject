@@ -5,5 +5,29 @@
     "avatar_path": "C:/Users/test37/Pictures/jinnaluo.jpg",
     "image_type": "image/jpeg",
     "status": 200
+  },
+  {
+    "username": "newuser",
+    "password": "NewPass123",
+    "avatar_path": "",
+    "image_type": "image/jpeg",
+    "status": 400,
+    "message": "请选择要上传的头像图片"
+  },
+  {
+    "username": "newuser",
+    "password": "NewPass123",
+    "avatar_path": "C:/Users/test37/Pictures/jinnaluo.jpg",
+    "image_type": "image/svg",
+    "status": 400,
+    "message": "只支持 JPG、PNG、GIF、WebP 格式的图片"
+  },
+  {
+    "username": "newuser",
+    "password": "NewPass123",
+    "avatar_path": "D:/Pictures/jinnaluo.jpg",
+    "image_type": "image/jpeg",
+    "status": 400,
+    "message": "图片大小不能超过2MB"
   }
 ]

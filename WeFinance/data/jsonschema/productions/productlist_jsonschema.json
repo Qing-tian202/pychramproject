@@ -1,0 +1,87 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "status": {
+            "type": "integer"
+        },
+        "data": {
+            "type": "object",
+            "properties": {
+                "count": {
+                    "type": "integer"
+                },
+                "products": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "id": {
+                                "type": "integer"
+                            },
+                            "name": {
+                                "type": "string"
+                            },
+                            "product_type": {
+                                "type": "string"
+                            },
+                            "product_type_display": {
+                                "type": "string"
+                            },
+                            "min_amount": {
+                                "type": "string"
+                            },
+                            "max_amount": {
+                                "type": "string"
+                            },
+                            "min_rate": {
+                                "type": "string"
+                            },
+                            "max_rate": {
+                                "type": "string"
+                            },
+                            "min_term": {
+                                "type": "integer"
+                            },
+                            "max_term": {
+                                "type": "integer"
+                            },
+                            "description": {
+                                "type": "string"
+                            },
+                            "features": {
+                                "type": "string"
+                            }
+                        },
+                        "additionalProperties": false,
+                        "required": [
+                            "id",
+                            "name",
+                            "product_type",
+                            "product_type_display",
+                            "min_amount",
+                            "max_amount",
+                            "min_rate",
+                            "max_rate",
+                            "min_term",
+                            "max_term",
+                            "description",
+                            "features"
+                        ]
+                    },
+                    "minItems":0
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "count",
+                "products"
+            ]
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "status",
+        "data"
+    ]
+}

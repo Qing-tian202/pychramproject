@@ -15,7 +15,8 @@ from .build_submit_realnameinfo import build_submitinfo_data,build_submitinfo_js
 from .build_get_realnameinfo import build_getrealnameinfo_data,build_getrealnameinfo_jsonschema
 from .build_photo import build_getphoto_data,build_getphoto_jsonschema
 from .build_change_photo import build_changephoto_data,build_changephoto_jsonschema
-
+from .build_products_list_data import build_productslist_data,build_productslist_jsonschema
+from .build_chosen_product_data import build_productid_data,build_productid_jsonschema
 
 __all__ = ['build_login_data','build_login_jsonschema',
            'build_logout_data','build_logout_jsonschema',
@@ -30,4 +31,6 @@ __all__ = ['build_login_data','build_login_jsonschema',
            'build_submitinfo_data','build_submitinfo_jsonschema',
            'build_getrealnameinfo_data','build_getrealnameinfo_jsonschema',
            'build_getphoto_data','build_getphoto_jsonschema',
-           'build_changephoto_data','build_changephoto_jsonschema']
+           'build_changephoto_data','build_changephoto_jsonschema',
+           'build_productslist_data','build_productslist_jsonschema',
+           'build_productid_data','build_productid_jsonschema']

@@ -1,0 +1,42 @@
+{
+    "type": "object",
+    "properties": {
+        "status": {
+            "type": "integer"
+        },
+        "message": {
+            "type": "string"
+        },
+        "data": {
+            "type": "object",
+            "properties": {
+                "document_id": {
+                    "type": "integer"
+                },
+                "file_name": {
+                    "type": "string"
+                },
+                "status_updated": {
+                    "type": "boolean"
+                },
+                "new_status": {
+                    "type": "string"
+                },
+                "message_extra": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "document_id",
+                "file_name"
+            ]
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "status",
+        "message",
+        "data"
+    ]
+}

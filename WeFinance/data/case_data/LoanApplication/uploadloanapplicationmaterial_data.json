@@ -1,0 +1,32 @@
+[
+  {
+    "username": "testuser",
+    "password": "test123456",
+    "param" : {
+         "application_id": 70,
+         "document_type": "id_card",
+         "file_path":"C:/Users/test37/Pictures/ji.jpg"
+    },
+    "status": 200
+  },
+  {
+    "username": "testuser",
+    "password": "test123456",
+    "param" : {
+         "application_id": 70,
+         "document_type": "income_proof",
+         "file_path":"C:/Users/test37/Pictures/ji.jpg"
+    },
+    "status": 200
+  },
+  {
+    "username": "testuser",
+    "password": "test123456",
+    "param" : {
+         "application_id": 70,
+         "document_type": "bank_statement",
+         "file_path":"C:/Users/test37/Pictures/ji.jpg"
+    },
+    "status": 200
+  }
+]

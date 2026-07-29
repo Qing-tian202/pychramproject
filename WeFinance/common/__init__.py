@@ -19,6 +19,10 @@ from .build_products_list_data import build_productslist_data,build_productslist
 from .build_chosen_product_data import build_productid_data,build_productid_jsonschema
 from .build_submitloanapplication import build_subloanapplication_data,build_subloanapplication_jsonschema
 from .build_my_loan_applications import build_myloanapplications_data,build_myloanapplications_jsonschema
+from .build_chosen_laon_application_info import build_chosenloanapplicationinfo_data,build_chosenloanapplicationinfo_jsonschema
+from .build_upload_application_material import build_uploadloanapplicationmaterial_data,build_uploadloanapplicationmaterial_jsonschema
+from .build_generate_contract import build_generatecontract_data,build_generatecontract_jsonschema
+from .build_signature_contract import build_signaturecontract_data,build_signaturecontract_jsonschema
 
 __all__ = ['build_login_data','build_login_jsonschema',
            'build_logout_data','build_logout_jsonschema',
@@ -37,4 +41,8 @@ __all__ = ['build_login_data','build_login_jsonschema',
            'build_productslist_data','build_productslist_jsonschema',
            'build_productid_data','build_productid_jsonschema',
            'build_subloanapplication_data','build_subloanapplication_jsonschema',
-           'build_myloanapplications_data','build_myloanapplications_jsonschema']
+           'build_myloanapplications_data','build_myloanapplications_jsonschema',
+           'build_chosenloanapplicationinfo_data','build_chosenloanapplicationinfo_jsonschema',
+           'build_uploadloanapplicationmaterial_data','build_uploadloanapplicationmaterial_jsonschema',
+           'build_generatecontract_data','build_generatecontract_jsonschema',
+           'build_signaturecontract_data','build_signaturecontract_jsonschema']

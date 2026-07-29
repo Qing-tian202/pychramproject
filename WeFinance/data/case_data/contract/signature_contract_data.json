@@ -1,0 +1,38 @@
+[
+  {
+    "username": "testuser",
+    "password": "test123456",
+    "params": {
+      "application_id":69
+    },
+    "status": 200
+  },
+  {
+    "username": "testuser",
+    "password": "test123456",
+    "params": {
+      "application_id":70
+    },
+    "status": 400,
+    "message": "申请状态不符合签约条件"
+  },
+  {
+    "username": "testuser",
+    "password": "test123456",
+    "params": {
+      "application_id":71
+    },
+    "status": 404,
+    "message": "合同不存在，请先生成合同"
+  },
+  {
+    "username": "testuser",
+    "password": "test123456",
+    "params": {
+      "application_id":69
+    },
+    "status": 400,
+    "message": "合同状态不符合签约条件，当前状态：已签约"
+  }
+
+]

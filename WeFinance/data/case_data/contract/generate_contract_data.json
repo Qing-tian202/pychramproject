@@ -1,0 +1,31 @@
+[
+  {
+    "username": "testuser",
+    "password": "test123456",
+    "params": {
+        "application_id":69,
+        "is_online":true
+    },
+    "status": 200
+  },
+  {
+    "username": "testuser",
+    "password": "test123456",
+    "params": {
+        "application_id":70,
+        "is_online":true
+    },
+    "status": 400,
+    "message": "申请尚未通过审核"
+  },
+  {
+    "username": "testuser",
+    "password": "test123456",
+    "params": {
+        "application_id":69,
+        "is_online":false
+    },
+    "status": 401,
+    "message": "请先登录"
+  }
+]

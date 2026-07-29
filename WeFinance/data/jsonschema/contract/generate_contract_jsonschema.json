@@ -1,0 +1,49 @@
+{
+    "type": "object",
+    "properties": {
+        "status": {
+            "type": "integer"
+        },
+        "message": {
+            "type": "string"
+        },
+        "data": {
+            "type": "object",
+            "properties": {
+                "contract_id": {
+                    "type": "integer"
+                },
+                "contract_no": {
+                    "type": "string"
+                },
+                "contract_status": {
+                    "type": "string"
+                },
+                "status_display": {
+                    "type": "string"
+                },
+                "generated_at": {
+                    "type": "string"
+                },
+                "contract_content": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "contract_id",
+                "contract_no",
+                "contract_status",
+                "status_display",
+                "generated_at",
+                "contract_content"
+            ]
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "status",
+        "message",
+        "data"
+    ]
+}

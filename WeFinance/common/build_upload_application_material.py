@@ -1,0 +1,20 @@
+import sys
+import os
+
+# 添加项目根目录到路径
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+
+
+import json
+from tools.tool import BASE_DIR, DATA_DIR
+
+def build_uploadloanapplicationmaterial_data():
+    with open(f"{DATA_DIR}/case_data/LoanApplication/uploadloanapplicationmaterial_data.json", 'r',encoding='utf-8') as f:
+        return json.load(f)
+
+
+def build_uploadloanapplicationmaterial_jsonschema():
+    with open(f"{DATA_DIR}/jsonschema/LoanApplication/uploadloanapplicationmaterial_jsonschema.json", 'r',encoding='utf-8') as f:
+        return json.load(f)

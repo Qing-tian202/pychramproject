@@ -9,22 +9,22 @@ if project_root not in sys.path:
 import pytest
 import allure
 import jsonschema
-from case.LoanApplication import get_my_loan_application
-from common import build_myloanapplications_data,build_myloanapplications_jsonschema
+from case.LoanApplication import upload_loan_application_material
+from common import build_uploadloanapplicationmaterial_data,build_uploadloanapplicationmaterial_jsonschema
 
 @allure.epic("借款申请")
-@allure.story("获取我的借款申请列表")
-@allure.title("查询测试")
-@pytest.mark.parametrize("user_data",build_myloanapplications_data())
-def Testmyloanapplication(user_data):
-    res = get_my_loan_application(user_data.get("username"),user_data.get("password"))
+@allure.story("上传借款资料")
+@allure.title("上传测试")
+@pytest.mark.parametrize("user_data",build_uploadloanapplicationmaterial_data())
+def Testuploadloanapplicationmaterial(user_data):
+    res = upload_loan_application_material(user_data.get("username"),user_data.get("password"),user_data.get("param"))
 
     with allure.step("响应状态码断言"):
         assert res.status_code == user_data.get("status")
 
     if res.status_code == user_data.get("status") and res.status_code < 400:
         with allure.step("jsonschema断言"):
-            jsonschema.validate(res.json(),build_myloanapplications_jsonschema())
+            jsonschema.validate(res.json(),build_uploadloanapplicationmaterial_jsonschema())
 
     if res.status_code >= 400:
         with allure.step("message断言"):

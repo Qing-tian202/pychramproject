@@ -1,0 +1,85 @@
+{
+    "type": "object",
+    "properties": {
+        "status": {
+            "type": "integer"
+        },
+        "data": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "application_no": {
+                    "type": "string"
+                },
+                "product_name": {
+                    "type": "string"
+                },
+                "product_type": {
+                    "type": "string"
+                },
+                "amount": {
+                    "type": "string"
+                },
+                "term": {
+                    "type": "integer"
+                },
+                "purpose": {
+                    "type": "string"
+                },
+                "status": {
+                    "type": "string"
+                },
+                "status_display": {
+                    "type": "string"
+                },
+                "submitted_at": {
+                    "type": "string"
+                },
+                "reviewed_at": {
+                    "type": ["null","string"]
+                },
+                "approved_at": {
+                    "type": ["null","string"]
+                },
+                "rejected_reason": {
+                    "type": ["null","string"]
+                },
+                "repayment_plans": {
+                    "type": "array"
+                },
+                "documents": {
+                    "type": "array"
+                },
+                "credit_score": {
+                    "type": ["null","string"]
+                },
+                "risk_level": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "id",
+                "application_no",
+                "product_name",
+                "product_type",
+                "amount",
+                "term",
+                "purpose",
+                "status",
+                "status_display",
+                "submitted_at",
+                "repayment_plans",
+                "documents",
+                "risk_level"
+            ]
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "status",
+        "data"
+    ]
+}

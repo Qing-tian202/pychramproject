@@ -23,7 +23,14 @@
                     "type": "string"
                 },
                 "id_number": {
-                    "type": "string"
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ]
                 },
                 "is_verified": {
                     "type": "boolean"
@@ -35,7 +42,14 @@
                     "type": "string"
                 },
                 "birthday": {
-                    "type": "string"
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ]
                 },
                 "education": {
                     "type": "string"
@@ -47,7 +61,14 @@
                     "type": "string"
                 },
                 "monthly_income": {
-                    "type": "string"
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ]
                 },
                 "address": {
                     "type": "string"
@@ -64,9 +85,11 @@
                 "is_verified",
                 "verification_status",
                 "gender",
+                "birthday",
                 "education",
                 "occupation",
                 "company",
+                "monthly_income",
                 "address"
             ]
         }

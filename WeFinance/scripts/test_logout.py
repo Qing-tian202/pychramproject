@@ -22,6 +22,6 @@ def Testlogout(logout_data):
     with allure.step("响应状态码断言"):
         assert res.status_code == logout_data.get("status")
 
-    if res.status_code == 200:
+    if res.status_code == logout_data.get("status") and res.status_code < 400:
         with allure.step("jsonschema断言"):
             jsonschema.validate(res.json(),build_logout_jsonschema())

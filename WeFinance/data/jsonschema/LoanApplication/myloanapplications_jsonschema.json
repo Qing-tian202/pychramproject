@@ -1,0 +1,93 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "status": {
+            "type": "integer"
+        },
+        "data": {
+            "type": "object",
+            "properties": {
+                "total": {
+                    "type": "integer"
+                },
+                "page": {
+                    "type": "integer"
+                },
+                "page_size": {
+                    "type": "integer"
+                },
+                "applications": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "id": {
+                                "type": "integer"
+                            },
+                            "application_no": {
+                                "type": "string"
+                            },
+                            "product_name": {
+                                "type": "string"
+                            },
+                            "product_type": {
+                                "type": "string"
+                            },
+                            "amount": {
+                                "type": "string"
+                            },
+                            "term": {
+                                "type": "integer"
+                            },
+                            "status": {
+                                "type": "string"
+                            },
+                            "status_display": {
+                                "type": "string"
+                            },
+                            "submitted_at": {
+                                "type": "string"
+                            },
+                            "reviewed_at": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "purpose": {
+                                "type": "string"
+                            }
+                        },
+                        "additionalProperties": false,
+                        "required": [
+                            "id",
+                            "application_no",
+                            "product_name",
+                            "product_type",
+                            "amount",
+                            "term",
+                            "status",
+                            "status_display",
+                            "submitted_at",
+                            "purpose"
+                        ]
+                    },
+                    "minItems": 0
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "total",
+                "page",
+                "page_size",
+                "applications"
+            ]
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "status",
+        "data"
+    ]
+}

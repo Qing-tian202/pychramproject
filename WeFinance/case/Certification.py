@@ -51,17 +51,19 @@ def user_info(username,password,is_online):
     if is_online:
         response = login(username, password)
     else:
-        response = None
+        response = logout(username, password)
 
     response = session.get(WF_HOST+api)
 
     return response
 
 
-import json
-
+# import json
+# from common.build_user import build_user_data,build_user_jsonschema
+#
 # if __name__ == '__main__':
-#     response = user_info('user1',
-#                       '1234567890',
-#                          False)
-#     print(json.dumps(response.json(), indent=4))
+#     for user in build_user_data():
+#         print(user)
+#         response = user_info(user['username'],user['password'],user['is_online'])
+#
+#         print(json.dumps(response.json(), indent=4))

@@ -3,7 +3,7 @@
     "username": "testuser",
     "password": "test123456",
     "remember_me": true,
-    "is_online": true,
+    "is_online": 1,
     "status": 201,
     "new_card": {
       "bank_name": "中国工商银行",

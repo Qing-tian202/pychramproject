@@ -5,20 +5,202 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="713bc543-929e-42df-bd6a-697482fe5177" name="更改" comment="python WeFinance自动化测试，实名认证接口">
-      <change afterPath="$PROJECT_DIR$/WeFinance/case/BorrowProducts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeFinance/common/build_chosen_product_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeFinance/common/build_products_list_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeFinance/data/case_data/productions/product_id_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeFinance/data/case_data/productions/productlist_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeFinance/data/jsonschema/productions/product_id_jsonschema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeFinance/data/jsonschema/productions/productlist_jsonschema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeFinance/scripts/test_get_chosen_product_info.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeFinance/scripts/test_get_products_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/case/LoanApplication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/common/build_my_loan_applications.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/common/build_submitloanapplication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/data/case_data/LoanApplication/myloanapplications_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/data/case_data/LoanApplication/submitloanapplication_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/data/jsonschema/LoanApplication/myloanapplications_jsonschema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/data/jsonschema/LoanApplication/submitloanapplication_jsonschema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/scripts/test_get_my_loan_applications.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/scripts/test_submit_loanapplication.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Python_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_Project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/1a45fb3b65600d3b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/1b2ab3ec4c8e35a4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/45c0e83301b0f8a8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/46ce17402f343418.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/5eb63e62c3ea1f8c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/62296f29e9600d57.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/7df0cdafee55a5d7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/7feab20fda4f43e1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/89927fbaf4d9ed57.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/90fb08bb5c4a810.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/970f426f320e2275.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/9a81cae5d44add77.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/9a83faad210a7a3b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/9c7227b1db97f53c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/af1944715cb0b1e4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/b671979398087c7b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/bb1e05def94302c4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/db74bb5127ce28a9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/f9ebffbb9875f51d.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/fbbd15f073f64d04.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/attachments/fe61f04e0adc01f8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/data/behaviors.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/data/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/data/categories.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/data/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/data/packages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/data/suites.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/data/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/19ff89c3a7ac71b0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/22fd33a838048270.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/25ab904ed79fda54.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/32eebcdab88a5ab3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/49a3695a8c47bf7c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/4a0d6b05ca98ac58.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/4ca7279b3086c9fc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/4e0af8b98a9656fa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/5f8addfa00dfdfc9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/7406b9c4ccca1bf9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/83159de48f6d6478.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/8633166f30d25e4d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/978455854d099214.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/a75857e0c8073b4d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/ac52766d7306f8dd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/bdc2d0c0514b5668.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/c4193d226bd4930f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/cb62ddbe144186f0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/cff32310b229deb5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/d8d4670ed1ec17b6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/test-cases/f7b34ada336f37d7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/data/timeline.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/export/influxDbData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/export/prometheusData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/history/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/history/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/history/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/history/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/history/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/widgets/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/widgets/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/widgets/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/widgets/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/widgets/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/widgets/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/widgets/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/widgets/duration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/widgets/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/widgets/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/widgets/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/widgets/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/widgets/severity.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/widgets/status-chart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/widgets/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/allure_report/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/allure_report/widgets/summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/case/Certification.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/case/Certification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/case/Information.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/case/Information.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/case/RealNameVerification.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/case/RealNameVerification.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeFinance/case/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/case/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeFinance/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/common/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/data/case_data/Information/profile_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/data/case_data/Information/profile_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/data/case_data/Information/update_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/data/case_data/Information/update_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/data/case_data/cardmanagement/addcard_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/data/case_data/cardmanagement/addcard_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/data/case_data/cardmanagement/cardlist_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/data/case_data/cardmanagement/cardlist_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/data/case_data/cardmanagement/deletecard_date.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/data/case_data/cardmanagement/deletecard_date.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/data/case_data/cardmanagement/updatecard_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/data/case_data/cardmanagement/updatecard_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/data/case_data/certification/user_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/data/case_data/certification/user_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/data/case_data/productions/product_id_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/data/case_data/productions/product_id_data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeFinance/data/case_data/realnameverification/changephoto_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/data/case_data/realnameverification/changephoto_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/data/jsonschema/Information/profile_jsonschema.json" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/data/jsonschema/Information/profile_jsonschema.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/075c05d7-387d-40d7-9206-973974e73b00-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/08d46ce5-6cda-430f-b6e3-f294af1be248-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/103baf96-9a67-454d-8604-ccbc20c9aa2f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/10ee3f65-d85c-4ef0-b044-0bd80f751353-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/1349147c-277b-49ab-8765-8adb5ba3bbff-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/16aecf5f-03a2-411f-b4b5-d6e5e75722cf-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/187f2a2e-59ca-46a8-aaa2-8947b1033ddb-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/18f7cead-1b0a-4a60-bae9-34ca41d41032-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/1a80871a-8681-419e-b02e-5647c088a890-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/1bf65a09-2555-4d52-bb0e-e141141d47b7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/1c46e162-9b72-4d41-8ed2-fa206bd63833-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/2112af34-8edb-4453-9a3c-66717654b6ec-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/23f5c152-497c-4d77-bbc1-5083c30b3a7b-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/2468432f-ec92-44d0-ba7e-f617c50fa261-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/27158515-d508-4d35-b52a-ed5a7b0eba39-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/27a3014b-3760-465f-a3bd-0406b9e6326e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/27bce317-b3e0-4e91-86ed-54a291d400fa-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/30e870e9-5739-4002-9c68-dc7457c14a3b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/32258f80-596d-4797-a98b-d5aff0a15abf-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/328de863-41b5-4713-91f0-4d212aba7e7b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/34527515-dee4-44d5-afd1-3ca3cd0c60d1-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/371cda33-c636-4a4e-851f-5ab08dd8e600-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/3cb1d080-da8d-44bb-9651-2097d4a86ed2-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/3da2fbea-6768-4959-a141-a43e94cc79ef-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/401a8934-9921-466b-9997-5ab892c527ad-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/40df0c2f-e3da-49e1-ba87-3f91e4de194f-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/43f7b41d-89e8-4b7a-b429-e848d93b2162-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/496ecb53-b4e2-4fef-8cb5-e57bb409b09d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/4db38618-05f0-47fb-8f30-0fc9560db1fc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/4fc2346e-f296-4dd5-be5a-cc99f29b4bae-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/53d51aad-200c-4d11-945f-3257e8f7c45d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/5867686c-9698-4f70-8917-dcb085e9dd36-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/59ee7265-1aed-414e-8c62-773af6cca686-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/5a198c0c-e681-470a-93a1-ab33adb5a1a2-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/5c10669e-c8a1-4c47-b5f5-d8a2942401d2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/5c1c835a-e23c-40b3-932f-c273608c4095-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/5c43e943-f278-4b21-8d3f-57f51b96b128-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/5d7db394-fc5d-4443-a640-c0e1f538dd75-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/5e8fc93f-b980-4670-ace4-6e499a6cb6bb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/602900fc-dfce-41f9-a624-dff976e2f65e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/6585afd2-24a0-4b31-b6ca-be8574937fc5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/68de36cf-ff6f-46da-b082-a1e0096e71e5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/73e8bf8c-b943-442d-b7a2-b1e2fcd034c9-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/7827338c-d91e-4e0e-b0d6-b776633e54b5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/7ab52d7d-572b-47db-9b75-e3c94b62be65-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/7d707e86-de7e-4282-bc7f-fc254a6c4a84-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/81f9d6cd-d203-4393-a753-1c8d8cb90511-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/829fe9df-707f-404a-98a4-d0f9530bfa1a-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/83f66246-5409-41f5-8c4e-adb8d249483d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/8691043d-c83c-4634-9127-dd615ee32d31-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/8aaeba63-6b6e-438d-b957-ec8cbf348a4e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/8f2cb24b-15dd-41f8-90a6-a9010be2a8e9-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/9457a57c-df12-4fe0-8b41-b7a369f5af46-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/94756f1b-4c8f-48ab-a9d7-799233c7b923-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/9849f359-d81d-48a8-9138-7d865f42acca-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/9c2e180a-f16d-40cc-839d-f8c27d653efc-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/9caac98f-852b-4255-9f33-1e4a8661d016-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/9d8f5d76-ad3d-46dc-968e-31648fd6f188-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/a0377248-2fc0-405f-b419-f5a7df020535-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/a0eeea98-9c17-442e-aa23-5087eff38a4b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/a253c7a8-b106-4bff-8db1-e9d4657a7d3d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/a9eb8a6d-1fc3-41c3-8e0a-627cdbdfda4a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/af65a69e-06fe-49b6-ae7f-03619c5f8154-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/b119a5ca-63e6-43bf-9a28-c2a9eb5a9f93-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/b2fd7c50-4b47-4343-bd41-ca050021e6ce-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/b712de3a-5e93-4b78-836c-7b1e9926064a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/bb0c4c9b-f2cd-4d43-91b3-661ab309634e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/bc817b00-1be7-42e4-a497-4f2ffc7dbc04-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/c0f69d0f-78b9-4550-964a-a096ad2512fd-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/c96ba952-3268-4b0d-804a-8da492b07d4f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/d0033129-0a13-41a3-ad71-92849b8308d7-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/d00a522e-130a-42f2-a6bc-a7c4b18e7ca9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/d03e994b-2871-4f13-8855-1a1922e88d56-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/d4581df0-2949-4c84-9e41-cc55e7a52f23-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/d4fc0cdd-54ce-438c-905f-9ffefa9fa30f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/d5cd2df1-4438-4861-bc2a-4fbed7b4fd1d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/dee3605b-1d01-453b-8b6a-54a638a1264a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/e081e6ee-0fd5-43fb-b9d3-6ba96ca2b9d6-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/e47752de-1c2e-4e3d-b264-b3705c91ec66-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/e94a97d5-88bc-46e3-a190-828ef8511ca6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/ea6bf75c-82df-411f-9c47-ec8ab99972d4-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/f62b4b0c-915b-4aab-b5c5-11ccacbdecc8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/f66be89f-83c6-463e-a263-9b6ad6375afd-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/f9cf2f78-9935-42d6-b6e7-6f65127b2a26-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/results/fa3ec22b-f406-4028-891a-ab994ea48c85-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/scripts/test_add_card.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/scripts/test_add_card.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/scripts/test_change_photo.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/scripts/test_change_photo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/scripts/test_delete_card.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/scripts/test_delete_card.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/scripts/test_get_cardlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/scripts/test_get_cardlist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/scripts/test_get_chosen_product_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/scripts/test_get_chosen_product_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/scripts/test_get_infomation.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/scripts/test_get_infomation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/scripts/test_get_photo.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/scripts/test_get_photo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/scripts/test_get_products_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/scripts/test_get_products_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/scripts/test_get_realnameinfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/scripts/test_get_realnameinfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/scripts/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/scripts/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/scripts/test_logout.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/scripts/test_logout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/scripts/test_signup.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/scripts/test_signup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/scripts/test_submit_certification.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/scripts/test_submit_certification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/scripts/test_update_card.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/scripts/test_update_card.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/scripts/test_update_information.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/scripts/test_update_information.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/scripts/test_user_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/scripts/test_user_info.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,49 +244,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python 测试.Python 测试 (test_http.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.test.test1.test 的 Python 测试.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ApplicationInterface.executor&quot;: &quot;Run&quot;,
-    &quot;Python.BankCardManagement.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DBTool.executor&quot;: &quot;Run&quot;,
-    &quot;Python.EmployeeInformationManagementSystem.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Manage.executor&quot;: &quot;Run&quot;,
-    &quot;Python.RealNameVerification.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Student.executor&quot;: &quot;Run&quot;,
-    &quot;Python.a.executor&quot;: &quot;Run&quot;,
-    &quot;Python.build_login_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.get_login.executor&quot;: &quot;Run&quot;,
-    &quot;Python.http_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (3).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.python_assignment10.executor&quot;: &quot;Run&quot;,
-    &quot;Python.python_assignment7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.temp.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_login.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/pychramproject/WeFinance&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python 测试.Python 测试 (test_http.py 内).executor": "Run",
+    "Python 测试.test.test1.test 的 Python 测试.executor": "Run",
+    "Python.ApplicationInterface.executor": "Run",
+    "Python.BankCardManagement.executor": "Run",
+    "Python.Certification (1).executor": "Run",
+    "Python.DBTool.executor": "Run",
+    "Python.EmployeeInformationManagementSystem.executor": "Run",
+    "Python.LoanApplication.executor": "Run",
+    "Python.Manage.executor": "Run",
+    "Python.RealNameVerification.executor": "Run",
+    "Python.Student.executor": "Run",
+    "Python.a.executor": "Run",
+    "Python.build_login_data.executor": "Run",
+    "Python.get_login.executor": "Run",
+    "Python.http_test.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main (2).executor": "Run",
+    "Python.main (3).executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.python_assignment10.executor": "Run",
+    "Python.python_assignment7.executor": "Run",
+    "Python.temp.executor": "Run",
+    "Python.test1.executor": "Run",
+    "Python.test2.executor": "Run",
+    "Python.test_login.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/pychramproject/WeFinance",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="Python_Project" is-module-sdk="true">
@@ -127,7 +311,7 @@
       <recent name="E:\pychramproject\http_test\API_test\tools" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.RealNameVerification">
+  <component name="RunManager" selected="Python.LoanApplication">
     <configuration name="BankCardManagement" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Project" />
       <option name="ENV_FILES" value="" />
@@ -145,6 +329,30 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WeFinance/case/BankCardManagement.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Certification (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WeFinance/case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WeFinance/case/Certification.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,7 +386,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="DBTool" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="LoanApplication" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,14 +395,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Rewrite_StudentManageSystem/tools" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WeFinance/case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Rewrite_StudentManageSystem/tools/DBTool.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WeFinance/case/LoanApplication.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -228,31 +435,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_Project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Rewrite_StudentManageSystem" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Rewrite_StudentManageSystem/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test_http" type="tests" factoryName="Autodetect">
       <module name="Python_Project" />
       <option name="ENV_FILES" value="" />
@@ -272,20 +454,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.Certification (1)" />
+      <item itemvalue="Python.LoanApplication" />
       <item itemvalue="Python.BankCardManagement" />
       <item itemvalue="Python.RealNameVerification" />
       <item itemvalue="Python.Certification" />
-      <item itemvalue="Python.DBTool" />
-      <item itemvalue="Python.main" />
       <item itemvalue="Python 测试.test_http" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.LoanApplication" />
+        <item itemvalue="Python.Certification (1)" />
         <item itemvalue="Python.RealNameVerification" />
         <item itemvalue="Python.BankCardManagement" />
         <item itemvalue="Python.Certification" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.DBTool" />
       </list>
     </recent_temporary>
   </component>

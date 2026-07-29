@@ -12,13 +12,30 @@ from tools.tool import WF_HOST
 
 session = requests.Session()
 
+def login(username, password, remember_me:Optional[Union[str, bool]] = False):
+    api = '/auth/api/login/'
+
+    data = {'username': username, 'password': password, 'remember_me': remember_me}
+
+    response = session.post(WF_HOST+api, json=data)
+
+    return response
+
+def logout(username, password):
+    api = '/auth/api/logout/'
+
+    response = login(username, password)
+    response = session.post(WF_HOST+api)
+
+    return response
+
 def get_profile(username,password,is_online):
     api = '/auth/api/profile/'
 
     if is_online:
-        response = session.post(WF_HOST+'/auth/api/login/',json={'username':username,'password':password})
+        response = login(username, password)
     else:
-        response = None
+        response = logout(username, password)
 
     response = session.get(WF_HOST+api)
 
@@ -28,9 +45,9 @@ def update_profile(username,password,is_online,data):
     api = '/auth/api/profile/update/'
 
     if is_online:
-        response = session.post(WF_HOST+'/auth/api/login/',json={'username':username,'password':password})
+        response = login(username, password)
     else:
-        response = None
+        response = logout(username, password)
 
     response = session.post(WF_HOST+api,json=data)
 

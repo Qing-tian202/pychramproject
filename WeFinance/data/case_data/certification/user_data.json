@@ -3,7 +3,7 @@
     "username": "testuser",
     "password": "test123456",
     "remember_me": true,
-    "is_online": true,
+    "is_online": 1,
     "status": 200,
     "data": {
         "user_id": 17,
@@ -22,7 +22,7 @@
     "username": "user1",
     "password": "1234567890",
     "remember_me": true,
-    "is_online": false,
+    "is_online": 0,
     "status": 401,
     "message": "请先登录"
   }

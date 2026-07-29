@@ -25,7 +25,7 @@
   {
     "username": "newuser",
     "password": "NewPass123",
-    "avatar_path": "D:/Pictures/jinnaluo.jpg",
+    "avatar_path": "D:/picture/violet.jpg",
     "image_type": "image/jpeg",
     "status": 400,
     "message": "图片大小不能超过2MB"

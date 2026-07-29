@@ -1,5 +1,0 @@
-[32mINFO    [0m tools.Logger:conftest.py:98 
-[开始测试] Testdeletecard[user_data0]
-[32mINFO    [0m tools.Logger:conftest.py:107 
-[结束测试] Testdeletecard[user_data0]，耗时: 0.410秒
-[32mINFO    [0m tools.Logger:conftest.py:108 ----------------------------------------

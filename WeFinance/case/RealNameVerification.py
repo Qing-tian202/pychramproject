@@ -77,15 +77,18 @@ def change_photo(username,password,avatar_path,image_type):
 
     api = '/auth/api/avatar/update/'
 
-    image_name = os.path.basename(avatar_path)
-    print(image_name)
+    if avatar_path == "":
+        response = session.post(WF_HOST + api)
+        return response
+    else:
+        image_name = os.path.basename(avatar_path)
 
-    with open(avatar_path, 'rb') as avatar_file:
-        files = {'avatar': (image_name, avatar_file,image_type)}
+        with open(avatar_path, 'rb') as avatar_file:
+            files = {'avatar': (image_name, avatar_file,image_type)}
 
-        response = session.post(WF_HOST + api, files=files)
+            response = session.post(WF_HOST + api, files=files)
 
-    return response
+        return response
 
 
 # import json
@@ -100,6 +103,7 @@ def change_photo(username,password,avatar_path,image_type):
 #     #     "id_back_image":"image/jpeg",
 #     # }
 #
-#     response = change_photo("newuser","NewPass123","C:/Users/test37/Pictures/ji.jpg","image/jpeg")
+#     response = change_photo("testuser","test123456","","image/jpeg")
 #
-#     print(json.dumps(response.json(), indent=4))
+#     # print(json.dumps(response.json(), indent=4))
+#     print(response.json())

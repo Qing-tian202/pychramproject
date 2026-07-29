@@ -3,9 +3,9 @@
     "username": "testuser",
     "password": "test123456",
     "remember_me": true,
-    "is_online": true,
+    "is_online": 1,
     "status": 200,
-    "card_id": 42,
+    "card_id": 43,
     "message": "银行卡删除成功"
   }
 ]

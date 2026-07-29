@@ -1,0 +1,64 @@
+[
+  {
+    "username": "testuser",
+    "password": "test123456",
+    "params": {
+      "product_id": 30,
+      "amount": 30000,
+      "term": 12,
+      "purpose": "个人消费",
+      "purpose_detail": "购买家用电器和家具",
+      "profession": "企业职工",
+      "monthly_income": 15000,
+      "monthly_debt": 3000,
+      "company_name": "某某科技有限公司",
+      "work_years": 5,
+      "contact_name": "张三",
+      "contact_phone": "13800138000",
+      "contact_relation": "父母"
+    },
+    "status": 201
+  },
+  {
+    "username": "newuser",
+    "password": "NewPass123",
+    "params": {
+      "product_id": 30,
+      "amount": 30000,
+      "term": 12,
+      "purpose": "个人消费",
+      "purpose_detail": "购买家用电器和家具",
+      "profession": "企业职工",
+      "monthly_income": 15000,
+      "monthly_debt": 3000,
+      "company_name": "某某科技有限公司",
+      "work_years": 5,
+      "contact_name": "张三",
+      "contact_phone": "13800138000",
+      "contact_relation": "父母"
+    },
+    "status": 403,
+    "message": "请先完成实名认证后再申请借款"
+  },
+  {
+    "username": "testuser",
+    "password": "test123456",
+    "params": {
+      "product_id": 30,
+      "amount": 400,
+      "term": 12,
+      "purpose": "个人消费",
+      "purpose_detail": "购买家用电器和家具",
+      "profession": "企业职工",
+      "monthly_income": 15000,
+      "monthly_debt": 400,
+      "company_name": "某某科技有限公司",
+      "work_years": 5,
+      "contact_name": "张三",
+      "contact_phone": "13800138000",
+      "contact_relation": "父母"
+    },
+    "status": 400,
+    "message": "借款金额必须在1000.00-50000.00之间"
+  }
+]

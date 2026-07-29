@@ -17,9 +17,12 @@ from .RealNameVerification import photo_image
 from .RealNameVerification import change_photo
 from .BorrowProducts import get_borrow_products_list
 from .BorrowProducts import get_product_info
+from .LoanApplication import submit_application
+from .LoanApplication import get_my_loan_application
 
 __all__ = ['login','signup','logout','user_info',
            'get_profile','update_profile',
            'get_card_list','add_card','update_card','delete_card',
            'submit_real_name','get_real_name_info','photo_image','change_photo',
-           'get_product_info','get_borrow_products_list']
+           'get_product_info','get_borrow_products_list',
+           'submit_application','get_my_loan_application']

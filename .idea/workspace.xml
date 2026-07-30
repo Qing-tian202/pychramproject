@@ -4,29 +4,32 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="713bc543-929e-42df-bd6a-697482fe5177" name="更改" comment="python WeFinance自动化测试，借款产品接口">
-      <change afterPath="$PROJECT_DIR$/WeFinance/case/Contract.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeFinance/common/build_chosen_laon_application_info.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeFinance/common/build_generate_contract.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeFinance/common/build_signature_contract.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeFinance/common/build_upload_application_material.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeFinance/data/case_data/LoanApplication/chosenloanapplication_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeFinance/data/case_data/LoanApplication/uploadloanapplicationmaterial_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeFinance/data/case_data/contract/generate_contract_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeFinance/data/case_data/contract/signature_contract_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeFinance/data/jsonschema/LoanApplication/chosenloanapplication_jsonschema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeFinance/data/jsonschema/LoanApplication/uploadloanapplicationmaterial_jsonschema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeFinance/data/jsonschema/contract/generate_contract_jsonschema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeFinance/data/jsonschema/contract/signature_contract_jsonschema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeFinance/scripts/test_generate_contract.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeFinance/scripts/test_get_chosen_loan_application_info.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeFinance/scripts/test_signature_contract.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeFinance/scripts/test_upload_loan_application_material.py" afterDir="false" />
+    <list default="true" id="713bc543-929e-42df-bd6a-697482fe5177" name="更改" comment="python WeFinance自动化测试，合同相关接口-签署合同">
+      <change afterPath="$PROJECT_DIR$/WeFinance/case/Repayment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/common/build_get_chosen_contract_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/common/build_get_credit_score.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/common/build_get_disbured_contract.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/common/build_get_quota_limit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/common/build_repayment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/data/case_data/Repayment/credit_score_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/data/case_data/Repayment/quota_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/data/case_data/Repayment/repayment_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/data/case_data/contract/get_chosen_contract_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/data/case_data/contract/get_disbursement_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/data/jsonschema/Repayment/credit_score_jsonschema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/data/jsonschema/Repayment/quota_jsonschema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/data/jsonschema/Repayment/repayment_jsonschema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/data/jsonschema/contract/get_chosen_contract_jsonschema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/data/jsonschema/contract/get_disbursement_jsonschema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/scripts/test_get_chosen_contract_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/scripts/test_get_credit_score.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/scripts/test_get_disbursed_contract_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/scripts/test_get_quota_limit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeFinance/scripts/test_repayment.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/case/LoanApplication.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/case/LoanApplication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeFinance/case/Contract.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/case/Contract.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeFinance/case/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/case/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeFinance/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/common/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeFinance/scripts/test_get_my_loan_applications.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeFinance/scripts/test_get_my_loan_applications.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +115,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -473,7 +476,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785306783779</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="python WeFinance自动化测试，合同相关接口-签署合同">
+      <option name="closed" value="true" />
+      <created>1785319105065</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1785319105065</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -507,7 +518,8 @@
     <MESSAGE value="python WeFinance自动化测试，添加银行卡接口" />
     <MESSAGE value="python WeFinance自动化测试，实名认证接口" />
     <MESSAGE value="python WeFinance自动化测试，借款产品接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="python WeFinance自动化测试，借款产品接口" />
+    <MESSAGE value="python WeFinance自动化测试，合同相关接口-签署合同" />
+    <option name="LAST_COMMIT_MESSAGE" value="python WeFinance自动化测试，合同相关接口-签署合同" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pychramproject$ApplicationInterface.coverage" NAME="ApplicationInterface 覆盖结果" MODIFIED="1785074997217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WeFinance/case" />

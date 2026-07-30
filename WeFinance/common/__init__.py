@@ -23,6 +23,11 @@ from .build_chosen_laon_application_info import build_chosenloanapplicationinfo_
 from .build_upload_application_material import build_uploadloanapplicationmaterial_data,build_uploadloanapplicationmaterial_jsonschema
 from .build_generate_contract import build_generatecontract_data,build_generatecontract_jsonschema
 from .build_signature_contract import build_signaturecontract_data,build_signaturecontract_jsonschema
+from .build_get_chosen_contract_info import build_getcontractinfo_data,build_getcontractinfo_jsonschema
+from .build_get_disbured_contract import build_getdisburedcontractinfo_data,build_getdisburedcontractinfo_jsonschema
+from .build_get_credit_score import build_getcreditscore_data,build_getcreditscore_jsonschema
+from .build_get_quota_limit import build_getquotalimit_data,build_getquotalimit_jsonschema
+from .build_repayment import build_getrepayment_data,build_getrepayment_jsonschema
 
 __all__ = ['build_login_data','build_login_jsonschema',
            'build_logout_data','build_logout_jsonschema',
@@ -45,4 +50,9 @@ __all__ = ['build_login_data','build_login_jsonschema',
            'build_chosenloanapplicationinfo_data','build_chosenloanapplicationinfo_jsonschema',
            'build_uploadloanapplicationmaterial_data','build_uploadloanapplicationmaterial_jsonschema',
            'build_generatecontract_data','build_generatecontract_jsonschema',
-           'build_signaturecontract_data','build_signaturecontract_jsonschema']
+           'build_signaturecontract_data','build_signaturecontract_jsonschema',
+           'build_getcontractinfo_data','build_getcontractinfo_jsonschema',
+           'build_getdisburedcontractinfo_data','build_getdisburedcontractinfo_jsonschema',
+           'build_getcreditscore_data','build_getcreditscore_jsonschema',
+           'build_getquotalimit_data','build_getquotalimit_jsonschema',
+           'build_getrepayment_data','build_getrepayment_jsonschema']

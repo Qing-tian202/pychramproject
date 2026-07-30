@@ -1,0 +1,12 @@
+[
+  {
+    "username": "testuser",
+    "password": "test123456",
+    "params": {
+      "plan_id": 1,
+      "amount": 2800,
+      "payment_method": "balance"
+      },
+    "status": 200
+  }
+]

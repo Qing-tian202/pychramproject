@@ -1,0 +1,61 @@
+{
+    "type": "object",
+    "properties": {
+        "status": {
+            "type": "integer"
+        },
+        "message": {
+            "type": "string"
+        },
+        "data": {
+            "type": "object",
+            "properties": {
+                "has_contract": {
+                    "type": "boolean"
+                },
+                "contract_id": {
+                    "type": "integer"
+                },
+                "contract_no": {
+                    "type": "string"
+                },
+                "contract_status": {
+                    "type": "string"
+                },
+                "status_display": {
+                    "type": "string"
+                },
+                "contract_content": {
+                    "type": "string"
+                },
+                "generated_at": {
+                    "type": "string"
+                },
+                "borrower_signed_at": {
+                    "type": "string"
+                },
+                "lender_signed_at": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "has_contract",
+                "contract_id",
+                "contract_no",
+                "contract_status",
+                "status_display",
+                "contract_content",
+                "generated_at",
+                "borrower_signed_at",
+                "lender_signed_at"
+            ]
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "status",
+        "message",
+        "data"
+    ]
+}

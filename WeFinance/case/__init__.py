@@ -12,7 +12,9 @@ from .BorrowProducts import get_borrow_products_list,get_product_info
 
 from .LoanApplication import submit_application,get_chosen_loan_application,get_my_loan_application,upload_loan_application_material
 
-from .Contract import generate_loan_contract,signature_contract
+from .Contract import generate_loan_contract,signature_contract,get_chosen_contract_info,get_disbursed_contract_info
+
+from .Repayment import get_credit_score,get_quota_limit,repayment
 
 __all__ = ['login','signup','logout','user_info',
            'get_profile','update_profile',
@@ -20,4 +22,5 @@ __all__ = ['login','signup','logout','user_info',
            'submit_real_name','get_real_name_info','photo_image','change_photo',
            'get_product_info','get_borrow_products_list',
            'submit_application','get_my_loan_application','get_chosen_loan_application','upload_loan_application_material',
-           'generate_loan_contract','signature_contract']
+           'generate_loan_contract','signature_contract','get_chosen_contract_info','get_disbursed_contract_info',
+           'get_credit_score','get_quota_limit','repayment']

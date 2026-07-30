@@ -52,6 +52,25 @@ def signature_contract(username,password,params):
     return response
 
 
+def get_chosen_contract_info(username,password,params):
+    api = f'/borrow/api/applications/{params.get("application_id")}/contract/'
+
+    response = login(username, password)
+    response = session.get(WF_HOST+api)
+
+    return response
+
+def get_disbursed_contract_info(username,password,params):
+
+    api = f'/borrow/api/applications/{params.get("application_id")}/disbursement/'
+
+    response = login(username, password)
+
+    response = session.get(WF_HOST+api)
+
+    return response
+
+
 # import json
 # if __name__ == '__main__':
 #     p = {

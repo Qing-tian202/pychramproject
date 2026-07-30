@@ -1,0 +1,37 @@
+{
+    "type": "object",
+    "properties": {
+        "status": {
+            "type": "integer"
+        },
+        "message": {
+            "type": "string"
+        },
+        "data": {
+            "type": "object",
+            "properties": {
+                "plan_id": {
+                    "type": "integer"
+                },
+                "paid_amount": {
+                    "type": "string"
+                },
+                "remaining_periods": {
+                    "type": "integer"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "plan_id",
+                "paid_amount",
+                "remaining_periods"
+            ]
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "status",
+        "message",
+        "data"
+    ]
+}

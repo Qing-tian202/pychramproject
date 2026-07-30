@@ -1,0 +1,49 @@
+{
+    "type": "object",
+    "properties": {
+        "status": {
+            "type": "integer"
+        },
+        "data": {
+            "type": "object",
+            "properties": {
+                "score": {
+                    "type": "integer"
+                },
+                "credit_history_score": {
+                    "type": "integer"
+                },
+                "asset_score": {
+                    "type": "integer"
+                },
+                "platform_behavior_score": {
+                    "type": "integer"
+                },
+                "basic_info_score": {
+                    "type": "integer"
+                },
+                "risk_level": {
+                    "type": "string"
+                },
+                "updated_at": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "score",
+                "credit_history_score",
+                "asset_score",
+                "platform_behavior_score",
+                "basic_info_score",
+                "risk_level",
+                "updated_at"
+            ]
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "status",
+        "data"
+    ]
+}

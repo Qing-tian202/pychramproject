@@ -1,0 +1,73 @@
+{
+    "type": "object",
+    "properties": {
+        "status": {
+            "type": "integer"
+        },
+        "message": {
+            "type": "string"
+        },
+        "data": {
+            "type": "object",
+            "properties": {
+                "has_disbursement": {
+                    "type": "boolean"
+                },
+                "disbursement_id": {
+                    "type": "integer"
+                },
+                "disbursement_no": {
+                    "type": "string"
+                },
+                "disbursement_status": {
+                    "type": "string"
+                },
+                "status_display": {
+                    "type": "string"
+                },
+                "amount": {
+                    "type": "string"
+                },
+                "disbursement_method": {
+                    "type": "string"
+                },
+                "method_display": {
+                    "type": "string"
+                },
+                "created_at": {
+                    "type": "string"
+                },
+                "processed_at": {
+                    "type": "string"
+                },
+                "completed_at": {
+                    "type": "string"
+                },
+                "processing_notes": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "has_disbursement",
+                "disbursement_id",
+                "disbursement_no",
+                "disbursement_status",
+                "status_display",
+                "amount",
+                "disbursement_method",
+                "method_display",
+                "created_at",
+                "processed_at",
+                "completed_at",
+                "processing_notes"
+            ]
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "status",
+        "message",
+        "data"
+    ]
+}

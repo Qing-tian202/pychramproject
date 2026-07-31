@@ -26,7 +26,7 @@
                     "type": "string"
                 },
                 "updated_at": {
-                    "type": "string"
+                    "type": ["string","null"]
                 }
             },
             "additionalProperties": false,

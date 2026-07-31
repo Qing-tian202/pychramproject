@@ -1,0 +1,77 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "status": {
+            "type": "integer"
+        },
+        "data": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "product_name": {
+                    "type": "string"
+                },
+                "product_id": {
+                    "type": "integer"
+                },
+                "amount": {
+                    "type": "string"
+                },
+                "expected_return": {
+                    "type": "string"
+                },
+                "actual_return": {
+                    "type": "null"
+                },
+                "status": {
+                    "type": "string"
+                },
+                "invest_time": {
+                    "type": "string"
+                },
+                "confirm_time": {
+                    "type": "string"
+                },
+                "value_date": {
+                    "type": "string"
+                },
+                "maturity_date": {
+                    "type": "string"
+                },
+                "annual_rate": {
+                    "type": "string"
+                },
+                "duration_months": {
+                    "type": "integer"
+                },
+                "product_status": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "id",
+                "product_name",
+                "product_id",
+                "amount",
+                "expected_return",
+                "status",
+                "invest_time",
+                "confirm_time",
+                "value_date",
+                "maturity_date",
+                "annual_rate",
+                "duration_months",
+                "product_status"
+            ]
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "status",
+        "data"
+    ]
+}

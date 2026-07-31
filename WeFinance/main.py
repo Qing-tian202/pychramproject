@@ -24,4 +24,4 @@ if __name__ == '__main__':
     os.system(f"allure generate {RESULTS_DIR} -o {ALLURE_DIR} --clean")
 
     # 打开Allure服务器
-    os.system("allure open -h 127.0.0.1 -p 8883 ./allure_report")
+    # os.system("allure open -h 127.0.0.1 -p 8883 ./allure_report")

@@ -1,0 +1,27 @@
+[
+  {
+    "params": {},
+    "status": 200
+  },
+  {
+    "params": {
+      "type": "credit",
+      "min_amount": 10000,
+      "max_rate":12
+    },
+    "status": 200
+  },
+  {
+    "params": {
+      "type": "credit",
+      "max_rate":12
+    },
+    "status": 200
+  },
+  {
+    "params": {
+      "type": "credit"
+    },
+    "status": 200
+  }
+]

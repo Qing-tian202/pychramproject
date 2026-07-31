@@ -1,0 +1,5 @@
+[32mINFO    [0m tools.Logger:conftest.py:98 
+[开始测试] Testgeneratecontract[user_data0]
+[32mINFO    [0m tools.Logger:conftest.py:107 
+[结束测试] Testgeneratecontract[user_data0]，耗时: 0.508秒
+[32mINFO    [0m tools.Logger:conftest.py:108 ----------------------------------------

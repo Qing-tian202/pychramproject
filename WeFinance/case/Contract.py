@@ -71,11 +71,11 @@ def get_disbursed_contract_info(username,password,params):
     return response
 
 
-# import json
-# if __name__ == '__main__':
-#     p = {
-#         "application_id":70,
-#         "is_online":True,
-#     }
-#     res = signature_contract("testuser","test123456",p)
-#     print(json.dumps(res.json(), indent=4))
+import json
+if __name__ == '__main__':
+    p = {
+        "application_id":69,
+        "is_online":True,
+    }
+    res = generate_loan_contract("testuser","test123456",p)
+    print(json.dumps(res.json(), indent=4))

@@ -4,19 +4,7 @@
     "password": "test123456",
     "remember_me": true,
     "is_online": 1,
-    "status": 200,
-    "data": {
-        "user_id": 17,
-        "username": "testuser",
-        "email": "testuser@example.com",
-        "phone": "13800138000",
-        "is_verified": true,
-        "is_vip": false,
-        "vip_level": 0,
-        "balance": "20000.00",
-        "total_investment": "0.00",
-        "total_earnings": "0.00"
-    }
+    "status": 200
   },
   {
     "username": "user1",

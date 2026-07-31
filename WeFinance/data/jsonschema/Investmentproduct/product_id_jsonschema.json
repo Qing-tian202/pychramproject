@@ -1,0 +1,82 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "status": {
+            "type": "integer"
+        },
+        "data": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "loan_amount": {
+                    "type": "string"
+                },
+                "raised_amount": {
+                    "type": "string"
+                },
+                "remaining_amount": {
+                    "type": "string"
+                },
+                "annual_rate": {
+                    "type": "string"
+                },
+                "duration_months": {
+                    "type": "integer"
+                },
+                "status": {
+                    "type": "string"
+                },
+                "investor_count": {
+                    "type": "integer"
+                },
+                "progress_percentage": {
+                    "type": "number"
+                },
+                "value_date": {
+                    "type": "string"
+                },
+                "maturity_date": {
+                    "type": "string"
+                },
+                "risk_level": {
+                    "type": "string"
+                },
+                "repayment_method": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "id",
+                "name",
+                "description",
+                "loan_amount",
+                "raised_amount",
+                "remaining_amount",
+                "annual_rate",
+                "duration_months",
+                "status",
+                "investor_count",
+                "progress_percentage",
+                "value_date",
+                "maturity_date",
+                "risk_level",
+                "repayment_method"
+            ]
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "status",
+        "data"
+    ]
+}

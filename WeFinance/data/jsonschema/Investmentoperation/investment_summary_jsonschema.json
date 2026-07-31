@@ -1,0 +1,62 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "status": {
+            "type": "integer"
+        },
+        "data": {
+            "type": "object",
+            "properties": {
+                "total_count": {
+                    "type": "integer"
+                },
+                "total_amount": {
+                    "type": "string"
+                },
+                "total_expected_return": {
+                    "type": "string"
+                },
+                "total_actual_return": {
+                    "type": "string"
+                },
+                "confirmed_count": {
+                    "type": "integer"
+                },
+                "earning_count": {
+                    "type": "integer"
+                },
+                "completed_count": {
+                    "type": "integer"
+                },
+                "current_balance": {
+                    "type": "string"
+                },
+                "total_investment": {
+                    "type": "string"
+                },
+                "total_earnings": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "total_count",
+                "total_amount",
+                "total_expected_return",
+                "total_actual_return",
+                "confirmed_count",
+                "earning_count",
+                "completed_count",
+                "current_balance",
+                "total_investment",
+                "total_earnings"
+            ]
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "status",
+        "data"
+    ]
+}

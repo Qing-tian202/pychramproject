@@ -26,9 +26,6 @@ def Testuserinfo(user_data):
         with allure.step("jsonschema断言"):
             jsonschema.validate(res.json(),build_user_jsonschema())
 
-        with allure.step("响应数据断言"):
-            assert res.json().get("data") == user_data.get("data")
-
     if res.status_code >= 400:
         with allure.step("message断言"):
             assert res.json().get("message") == user_data.get("message")

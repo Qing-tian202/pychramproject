@@ -7,7 +7,7 @@
     "status": 201,
     "new_card": {
       "bank_name": "中国工商银行",
-      "card_number": "6222021234567891234",
+      "card_number": "6222021234567891236",
       "cardholder_name": "张三",
       "card_type": "debit",
       "is_default": true

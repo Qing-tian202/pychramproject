@@ -28,6 +28,12 @@ from .build_get_disbured_contract import build_getdisburedcontractinfo_data,buil
 from .build_get_credit_score import build_getcreditscore_data,build_getcreditscore_jsonschema
 from .build_get_quota_limit import build_getquotalimit_data,build_getquotalimit_jsonschema
 from .build_repayment import build_getrepayment_data,build_getrepayment_jsonschema
+from .build_investment_product_list import build_investproductslist_data,build_investproductslist_jsonschema
+from .build_chosen_invest_product_info import build_investproductid_data,build_investproductid_jsonschema
+from .build_invest_operation import build_investoperate_data,build_investoperate_jsonschema
+from .build_my_invest_list import build_myinvestproductslist_data,build_myinvestproductslist_jsonschema
+from .build_get_my_invest_info import build_myinvestproductsinfo_data,build_myinvestproductsinfo_jsonschema
+from .build_investments_summary import build_investmentsummary_data,build_investmentsummary_jsonschema
 
 __all__ = ['build_login_data','build_login_jsonschema',
            'build_logout_data','build_logout_jsonschema',
@@ -55,4 +61,10 @@ __all__ = ['build_login_data','build_login_jsonschema',
            'build_getdisburedcontractinfo_data','build_getdisburedcontractinfo_jsonschema',
            'build_getcreditscore_data','build_getcreditscore_jsonschema',
            'build_getquotalimit_data','build_getquotalimit_jsonschema',
-           'build_getrepayment_data','build_getrepayment_jsonschema']
+           'build_getrepayment_data','build_getrepayment_jsonschema',
+           'build_investproductslist_data','build_investproductslist_jsonschema',
+           'build_investproductid_data','build_investproductid_jsonschema',
+           'build_investoperate_data','build_investoperate_jsonschema',
+           'build_myinvestproductslist_data','build_myinvestproductslist_jsonschema',
+           'build_myinvestproductsinfo_data','build_myinvestproductsinfo_jsonschema',
+           'build_investmentsummary_data','build_investmentsummary_jsonschema']

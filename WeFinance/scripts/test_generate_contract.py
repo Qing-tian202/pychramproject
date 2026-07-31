@@ -17,7 +17,7 @@ from common import build_generatecontract_data,build_generatecontract_jsonschema
 @allure.title("生成测试")
 @pytest.mark.parametrize("user_data",build_generatecontract_data())
 def Testgeneratecontract(user_data):
-    res = generate_loan_contract(user_data.get("username"),user_data.get("password"),user_data.get("application_id"))
+    res = generate_loan_contract(user_data.get("username"),user_data.get("password"),user_data.get("params"))
 
     with allure.step("响应状态码断言"):
         assert res.status_code == user_data.get("status")

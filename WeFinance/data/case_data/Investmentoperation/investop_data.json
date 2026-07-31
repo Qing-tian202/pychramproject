@@ -1,0 +1,41 @@
+[
+  {
+    "username": "testuser",
+    "password": "test123456",
+    "params": {
+      "product_id": 65,
+      "amount": 10000
+    },
+    "status": 200
+  },
+  {
+    "username": "testuser",
+    "password": "test123456",
+    "params": {
+      "product_id": 65,
+      "amount": 101
+    },
+    "status": 400,
+    "message": "投资金额必须是100的倍数"
+  },
+  {
+    "username": "testuser",
+    "password": "test123456",
+    "params": {
+      "product_id": 65,
+      "amount": 20000
+    },
+    "status": 400,
+    "message": "账户余额不足"
+  },
+  {
+    "username": "newuser",
+    "password": "NewPass123",
+    "params": {
+      "product_id": 65,
+      "amount": 10000
+    },
+    "status": 403,
+    "message": "请先完成实名认证"
+  }
+]

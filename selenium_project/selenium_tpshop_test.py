@@ -58,8 +58,11 @@ class TPshopTester:
             time.sleep(2)
 
             self.driver.find_element(By.ID, "username").send_keys("13800138004")
+            time.sleep(3)
             self.driver.find_element(By.NAME, "verify_code").send_keys("crxy")
+            time.sleep(3)
             self.driver.find_element(By.ID, "password").send_keys("123456")
+            time.sleep(3)
             self.driver.find_element(By.NAME, "sbtbutton").click()
 
             self.driver.refresh()

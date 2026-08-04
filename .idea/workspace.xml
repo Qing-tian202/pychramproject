@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="713bc543-929e-42df-bd6a-697482fe5177" name="更改" comment="python selenium UI自动化，tpshop注册，登录，搜索商品并添加购物车" />
+    <list default="true" id="713bc543-929e-42df-bd6a-697482fe5177" name="更改" comment="python selenium UI自动化，tpshop注册，登录，搜索商品并添加购物车">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium_project/selenium_tpshop_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_project/selenium_tpshop_test.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,6 +78,7 @@
     &quot;Python.python_assignment7.executor&quot;: &quot;Run&quot;,
     &quot;Python.selenium_deepseek_test.executor&quot;: &quot;Run&quot;,
     &quot;Python.selenium_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_tpshop_test.executor&quot;: &quot;Run&quot;,
     &quot;Python.temp.executor&quot;: &quot;Run&quot;,
     &quot;Python.test1.executor&quot;: &quot;Run&quot;,
     &quot;Python.test2.executor&quot;: &quot;Run&quot;,
@@ -119,7 +123,7 @@
       <recent name="E:\pychramproject\http_test\API_test\tools" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.build_investments_summary">
+  <component name="RunManager" selected="Python.selenium_tpshop_test">
     <configuration name="Certification (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Project" />
       <option name="ENV_FILES" value="" />
@@ -192,31 +196,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RealNameVerification" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_Project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WeFinance/case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WeFinance/case/RealNameVerification.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="build_investments_summary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Project" />
       <option name="ENV_FILES" value="" />
@@ -233,6 +212,30 @@
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WeFinance/common/build_investments_summary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="selenium_tpshop_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/selenium_project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/selenium_project/selenium_tpshop_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -260,20 +263,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.selenium_tpshop_test" />
       <item itemvalue="Python.build_investments_summary" />
       <item itemvalue="Python.Certification (1)" />
       <item itemvalue="Python.Contract" />
       <item itemvalue="Python.LoanApplication" />
-      <item itemvalue="Python.RealNameVerification" />
       <item itemvalue="Python 测试.test_http" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.selenium_tpshop_test" />
         <item itemvalue="Python.build_investments_summary" />
         <item itemvalue="Python.Contract" />
         <item itemvalue="Python.LoanApplication" />
         <item itemvalue="Python.Certification (1)" />
-        <item itemvalue="Python.RealNameVerification" />
       </list>
     </recent_temporary>
   </component>
@@ -493,7 +496,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785744400596</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="python selenium UI自动化，tpshop注册，登录，搜索商品并添加购物车">
+      <option name="closed" value="true" />
+      <created>1785744475151</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1785744475151</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

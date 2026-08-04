@@ -268,23 +268,23 @@ class WeFinance:
         self.driver.switch_to.alert.accept()
         time.sleep(5)
 
+    def run(self):
+        if self.login():
+            time.sleep(1)
+            self.find_product()
+            time.sleep(1)
+            self.borrow()
+            time.sleep(1)
+            self.submit_material()
+            time.sleep(5)
+            self.pass_submit()
+            time.sleep(1)
+            self.generate_loan_contract()
+            time.sleep(1)
 
+            self.close()
 
 
 if __name__ == '__main__':
     we = WeFinance()
-
-    if we.login():
-        time.sleep(1)
-        we.find_product()
-        time.sleep(1)
-        we.borrow()
-        time.sleep(1)
-        we.submit_material()
-        time.sleep(5)
-        we.pass_submit()
-        time.sleep(1)
-        we.generate_loan_contract()
-        time.sleep(1)
-
-        we.close()
+    we.run()

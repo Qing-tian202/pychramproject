@@ -140,6 +140,7 @@ class WeFinance:
         option.click()
         time.sleep(1)
 
+        self.driver.find_element(By.ID, "id_work_years").clear()
         self.driver.find_element(By.ID, "id_work_years").send_keys("3")
         time.sleep(1)
 

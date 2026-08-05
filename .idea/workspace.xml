@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="713bc543-929e-42df-bd6a-697482fe5177" name="更改" comment="python selenium UI自动化，WeFinance" />
+    <list default="true" id="713bc543-929e-42df-bd6a-697482fe5177" name="更改" comment="python selenium UI自动化，WeFinance">
+      <change afterPath="$PROJECT_DIR$/TPshop/common/BasePage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPshop/common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPshop/logs/TPshop_UI_test_20260805.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPshop/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPshop/pages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPshop/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPshop/requirments.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPshop/scripts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPshop/tools/Logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPshop/tools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TPshop/tools/tool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pySourceRootDetection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pySourceRootDetection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,57 +62,59 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python 测试.Python 测试 (test_http.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.test.test1.test 的 Python 测试.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ApplicationInterface.executor&quot;: &quot;Run&quot;,
-    &quot;Python.BankCardManagement.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Certification (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Contract.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DBTool.executor&quot;: &quot;Run&quot;,
-    &quot;Python.EmployeeInformationManagementSystem.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LoanApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Manage.executor&quot;: &quot;Run&quot;,
-    &quot;Python.RealNameVerification.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Student.executor&quot;: &quot;Run&quot;,
-    &quot;Python.WeFinance.executor&quot;: &quot;Run&quot;,
-    &quot;Python.a.executor&quot;: &quot;Run&quot;,
-    &quot;Python.build_investments_summary.executor&quot;: &quot;Run&quot;,
-    &quot;Python.build_login_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.get_login.executor&quot;: &quot;Run&quot;,
-    &quot;Python.http_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (3).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.python_assignment10.executor&quot;: &quot;Run&quot;,
-    &quot;Python.python_assignment7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.selenium_deepseek_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.selenium_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.selenium_tpshop_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.temp.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_login.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/pycharmproject/Python_Project/WeFinance/data/jsonschema&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python 测试.Python 测试 (test_http.py 内).executor": "Run",
+    "Python 测试.test.test1.test 的 Python 测试.executor": "Run",
+    "Python.ApplicationInterface.executor": "Run",
+    "Python.BankCardManagement.executor": "Run",
+    "Python.BasePage.executor": "Run",
+    "Python.Certification (1).executor": "Run",
+    "Python.Contract.executor": "Run",
+    "Python.DBTool.executor": "Run",
+    "Python.EmployeeInformationManagementSystem.executor": "Run",
+    "Python.LoanApplication.executor": "Run",
+    "Python.Manage.executor": "Run",
+    "Python.RealNameVerification.executor": "Run",
+    "Python.Student.executor": "Run",
+    "Python.WeFinance.executor": "Run",
+    "Python.a.executor": "Run",
+    "Python.build_investments_summary.executor": "Run",
+    "Python.build_login_data.executor": "Run",
+    "Python.get_login.executor": "Run",
+    "Python.http_test.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main (2).executor": "Run",
+    "Python.main (3).executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.python_assignment10.executor": "Run",
+    "Python.python_assignment7.executor": "Run",
+    "Python.selenium_deepseek_test.executor": "Run",
+    "Python.selenium_test.executor": "Run",
+    "Python.selenium_tpshop_test.executor": "Run",
+    "Python.temp.executor": "Run",
+    "Python.test1.executor": "Run",
+    "Python.test2.executor": "Run",
+    "Python.test_login.executor": "Run",
+    "Python.tool.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/pycharmproject/Python_Project/TPshop/tools",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="Python_Project" is-module-sdk="true">
@@ -109,11 +125,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pycharmproject\Python_Project\TPshop\tools" />
       <recent name="D:\pycharmproject\Python_Project\WeFinance\data\jsonschema" />
       <recent name="D:\pycharmproject\Python_Project\WeFinance\data\jsonschema\Investmentproduct" />
       <recent name="D:\pycharmproject\Python_Project\WeFinance\data\case_data\Investmentproduct" />
       <recent name="E:\pychramproject\WeFinance" />
-      <recent name="D:\pycharmproject\Python_Project\Rewrite_StudentManageSystem" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\pycharmproject\Python_Project\WeFinance\data\case_data\Investmentoperation" />
@@ -122,8 +138,8 @@
       <recent name="E:\pychramproject\http_test\API_test\tools" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.WeFinance">
-    <configuration name="Contract" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.BasePage">
+    <configuration name="BasePage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,39 +148,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WeFinance/case" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TPshop/common" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WeFinance/case/Contract.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="LoanApplication" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_Project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WeFinance/case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WeFinance/case/LoanApplication.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TPshop/common/BasePage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -248,6 +238,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tool" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TPshop/tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TPshop/tools/tool.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_http" type="tests" factoryName="Autodetect">
       <module name="Python_Project" />
       <option name="ENV_FILES" value="" />
@@ -267,8 +281,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Contract" />
-      <item itemvalue="Python.LoanApplication" />
+      <item itemvalue="Python.BasePage" />
+      <item itemvalue="Python.tool" />
       <item itemvalue="Python.WeFinance" />
       <item itemvalue="Python.build_investments_summary" />
       <item itemvalue="Python.selenium_tpshop_test" />
@@ -276,11 +290,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.BasePage" />
+        <item itemvalue="Python.tool" />
         <item itemvalue="Python.WeFinance" />
         <item itemvalue="Python.selenium_tpshop_test" />
         <item itemvalue="Python.build_investments_summary" />
-        <item itemvalue="Python.Contract" />
-        <item itemvalue="Python.LoanApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -540,7 +554,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785909984607</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="python selenium UI自动化，WeFinance">
+      <option name="closed" value="true" />
+      <created>1785910082805</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1785910082805</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

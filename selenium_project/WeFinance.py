@@ -144,7 +144,7 @@ class WeFinance:
         self.driver.find_element(By.ID, "id_work_years").send_keys("3")
         time.sleep(1)
 
-        self.driver.find_element(By.ID, "id_company_name").send_keys("重软学院")
+        self.driver.find_element(By.ID, "id_company_name").send_keys("天堂旅行团")
         time.sleep(1)
 
         self.driver.find_element(By.ID, "id_monthly_income").send_keys("20000")

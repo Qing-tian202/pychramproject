@@ -244,7 +244,7 @@ class WeFinance:
 
         # 移动到Canvas中心偏左位置
         actions.move_to_element(canvas)
-        actions.move_by_offset(50, int(canvas_height) // 2)
+        actions.move_by_offset(10, 10)
         actions.click_and_hold()
 
         # 小步移动，确保不超出边界

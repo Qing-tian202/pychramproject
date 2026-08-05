@@ -35,7 +35,7 @@ class WeFinance:
 
     def login(self):
         try:
-            self.driver.get(self.myhost) #主页
+            self.driver.get(self.host) #主页
             time.sleep(1)
             self.driver.find_element(By.CSS_SELECTOR, ".fas.fa-sign-in-alt").click() #跳转登录页
             time.sleep(1)
@@ -150,7 +150,7 @@ class WeFinance:
         time.sleep(1)
 
         self.rock(0.5)
-        self.driver.find_element(By.ID, "id_contact_name").send_keys("张三")
+        self.driver.find_element(By.ID, "id_contact_name").send_keys("尼古拉斯.赵四")
         time.sleep(1)
 
         self.driver.find_element(By.ID, "id_contact_phone").send_keys("13800138006")
@@ -176,9 +176,9 @@ class WeFinance:
         # print(self.contract_number)
 
         self.rock(0.5)
-        self.driver.find_element(By.ID, "bank_statement").send_keys(r"D:\share_file\1.jpg")
+        self.driver.find_element(By.ID, "bank_statement").send_keys(r"C:\Users\test37\Pictures\ji.jpg")
         time.sleep(1)
-        self.driver.find_element(By.ID, "income_proof").send_keys(r"D:\share_file\yys_20220206173018.jpg")
+        self.driver.find_element(By.ID, "income_proof").send_keys(r"C:\Users\test37\Pictures\jinnaluo.jpg")
         time.sleep(1)
         self.rock(0.6)
         self.driver.find_element(By.ID, "submit-application").click()
@@ -190,7 +190,7 @@ class WeFinance:
         self.contract_page = self.driver.current_url
 
     def pass_submit(self):
-        self.driver.get("http://192.168.47.136:8000/admin-panel/")
+        self.driver.get(url = f"{self.host}admin-panel/")
         time.sleep(1)
 
         self.driver.find_element(By.CSS_SELECTOR, ".fas.fa-file-invoice-dollar.me-2").click()
@@ -202,6 +202,9 @@ class WeFinance:
         time.sleep(1)
 
         self.driver.find_element(By.CSS_SELECTOR, ".btn.btn-action.btn-approve").click()
+        time.sleep(1)
+
+        self.driver.find_element(By.ID, "review_notes").send_keys("通过")
         time.sleep(1)
 
         self.driver.find_element(By.CSS_SELECTOR, ".btn.btn-success").click()
@@ -268,6 +271,22 @@ class WeFinance:
         self.driver.switch_to.alert.accept()
         time.sleep(5)
 
+    def get_message(self):
+        # self.driver.get("http://192.168.44.130:8000/borrow/status/82/")
+        time.sleep(3)
+        ele = self.driver.find_element(By.CSS_SELECTOR, ".nav-link.dropdown-toggle.d-flex.align-items-center")
+        ele.click()
+        time.sleep(1)
+
+        self.driver.find_element(By.CSS_SELECTOR, ".fas.fa-envelope").click()
+        time.sleep(1)
+
+        # self.rock(0.3)
+        self.driver.find_element(By.XPATH, f"//p[contains(text(), '{self.contract_number}')]/..//div/div/div/button[1]").click()
+        time.sleep(1)
+
+
+
     def run(self):
         if self.login():
             time.sleep(1)
@@ -280,6 +299,8 @@ class WeFinance:
             self.pass_submit()
             time.sleep(1)
             self.generate_loan_contract()
+            time.sleep(1)
+            self.get_message()
             time.sleep(1)
 
             self.close()

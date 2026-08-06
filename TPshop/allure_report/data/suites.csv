@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","6214","test_login[case3]","scripts","2026-08-06","passed","2026-08-06","TestLogin","TestLogin","",""
+"","6206","test_login[case2]","scripts","2026-08-06","passed","2026-08-06","TestLogin","TestLogin","",""
+"","5217","test_search[case0]","scripts","2026-08-06","passed","2026-08-06","TestSearch","TestSearch","",""
+"","4676","test_search[case1]","scripts","2026-08-06","passed","2026-08-06","TestSearch","TestSearch","",""
+"","6208","test_login[case1]","scripts","2026-08-06","passed","2026-08-06","TestLogin","TestLogin","",""
+"","7454","test_login[case0]","scripts","2026-08-06","passed","2026-08-06","TestLogin","TestLogin","",""

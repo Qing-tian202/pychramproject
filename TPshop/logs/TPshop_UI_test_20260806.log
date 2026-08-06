@@ -1,0 +1,708 @@
+2026-08-06 10:36:53 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="cc7b91b4eb4862faaf6185c666b091b7", element="f.1C40AADFB591958C854E861046F0F8CF.d.697C1D0B289CE07968086A06BAD54BEA.e.1")>, 定位器:('id', 'username')
+2026-08-06 10:36:54 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="cc7b91b4eb4862faaf6185c666b091b7", element="f.1C40AADFB591958C854E861046F0F8CF.d.697C1D0B289CE07968086A06BAD54BEA.e.3")>, 定位器:('id', 'password')
+2026-08-06 10:36:55 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="cc7b91b4eb4862faaf6185c666b091b7", element="f.1C40AADFB591958C854E861046F0F8CF.d.697C1D0B289CE07968086A06BAD54BEA.e.4")>, 定位器:('id', 'verify_code')
+2026-08-06 10:36:56 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="cc7b91b4eb4862faaf6185c666b091b7", element="f.1C40AADFB591958C854E861046F0F8CF.d.697C1D0B289CE07968086A06BAD54BEA.e.13")>, 定位器:('name', 'sbtbutton')
+2026-08-06 10:37:18 - tools.Logger - CRITICAL - 元素定位失败！定位器: ('css selector', '.layui-layer-content.layui-layer-padding')。报错：Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff722f78945+14ce5]
+	chromedriver!GetHandleVerifier [0x7ff722f789a0+14d40]
+	chromedriver!(No symbol) [0x7ff722aa5afd]
+	chromedriver!(No symbol) [0x7ff722b00b59]
+	chromedriver!(No symbol) [0x7ff722b00e5c]
+	chromedriver!(No symbol) [0x7ff722b518d7]
+	chromedriver!(No symbol) [0x7ff722b4e4ab]
+	chromedriver!(No symbol) [0x7ff722af308c]
+	chromedriver!(No symbol) [0x7ff722af3fb3]
+	chromedriver!GetHandleVerifier [0x7ff7235ae60b+64a9ab]
+	chromedriver!GetHandleVerifier [0x7ff7235a8b12+644eb2]
+	chromedriver!GetHandleVerifier [0x7ff7235ce3ae+66a74e]
+	chromedriver!GetHandleVerifier [0x7ff722f95d7e+3211e]
+	chromedriver!GetHandleVerifier [0x7ff722f9e52c+3a8cc]
+	chromedriver!GetHandleVerifier [0x7ff722f82854+1ebf4]
+	chromedriver!GetHandleVerifier [0x7ff722f829e4+1ed84]
+	chromedriver!GetHandleVerifier [0x7ff722f65d17+20b7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcae907374+14]
+	ntdll!RtlUserThreadStart [0x7ffcb031cc91+21]
+
+2026-08-06 10:37:18 - tools.Logger - CRITICAL - 点击元素失败！定位器: ('css selector', '.layui-layer-content.layui-layer-padding')。报错：'NoneType' object has no attribute 'text'
+2026-08-06 10:37:19 - tools.Logger - ERROR - 截图失败！图片名: 2026_08_06_10_37_18.png
+2026-08-06 10:37:44 - tools.Logger - CRITICAL - 元素定位失败！定位器: ('id', 'username')。报错：Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff722f78945+14ce5]
+	chromedriver!GetHandleVerifier [0x7ff722f789a0+14d40]
+	chromedriver!(No symbol) [0x7ff722aa5afd]
+	chromedriver!(No symbol) [0x7ff722b00b59]
+	chromedriver!(No symbol) [0x7ff722b00e5c]
+	chromedriver!(No symbol) [0x7ff722b518d7]
+	chromedriver!(No symbol) [0x7ff722b4e4ab]
+	chromedriver!(No symbol) [0x7ff722af308c]
+	chromedriver!(No symbol) [0x7ff722af3fb3]
+	chromedriver!GetHandleVerifier [0x7ff7235ae60b+64a9ab]
+	chromedriver!GetHandleVerifier [0x7ff7235a8b12+644eb2]
+	chromedriver!GetHandleVerifier [0x7ff7235ce3ae+66a74e]
+	chromedriver!GetHandleVerifier [0x7ff722f95d7e+3211e]
+	chromedriver!GetHandleVerifier [0x7ff722f9e52c+3a8cc]
+	chromedriver!GetHandleVerifier [0x7ff722f82854+1ebf4]
+	chromedriver!GetHandleVerifier [0x7ff722f829e4+1ed84]
+	chromedriver!GetHandleVerifier [0x7ff722f65d17+20b7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcae907374+14]
+	ntdll!RtlUserThreadStart [0x7ffcb031cc91+21]
+
+2026-08-06 10:37:44 - tools.Logger - CRITICAL - 向元素发送文本失败！定位器是: ('id', 'username')。报错：'NoneType' object has no attribute 'send_keys'
+2026-08-06 10:37:44 - tools.Logger - ERROR - 截图失败！图片名: 2026_08_06_10_37_44.png
+2026-08-06 10:38:05 - tools.Logger - CRITICAL - 元素定位失败！定位器: ('id', 'password')。报错：Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff722f78945+14ce5]
+	chromedriver!GetHandleVerifier [0x7ff722f789a0+14d40]
+	chromedriver!(No symbol) [0x7ff722aa5afd]
+	chromedriver!(No symbol) [0x7ff722b00b59]
+	chromedriver!(No symbol) [0x7ff722b00e5c]
+	chromedriver!(No symbol) [0x7ff722b518d7]
+	chromedriver!(No symbol) [0x7ff722b4e4ab]
+	chromedriver!(No symbol) [0x7ff722af308c]
+	chromedriver!(No symbol) [0x7ff722af3fb3]
+	chromedriver!GetHandleVerifier [0x7ff7235ae60b+64a9ab]
+	chromedriver!GetHandleVerifier [0x7ff7235a8b12+644eb2]
+	chromedriver!GetHandleVerifier [0x7ff7235ce3ae+66a74e]
+	chromedriver!GetHandleVerifier [0x7ff722f95d7e+3211e]
+	chromedriver!GetHandleVerifier [0x7ff722f9e52c+3a8cc]
+	chromedriver!GetHandleVerifier [0x7ff722f82854+1ebf4]
+	chromedriver!GetHandleVerifier [0x7ff722f829e4+1ed84]
+	chromedriver!GetHandleVerifier [0x7ff722f65d17+20b7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcae907374+14]
+	ntdll!RtlUserThreadStart [0x7ffcb031cc91+21]
+
+2026-08-06 10:38:05 - tools.Logger - CRITICAL - 向元素发送文本失败！定位器是: ('id', 'password')。报错：'NoneType' object has no attribute 'send_keys'
+2026-08-06 10:38:05 - tools.Logger - ERROR - 截图失败！图片名: 2026_08_06_10_38_05.png
+2026-08-06 10:38:11 - tools.Logger - CRITICAL - 元素定位失败！定位器: ('id', 'verify_code')。报错：Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=151.0.7922.72); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff722f78945+14ce5]
+	chromedriver!GetHandleVerifier [0x7ff722f789a0+14d40]
+	chromedriver!(No symbol) [0x7ff722aa5afd]
+	chromedriver!(No symbol) [0x7ff722a91372]
+	chromedriver!(No symbol) [0x7ff722ab7236]
+	chromedriver!(No symbol) [0x7ff722b30bc0]
+	chromedriver!(No symbol) [0x7ff722b4dd92]
+	chromedriver!(No symbol) [0x7ff722af308c]
+	chromedriver!(No symbol) [0x7ff722af3fb3]
+	chromedriver!GetHandleVerifier [0x7ff7235ae60b+64a9ab]
+	chromedriver!GetHandleVerifier [0x7ff7235a8b12+644eb2]
+	chromedriver!GetHandleVerifier [0x7ff7235ce3ae+66a74e]
+	chromedriver!GetHandleVerifier [0x7ff722f95d7e+3211e]
+	chromedriver!GetHandleVerifier [0x7ff722f9e52c+3a8cc]
+	chromedriver!GetHandleVerifier [0x7ff722f82854+1ebf4]
+	chromedriver!GetHandleVerifier [0x7ff722f829e4+1ed84]
+	chromedriver!GetHandleVerifier [0x7ff722f65d17+20b7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcae907374+14]
+	ntdll!RtlUserThreadStart [0x7ffcb031cc91+21]
+
+2026-08-06 10:38:11 - tools.Logger - CRITICAL - 向元素发送文本失败！定位器是: ('id', 'verify_code')。报错：'NoneType' object has no attribute 'send_keys'
+2026-08-06 10:38:11 - tools.Logger - ERROR - 未知错误： Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff722f78945+14ce5]
+	chromedriver!GetHandleVerifier [0x7ff722f789a0+14d40]
+	chromedriver!(No symbol) [0x7ff722aa58e6]
+	chromedriver!(No symbol) [0x7ff722af20f6]
+	chromedriver!(No symbol) [0x7ff722b294c2]
+	chromedriver!(No symbol) [0x7ff722b232e2]
+	chromedriver!(No symbol) [0x7ff722b22aa2]
+	chromedriver!(No symbol) [0x7ff722a6e05b]
+	chromedriver!(No symbol) [0x7ff722a6e6b2]
+	chromedriver!(No symbol) [0x7ff722a6ec75]
+	chromedriver!GetHandleVerifier [0x7ff7235ae60b+64a9ab]
+	chromedriver!GetHandleVerifier [0x7ff7235a8b12+644eb2]
+	chromedriver!GetHandleVerifier [0x7ff7235ce3ae+66a74e]
+	chromedriver!GetHandleVerifier [0x7ff722f95d7e+3211e]
+	chromedriver!GetHandleVerifier [0x7ff722f9e52c+3a8cc]
+	chromedriver!(No symbol) [0x7ff722a6d5dc]
+	chromedriver!GetHandleVerifier [0x7ff72377e5a8+81a948]
+	KERNEL32!BaseThreadInitThunk [0x7ffcae907374+14]
+	ntdll!RtlUserThreadStart [0x7ffcb031cc91+21]
+
+2026-08-06 10:38:12 - tools.Logger - CRITICAL - 元素定位失败！定位器: ('name', 'sbtbutton')。报错：Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff722f78945+14ce5]
+	chromedriver!GetHandleVerifier [0x7ff722f789a0+14d40]
+	chromedriver!(No symbol) [0x7ff722aa58e6]
+	chromedriver!(No symbol) [0x7ff722af20f6]
+	chromedriver!(No symbol) [0x7ff722b294c2]
+	chromedriver!(No symbol) [0x7ff722b232e2]
+	chromedriver!(No symbol) [0x7ff722b22aa2]
+	chromedriver!(No symbol) [0x7ff722a6e05b]
+	chromedriver!(No symbol) [0x7ff722a6e6b2]
+	chromedriver!(No symbol) [0x7ff722a6ec75]
+	chromedriver!GetHandleVerifier [0x7ff7235ae60b+64a9ab]
+	chromedriver!GetHandleVerifier [0x7ff7235a8b12+644eb2]
+	chromedriver!GetHandleVerifier [0x7ff7235ce3ae+66a74e]
+	chromedriver!GetHandleVerifier [0x7ff722f95d7e+3211e]
+	chromedriver!GetHandleVerifier [0x7ff722f9e52c+3a8cc]
+	chromedriver!(No symbol) [0x7ff722a6d5dc]
+	chromedriver!GetHandleVerifier [0x7ff72377e5a8+81a948]
+	KERNEL32!BaseThreadInitThunk [0x7ffcae907374+14]
+	ntdll!RtlUserThreadStart [0x7ffcb031cc91+21]
+
+2026-08-06 10:38:12 - tools.Logger - CRITICAL - 点击元素失败！定位器: ('name', 'sbtbutton')。报错：'NoneType' object has no attribute 'click'
+2026-08-06 10:38:12 - tools.Logger - ERROR - 未知错误： Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff722f78945+14ce5]
+	chromedriver!GetHandleVerifier [0x7ff722f789a0+14d40]
+	chromedriver!(No symbol) [0x7ff722aa58e6]
+	chromedriver!(No symbol) [0x7ff722af20f6]
+	chromedriver!(No symbol) [0x7ff722b294c2]
+	chromedriver!(No symbol) [0x7ff722b232e2]
+	chromedriver!(No symbol) [0x7ff722b22aa2]
+	chromedriver!(No symbol) [0x7ff722a6e05b]
+	chromedriver!(No symbol) [0x7ff722a6e6b2]
+	chromedriver!(No symbol) [0x7ff722a6ec75]
+	chromedriver!GetHandleVerifier [0x7ff7235ae60b+64a9ab]
+	chromedriver!GetHandleVerifier [0x7ff7235a8b12+644eb2]
+	chromedriver!GetHandleVerifier [0x7ff7235ce3ae+66a74e]
+	chromedriver!GetHandleVerifier [0x7ff722f95d7e+3211e]
+	chromedriver!GetHandleVerifier [0x7ff722f9e52c+3a8cc]
+	chromedriver!(No symbol) [0x7ff722a6d5dc]
+	chromedriver!GetHandleVerifier [0x7ff72377e5a8+81a948]
+	KERNEL32!BaseThreadInitThunk [0x7ffcae907374+14]
+	ntdll!RtlUserThreadStart [0x7ffcb031cc91+21]
+
+2026-08-06 10:45:17 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c8b8c8c2f5a48cbf64d70f87b92a7bd4", element="f.09345D8A5C32A6A80D770126FCE4AE5E.d.8C1334DEC676414B23B5731B5CD43FA9.e.1")>, 定位器:('id', 'username')
+2026-08-06 10:45:18 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c8b8c8c2f5a48cbf64d70f87b92a7bd4", element="f.09345D8A5C32A6A80D770126FCE4AE5E.d.8C1334DEC676414B23B5731B5CD43FA9.e.3")>, 定位器:('id', 'password')
+2026-08-06 10:45:19 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c8b8c8c2f5a48cbf64d70f87b92a7bd4", element="f.09345D8A5C32A6A80D770126FCE4AE5E.d.8C1334DEC676414B23B5731B5CD43FA9.e.4")>, 定位器:('name', 'verify_code')
+2026-08-06 10:45:20 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c8b8c8c2f5a48cbf64d70f87b92a7bd4", element="f.09345D8A5C32A6A80D770126FCE4AE5E.d.8C1334DEC676414B23B5731B5CD43FA9.e.13")>, 定位器:('name', 'sbtbutton')
+2026-08-06 10:45:43 - tools.Logger - CRITICAL - 元素定位失败！定位器: ('css selector', '.layui-layer-content.layui-layer-padding')。报错：Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff722f78945+14ce5]
+	chromedriver!GetHandleVerifier [0x7ff722f789a0+14d40]
+	chromedriver!(No symbol) [0x7ff722aa5afd]
+	chromedriver!(No symbol) [0x7ff722b00b59]
+	chromedriver!(No symbol) [0x7ff722b00e5c]
+	chromedriver!(No symbol) [0x7ff722b518d7]
+	chromedriver!(No symbol) [0x7ff722b4e4ab]
+	chromedriver!(No symbol) [0x7ff722af308c]
+	chromedriver!(No symbol) [0x7ff722af3fb3]
+	chromedriver!GetHandleVerifier [0x7ff7235ae60b+64a9ab]
+	chromedriver!GetHandleVerifier [0x7ff7235a8b12+644eb2]
+	chromedriver!GetHandleVerifier [0x7ff7235ce3ae+66a74e]
+	chromedriver!GetHandleVerifier [0x7ff722f95d7e+3211e]
+	chromedriver!GetHandleVerifier [0x7ff722f9e52c+3a8cc]
+	chromedriver!GetHandleVerifier [0x7ff722f82854+1ebf4]
+	chromedriver!GetHandleVerifier [0x7ff722f829e4+1ed84]
+	chromedriver!GetHandleVerifier [0x7ff722f65d17+20b7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcae907374+14]
+	ntdll!RtlUserThreadStart [0x7ffcb031cc91+21]
+
+2026-08-06 10:45:43 - tools.Logger - CRITICAL - 点击元素失败！定位器: ('css selector', '.layui-layer-content.layui-layer-padding')。报错：'NoneType' object has no attribute 'text'
+2026-08-06 10:45:43 - tools.Logger - ERROR - 截图失败！图片名: 2026_08_06_10_45_43.png
+2026-08-06 10:46:04 - tools.Logger - CRITICAL - 元素定位失败！定位器: ('id', 'username')。报错：Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff722f78945+14ce5]
+	chromedriver!GetHandleVerifier [0x7ff722f789a0+14d40]
+	chromedriver!(No symbol) [0x7ff722aa5afd]
+	chromedriver!(No symbol) [0x7ff722b00b59]
+	chromedriver!(No symbol) [0x7ff722b00e5c]
+	chromedriver!(No symbol) [0x7ff722b518d7]
+	chromedriver!(No symbol) [0x7ff722b4e4ab]
+	chromedriver!(No symbol) [0x7ff722af308c]
+	chromedriver!(No symbol) [0x7ff722af3fb3]
+	chromedriver!GetHandleVerifier [0x7ff7235ae60b+64a9ab]
+	chromedriver!GetHandleVerifier [0x7ff7235a8b12+644eb2]
+	chromedriver!GetHandleVerifier [0x7ff7235ce3ae+66a74e]
+	chromedriver!GetHandleVerifier [0x7ff722f95d7e+3211e]
+	chromedriver!GetHandleVerifier [0x7ff722f9e52c+3a8cc]
+	chromedriver!GetHandleVerifier [0x7ff722f82854+1ebf4]
+	chromedriver!GetHandleVerifier [0x7ff722f829e4+1ed84]
+	chromedriver!GetHandleVerifier [0x7ff722f65d17+20b7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcae907374+14]
+	ntdll!RtlUserThreadStart [0x7ffcb031cc91+21]
+
+2026-08-06 10:46:04 - tools.Logger - CRITICAL - 向元素发送文本失败！定位器是: ('id', 'username')。报错：'NoneType' object has no attribute 'send_keys'
+2026-08-06 10:46:04 - tools.Logger - ERROR - 截图失败！图片名: 2026_08_06_10_46_04.png
+2026-08-06 10:46:25 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="601593a92567b084c0861ee444fccad7", element="f.C084F110958101D521F37E8E08D195EC.d.6E3A426624449FA98F0A61095D03D811.e.1")>, 定位器:('id', 'username')
+2026-08-06 10:46:26 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="601593a92567b084c0861ee444fccad7", element="f.C084F110958101D521F37E8E08D195EC.d.6E3A426624449FA98F0A61095D03D811.e.3")>, 定位器:('id', 'password')
+2026-08-06 10:46:27 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="601593a92567b084c0861ee444fccad7", element="f.C084F110958101D521F37E8E08D195EC.d.6E3A426624449FA98F0A61095D03D811.e.4")>, 定位器:('name', 'verify_code')
+2026-08-06 10:46:28 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="601593a92567b084c0861ee444fccad7", element="f.C084F110958101D521F37E8E08D195EC.d.6E3A426624449FA98F0A61095D03D811.e.13")>, 定位器:('name', 'sbtbutton')
+2026-08-06 10:46:30 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="601593a92567b084c0861ee444fccad7", element="f.C084F110958101D521F37E8E08D195EC.d.007A5259120626A0CF0E767FB36057AC.e.34")>, 定位器:('xpath', '//a[contains(@class,"userinfo")]')
+2026-08-06 10:46:30 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="601593a92567b084c0861ee444fccad7", element="f.C084F110958101D521F37E8E08D195EC.d.007A5259120626A0CF0E767FB36057AC.e.35")>, 定位器:('css selector', "a[title='退出']")
+2026-08-06 10:46:32 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="601593a92567b084c0861ee444fccad7", element="f.C084F110958101D521F37E8E08D195EC.d.F4CEDBBF6E3A78EA15B972679998B0CF.e.50")>, 定位器:('id', 'username')
+2026-08-06 10:46:33 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="601593a92567b084c0861ee444fccad7", element="f.C084F110958101D521F37E8E08D195EC.d.F4CEDBBF6E3A78EA15B972679998B0CF.e.51")>, 定位器:('id', 'password')
+2026-08-06 10:46:34 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="601593a92567b084c0861ee444fccad7", element="f.C084F110958101D521F37E8E08D195EC.d.F4CEDBBF6E3A78EA15B972679998B0CF.e.52")>, 定位器:('name', 'verify_code')
+2026-08-06 10:46:35 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="601593a92567b084c0861ee444fccad7", element="f.C084F110958101D521F37E8E08D195EC.d.F4CEDBBF6E3A78EA15B972679998B0CF.e.61")>, 定位器:('name', 'sbtbutton')
+2026-08-06 10:46:37 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="601593a92567b084c0861ee444fccad7", element="f.C084F110958101D521F37E8E08D195EC.d.F4CEDBBF6E3A78EA15B972679998B0CF.e.62")>, 定位器:('css selector', '.layui-layer-content.layui-layer-padding')
+2026-08-06 10:46:39 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="601593a92567b084c0861ee444fccad7", element="f.C084F110958101D521F37E8E08D195EC.d.0F9469E8E7137AA452140B63A6F127D1.e.64")>, 定位器:('id', 'username')
+2026-08-06 10:46:40 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="601593a92567b084c0861ee444fccad7", element="f.C084F110958101D521F37E8E08D195EC.d.0F9469E8E7137AA452140B63A6F127D1.e.65")>, 定位器:('id', 'password')
+2026-08-06 10:46:41 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="601593a92567b084c0861ee444fccad7", element="f.C084F110958101D521F37E8E08D195EC.d.0F9469E8E7137AA452140B63A6F127D1.e.66")>, 定位器:('name', 'verify_code')
+2026-08-06 10:46:42 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="601593a92567b084c0861ee444fccad7", element="f.C084F110958101D521F37E8E08D195EC.d.0F9469E8E7137AA452140B63A6F127D1.e.75")>, 定位器:('name', 'sbtbutton')
+2026-08-06 10:46:44 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="601593a92567b084c0861ee444fccad7", element="f.C084F110958101D521F37E8E08D195EC.d.0F9469E8E7137AA452140B63A6F127D1.e.76")>, 定位器:('css selector', '.layui-layer-content.layui-layer-padding')
+2026-08-06 10:46:45 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="601593a92567b084c0861ee444fccad7", element="f.C084F110958101D521F37E8E08D195EC.d.F7734D379CAD891869364F779EB054D6.e.78")>, 定位器:('id', 'username')
+2026-08-06 10:46:46 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="601593a92567b084c0861ee444fccad7", element="f.C084F110958101D521F37E8E08D195EC.d.F7734D379CAD891869364F779EB054D6.e.79")>, 定位器:('id', 'password')
+2026-08-06 10:46:47 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="601593a92567b084c0861ee444fccad7", element="f.C084F110958101D521F37E8E08D195EC.d.F7734D379CAD891869364F779EB054D6.e.80")>, 定位器:('name', 'verify_code')
+2026-08-06 10:46:48 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="601593a92567b084c0861ee444fccad7", element="f.C084F110958101D521F37E8E08D195EC.d.F7734D379CAD891869364F779EB054D6.e.89")>, 定位器:('name', 'sbtbutton')
+2026-08-06 10:46:50 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="601593a92567b084c0861ee444fccad7", element="f.C084F110958101D521F37E8E08D195EC.d.F7734D379CAD891869364F779EB054D6.e.90")>, 定位器:('css selector', '.layui-layer-content.layui-layer-padding')
+2026-08-06 10:47:18 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="579a58b943eadfa674f9d11a381dc9f9", element="f.891B3E44A7291437851480096088C4B1.d.6BD62F5907CBE9320A30935C7DD90D72.e.1")>, 定位器:('id', 'username')
+2026-08-06 10:47:19 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="579a58b943eadfa674f9d11a381dc9f9", element="f.891B3E44A7291437851480096088C4B1.d.6BD62F5907CBE9320A30935C7DD90D72.e.3")>, 定位器:('id', 'password')
+2026-08-06 10:47:20 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="579a58b943eadfa674f9d11a381dc9f9", element="f.891B3E44A7291437851480096088C4B1.d.6BD62F5907CBE9320A30935C7DD90D72.e.4")>, 定位器:('name', 'verify_code')
+2026-08-06 10:47:21 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="579a58b943eadfa674f9d11a381dc9f9", element="f.891B3E44A7291437851480096088C4B1.d.6BD62F5907CBE9320A30935C7DD90D72.e.13")>, 定位器:('name', 'sbtbutton')
+2026-08-06 10:47:23 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="579a58b943eadfa674f9d11a381dc9f9", element="f.891B3E44A7291437851480096088C4B1.d.8B1CD917017F022446148536C9375893.e.34")>, 定位器:('xpath', '//a[contains(@class,"userinfo")]')
+2026-08-06 10:47:23 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="579a58b943eadfa674f9d11a381dc9f9", element="f.891B3E44A7291437851480096088C4B1.d.8B1CD917017F022446148536C9375893.e.35")>, 定位器:('css selector', "a[title='退出']")
+2026-08-06 10:47:25 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="579a58b943eadfa674f9d11a381dc9f9", element="f.891B3E44A7291437851480096088C4B1.d.15FD1787A00921787CB91A79AA200E38.e.50")>, 定位器:('id', 'username')
+2026-08-06 10:47:26 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="579a58b943eadfa674f9d11a381dc9f9", element="f.891B3E44A7291437851480096088C4B1.d.15FD1787A00921787CB91A79AA200E38.e.51")>, 定位器:('id', 'password')
+2026-08-06 10:47:27 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="579a58b943eadfa674f9d11a381dc9f9", element="f.891B3E44A7291437851480096088C4B1.d.15FD1787A00921787CB91A79AA200E38.e.52")>, 定位器:('name', 'verify_code')
+2026-08-06 10:47:28 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="579a58b943eadfa674f9d11a381dc9f9", element="f.891B3E44A7291437851480096088C4B1.d.15FD1787A00921787CB91A79AA200E38.e.61")>, 定位器:('name', 'sbtbutton')
+2026-08-06 10:47:30 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="579a58b943eadfa674f9d11a381dc9f9", element="f.891B3E44A7291437851480096088C4B1.d.15FD1787A00921787CB91A79AA200E38.e.62")>, 定位器:('css selector', '.layui-layer-content.layui-layer-padding')
+2026-08-06 10:47:31 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="579a58b943eadfa674f9d11a381dc9f9", element="f.891B3E44A7291437851480096088C4B1.d.BABAFED2255597C0DEE9AB632498813C.e.65")>, 定位器:('id', 'username')
+2026-08-06 10:47:32 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="579a58b943eadfa674f9d11a381dc9f9", element="f.891B3E44A7291437851480096088C4B1.d.BABAFED2255597C0DEE9AB632498813C.e.66")>, 定位器:('id', 'password')
+2026-08-06 10:47:33 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="579a58b943eadfa674f9d11a381dc9f9", element="f.891B3E44A7291437851480096088C4B1.d.BABAFED2255597C0DEE9AB632498813C.e.67")>, 定位器:('name', 'verify_code')
+2026-08-06 10:47:34 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="579a58b943eadfa674f9d11a381dc9f9", element="f.891B3E44A7291437851480096088C4B1.d.BABAFED2255597C0DEE9AB632498813C.e.76")>, 定位器:('name', 'sbtbutton')
+2026-08-06 10:47:36 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="579a58b943eadfa674f9d11a381dc9f9", element="f.891B3E44A7291437851480096088C4B1.d.BABAFED2255597C0DEE9AB632498813C.e.77")>, 定位器:('css selector', '.layui-layer-content.layui-layer-padding')
+2026-08-06 10:47:37 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="579a58b943eadfa674f9d11a381dc9f9", element="f.891B3E44A7291437851480096088C4B1.d.0157130157ECCA025C62B140F6506252.e.80")>, 定位器:('id', 'username')
+2026-08-06 10:47:38 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="579a58b943eadfa674f9d11a381dc9f9", element="f.891B3E44A7291437851480096088C4B1.d.0157130157ECCA025C62B140F6506252.e.81")>, 定位器:('id', 'password')
+2026-08-06 10:47:40 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="579a58b943eadfa674f9d11a381dc9f9", element="f.891B3E44A7291437851480096088C4B1.d.0157130157ECCA025C62B140F6506252.e.82")>, 定位器:('name', 'verify_code')
+2026-08-06 10:47:41 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="579a58b943eadfa674f9d11a381dc9f9", element="f.891B3E44A7291437851480096088C4B1.d.0157130157ECCA025C62B140F6506252.e.91")>, 定位器:('name', 'sbtbutton')
+2026-08-06 10:47:43 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="579a58b943eadfa674f9d11a381dc9f9", element="f.891B3E44A7291437851480096088C4B1.d.0157130157ECCA025C62B140F6506252.e.92")>, 定位器:('css selector', '.layui-layer-content.layui-layer-padding')
+2026-08-06 11:32:55 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="9005f58821114bbecc90fbca35d7e24b", element="f.764045C9F89EE25FFFFF616ED6393459.d.E2EA1434D8BAC836824456E84D6AD47D.e.1")>, 定位器:('id', 'username')
+2026-08-06 11:32:56 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="9005f58821114bbecc90fbca35d7e24b", element="f.764045C9F89EE25FFFFF616ED6393459.d.E2EA1434D8BAC836824456E84D6AD47D.e.3")>, 定位器:('id', 'password')
+2026-08-06 11:32:57 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="9005f58821114bbecc90fbca35d7e24b", element="f.764045C9F89EE25FFFFF616ED6393459.d.E2EA1434D8BAC836824456E84D6AD47D.e.4")>, 定位器:('name', 'verify_code')
+2026-08-06 11:32:58 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="9005f58821114bbecc90fbca35d7e24b", element="f.764045C9F89EE25FFFFF616ED6393459.d.E2EA1434D8BAC836824456E84D6AD47D.e.13")>, 定位器:('name', 'sbtbutton')
+2026-08-06 11:33:00 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="9005f58821114bbecc90fbca35d7e24b", element="f.764045C9F89EE25FFFFF616ED6393459.d.133149D6A38CE7D052DBC89EB608997E.e.34")>, 定位器:('xpath', '//a[contains(@class,"userinfo")]')
+2026-08-06 11:33:00 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="9005f58821114bbecc90fbca35d7e24b", element="f.764045C9F89EE25FFFFF616ED6393459.d.133149D6A38CE7D052DBC89EB608997E.e.35")>, 定位器:('css selector', "a[title='退出']")
+2026-08-06 11:33:02 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="9005f58821114bbecc90fbca35d7e24b", element="f.764045C9F89EE25FFFFF616ED6393459.d.CDD9B9324854DCC3185354EDC6B7B7FE.e.50")>, 定位器:('id', 'username')
+2026-08-06 11:33:03 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="9005f58821114bbecc90fbca35d7e24b", element="f.764045C9F89EE25FFFFF616ED6393459.d.CDD9B9324854DCC3185354EDC6B7B7FE.e.51")>, 定位器:('id', 'password')
+2026-08-06 11:33:04 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="9005f58821114bbecc90fbca35d7e24b", element="f.764045C9F89EE25FFFFF616ED6393459.d.CDD9B9324854DCC3185354EDC6B7B7FE.e.52")>, 定位器:('name', 'verify_code')
+2026-08-06 11:33:05 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="9005f58821114bbecc90fbca35d7e24b", element="f.764045C9F89EE25FFFFF616ED6393459.d.CDD9B9324854DCC3185354EDC6B7B7FE.e.61")>, 定位器:('name', 'sbtbutton')
+2026-08-06 11:33:07 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="9005f58821114bbecc90fbca35d7e24b", element="f.764045C9F89EE25FFFFF616ED6393459.d.CDD9B9324854DCC3185354EDC6B7B7FE.e.62")>, 定位器:('css selector', '.layui-layer-content.layui-layer-padding')
+2026-08-06 11:33:08 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="9005f58821114bbecc90fbca35d7e24b", element="f.764045C9F89EE25FFFFF616ED6393459.d.961F06BB3C12B158D3701CF7D9293EC5.e.65")>, 定位器:('id', 'username')
+2026-08-06 11:33:09 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="9005f58821114bbecc90fbca35d7e24b", element="f.764045C9F89EE25FFFFF616ED6393459.d.961F06BB3C12B158D3701CF7D9293EC5.e.66")>, 定位器:('id', 'password')
+2026-08-06 11:33:10 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="9005f58821114bbecc90fbca35d7e24b", element="f.764045C9F89EE25FFFFF616ED6393459.d.961F06BB3C12B158D3701CF7D9293EC5.e.67")>, 定位器:('name', 'verify_code')
+2026-08-06 11:33:11 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="9005f58821114bbecc90fbca35d7e24b", element="f.764045C9F89EE25FFFFF616ED6393459.d.961F06BB3C12B158D3701CF7D9293EC5.e.76")>, 定位器:('name', 'sbtbutton')
+2026-08-06 11:33:13 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="9005f58821114bbecc90fbca35d7e24b", element="f.764045C9F89EE25FFFFF616ED6393459.d.961F06BB3C12B158D3701CF7D9293EC5.e.77")>, 定位器:('css selector', '.layui-layer-content.layui-layer-padding')
+2026-08-06 11:33:14 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="9005f58821114bbecc90fbca35d7e24b", element="f.764045C9F89EE25FFFFF616ED6393459.d.9DA6698B25F804421CC0C78228A4F7AE.e.79")>, 定位器:('id', 'username')
+2026-08-06 11:33:16 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="9005f58821114bbecc90fbca35d7e24b", element="f.764045C9F89EE25FFFFF616ED6393459.d.9DA6698B25F804421CC0C78228A4F7AE.e.80")>, 定位器:('id', 'password')
+2026-08-06 11:33:17 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="9005f58821114bbecc90fbca35d7e24b", element="f.764045C9F89EE25FFFFF616ED6393459.d.9DA6698B25F804421CC0C78228A4F7AE.e.81")>, 定位器:('name', 'verify_code')
+2026-08-06 11:33:18 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="9005f58821114bbecc90fbca35d7e24b", element="f.764045C9F89EE25FFFFF616ED6393459.d.9DA6698B25F804421CC0C78228A4F7AE.e.90")>, 定位器:('name', 'sbtbutton')
+2026-08-06 11:33:20 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="9005f58821114bbecc90fbca35d7e24b", element="f.764045C9F89EE25FFFFF616ED6393459.d.9DA6698B25F804421CC0C78228A4F7AE.e.91")>, 定位器:('css selector', '.layui-layer-content.layui-layer-padding')
+2026-08-06 11:33:24 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="f1e302265420d673f1cd84db52fc4292", element="f.7BEFF17D84A67BD0357FE6BE0B902C3A.d.DFD4268FAA14981AD8B6F0DB85034F9B.e.1")>, 定位器:('id', 'username')
+2026-08-06 11:33:25 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="f1e302265420d673f1cd84db52fc4292", element="f.7BEFF17D84A67BD0357FE6BE0B902C3A.d.DFD4268FAA14981AD8B6F0DB85034F9B.e.3")>, 定位器:('id', 'password')
+2026-08-06 11:33:26 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="f1e302265420d673f1cd84db52fc4292", element="f.7BEFF17D84A67BD0357FE6BE0B902C3A.d.DFD4268FAA14981AD8B6F0DB85034F9B.e.4")>, 定位器:('name', 'verify_code')
+2026-08-06 11:33:27 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="f1e302265420d673f1cd84db52fc4292", element="f.7BEFF17D84A67BD0357FE6BE0B902C3A.d.DFD4268FAA14981AD8B6F0DB85034F9B.e.13")>, 定位器:('name', 'sbtbutton')
+2026-08-06 11:33:31 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="f1e302265420d673f1cd84db52fc4292", element="f.7BEFF17D84A67BD0357FE6BE0B902C3A.d.D1F0E6030BE564C2A49C011FE9A371E4.e.42")>, 定位器:('id', 'q')
+2026-08-06 11:34:18 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="b946597a396eca085c9aeca040dbccc2", element="f.484CC81AC14C0724F49FA0832C20FF65.d.7F76D58C9F2A43A3CD19B3B239CF8A8A.e.1")>, 定位器:('id', 'username')
+2026-08-06 11:34:19 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="b946597a396eca085c9aeca040dbccc2", element="f.484CC81AC14C0724F49FA0832C20FF65.d.7F76D58C9F2A43A3CD19B3B239CF8A8A.e.3")>, 定位器:('id', 'password')
+2026-08-06 11:34:20 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="b946597a396eca085c9aeca040dbccc2", element="f.484CC81AC14C0724F49FA0832C20FF65.d.7F76D58C9F2A43A3CD19B3B239CF8A8A.e.4")>, 定位器:('name', 'verify_code')
+2026-08-06 11:34:21 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="b946597a396eca085c9aeca040dbccc2", element="f.484CC81AC14C0724F49FA0832C20FF65.d.7F76D58C9F2A43A3CD19B3B239CF8A8A.e.13")>, 定位器:('name', 'sbtbutton')
+2026-08-06 11:34:23 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="b946597a396eca085c9aeca040dbccc2", element="f.484CC81AC14C0724F49FA0832C20FF65.d.F54F95451108DFC2E368FB86C5E063F1.e.34")>, 定位器:('xpath', '//a[contains(@class,"userinfo")]')
+2026-08-06 11:34:23 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="b946597a396eca085c9aeca040dbccc2", element="f.484CC81AC14C0724F49FA0832C20FF65.d.F54F95451108DFC2E368FB86C5E063F1.e.35")>, 定位器:('css selector', "a[title='退出']")
+2026-08-06 11:34:25 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="b946597a396eca085c9aeca040dbccc2", element="f.484CC81AC14C0724F49FA0832C20FF65.d.B673509C860559FFF94ACD103FC37D21.e.50")>, 定位器:('id', 'username')
+2026-08-06 11:34:26 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="b946597a396eca085c9aeca040dbccc2", element="f.484CC81AC14C0724F49FA0832C20FF65.d.B673509C860559FFF94ACD103FC37D21.e.51")>, 定位器:('id', 'password')
+2026-08-06 11:34:27 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="b946597a396eca085c9aeca040dbccc2", element="f.484CC81AC14C0724F49FA0832C20FF65.d.B673509C860559FFF94ACD103FC37D21.e.52")>, 定位器:('name', 'verify_code')
+2026-08-06 11:34:28 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="b946597a396eca085c9aeca040dbccc2", element="f.484CC81AC14C0724F49FA0832C20FF65.d.B673509C860559FFF94ACD103FC37D21.e.61")>, 定位器:('name', 'sbtbutton')
+2026-08-06 11:34:30 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="b946597a396eca085c9aeca040dbccc2", element="f.484CC81AC14C0724F49FA0832C20FF65.d.B673509C860559FFF94ACD103FC37D21.e.62")>, 定位器:('css selector', '.layui-layer-content.layui-layer-padding')
+2026-08-06 11:34:31 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="b946597a396eca085c9aeca040dbccc2", element="f.484CC81AC14C0724F49FA0832C20FF65.d.E1D2C9A93BBC9E56164DF67F20650C55.e.65")>, 定位器:('id', 'username')
+2026-08-06 11:34:32 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="b946597a396eca085c9aeca040dbccc2", element="f.484CC81AC14C0724F49FA0832C20FF65.d.E1D2C9A93BBC9E56164DF67F20650C55.e.66")>, 定位器:('id', 'password')
+2026-08-06 11:34:34 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="b946597a396eca085c9aeca040dbccc2", element="f.484CC81AC14C0724F49FA0832C20FF65.d.E1D2C9A93BBC9E56164DF67F20650C55.e.67")>, 定位器:('name', 'verify_code')
+2026-08-06 11:34:35 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="b946597a396eca085c9aeca040dbccc2", element="f.484CC81AC14C0724F49FA0832C20FF65.d.E1D2C9A93BBC9E56164DF67F20650C55.e.76")>, 定位器:('name', 'sbtbutton')
+2026-08-06 11:34:37 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="b946597a396eca085c9aeca040dbccc2", element="f.484CC81AC14C0724F49FA0832C20FF65.d.E1D2C9A93BBC9E56164DF67F20650C55.e.77")>, 定位器:('css selector', '.layui-layer-content.layui-layer-padding')
+2026-08-06 11:34:38 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="b946597a396eca085c9aeca040dbccc2", element="f.484CC81AC14C0724F49FA0832C20FF65.d.3FE3E907CC1006AA2240B5DF676652FC.e.80")>, 定位器:('id', 'username')
+2026-08-06 11:34:39 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="b946597a396eca085c9aeca040dbccc2", element="f.484CC81AC14C0724F49FA0832C20FF65.d.3FE3E907CC1006AA2240B5DF676652FC.e.81")>, 定位器:('id', 'password')
+2026-08-06 11:34:40 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="b946597a396eca085c9aeca040dbccc2", element="f.484CC81AC14C0724F49FA0832C20FF65.d.3FE3E907CC1006AA2240B5DF676652FC.e.82")>, 定位器:('name', 'verify_code')
+2026-08-06 11:34:41 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="b946597a396eca085c9aeca040dbccc2", element="f.484CC81AC14C0724F49FA0832C20FF65.d.3FE3E907CC1006AA2240B5DF676652FC.e.91")>, 定位器:('name', 'sbtbutton')
+2026-08-06 11:34:43 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="b946597a396eca085c9aeca040dbccc2", element="f.484CC81AC14C0724F49FA0832C20FF65.d.3FE3E907CC1006AA2240B5DF676652FC.e.92")>, 定位器:('css selector', '.layui-layer-content.layui-layer-padding')
+2026-08-06 11:34:47 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="ea7b5817f1e92016b70bd3694415b3ff", element="f.187CF7995927AB0AEB24DE3C7C811131.d.313A5FD6BEACCC12A823341C913B6F3B.e.1")>, 定位器:('id', 'username')
+2026-08-06 11:34:48 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="ea7b5817f1e92016b70bd3694415b3ff", element="f.187CF7995927AB0AEB24DE3C7C811131.d.313A5FD6BEACCC12A823341C913B6F3B.e.3")>, 定位器:('id', 'password')
+2026-08-06 11:34:49 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="ea7b5817f1e92016b70bd3694415b3ff", element="f.187CF7995927AB0AEB24DE3C7C811131.d.313A5FD6BEACCC12A823341C913B6F3B.e.4")>, 定位器:('name', 'verify_code')
+2026-08-06 11:34:50 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="ea7b5817f1e92016b70bd3694415b3ff", element="f.187CF7995927AB0AEB24DE3C7C811131.d.313A5FD6BEACCC12A823341C913B6F3B.e.13")>, 定位器:('name', 'sbtbutton')
+2026-08-06 11:34:54 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="ea7b5817f1e92016b70bd3694415b3ff", element="f.187CF7995927AB0AEB24DE3C7C811131.d.AA4668F59CB935F5A127C4718EF62D91.e.42")>, 定位器:('id', 'q')
+2026-08-06 11:34:55 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="ea7b5817f1e92016b70bd3694415b3ff", element="f.187CF7995927AB0AEB24DE3C7C811131.d.AA4668F59CB935F5A127C4718EF62D91.e.49")>, 定位器:('class name', 'ecsc-search-button')
+2026-08-06 11:34:58 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="ea7b5817f1e92016b70bd3694415b3ff", element="f.187CF7995927AB0AEB24DE3C7C811131.d.C7A24C3EF3E08B308DE8BEE7171635C4.e.61")>, 定位器:('xpath', "//div[contains(@class, 'shop_name2')]//a")
+2026-08-06 11:38:30 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="006edba76269111d011b9852b9b5a79c", element="f.6C8E4BBA0D3C720DA5DB0CD7FA83C300.d.593D82DD6A87014E81D5953EE2522678.e.1")>, 定位器:('id', 'username')
+2026-08-06 11:38:31 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="006edba76269111d011b9852b9b5a79c", element="f.6C8E4BBA0D3C720DA5DB0CD7FA83C300.d.593D82DD6A87014E81D5953EE2522678.e.3")>, 定位器:('id', 'password')
+2026-08-06 11:38:32 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="006edba76269111d011b9852b9b5a79c", element="f.6C8E4BBA0D3C720DA5DB0CD7FA83C300.d.593D82DD6A87014E81D5953EE2522678.e.4")>, 定位器:('name', 'verify_code')
+2026-08-06 11:38:33 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="006edba76269111d011b9852b9b5a79c", element="f.6C8E4BBA0D3C720DA5DB0CD7FA83C300.d.593D82DD6A87014E81D5953EE2522678.e.13")>, 定位器:('name', 'sbtbutton')
+2026-08-06 11:38:35 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="006edba76269111d011b9852b9b5a79c", element="f.6C8E4BBA0D3C720DA5DB0CD7FA83C300.d.56BBB2D6C3858D54A1FD225E458CA4EA.e.34")>, 定位器:('xpath', '//a[contains(@class,"userinfo")]')
+2026-08-06 11:38:35 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="006edba76269111d011b9852b9b5a79c", element="f.6C8E4BBA0D3C720DA5DB0CD7FA83C300.d.56BBB2D6C3858D54A1FD225E458CA4EA.e.35")>, 定位器:('css selector', "a[title='退出']")
+2026-08-06 11:38:37 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="006edba76269111d011b9852b9b5a79c", element="f.6C8E4BBA0D3C720DA5DB0CD7FA83C300.d.3DE6B4F6CB76AA327052477EF1D82A08.e.50")>, 定位器:('id', 'username')
+2026-08-06 11:38:38 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="006edba76269111d011b9852b9b5a79c", element="f.6C8E4BBA0D3C720DA5DB0CD7FA83C300.d.3DE6B4F6CB76AA327052477EF1D82A08.e.51")>, 定位器:('id', 'password')
+2026-08-06 11:38:39 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="006edba76269111d011b9852b9b5a79c", element="f.6C8E4BBA0D3C720DA5DB0CD7FA83C300.d.3DE6B4F6CB76AA327052477EF1D82A08.e.52")>, 定位器:('name', 'verify_code')
+2026-08-06 11:38:40 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="006edba76269111d011b9852b9b5a79c", element="f.6C8E4BBA0D3C720DA5DB0CD7FA83C300.d.3DE6B4F6CB76AA327052477EF1D82A08.e.61")>, 定位器:('name', 'sbtbutton')
+2026-08-06 11:38:42 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="006edba76269111d011b9852b9b5a79c", element="f.6C8E4BBA0D3C720DA5DB0CD7FA83C300.d.3DE6B4F6CB76AA327052477EF1D82A08.e.62")>, 定位器:('css selector', '.layui-layer-content.layui-layer-padding')
+2026-08-06 11:38:43 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="006edba76269111d011b9852b9b5a79c", element="f.6C8E4BBA0D3C720DA5DB0CD7FA83C300.d.B46404E1782312DA9499EF6E635A6DF7.e.65")>, 定位器:('id', 'username')
+2026-08-06 11:38:44 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="006edba76269111d011b9852b9b5a79c", element="f.6C8E4BBA0D3C720DA5DB0CD7FA83C300.d.B46404E1782312DA9499EF6E635A6DF7.e.66")>, 定位器:('id', 'password')
+2026-08-06 11:38:45 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="006edba76269111d011b9852b9b5a79c", element="f.6C8E4BBA0D3C720DA5DB0CD7FA83C300.d.B46404E1782312DA9499EF6E635A6DF7.e.67")>, 定位器:('name', 'verify_code')
+2026-08-06 11:38:46 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="006edba76269111d011b9852b9b5a79c", element="f.6C8E4BBA0D3C720DA5DB0CD7FA83C300.d.B46404E1782312DA9499EF6E635A6DF7.e.76")>, 定位器:('name', 'sbtbutton')
+2026-08-06 11:38:48 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="006edba76269111d011b9852b9b5a79c", element="f.6C8E4BBA0D3C720DA5DB0CD7FA83C300.d.B46404E1782312DA9499EF6E635A6DF7.e.77")>, 定位器:('css selector', '.layui-layer-content.layui-layer-padding')
+2026-08-06 11:38:49 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="006edba76269111d011b9852b9b5a79c", element="f.6C8E4BBA0D3C720DA5DB0CD7FA83C300.d.8CA84FE3C374D278980789A09D745906.e.79")>, 定位器:('id', 'username')
+2026-08-06 11:38:50 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="006edba76269111d011b9852b9b5a79c", element="f.6C8E4BBA0D3C720DA5DB0CD7FA83C300.d.8CA84FE3C374D278980789A09D745906.e.80")>, 定位器:('id', 'password')
+2026-08-06 11:38:51 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="006edba76269111d011b9852b9b5a79c", element="f.6C8E4BBA0D3C720DA5DB0CD7FA83C300.d.8CA84FE3C374D278980789A09D745906.e.81")>, 定位器:('name', 'verify_code')
+2026-08-06 11:38:53 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="006edba76269111d011b9852b9b5a79c", element="f.6C8E4BBA0D3C720DA5DB0CD7FA83C300.d.8CA84FE3C374D278980789A09D745906.e.90")>, 定位器:('name', 'sbtbutton')
+2026-08-06 11:38:55 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="006edba76269111d011b9852b9b5a79c", element="f.6C8E4BBA0D3C720DA5DB0CD7FA83C300.d.8CA84FE3C374D278980789A09D745906.e.91")>, 定位器:('css selector', '.layui-layer-content.layui-layer-padding')
+2026-08-06 11:38:59 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="e4e42c727134d4a9b4555b1b2eddd5e0", element="f.CE01A7853556FFB08A47B62792AFEE2E.d.C97A7A9BF4E68D4926B9032AF9061DBB.e.1")>, 定位器:('id', 'username')
+2026-08-06 11:39:00 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="e4e42c727134d4a9b4555b1b2eddd5e0", element="f.CE01A7853556FFB08A47B62792AFEE2E.d.C97A7A9BF4E68D4926B9032AF9061DBB.e.3")>, 定位器:('id', 'password')
+2026-08-06 11:39:01 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="e4e42c727134d4a9b4555b1b2eddd5e0", element="f.CE01A7853556FFB08A47B62792AFEE2E.d.C97A7A9BF4E68D4926B9032AF9061DBB.e.4")>, 定位器:('name', 'verify_code')
+2026-08-06 11:39:02 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="e4e42c727134d4a9b4555b1b2eddd5e0", element="f.CE01A7853556FFB08A47B62792AFEE2E.d.C97A7A9BF4E68D4926B9032AF9061DBB.e.13")>, 定位器:('name', 'sbtbutton')
+2026-08-06 11:39:06 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="e4e42c727134d4a9b4555b1b2eddd5e0", element="f.CE01A7853556FFB08A47B62792AFEE2E.d.3AF307EB05B958D6F518AEC6861D50DC.e.42")>, 定位器:('id', 'q')
+2026-08-06 11:39:07 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="e4e42c727134d4a9b4555b1b2eddd5e0", element="f.CE01A7853556FFB08A47B62792AFEE2E.d.3AF307EB05B958D6F518AEC6861D50DC.e.49")>, 定位器:('class name', 'ecsc-search-button')
+2026-08-06 11:39:09 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="e4e42c727134d4a9b4555b1b2eddd5e0", element="f.CE01A7853556FFB08A47B62792AFEE2E.d.7D7DF586F2626701A8B8CD0C78F4195D.e.61")>, 定位器:('xpath', "//div[contains(@class, 'shop_name2')]//a")
+2026-08-06 11:52:47 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="1f479e4d0cbcd6bc3e6e27ffc3439ec1", element="f.5C929E6FA97311C32191C08B4E712FB8.d.708A20A93AAE348EA787265D37EBDF4E.e.1")>, 定位器:('id', 'username')
+2026-08-06 11:52:48 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="1f479e4d0cbcd6bc3e6e27ffc3439ec1", element="f.5C929E6FA97311C32191C08B4E712FB8.d.708A20A93AAE348EA787265D37EBDF4E.e.3")>, 定位器:('id', 'password')
+2026-08-06 11:52:49 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="1f479e4d0cbcd6bc3e6e27ffc3439ec1", element="f.5C929E6FA97311C32191C08B4E712FB8.d.708A20A93AAE348EA787265D37EBDF4E.e.4")>, 定位器:('name', 'verify_code')
+2026-08-06 11:52:50 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="1f479e4d0cbcd6bc3e6e27ffc3439ec1", element="f.5C929E6FA97311C32191C08B4E712FB8.d.708A20A93AAE348EA787265D37EBDF4E.e.13")>, 定位器:('name', 'sbtbutton')
+2026-08-06 11:52:52 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="1f479e4d0cbcd6bc3e6e27ffc3439ec1", element="f.5C929E6FA97311C32191C08B4E712FB8.d.CC9C5B898F7D002B7E410998F88D95DF.e.34")>, 定位器:('xpath', '//a[contains(@class,"userinfo")]')
+2026-08-06 11:52:52 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="1f479e4d0cbcd6bc3e6e27ffc3439ec1", element="f.5C929E6FA97311C32191C08B4E712FB8.d.CC9C5B898F7D002B7E410998F88D95DF.e.35")>, 定位器:('css selector', "a[title='退出']")
+2026-08-06 11:52:54 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="1f479e4d0cbcd6bc3e6e27ffc3439ec1", element="f.5C929E6FA97311C32191C08B4E712FB8.d.EE6997AF63FF143F59E1D423CF4DBFBC.e.50")>, 定位器:('id', 'username')
+2026-08-06 11:52:55 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="1f479e4d0cbcd6bc3e6e27ffc3439ec1", element="f.5C929E6FA97311C32191C08B4E712FB8.d.EE6997AF63FF143F59E1D423CF4DBFBC.e.51")>, 定位器:('id', 'password')
+2026-08-06 11:52:56 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="1f479e4d0cbcd6bc3e6e27ffc3439ec1", element="f.5C929E6FA97311C32191C08B4E712FB8.d.EE6997AF63FF143F59E1D423CF4DBFBC.e.52")>, 定位器:('name', 'verify_code')
+2026-08-06 11:52:57 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="1f479e4d0cbcd6bc3e6e27ffc3439ec1", element="f.5C929E6FA97311C32191C08B4E712FB8.d.EE6997AF63FF143F59E1D423CF4DBFBC.e.61")>, 定位器:('name', 'sbtbutton')
+2026-08-06 11:52:59 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="1f479e4d0cbcd6bc3e6e27ffc3439ec1", element="f.5C929E6FA97311C32191C08B4E712FB8.d.EE6997AF63FF143F59E1D423CF4DBFBC.e.62")>, 定位器:('css selector', '.layui-layer-content.layui-layer-padding')
+2026-08-06 11:53:00 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="1f479e4d0cbcd6bc3e6e27ffc3439ec1", element="f.5C929E6FA97311C32191C08B4E712FB8.d.A91ADC7912D3E703AFD994BBC716D6AE.e.64")>, 定位器:('id', 'username')
+2026-08-06 11:53:01 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="1f479e4d0cbcd6bc3e6e27ffc3439ec1", element="f.5C929E6FA97311C32191C08B4E712FB8.d.A91ADC7912D3E703AFD994BBC716D6AE.e.65")>, 定位器:('id', 'password')
+2026-08-06 11:53:03 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="1f479e4d0cbcd6bc3e6e27ffc3439ec1", element="f.5C929E6FA97311C32191C08B4E712FB8.d.A91ADC7912D3E703AFD994BBC716D6AE.e.66")>, 定位器:('name', 'verify_code')
+2026-08-06 11:53:04 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="1f479e4d0cbcd6bc3e6e27ffc3439ec1", element="f.5C929E6FA97311C32191C08B4E712FB8.d.A91ADC7912D3E703AFD994BBC716D6AE.e.75")>, 定位器:('name', 'sbtbutton')
+2026-08-06 11:53:06 - tools.Logger - CRITICAL - 元素定位失败！定位器: ('css selector', '.layui-layer-content.layui-layer-padding')。报错：Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=151.0.7922.72); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff722f78945+14ce5]
+	chromedriver!GetHandleVerifier [0x7ff722f789a0+14d40]
+	chromedriver!(No symbol) [0x7ff722aa5afd]
+	chromedriver!(No symbol) [0x7ff722a91372]
+	chromedriver!(No symbol) [0x7ff722ab7236]
+	chromedriver!(No symbol) [0x7ff722b30bc0]
+	chromedriver!(No symbol) [0x7ff722b4dd92]
+	chromedriver!(No symbol) [0x7ff722af308c]
+	chromedriver!(No symbol) [0x7ff722af3fb3]
+	chromedriver!GetHandleVerifier [0x7ff7235ae60b+64a9ab]
+	chromedriver!GetHandleVerifier [0x7ff7235a8b12+644eb2]
+	chromedriver!GetHandleVerifier [0x7ff7235ce3ae+66a74e]
+	chromedriver!GetHandleVerifier [0x7ff722f95d7e+3211e]
+	chromedriver!GetHandleVerifier [0x7ff722f9e52c+3a8cc]
+	chromedriver!GetHandleVerifier [0x7ff722f82854+1ebf4]
+	chromedriver!GetHandleVerifier [0x7ff722f829e4+1ed84]
+	chromedriver!GetHandleVerifier [0x7ff722f65d17+20b7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcae907374+14]
+	ntdll!RtlUserThreadStart [0x7ffcb031cc91+21]
+
+2026-08-06 11:53:06 - tools.Logger - CRITICAL - 点击元素失败！定位器: ('css selector', '.layui-layer-content.layui-layer-padding')。报错：'NoneType' object has no attribute 'text'
+2026-08-06 11:53:06 - tools.Logger - ERROR - 未知错误： Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff722f78945+14ce5]
+	chromedriver!GetHandleVerifier [0x7ff722f789a0+14d40]
+	chromedriver!(No symbol) [0x7ff722aa58e6]
+	chromedriver!(No symbol) [0x7ff722af20f6]
+	chromedriver!(No symbol) [0x7ff722b294c2]
+	chromedriver!(No symbol) [0x7ff722b232e2]
+	chromedriver!(No symbol) [0x7ff722b22aa2]
+	chromedriver!(No symbol) [0x7ff722a6e05b]
+	chromedriver!(No symbol) [0x7ff722a6e6b2]
+	chromedriver!(No symbol) [0x7ff722a6ec75]
+	chromedriver!GetHandleVerifier [0x7ff7235ae60b+64a9ab]
+	chromedriver!GetHandleVerifier [0x7ff7235a8b12+644eb2]
+	chromedriver!GetHandleVerifier [0x7ff7235ce3ae+66a74e]
+	chromedriver!GetHandleVerifier [0x7ff722f95d7e+3211e]
+	chromedriver!GetHandleVerifier [0x7ff722f9e52c+3a8cc]
+	chromedriver!(No symbol) [0x7ff722a6d5dc]
+	chromedriver!GetHandleVerifier [0x7ff72377e5a8+81a948]
+	KERNEL32!BaseThreadInitThunk [0x7ffcae907374+14]
+	ntdll!RtlUserThreadStart [0x7ffcb031cc91+21]
+
+2026-08-06 11:54:13 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="3cd64c6206f2c54285f42b563df40eb9", element="f.4EA2389627489787F27F4CEF5BFD6DF7.d.0A5F18E968387C9CEFD7087A0C0DF0B7.e.1")>, 定位器:('id', 'username')
+2026-08-06 11:54:14 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="3cd64c6206f2c54285f42b563df40eb9", element="f.4EA2389627489787F27F4CEF5BFD6DF7.d.0A5F18E968387C9CEFD7087A0C0DF0B7.e.3")>, 定位器:('id', 'password')
+2026-08-06 11:54:15 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="3cd64c6206f2c54285f42b563df40eb9", element="f.4EA2389627489787F27F4CEF5BFD6DF7.d.0A5F18E968387C9CEFD7087A0C0DF0B7.e.4")>, 定位器:('name', 'verify_code')
+2026-08-06 11:54:16 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="3cd64c6206f2c54285f42b563df40eb9", element="f.4EA2389627489787F27F4CEF5BFD6DF7.d.0A5F18E968387C9CEFD7087A0C0DF0B7.e.13")>, 定位器:('name', 'sbtbutton')
+2026-08-06 11:54:18 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="3cd64c6206f2c54285f42b563df40eb9", element="f.4EA2389627489787F27F4CEF5BFD6DF7.d.03D7610F6EFDB0687AD6EA8F78890C52.e.34")>, 定位器:('xpath', '//a[contains(@class,"userinfo")]')
+2026-08-06 11:54:18 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="3cd64c6206f2c54285f42b563df40eb9", element="f.4EA2389627489787F27F4CEF5BFD6DF7.d.03D7610F6EFDB0687AD6EA8F78890C52.e.35")>, 定位器:('css selector', "a[title='退出']")
+2026-08-06 11:54:20 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="3cd64c6206f2c54285f42b563df40eb9", element="f.4EA2389627489787F27F4CEF5BFD6DF7.d.F738A412C6946FE9CBC284B0FFA0C4F2.e.50")>, 定位器:('id', 'username')
+2026-08-06 11:54:21 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="3cd64c6206f2c54285f42b563df40eb9", element="f.4EA2389627489787F27F4CEF5BFD6DF7.d.F738A412C6946FE9CBC284B0FFA0C4F2.e.51")>, 定位器:('id', 'password')
+2026-08-06 11:54:22 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="3cd64c6206f2c54285f42b563df40eb9", element="f.4EA2389627489787F27F4CEF5BFD6DF7.d.F738A412C6946FE9CBC284B0FFA0C4F2.e.52")>, 定位器:('name', 'verify_code')
+2026-08-06 11:54:23 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="3cd64c6206f2c54285f42b563df40eb9", element="f.4EA2389627489787F27F4CEF5BFD6DF7.d.F738A412C6946FE9CBC284B0FFA0C4F2.e.61")>, 定位器:('name', 'sbtbutton')
+2026-08-06 11:54:25 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="3cd64c6206f2c54285f42b563df40eb9", element="f.4EA2389627489787F27F4CEF5BFD6DF7.d.F738A412C6946FE9CBC284B0FFA0C4F2.e.62")>, 定位器:('css selector', '.layui-layer-content.layui-layer-padding')
+2026-08-06 11:54:26 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="3cd64c6206f2c54285f42b563df40eb9", element="f.4EA2389627489787F27F4CEF5BFD6DF7.d.B9E185192817DA6271852DEBBA0E9945.e.65")>, 定位器:('id', 'username')
+2026-08-06 11:54:27 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="3cd64c6206f2c54285f42b563df40eb9", element="f.4EA2389627489787F27F4CEF5BFD6DF7.d.B9E185192817DA6271852DEBBA0E9945.e.66")>, 定位器:('id', 'password')
+2026-08-06 11:54:28 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="3cd64c6206f2c54285f42b563df40eb9", element="f.4EA2389627489787F27F4CEF5BFD6DF7.d.B9E185192817DA6271852DEBBA0E9945.e.67")>, 定位器:('name', 'verify_code')
+2026-08-06 11:54:29 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="3cd64c6206f2c54285f42b563df40eb9", element="f.4EA2389627489787F27F4CEF5BFD6DF7.d.B9E185192817DA6271852DEBBA0E9945.e.76")>, 定位器:('name', 'sbtbutton')
+2026-08-06 11:54:31 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="3cd64c6206f2c54285f42b563df40eb9", element="f.4EA2389627489787F27F4CEF5BFD6DF7.d.B9E185192817DA6271852DEBBA0E9945.e.77")>, 定位器:('css selector', '.layui-layer-content.layui-layer-padding')
+2026-08-06 11:54:32 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="3cd64c6206f2c54285f42b563df40eb9", element="f.4EA2389627489787F27F4CEF5BFD6DF7.d.743AD165AE8D9B4A3B4BC3B84D61DCB7.e.79")>, 定位器:('id', 'username')
+2026-08-06 11:54:33 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="3cd64c6206f2c54285f42b563df40eb9", element="f.4EA2389627489787F27F4CEF5BFD6DF7.d.743AD165AE8D9B4A3B4BC3B84D61DCB7.e.80")>, 定位器:('id', 'password')
+2026-08-06 11:54:35 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="3cd64c6206f2c54285f42b563df40eb9", element="f.4EA2389627489787F27F4CEF5BFD6DF7.d.743AD165AE8D9B4A3B4BC3B84D61DCB7.e.81")>, 定位器:('name', 'verify_code')
+2026-08-06 11:54:36 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="3cd64c6206f2c54285f42b563df40eb9", element="f.4EA2389627489787F27F4CEF5BFD6DF7.d.743AD165AE8D9B4A3B4BC3B84D61DCB7.e.90")>, 定位器:('name', 'sbtbutton')
+2026-08-06 11:54:38 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="3cd64c6206f2c54285f42b563df40eb9", element="f.4EA2389627489787F27F4CEF5BFD6DF7.d.743AD165AE8D9B4A3B4BC3B84D61DCB7.e.91")>, 定位器:('css selector', '.layui-layer-content.layui-layer-padding')
+2026-08-06 11:54:42 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="e3539223d962766ff16e2250b95c489e", element="f.FE0E373AC6797BD4A22D89B298CDB9D5.d.8930C0A1A24DF3BFB6519D3D5D39E1DA.e.1")>, 定位器:('id', 'username')
+2026-08-06 11:54:43 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="e3539223d962766ff16e2250b95c489e", element="f.FE0E373AC6797BD4A22D89B298CDB9D5.d.8930C0A1A24DF3BFB6519D3D5D39E1DA.e.3")>, 定位器:('id', 'password')
+2026-08-06 11:54:44 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="e3539223d962766ff16e2250b95c489e", element="f.FE0E373AC6797BD4A22D89B298CDB9D5.d.8930C0A1A24DF3BFB6519D3D5D39E1DA.e.4")>, 定位器:('name', 'verify_code')
+2026-08-06 11:54:45 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="e3539223d962766ff16e2250b95c489e", element="f.FE0E373AC6797BD4A22D89B298CDB9D5.d.8930C0A1A24DF3BFB6519D3D5D39E1DA.e.13")>, 定位器:('name', 'sbtbutton')
+2026-08-06 11:54:49 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="e3539223d962766ff16e2250b95c489e", element="f.FE0E373AC6797BD4A22D89B298CDB9D5.d.945E1D6405EEB36ADBE71E0F1BE86620.e.42")>, 定位器:('id', 'q')
+2026-08-06 11:54:50 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="e3539223d962766ff16e2250b95c489e", element="f.FE0E373AC6797BD4A22D89B298CDB9D5.d.945E1D6405EEB36ADBE71E0F1BE86620.e.49")>, 定位器:('class name', 'ecsc-search-button')
+2026-08-06 11:54:52 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="e3539223d962766ff16e2250b95c489e", element="f.FE0E373AC6797BD4A22D89B298CDB9D5.d.04D0C7B61932B68CBF0796C3806D5907.e.61")>, 定位器:('xpath', "//div[contains(@class, 'shop_name2')]//a")
+2026-08-06 11:54:54 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="e3539223d962766ff16e2250b95c489e", element="f.FE0E373AC6797BD4A22D89B298CDB9D5.d.49D723481AA38F84D4F1D371AFD51ED4.e.64")>, 定位器:('id', 'q')
+2026-08-06 11:54:55 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="e3539223d962766ff16e2250b95c489e", element="f.FE0E373AC6797BD4A22D89B298CDB9D5.d.49D723481AA38F84D4F1D371AFD51ED4.e.73")>, 定位器:('class name', 'ecsc-search-button')
+2026-08-06 11:55:17 - tools.Logger - CRITICAL - 元素定位失败！定位器: ('xpath', "//div[contains(@class, 'shop_name2')]//a")。报错：Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff722f78945+14ce5]
+	chromedriver!GetHandleVerifier [0x7ff722f789a0+14d40]
+	chromedriver!(No symbol) [0x7ff722aa5afd]
+	chromedriver!(No symbol) [0x7ff722b00b59]
+	chromedriver!(No symbol) [0x7ff722b00e5c]
+	chromedriver!(No symbol) [0x7ff722b518d7]
+	chromedriver!(No symbol) [0x7ff722b4e4ab]
+	chromedriver!(No symbol) [0x7ff722af308c]
+	chromedriver!(No symbol) [0x7ff722af3fb3]
+	chromedriver!GetHandleVerifier [0x7ff7235ae60b+64a9ab]
+	chromedriver!GetHandleVerifier [0x7ff7235a8b12+644eb2]
+	chromedriver!GetHandleVerifier [0x7ff7235ce3ae+66a74e]
+	chromedriver!GetHandleVerifier [0x7ff722f95d7e+3211e]
+	chromedriver!GetHandleVerifier [0x7ff722f9e52c+3a8cc]
+	chromedriver!GetHandleVerifier [0x7ff722f82854+1ebf4]
+	chromedriver!GetHandleVerifier [0x7ff722f829e4+1ed84]
+	chromedriver!GetHandleVerifier [0x7ff722f65d17+20b7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcae907374+14]
+	ntdll!RtlUserThreadStart [0x7ffcb031cc91+21]
+
+2026-08-06 11:55:17 - tools.Logger - CRITICAL - 点击元素失败！定位器: ('xpath', "//div[contains(@class, 'shop_name2')]//a")。报错：'NoneType' object has no attribute 'text'
+2026-08-06 11:55:18 - tools.Logger - ERROR - 截图失败！图片名: 2026_08_06_11_55_17.png
+2026-08-06 11:55:19 - tools.Logger - CRITICAL - 元素定位失败！定位器: ('id', 'q')。报错：Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=151.0.7922.72); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff722f78945+14ce5]
+	chromedriver!GetHandleVerifier [0x7ff722f789a0+14d40]
+	chromedriver!(No symbol) [0x7ff722aa5afd]
+	chromedriver!(No symbol) [0x7ff722a91372]
+	chromedriver!(No symbol) [0x7ff722ab7236]
+	chromedriver!(No symbol) [0x7ff722b30bc0]
+	chromedriver!(No symbol) [0x7ff722b4dd92]
+	chromedriver!(No symbol) [0x7ff722af308c]
+	chromedriver!(No symbol) [0x7ff722af3fb3]
+	chromedriver!GetHandleVerifier [0x7ff7235ae60b+64a9ab]
+	chromedriver!GetHandleVerifier [0x7ff7235a8b12+644eb2]
+	chromedriver!GetHandleVerifier [0x7ff7235ce3ae+66a74e]
+	chromedriver!GetHandleVerifier [0x7ff722f95d7e+3211e]
+	chromedriver!GetHandleVerifier [0x7ff722f9e52c+3a8cc]
+	chromedriver!GetHandleVerifier [0x7ff722f82854+1ebf4]
+	chromedriver!GetHandleVerifier [0x7ff722f829e4+1ed84]
+	chromedriver!GetHandleVerifier [0x7ff722f65d17+20b7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcae907374+14]
+	ntdll!RtlUserThreadStart [0x7ffcb031cc91+21]
+
+2026-08-06 11:55:19 - tools.Logger - CRITICAL - 向元素发送文本失败！定位器是: ('id', 'q')。报错：'NoneType' object has no attribute 'send_keys'
+2026-08-06 11:55:19 - tools.Logger - ERROR - 未知错误： Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff722f78945+14ce5]
+	chromedriver!GetHandleVerifier [0x7ff722f789a0+14d40]
+	chromedriver!(No symbol) [0x7ff722aa58e6]
+	chromedriver!(No symbol) [0x7ff722af20f6]
+	chromedriver!(No symbol) [0x7ff722b294c2]
+	chromedriver!(No symbol) [0x7ff722b232e2]
+	chromedriver!(No symbol) [0x7ff722b22aa2]
+	chromedriver!(No symbol) [0x7ff722a6e05b]
+	chromedriver!(No symbol) [0x7ff722a6e6b2]
+	chromedriver!(No symbol) [0x7ff722a6ec75]
+	chromedriver!GetHandleVerifier [0x7ff7235ae60b+64a9ab]
+	chromedriver!GetHandleVerifier [0x7ff7235a8b12+644eb2]
+	chromedriver!GetHandleVerifier [0x7ff7235ce3ae+66a74e]
+	chromedriver!GetHandleVerifier [0x7ff722f95d7e+3211e]
+	chromedriver!GetHandleVerifier [0x7ff722f9e52c+3a8cc]
+	chromedriver!(No symbol) [0x7ff722a6d5dc]
+	chromedriver!GetHandleVerifier [0x7ff72377e5a8+81a948]
+	KERNEL32!BaseThreadInitThunk [0x7ffcae907374+14]
+	ntdll!RtlUserThreadStart [0x7ffcb031cc91+21]
+
+2026-08-06 11:55:20 - tools.Logger - CRITICAL - 元素定位失败！定位器: ('class name', 'ecsc-search-button')。报错：Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff722f78945+14ce5]
+	chromedriver!GetHandleVerifier [0x7ff722f789a0+14d40]
+	chromedriver!(No symbol) [0x7ff722aa58e6]
+	chromedriver!(No symbol) [0x7ff722af20f6]
+	chromedriver!(No symbol) [0x7ff722b294c2]
+	chromedriver!(No symbol) [0x7ff722b232e2]
+	chromedriver!(No symbol) [0x7ff722b22aa2]
+	chromedriver!(No symbol) [0x7ff722a6e05b]
+	chromedriver!(No symbol) [0x7ff722a6e6b2]
+	chromedriver!(No symbol) [0x7ff722a6ec75]
+	chromedriver!GetHandleVerifier [0x7ff7235ae60b+64a9ab]
+	chromedriver!GetHandleVerifier [0x7ff7235a8b12+644eb2]
+	chromedriver!GetHandleVerifier [0x7ff7235ce3ae+66a74e]
+	chromedriver!GetHandleVerifier [0x7ff722f95d7e+3211e]
+	chromedriver!GetHandleVerifier [0x7ff722f9e52c+3a8cc]
+	chromedriver!(No symbol) [0x7ff722a6d5dc]
+	chromedriver!GetHandleVerifier [0x7ff72377e5a8+81a948]
+	KERNEL32!BaseThreadInitThunk [0x7ffcae907374+14]
+	ntdll!RtlUserThreadStart [0x7ffcb031cc91+21]
+
+2026-08-06 11:55:20 - tools.Logger - CRITICAL - 点击元素失败！定位器: ('class name', 'ecsc-search-button')。报错：'NoneType' object has no attribute 'click'
+2026-08-06 11:55:20 - tools.Logger - ERROR - 未知错误： Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff722f78945+14ce5]
+	chromedriver!GetHandleVerifier [0x7ff722f789a0+14d40]
+	chromedriver!(No symbol) [0x7ff722aa58e6]
+	chromedriver!(No symbol) [0x7ff722af20f6]
+	chromedriver!(No symbol) [0x7ff722b294c2]
+	chromedriver!(No symbol) [0x7ff722b232e2]
+	chromedriver!(No symbol) [0x7ff722b22aa2]
+	chromedriver!(No symbol) [0x7ff722a6e05b]
+	chromedriver!(No symbol) [0x7ff722a6e6b2]
+	chromedriver!(No symbol) [0x7ff722a6ec75]
+	chromedriver!GetHandleVerifier [0x7ff7235ae60b+64a9ab]
+	chromedriver!GetHandleVerifier [0x7ff7235a8b12+644eb2]
+	chromedriver!GetHandleVerifier [0x7ff7235ce3ae+66a74e]
+	chromedriver!GetHandleVerifier [0x7ff722f95d7e+3211e]
+	chromedriver!GetHandleVerifier [0x7ff722f9e52c+3a8cc]
+	chromedriver!(No symbol) [0x7ff722a6d5dc]
+	chromedriver!GetHandleVerifier [0x7ff72377e5a8+81a948]
+	KERNEL32!BaseThreadInitThunk [0x7ffcae907374+14]
+	ntdll!RtlUserThreadStart [0x7ffcb031cc91+21]
+
+2026-08-06 11:55:22 - tools.Logger - CRITICAL - 元素定位失败！定位器: ('xpath', "//div[contains(@class, 'shop_name2')]//a")。报错：Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff722f78945+14ce5]
+	chromedriver!GetHandleVerifier [0x7ff722f789a0+14d40]
+	chromedriver!(No symbol) [0x7ff722aa58e6]
+	chromedriver!(No symbol) [0x7ff722af20f6]
+	chromedriver!(No symbol) [0x7ff722b294c2]
+	chromedriver!(No symbol) [0x7ff722b232e2]
+	chromedriver!(No symbol) [0x7ff722b22aa2]
+	chromedriver!(No symbol) [0x7ff722a6e05b]
+	chromedriver!(No symbol) [0x7ff722a6e6b2]
+	chromedriver!(No symbol) [0x7ff722a6ec75]
+	chromedriver!GetHandleVerifier [0x7ff7235ae60b+64a9ab]
+	chromedriver!GetHandleVerifier [0x7ff7235a8b12+644eb2]
+	chromedriver!GetHandleVerifier [0x7ff7235ce3ae+66a74e]
+	chromedriver!GetHandleVerifier [0x7ff722f95d7e+3211e]
+	chromedriver!GetHandleVerifier [0x7ff722f9e52c+3a8cc]
+	chromedriver!(No symbol) [0x7ff722a6d5dc]
+	chromedriver!GetHandleVerifier [0x7ff72377e5a8+81a948]
+	KERNEL32!BaseThreadInitThunk [0x7ffcae907374+14]
+	ntdll!RtlUserThreadStart [0x7ffcb031cc91+21]
+
+2026-08-06 11:55:22 - tools.Logger - CRITICAL - 点击元素失败！定位器: ('xpath', "//div[contains(@class, 'shop_name2')]//a")。报错：'NoneType' object has no attribute 'text'
+2026-08-06 11:55:22 - tools.Logger - ERROR - 未知错误： Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff722f78945+14ce5]
+	chromedriver!GetHandleVerifier [0x7ff722f789a0+14d40]
+	chromedriver!(No symbol) [0x7ff722aa58e6]
+	chromedriver!(No symbol) [0x7ff722af20f6]
+	chromedriver!(No symbol) [0x7ff722b294c2]
+	chromedriver!(No symbol) [0x7ff722b232e2]
+	chromedriver!(No symbol) [0x7ff722b22aa2]
+	chromedriver!(No symbol) [0x7ff722a6e05b]
+	chromedriver!(No symbol) [0x7ff722a6e6b2]
+	chromedriver!(No symbol) [0x7ff722a6ec75]
+	chromedriver!GetHandleVerifier [0x7ff7235ae60b+64a9ab]
+	chromedriver!GetHandleVerifier [0x7ff7235a8b12+644eb2]
+	chromedriver!GetHandleVerifier [0x7ff7235ce3ae+66a74e]
+	chromedriver!GetHandleVerifier [0x7ff722f95d7e+3211e]
+	chromedriver!GetHandleVerifier [0x7ff722f9e52c+3a8cc]
+	chromedriver!(No symbol) [0x7ff722a6d5dc]
+	chromedriver!GetHandleVerifier [0x7ff72377e5a8+81a948]
+	KERNEL32!BaseThreadInitThunk [0x7ffcae907374+14]
+	ntdll!RtlUserThreadStart [0x7ffcb031cc91+21]
+
+2026-08-06 14:11:47 - tools.Logger - CRITICAL - 元素定位失败！定位器: ('id', 'username')。报错：Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=151.0.7922.72)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6cf818945+14ce5]
+	chromedriver!GetHandleVerifier [0x7ff6cf8189a0+14d40]
+	chromedriver!(No symbol) [0x7ff6cf345afd]
+	chromedriver!(No symbol) [0x7ff6cf31c9f2]
+	chromedriver!(No symbol) [0x7ff6cf3d0966]
+	chromedriver!(No symbol) [0x7ff6cf3edd92]
+	chromedriver!(No symbol) [0x7ff6cf39308c]
+	chromedriver!(No symbol) [0x7ff6cf393fb3]
+	chromedriver!GetHandleVerifier [0x7ff6cfe4e60b+64a9ab]
+	chromedriver!GetHandleVerifier [0x7ff6cfe48b12+644eb2]
+	chromedriver!GetHandleVerifier [0x7ff6cfe6e3ae+66a74e]
+	chromedriver!GetHandleVerifier [0x7ff6cf835d7e+3211e]
+	chromedriver!GetHandleVerifier [0x7ff6cf83e52c+3a8cc]
+	chromedriver!GetHandleVerifier [0x7ff6cf822854+1ebf4]
+	chromedriver!GetHandleVerifier [0x7ff6cf8229e4+1ed84]
+	chromedriver!GetHandleVerifier [0x7ff6cf805d17+20b7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcae907374+14]
+	ntdll!RtlUserThreadStart [0x7ffcb031cc91+21]
+
+2026-08-06 14:11:47 - tools.Logger - CRITICAL - 向元素发送文本失败！定位器是: ('id', 'username')。报错：'NoneType' object has no attribute 'send_keys'
+2026-08-06 14:11:47 - tools.Logger - ERROR - 未知错误： Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=151.0.7922.72)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6cf818945+14ce5]
+	chromedriver!GetHandleVerifier [0x7ff6cf8189a0+14d40]
+	chromedriver!(No symbol) [0x7ff6cf345afd]
+	chromedriver!(No symbol) [0x7ff6cf31c9f2]
+	chromedriver!(No symbol) [0x7ff6cf3d0966]
+	chromedriver!(No symbol) [0x7ff6cf3edd92]
+	chromedriver!(No symbol) [0x7ff6cf39308c]
+	chromedriver!(No symbol) [0x7ff6cf393fb3]
+	chromedriver!GetHandleVerifier [0x7ff6cfe4e60b+64a9ab]
+	chromedriver!GetHandleVerifier [0x7ff6cfe48b12+644eb2]
+	chromedriver!GetHandleVerifier [0x7ff6cfe6e3ae+66a74e]
+	chromedriver!GetHandleVerifier [0x7ff6cf835d7e+3211e]
+	chromedriver!GetHandleVerifier [0x7ff6cf83e52c+3a8cc]
+	chromedriver!GetHandleVerifier [0x7ff6cf822854+1ebf4]
+	chromedriver!GetHandleVerifier [0x7ff6cf8229e4+1ed84]
+	chromedriver!GetHandleVerifier [0x7ff6cf805d17+20b7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcae907374+14]
+	ntdll!RtlUserThreadStart [0x7ffcb031cc91+21]
+
+2026-08-06 14:12:06 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="cd987bce9b6418a4dec46fa30568497e", element="f.5F078C4AC2B96722FCAA9A2EC9DB4436.d.6678491BFE6C2E71EE5DADCBF7C3A7C8.e.1")>, 定位器:('id', 'username')
+2026-08-06 14:12:07 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="cd987bce9b6418a4dec46fa30568497e", element="f.5F078C4AC2B96722FCAA9A2EC9DB4436.d.6678491BFE6C2E71EE5DADCBF7C3A7C8.e.3")>, 定位器:('id', 'password')
+2026-08-06 14:12:08 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="cd987bce9b6418a4dec46fa30568497e", element="f.5F078C4AC2B96722FCAA9A2EC9DB4436.d.6678491BFE6C2E71EE5DADCBF7C3A7C8.e.4")>, 定位器:('name', 'verify_code')
+2026-08-06 14:12:09 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="cd987bce9b6418a4dec46fa30568497e", element="f.5F078C4AC2B96722FCAA9A2EC9DB4436.d.6678491BFE6C2E71EE5DADCBF7C3A7C8.e.13")>, 定位器:('name', 'sbtbutton')
+2026-08-06 14:12:11 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="cd987bce9b6418a4dec46fa30568497e", element="f.5F078C4AC2B96722FCAA9A2EC9DB4436.d.683121B179A3473550EC6177C4C8772B.e.34")>, 定位器:('xpath', '//a[contains(@class,"userinfo")]')
+2026-08-06 14:12:11 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="cd987bce9b6418a4dec46fa30568497e", element="f.5F078C4AC2B96722FCAA9A2EC9DB4436.d.683121B179A3473550EC6177C4C8772B.e.35")>, 定位器:('css selector', "a[title='退出']")
+2026-08-06 14:12:13 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="cd987bce9b6418a4dec46fa30568497e", element="f.5F078C4AC2B96722FCAA9A2EC9DB4436.d.3E3D86EA76DC86C9523ABC7F9BFC36E5.e.50")>, 定位器:('id', 'username')
+2026-08-06 14:12:14 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="cd987bce9b6418a4dec46fa30568497e", element="f.5F078C4AC2B96722FCAA9A2EC9DB4436.d.3E3D86EA76DC86C9523ABC7F9BFC36E5.e.51")>, 定位器:('id', 'password')
+2026-08-06 14:12:15 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="cd987bce9b6418a4dec46fa30568497e", element="f.5F078C4AC2B96722FCAA9A2EC9DB4436.d.3E3D86EA76DC86C9523ABC7F9BFC36E5.e.52")>, 定位器:('name', 'verify_code')
+2026-08-06 14:12:16 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="cd987bce9b6418a4dec46fa30568497e", element="f.5F078C4AC2B96722FCAA9A2EC9DB4436.d.3E3D86EA76DC86C9523ABC7F9BFC36E5.e.61")>, 定位器:('name', 'sbtbutton')
+2026-08-06 14:12:18 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="cd987bce9b6418a4dec46fa30568497e", element="f.5F078C4AC2B96722FCAA9A2EC9DB4436.d.3E3D86EA76DC86C9523ABC7F9BFC36E5.e.62")>, 定位器:('css selector', '.layui-layer-content.layui-layer-padding')
+2026-08-06 14:12:19 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="cd987bce9b6418a4dec46fa30568497e", element="f.5F078C4AC2B96722FCAA9A2EC9DB4436.d.8CEE45F0647A885FA5F76BE64748F563.e.65")>, 定位器:('id', 'username')
+2026-08-06 14:12:20 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="cd987bce9b6418a4dec46fa30568497e", element="f.5F078C4AC2B96722FCAA9A2EC9DB4436.d.8CEE45F0647A885FA5F76BE64748F563.e.66")>, 定位器:('id', 'password')
+2026-08-06 14:12:21 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="cd987bce9b6418a4dec46fa30568497e", element="f.5F078C4AC2B96722FCAA9A2EC9DB4436.d.8CEE45F0647A885FA5F76BE64748F563.e.67")>, 定位器:('name', 'verify_code')
+2026-08-06 14:12:22 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="cd987bce9b6418a4dec46fa30568497e", element="f.5F078C4AC2B96722FCAA9A2EC9DB4436.d.8CEE45F0647A885FA5F76BE64748F563.e.76")>, 定位器:('name', 'sbtbutton')
+2026-08-06 14:12:24 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="cd987bce9b6418a4dec46fa30568497e", element="f.5F078C4AC2B96722FCAA9A2EC9DB4436.d.8CEE45F0647A885FA5F76BE64748F563.e.77")>, 定位器:('css selector', '.layui-layer-content.layui-layer-padding')
+2026-08-06 14:12:26 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="cd987bce9b6418a4dec46fa30568497e", element="f.5F078C4AC2B96722FCAA9A2EC9DB4436.d.BCFCEF35FEF27F1183519994CE1790D9.e.79")>, 定位器:('id', 'username')
+2026-08-06 14:12:27 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="cd987bce9b6418a4dec46fa30568497e", element="f.5F078C4AC2B96722FCAA9A2EC9DB4436.d.BCFCEF35FEF27F1183519994CE1790D9.e.80")>, 定位器:('id', 'password')
+2026-08-06 14:12:28 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="cd987bce9b6418a4dec46fa30568497e", element="f.5F078C4AC2B96722FCAA9A2EC9DB4436.d.BCFCEF35FEF27F1183519994CE1790D9.e.81")>, 定位器:('name', 'verify_code')
+2026-08-06 14:12:29 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="cd987bce9b6418a4dec46fa30568497e", element="f.5F078C4AC2B96722FCAA9A2EC9DB4436.d.BCFCEF35FEF27F1183519994CE1790D9.e.90")>, 定位器:('name', 'sbtbutton')
+2026-08-06 14:12:31 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="cd987bce9b6418a4dec46fa30568497e", element="f.5F078C4AC2B96722FCAA9A2EC9DB4436.d.BCFCEF35FEF27F1183519994CE1790D9.e.91")>, 定位器:('css selector', '.layui-layer-content.layui-layer-padding')
+2026-08-06 14:12:35 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="d7ab2dc45ebc2bea597929e1740919e6", element="f.C07E53F6EB0E72EFDD58E6159FD506C3.d.7487FC15701B7B4B6F26FE05BC2A8BCF.e.1")>, 定位器:('id', 'username')
+2026-08-06 14:12:36 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="d7ab2dc45ebc2bea597929e1740919e6", element="f.C07E53F6EB0E72EFDD58E6159FD506C3.d.7487FC15701B7B4B6F26FE05BC2A8BCF.e.3")>, 定位器:('id', 'password')
+2026-08-06 14:12:37 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="d7ab2dc45ebc2bea597929e1740919e6", element="f.C07E53F6EB0E72EFDD58E6159FD506C3.d.7487FC15701B7B4B6F26FE05BC2A8BCF.e.4")>, 定位器:('name', 'verify_code')
+2026-08-06 14:12:38 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="d7ab2dc45ebc2bea597929e1740919e6", element="f.C07E53F6EB0E72EFDD58E6159FD506C3.d.7487FC15701B7B4B6F26FE05BC2A8BCF.e.13")>, 定位器:('name', 'sbtbutton')
+2026-08-06 14:12:42 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="d7ab2dc45ebc2bea597929e1740919e6", element="f.C07E53F6EB0E72EFDD58E6159FD506C3.d.C659FF0F9E1DB05DF826E2EB8CB6F388.e.42")>, 定位器:('id', 'q')
+2026-08-06 14:12:43 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="d7ab2dc45ebc2bea597929e1740919e6", element="f.C07E53F6EB0E72EFDD58E6159FD506C3.d.C659FF0F9E1DB05DF826E2EB8CB6F388.e.49")>, 定位器:('class name', 'ecsc-search-button')
+2026-08-06 14:12:46 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="d7ab2dc45ebc2bea597929e1740919e6", element="f.C07E53F6EB0E72EFDD58E6159FD506C3.d.A9AAC00725851DB5681C1024E8F9941F.e.61")>, 定位器:('xpath', "//div[contains(@class, 'shop_name2')]//a")
+2026-08-06 14:12:47 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="d7ab2dc45ebc2bea597929e1740919e6", element="f.C07E53F6EB0E72EFDD58E6159FD506C3.d.3194091DBEE86702ED25A7DDC173A3E7.e.68")>, 定位器:('id', 'q')
+2026-08-06 14:12:48 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="d7ab2dc45ebc2bea597929e1740919e6", element="f.C07E53F6EB0E72EFDD58E6159FD506C3.d.3194091DBEE86702ED25A7DDC173A3E7.e.77")>, 定位器:('class name', 'ecsc-search-button')
+2026-08-06 14:12:50 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="d7ab2dc45ebc2bea597929e1740919e6", element="f.C07E53F6EB0E72EFDD58E6159FD506C3.d.AA2002A19C089FD8436B21AFF17E73FD.e.83")>, 定位器:('class name', 'ncyekjl')
+2026-08-06 14:29:09 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="6047eac0605a405086ab2f4200154aee", element="f.BCD0D8E9BE79470594C50118292AE937.d.18C468ECE6D381E52A183FC10210FE4D.e.1")>, 定位器:('id', 'username')
+2026-08-06 14:29:10 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="6047eac0605a405086ab2f4200154aee", element="f.BCD0D8E9BE79470594C50118292AE937.d.18C468ECE6D381E52A183FC10210FE4D.e.3")>, 定位器:('id', 'password')
+2026-08-06 14:29:11 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="6047eac0605a405086ab2f4200154aee", element="f.BCD0D8E9BE79470594C50118292AE937.d.18C468ECE6D381E52A183FC10210FE4D.e.4")>, 定位器:('name', 'verify_code')
+2026-08-06 14:29:12 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="6047eac0605a405086ab2f4200154aee", element="f.BCD0D8E9BE79470594C50118292AE937.d.18C468ECE6D381E52A183FC10210FE4D.e.13")>, 定位器:('name', 'sbtbutton')
+2026-08-06 14:29:14 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="6047eac0605a405086ab2f4200154aee", element="f.BCD0D8E9BE79470594C50118292AE937.d.73DB25E14D330FAA6F1C7054240CF86E.e.34")>, 定位器:('xpath', '//a[contains(@class,"userinfo")]')
+2026-08-06 14:29:14 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="6047eac0605a405086ab2f4200154aee", element="f.BCD0D8E9BE79470594C50118292AE937.d.73DB25E14D330FAA6F1C7054240CF86E.e.35")>, 定位器:('css selector', "a[title='退出']")
+2026-08-06 14:29:16 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="6047eac0605a405086ab2f4200154aee", element="f.BCD0D8E9BE79470594C50118292AE937.d.5C834EEA510ABA5D8F61D579A0B78536.e.50")>, 定位器:('id', 'username')
+2026-08-06 14:29:17 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="6047eac0605a405086ab2f4200154aee", element="f.BCD0D8E9BE79470594C50118292AE937.d.5C834EEA510ABA5D8F61D579A0B78536.e.51")>, 定位器:('id', 'password')
+2026-08-06 14:29:18 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="6047eac0605a405086ab2f4200154aee", element="f.BCD0D8E9BE79470594C50118292AE937.d.5C834EEA510ABA5D8F61D579A0B78536.e.52")>, 定位器:('name', 'verify_code')
+2026-08-06 14:29:19 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="6047eac0605a405086ab2f4200154aee", element="f.BCD0D8E9BE79470594C50118292AE937.d.5C834EEA510ABA5D8F61D579A0B78536.e.61")>, 定位器:('name', 'sbtbutton')
+2026-08-06 14:29:21 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="6047eac0605a405086ab2f4200154aee", element="f.BCD0D8E9BE79470594C50118292AE937.d.5C834EEA510ABA5D8F61D579A0B78536.e.62")>, 定位器:('css selector', '.layui-layer-content.layui-layer-padding')
+2026-08-06 14:29:22 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="6047eac0605a405086ab2f4200154aee", element="f.BCD0D8E9BE79470594C50118292AE937.d.2814C4E7BB6093B9B08FB5AB8DB4794C.e.65")>, 定位器:('id', 'username')
+2026-08-06 14:29:23 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="6047eac0605a405086ab2f4200154aee", element="f.BCD0D8E9BE79470594C50118292AE937.d.2814C4E7BB6093B9B08FB5AB8DB4794C.e.66")>, 定位器:('id', 'password')
+2026-08-06 14:29:24 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="6047eac0605a405086ab2f4200154aee", element="f.BCD0D8E9BE79470594C50118292AE937.d.2814C4E7BB6093B9B08FB5AB8DB4794C.e.67")>, 定位器:('name', 'verify_code')
+2026-08-06 14:29:25 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="6047eac0605a405086ab2f4200154aee", element="f.BCD0D8E9BE79470594C50118292AE937.d.2814C4E7BB6093B9B08FB5AB8DB4794C.e.76")>, 定位器:('name', 'sbtbutton')
+2026-08-06 14:29:27 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="6047eac0605a405086ab2f4200154aee", element="f.BCD0D8E9BE79470594C50118292AE937.d.2814C4E7BB6093B9B08FB5AB8DB4794C.e.77")>, 定位器:('css selector', '.layui-layer-content.layui-layer-padding')
+2026-08-06 14:29:29 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="6047eac0605a405086ab2f4200154aee", element="f.BCD0D8E9BE79470594C50118292AE937.d.B0A12644B5FCA1C284CD268FA9427915.e.79")>, 定位器:('id', 'username')
+2026-08-06 14:29:30 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="6047eac0605a405086ab2f4200154aee", element="f.BCD0D8E9BE79470594C50118292AE937.d.B0A12644B5FCA1C284CD268FA9427915.e.80")>, 定位器:('id', 'password')
+2026-08-06 14:29:31 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="6047eac0605a405086ab2f4200154aee", element="f.BCD0D8E9BE79470594C50118292AE937.d.B0A12644B5FCA1C284CD268FA9427915.e.81")>, 定位器:('name', 'verify_code')
+2026-08-06 14:29:32 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="6047eac0605a405086ab2f4200154aee", element="f.BCD0D8E9BE79470594C50118292AE937.d.B0A12644B5FCA1C284CD268FA9427915.e.90")>, 定位器:('name', 'sbtbutton')
+2026-08-06 14:29:34 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="6047eac0605a405086ab2f4200154aee", element="f.BCD0D8E9BE79470594C50118292AE937.d.B0A12644B5FCA1C284CD268FA9427915.e.91")>, 定位器:('css selector', '.layui-layer-content.layui-layer-padding')
+2026-08-06 14:29:38 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="d3fb28249e0d1f32f439ca295e54da4d", element="f.44B3CD4FA7C9B590B69FCB4DC95C83C1.d.896F1984DC7DD1C8ADDB5464228DB8F0.e.1")>, 定位器:('id', 'username')
+2026-08-06 14:29:39 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="d3fb28249e0d1f32f439ca295e54da4d", element="f.44B3CD4FA7C9B590B69FCB4DC95C83C1.d.896F1984DC7DD1C8ADDB5464228DB8F0.e.3")>, 定位器:('id', 'password')
+2026-08-06 14:29:40 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="d3fb28249e0d1f32f439ca295e54da4d", element="f.44B3CD4FA7C9B590B69FCB4DC95C83C1.d.896F1984DC7DD1C8ADDB5464228DB8F0.e.4")>, 定位器:('name', 'verify_code')
+2026-08-06 14:29:41 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="d3fb28249e0d1f32f439ca295e54da4d", element="f.44B3CD4FA7C9B590B69FCB4DC95C83C1.d.896F1984DC7DD1C8ADDB5464228DB8F0.e.13")>, 定位器:('name', 'sbtbutton')
+2026-08-06 14:29:45 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="d3fb28249e0d1f32f439ca295e54da4d", element="f.44B3CD4FA7C9B590B69FCB4DC95C83C1.d.A0FB71ECF0FA075D5439633B8930D526.e.42")>, 定位器:('id', 'q')
+2026-08-06 14:29:46 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="d3fb28249e0d1f32f439ca295e54da4d", element="f.44B3CD4FA7C9B590B69FCB4DC95C83C1.d.A0FB71ECF0FA075D5439633B8930D526.e.49")>, 定位器:('class name', 'ecsc-search-button')
+2026-08-06 14:29:48 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="d3fb28249e0d1f32f439ca295e54da4d", element="f.44B3CD4FA7C9B590B69FCB4DC95C83C1.d.17A752452FB87DE1BC7594D34BD5115D.e.61")>, 定位器:('xpath', "//div[contains(@class, 'shop_name2')]//a")
+2026-08-06 14:29:49 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="d3fb28249e0d1f32f439ca295e54da4d", element="f.44B3CD4FA7C9B590B69FCB4DC95C83C1.d.17A752452FB87DE1BC7594D34BD5115D.e.62")>, 定位器:('class name', 'all-sec')
+2026-08-06 14:29:50 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="d3fb28249e0d1f32f439ca295e54da4d", element="f.44B3CD4FA7C9B590B69FCB4DC95C83C1.d.4CE983EF3CD919FBA4C2EC0EAAC73290.e.69")>, 定位器:('id', 'q')
+2026-08-06 14:29:51 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="d3fb28249e0d1f32f439ca295e54da4d", element="f.44B3CD4FA7C9B590B69FCB4DC95C83C1.d.4CE983EF3CD919FBA4C2EC0EAAC73290.e.78")>, 定位器:('class name', 'ecsc-search-button')
+2026-08-06 14:29:53 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="d3fb28249e0d1f32f439ca295e54da4d", element="f.44B3CD4FA7C9B590B69FCB4DC95C83C1.d.7ACCA8EC329D0DAC6DB749AC8AE0F7E3.e.84")>, 定位器:('class name', 'ncyekjl')
+2026-08-06 14:29:53 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="d3fb28249e0d1f32f439ca295e54da4d", element="f.44B3CD4FA7C9B590B69FCB4DC95C83C1.d.7ACCA8EC329D0DAC6DB749AC8AE0F7E3.e.85")>, 定位器:('class name', 'all-sec')

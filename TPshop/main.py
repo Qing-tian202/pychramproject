@@ -21,7 +21,7 @@ if __name__ == '__main__':
     ])
 
     # 生成Allure报告
-    # os.system(f"allure generate {RESULTS_DIR} -o {ALLURE_DIR} --clean")
+    os.system(f"allure generate {RESULTS_DIR} -o {ALLURE_DIR} --clean")
 
     # 打开Allure服务器
     # os.system(f"allure open -h 127.0.0.1 -p 8883 {ALLURE_DIR}")

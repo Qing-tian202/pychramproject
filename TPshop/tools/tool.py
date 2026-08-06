@@ -13,5 +13,5 @@ DATA_DIR = os.path.join(BASE_DIR, 'data')
 LOGS_DIR = os.path.join(BASE_DIR, 'logs')
 RESULTS_DIR = os.path.join(BASE_DIR, 'results')
 ALLURE_DIR = os.path.join(BASE_DIR, 'allure_report')
-TP_HOST = "http://192.168.44.136"
+TP_HOST = "http://192.168.44.137"
 

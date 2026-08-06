@@ -1,0 +1,17 @@
+[
+  {
+    "goods_name": "小米",
+    "expect": true,
+    "flag": 0,
+    "goods_number": "共2个商品",
+    "descriptions": "搜索存在的商品"
+  },
+  {
+    "goods_name": "不存在商品123",
+    "expect": "-- 抱歉没找到您要搜索的商品，换个条件试试！--",
+    "flag": 1,
+    "goods_number": "共0个商品",
+    "descriptions": "搜索不存在的商品"
+  }
+
+]

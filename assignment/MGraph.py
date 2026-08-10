@@ -47,5 +47,5 @@ if __name__ == "__main__":
     graph.set(2, 3, 1)
     #print(graph.graph)
     path = BFS_all(graph)
-    print(f"BFS path result {path}")
-    print("BFS path result: ","-> ".join(map(str, path)))
+    print(f"BFS path results {path}")
+    print("BFS path results: ","-> ".join(map(str, path)))

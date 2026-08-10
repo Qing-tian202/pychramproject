@@ -23,7 +23,7 @@ def query(dataframe,id):
         print(f"{'编号':<6} {'姓名':<10} {'年龄':<4}")
 
         for result in dataframe:
-            # result = result.split(",")
+            # results = results.split(",")
             print(f"{result[0]:<6} {result[1]:<10} {result[2]:<4}")
 
 

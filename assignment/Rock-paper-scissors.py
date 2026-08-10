@@ -9,7 +9,7 @@ def fun():
     x = random.randint(0, 2)
     y = int(input("请输入（0:石头，1:剪刀，2:布）："))
     result = (x , y)
-    #print(result)
+    #print(results)
     if result == (0,2) or result == (1 , 0) or result == (2 , 1):
         print("你赢了！")
     elif result==(0, 0) or result == (1 , 1) or result == ( 2, 2):

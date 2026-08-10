@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="713bc543-929e-42df-bd6a-697482fe5177" name="更改" comment="python appnium 示例代码">
-      <change afterPath="$PROJECT_DIR$/Appium_test/common/App_Operate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Appium_test/common/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Appium_test/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Appium_test/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Appium_test/requirments.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Appium_test/tools/Logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Appium_test/tools/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Appium_test/tools/tool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium_project/Appium_assignment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_Project.iml" afterDir="false" />
+    <list default="true" id="713bc543-929e-42df-bd6a-697482fe5177" name="更改" comment="python appnium作业">
+      <change afterPath="$PROJECT_DIR$/selenium_project/Appium_music.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/MGraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/MGraph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/Rock-paper-scissors.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/Rock-paper-scissors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/StudentManagementSystem_file/studentSystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/StudentManagementSystem_file/studentSystem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium_project/appium_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_project/appium_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -582,7 +569,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786009629851</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="python appnium作业">
+      <option name="closed" value="true" />
+      <created>1786350555784</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1786350555784</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -623,7 +618,8 @@
     <MESSAGE value="python selenium UI自动化，WeFinance" />
     <MESSAGE value="python selenium UI自动化测试，TPshop,登录和搜索" />
     <MESSAGE value="python appnium 示例代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="python appnium 示例代码" />
+    <MESSAGE value="python appnium作业" />
+    <option name="LAST_COMMIT_MESSAGE" value="python appnium作业" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pychramproject$ApplicationInterface.coverage" NAME="ApplicationInterface 覆盖结果" MODIFIED="1785074997217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WeFinance/case" />

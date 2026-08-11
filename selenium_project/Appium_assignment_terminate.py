@@ -40,7 +40,7 @@ class Setting(BaseAppium):
         self.__search_btn_locator = (AppiumBy.ANDROID_UIAUTOMATOR, 'new UiSelector().resourceId("com.tinnove.mediacenter:id/ll_search")')
         self.__search_txt_locator = (AppiumBy.ANDROID_UIAUTOMATOR, 'new UiSelector().resourceId("com.tinnove.mediacenter:id/edit_text")')
         self.__search_config_locator = (AppiumBy.ANDROID_UIAUTOMATOR, 'new UiSelector().resourceId("com.tinnove.mediacenter:id/confirm_btn")')
-        self.__chose_music_locator = (AppiumBy.ANDROID_UIAUTOMATOR, 'new UiSelector().resourceId("com.tinnove.mediacenter:id/ll_search_item_bg").instance(2)')
+        self.__chose_music_locator = (AppiumBy.ANDROID_UIAUTOMATOR, 'new UiSelector().resourceId("com.tinnove.mediacenter:id/ll_search_item_bg").instance(0)')
 
 
 
@@ -51,7 +51,7 @@ class Setting(BaseAppium):
         options.load_capabilities({
           "platformName": "Android",
           "appium:platformVersion": "11",
-          "appium:deviceName": "69a96763",
+          "appium:deviceName": "559890a8",
           "appium:appPackage": "com.tinnove.launcher",
           "appium:appActivity": "com.tinnove.applist.AppListActivity",
           "appium:noReset": True,
@@ -71,7 +71,7 @@ class Setting(BaseAppium):
         time.sleep(2)
         self.click(self.__search_btn_locator)
         time.sleep(2)
-        self.send_keys(self.__search_txt_locator, "天后")
+        self.send_keys(self.__search_txt_locator, "sea")
         time.sleep(2)
         self.click(self.__search_config_locator)
         time.sleep(2)

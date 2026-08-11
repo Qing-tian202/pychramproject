@@ -1,27 +1,10 @@
 import os
-import sys
+from tools import get_current_time
 import pytest
 
-# 添加项目根目录到路径
-project_root = os.path.dirname(os.path.abspath(__file__))
-if project_root not in sys.path:
-    sys.path.insert(0, project_root)
-
-from tools.tool import RESULTS_DIR, ALLURE_DIR
-
 if __name__ == '__main__':
-    # 确保目录存在
-    os.makedirs(RESULTS_DIR, exist_ok=True)
-    os.makedirs(ALLURE_DIR, exist_ok=True)
-
-    # 运行测试
-    pytest.main([
-        f'--alluredir={RESULTS_DIR}',
-        '--clean-alluredir'  # 清空之前的报告
-    ])
-
-    # 生成Allure报告
-    os.system(f"allure generate {RESULTS_DIR} -o {ALLURE_DIR} --clean")
-
-    # 打开Allure服务器
-    # os.system(f"allure open -h 127.0.0.1 -p 8883 {ALLURE_DIR}")
+    result_path = f'reports/results/{get_current_time()}'
+    report_path = f'reports/{get_current_time()}'
+    pytest.main([f"--clean-alluredir", f"--alluredir=reports/results/{get_current_time()}"])
+    os.system(f"allure generate {result_path} -o {report_path}")
+    os.system(f"allure open {report_path} -h 127.0.0.1 -p 8883")

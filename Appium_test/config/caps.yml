@@ -1,0 +1,70 @@
+# ============================================
+# 第一层：设备池（可复用）
+# ============================================
+devices:
+  # 模拟器信息
+  emulator_9:
+    platformName: "Android"
+    platformVersion: "9"
+    deviceName: "emulator-5554"
+    automationName: "UiAutomator2"
+
+  # 车载终端信息
+  auto_motive:
+    platformName: "Android"
+    platformVersion: "11"
+    deviceName: "559890a8"
+    automationName: "UiAutomator2"
+
+# ============================================
+# 第二层：App 池（按平台区分）
+# ============================================
+android_apps:
+  # 网易包名、界面名
+  netease_news:
+    appPackage: "com.netease.newsreader.activity"
+    appActivity: "com.netease.nr.biz.ad.AdActivity"
+
+  # 微信包名、界面名
+  wechat:
+    appPackage: "com.tencent.mm"
+    appActivity: ".ui.LauncherUI"
+
+  # 车载中控设置页面
+  settings:
+    appPackage: "com.tencent.mm"
+    appActivity: ".ui.LauncherUI"
+
+  # 车载中控应用列表页面
+  applist:
+    appPackage: "com.tinnove.launcher"
+    appActivity: "com.tinnove.applist.AppListActivity"
+
+  # 还可以在这添加其它的所测APP信息。。。
+
+# ============================================
+# 第三层：公共行为（所有组合共享）
+# ============================================
+common:
+  # 是否重置应用状态：
+  #   true  → 每次启动不卸载应用、不清缓存、不清登录态（测试速度快，适合回归）
+  #   false → 每次重新安装/清除数据（适合首次安装向导类的测试）
+  # 不写默认是 false
+  noReset: false
+
+  # 启用 Appium 自带的 Unicode 输入法
+  # 开启后可以直接输入中文、emoji 等特殊字符
+  # 如果不开启，send_keys("中文") 在某些输入框会失败
+  unicodeKeyboard: true
+
+  # 测试结束后将系统输入法重置回默认
+  # 配合 unicodeKeyboard: true 使用
+  # true  = 测试完恢复原来的输入法
+  # false = 留在 Appium 输入法上（手动调试时方便，CI 环境建议 true）
+  resetKeyboard: true
+
+  # 即便 noReset=true，也在会话启动时强制拉起 App
+  forceAppLaunch: true
+
+  # noReset=false启动app时自动授权所有权限
+  autoGrantPermissions: true

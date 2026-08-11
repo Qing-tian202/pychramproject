@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","32146","test_login[data1]","test_cases","Sun Aug 09 10:16:09 CST 2026","passed","Sun Aug 09 10:16:41 CST 2026","TestLoginSuccess","test_login","",""
+"","35325","test_login[data0]","test_cases","Sun Aug 09 10:15:25 CST 2026","passed","Sun Aug 09 10:16:00 CST 2026","TestLoginSuccess","test_login","",""

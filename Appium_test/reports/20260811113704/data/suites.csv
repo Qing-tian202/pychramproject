@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","0","test_login[data1]","test_cases","2026-08-11","broken","2026-08-11","TestLogin","test_login","",""
+"","102","查询成功","test_cases","2026-08-11","passed","2026-08-11","TestPersonalPage","test_personal_page","",""
+"","0","test_login[data0]","test_cases","2026-08-11","broken","2026-08-11","TestLogin","test_login","",""

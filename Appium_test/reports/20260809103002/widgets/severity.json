@@ -1,0 +1,1 @@
+[{"uid":"f68a7cfc79f0373d","name":"登录成功","time":{"start":1786242611795,"stop":1786242646560,"duration":34765},"status":"passed","severity":"critical"},{"uid":"6e8ad76e4f1ccac6","name":"登录失败-密码错误","time":{"start":1786242655761,"stop":1786242687919,"duration":32158},"status":"passed","severity":"critical"}]

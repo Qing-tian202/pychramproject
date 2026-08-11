@@ -1,0 +1,5 @@
+2026-08-08 20:50:57,308 - POLogger - ERROR - Timed out waiting for element to load. locator: ('id', 'com.netease.newsreader.activity:id/gr')
+2026-08-08 20:50:58,888 - POLogger - INFO - 截图成功
+2026-08-08 20:50:58,889 - POLogger - ERROR - 'NoneType' object has no attribute 'click'
+2026-08-08 20:51:09,780 - POLogger - ERROR - Timed out waiting for element to load. locator: ('id', 'com.netease.newsreader.activity:id/ph')
+2026-08-08 20:51:09,981 - POLogger - INFO - 截图成功

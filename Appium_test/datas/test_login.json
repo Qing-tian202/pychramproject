@@ -1,0 +1,15 @@
+[
+  {
+    "username": "chongruanedu@163.com",
+    "password": "wawq1314.",
+    "expect": "有态度网友",
+    "flag": 0,
+    "description": "登录成功"
+  },{
+    "username": "chongruanedu@163.com",
+    "password": "wawq1314",
+    "expect": "登录失败",
+    "flag": 1,
+    "description": "登录失败-密码错误"
+  }
+]

@@ -1,7 +1,12 @@
-# __init__.py
+import pathlib
+from datetime import datetime
 
-from .Logger import setup_logging
-from .tool import *
+# 定义工程路径
+BASE_PATH = pathlib.Path(__file__).parent.parent.absolute()
+# Appium服务默认地址
+APPIUM_SERVER = "http://127.0.0.1:4723"
 
-# 导出常用路径
-__all__ = ['BASE_DIR', 'DATA_DIR', 'LOGS_DIR', 'RESULTS_DIR', 'ALLURE_DIR', 'TP_HOST','setup_logging']
+
+def get_current_time():
+    """获取当前时间"""
+    return datetime.now().strftime("%Y%m%d%H%M%S")

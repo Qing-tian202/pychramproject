@@ -7,8 +7,9 @@
         <option value="$PROJECT_DIR$/http_test/API_test" />
         <option value="$PROJECT_DIR$/test_pytest_copy" />
         <option value="$PROJECT_DIR$/Rewrite_StudentManageSystem" />
-        <option value="$PROJECT_DIR$/WeFinance" />
         <option value="$PROJECT_DIR$/TPshop" />
+        <option value="$PROJECT_DIR$/WeFinance" />
+        <option value="$PROJECT_DIR$" />
       </set>
     </option>
   </component>

@@ -9,47 +9,98 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.select import Select
 
-class WeFinance:
+class BasePage:
+    def __init__(self, driver: webdriver.Chrome):
+        self.__driver = driver
+        self.wait = WebDriverWait(driver, 20)
+        self.__actions = ActionChains(driver)
+
+    @property
+    def driver(self):
+        return self.__driver
+
+    @property
+    def actions(self):
+        return self.__actions
+
+    def find_element(self, locator:tuple[str, str]):
+        try:
+            ele = self.wait.until(EC.visibility_of_element_located(locator))
+            if ele:
+                return ele
+            else:
+                raise Exception
+        except Exception as e:
+            print(f"error ! {e}")
+
+    def click(self, locator:tuple[str, str]):
+        ele = self.find_element(locator)
+        ele.click()
+
+    def send_keys(self, locator:tuple[str, str], value:str):
+        ele = self.find_element(locator)
+        ele.send_keys(value)
+
+    def clear(self, locator:tuple[str, str]):
+        ele = self.find_element(locator)
+        ele.clear()
+
+
+class WeFinance(BasePage):
     def __init__(self):
+
+        # 初始化驱动
+        super().__init__(self.setup_driver())
+
         # 初始化配置
-        self.executable_path = r"D:\Google\Chrome\Application\chromedriver-win64\chromedriver.exe"
         self.username = "testuser"
         self.password = "test123456"
         self.contract_number = ""
         self.contract_page = ""
         self.host = "http://192.168.44.130:8000/"
         self.myhost = "http://192.168.47.136:8000/"
-        self.setup_driver()
-        self.actions = ActionChains(self.driver)
+
+
+        # 定位器
+        self.__login_btn_locator = (By.CSS_SELECTOR, ".fas.fa-sign-in-alt")
+        self.__username_locator = (By.ID, "id_username")
+        self.__password_locator = (By.ID, "password-field")
+        self.__remember_me_locator = (By.ID, "id_remember_me")
+        self.__click_login_locator = (By.ID, "submit-id-submit")
+
 
     def setup_driver(self):
-        service = Service(self.executable_path)
+        # 设置驱动
+        executable_path = r"D:\Google\Chrome\Application\chromedriver-win64\chromedriver.exe"
+        service = Service(executable_path)
         options = webdriver.ChromeOptions()
         options.binary_location = r"D:\Google\Chrome\Application\chrome.exe"
         options.add_argument('--disable-blink-features=AutomationControlled')
         options.add_experimental_option("excludeSwitches", ["enable-automation"])
         options.add_argument('--start-maximized')
 
-        self.driver = webdriver.Chrome(service=service, options=options)
-        self.wait = WebDriverWait(self.driver, 20)
+        driver = webdriver.Chrome(service=service, options=options)
+
+        return driver
+
 
     def login(self):
         try:
             self.driver.get(self.host) #主页
             time.sleep(1)
-            self.driver.find_element(By.CSS_SELECTOR, ".fas.fa-sign-in-alt").click() #跳转登录页
+            self.click(self.__login_btn_locator) #跳转登录页
             time.sleep(1)
-            self.actions.click(self.driver.find_element(By.ID, "id_username")).perform()
+            self.actions.click(self.find_element(self.__username_locator)).perform()
             time.sleep(1)
-            self.driver.find_element(By.ID, "id_username").send_keys(self.username) #输入用户名
+            self.send_keys(self.__username_locator, self.username) #输入用户名
             time.sleep(1)
-            self.actions.click(self.driver.find_element(By.ID, "password-field")).perform()
+            self.actions.click(self.find_element(self.__password_locator)).perform()
             time.sleep(1)
-            self.driver.find_element(By.ID, "password-field").send_keys(self.password) #输入密码
+            self.send_keys(self.__password_locator, self.password) #输入密码
             time.sleep(1)
-            self.driver.find_element(By.ID, "id_remember_me").click() # 确认登录状态
+            self.click(self.__remember_me_locator) # 确认登录状态
             time.sleep(1)
-            self.driver.find_element(By.ID, "submit-id-submit").click() # 登录
+            self.click(self.__click_login_locator) # 登录
 
             self.wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".bg-primary.text-white.rounded-circle.d-flex.align-items-center.justify-content-center.me-2")))
             return True

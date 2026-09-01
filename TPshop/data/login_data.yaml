@@ -1,0 +1,81 @@
+base_data:
+  name: "登录功能测试"
+  feature: "用户认证"
+  description: "验证用户登录功能是否正常"
+  host: '/Home/user/login.html'
+test_cases:
+  - story: '登录成功'
+    steps:
+      - step_name: 输入用户名
+        arguments:
+          locator:
+            - id
+            - username
+          value: "13800138006"
+        event: send_keys
+      - step_name: 输入用户密码
+        arguments:
+          locator:
+            - id
+            - password
+          value: "123456"
+        event: send_keys
+      - step_name: 输入验证码
+        arguments:
+          locator:
+            - id
+            - verify_code
+          value: "crxy"
+        event: send_keys
+      - step_name: 点击登录按钮
+        arguments:
+          locator:
+            - name
+            - sbtbutton
+        event: click
+      - step_name: 获取昵称
+        arguments:
+          locator:
+            - xpath
+            - "//div[2]/a[1][contains(@href, '/Home/User/index.html') and @class='mu-m-phone']"
+        event: get_text
+        is_assert: true
+        expect: '王然啊啊啊啊啊啊'
+
+  - story: '登录失败'
+    steps:
+      - step_name: 输入用户名
+        arguments:
+          locator:
+            - id
+            - username
+          value: "13800138006"
+        event: send_keys
+      - step_name: 输入用户密码
+        arguments:
+          locator:
+            - id
+            - password
+          value: "1234567"
+        event: send_keys
+      - step_name: 输入验证码
+        arguments:
+          locator:
+            - id
+            - verify_code
+          value: "crxy"
+        event: send_keys
+      - step_name: 点击登录按钮
+        arguments:
+          locator:
+            - name
+            - sbtbutton
+        event: click
+      - step_name: 获取昵称
+        arguments:
+          locator:
+            - xpath
+            - "//div[@class='layui-layer-content layui-layer-padding']"
+        event: get_text
+        is_assert: true
+        expect: '密码错误!'

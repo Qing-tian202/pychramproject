@@ -6,6 +6,39 @@
   <component name="ChangeListManager">
     <list default="true" id="713bc543-929e-42df-bd6a-697482fe5177" name="更改" comment="python TPshop UI自动化 yaml数据文件驱动">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/data/attachments/5976a7a700f057e8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/data/attachments/8bdca3566b297eb7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/data/behaviors.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/data/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/data/packages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/data/suites.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/data/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/data/test-cases/bfe5c4842da2d215.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/data/test-cases/fac7b46c6912a0d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/data/timeline.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/export/influxDbData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/export/prometheusData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/history/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/history/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/history/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/history/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/widgets/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/widgets/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/widgets/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/widgets/duration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/widgets/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/widgets/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/widgets/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/widgets/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/widgets/severity.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/widgets/status-chart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/widgets/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/widgets/summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/data/login_data.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/data/login_data.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/logs/TPshop_UI_test_20260901.log" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/logs/TPshop_UI_test_20260901.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/results/1ef9d054-8db1-4de0-a945-d73dc9bae5ed-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/results/65c41e82-ff77-441f-af0c-cba06057b868-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/results/74500547-6333-491c-bf45-59b052c9d109-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/results/c318c690-f734-4cac-8985-6344631e7d72-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/tools/tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/tools/tool.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,64 +83,64 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python 测试.Python 测试 (test_http.py 内).executor": "Run",
-    "Python 测试.test.test1.test 的 Python 测试.executor": "Run",
-    "Python.Appium_assignment.executor": "Run",
-    "Python.Appium_assignment_terminate.executor": "Run",
-    "Python.ApplicationInterface.executor": "Run",
-    "Python.BankCardManagement.executor": "Run",
-    "Python.BasePage.executor": "Run",
-    "Python.BaseSetting.executor": "Run",
-    "Python.Certification (1).executor": "Run",
-    "Python.Contract.executor": "Run",
-    "Python.DBTool.executor": "Run",
-    "Python.EmployeeInformationManagementSystem.executor": "Run",
-    "Python.LoanApplication.executor": "Run",
-    "Python.Manage.executor": "Run",
-    "Python.RealNameVerification.executor": "Run",
-    "Python.Student.executor": "Run",
-    "Python.WeFinance.executor": "Run",
-    "Python.a.executor": "Run",
-    "Python.appium_test.executor": "Run",
-    "Python.build_investments_summary.executor": "Run",
-    "Python.build_login_data.executor": "Run",
-    "Python.build_search_data.executor": "Run",
-    "Python.get_login.executor": "Run",
-    "Python.http_test.executor": "Run",
-    "Python.main (1).executor": "Run",
-    "Python.main (2).executor": "Run",
-    "Python.main (3).executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.python_assignment10.executor": "Run",
-    "Python.python_assignment7.executor": "Run",
-    "Python.selenium_deepseek_test.executor": "Run",
-    "Python.selenium_test.executor": "Run",
-    "Python.selenium_tpshop_test.executor": "Run",
-    "Python.temp.executor": "Run",
-    "Python.test1.executor": "Run",
-    "Python.test2.executor": "Run",
-    "Python.test_login.executor": "Run",
-    "Python.tool.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/pycharmproject/Python_Project/TPshop",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python 测试.Python 测试 (test_http.py 内).executor&quot;: &quot;Run&quot;,
+    &quot;Python 测试.test.test1.test 的 Python 测试.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Appium_assignment.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Appium_assignment_terminate.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ApplicationInterface.executor&quot;: &quot;Run&quot;,
+    &quot;Python.BankCardManagement.executor&quot;: &quot;Run&quot;,
+    &quot;Python.BasePage.executor&quot;: &quot;Run&quot;,
+    &quot;Python.BaseSetting.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Certification (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Contract.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DBTool.executor&quot;: &quot;Run&quot;,
+    &quot;Python.EmployeeInformationManagementSystem.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LoanApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Manage.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RealNameVerification.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Student.executor&quot;: &quot;Run&quot;,
+    &quot;Python.WeFinance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.a.executor&quot;: &quot;Run&quot;,
+    &quot;Python.appium_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.build_investments_summary.executor&quot;: &quot;Run&quot;,
+    &quot;Python.build_login_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.build_search_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.get_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python.http_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (3).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.python_assignment10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.python_assignment7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_deepseek_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selenium_tpshop_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.temp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tool.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/pycharmproject/Python_Project/TPshop&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="Python_Project" is-module-sdk="true">
@@ -313,14 +346,6 @@
       <workItem from="1784944969491" duration="389000" />
       <workItem from="1785042466126" duration="1655000" />
       <workItem from="1785067356964" duration="7620000" />
-    </task>
-    <task id="LOCAL-00001" summary="软件测试作业">
-      <option name="closed" value="true" />
-      <created>1783906472219</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1783906472220</updated>
     </task>
     <task id="LOCAL-00002" summary="软件测试作业">
       <option name="closed" value="true" />
@@ -706,7 +731,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788227322374</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="python TPshop UI自动化 yaml数据文件驱动">
+      <option name="closed" value="true" />
+      <created>1788232142061</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1788232142062</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

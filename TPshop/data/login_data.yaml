@@ -42,7 +42,7 @@ test_cases:
         is_assert: true
         expect: '王然啊啊啊啊啊啊'
 
-  - story: '登录失败'
+  - story: '登录失败-密码错误'
     steps:
       - step_name: 输入用户名
         arguments:
@@ -79,3 +79,79 @@ test_cases:
         event: get_text
         is_assert: true
         expect: '密码错误!'
+
+  - story: '登录失败-验证码错误'
+    steps:
+      - step_name: 输入用户名
+        arguments:
+          locator:
+            - id
+            - username
+          value: "13800138006"
+        event: send_keys
+      - step_name: 输入用户密码
+        arguments:
+          locator:
+            - id
+            - password
+          value: "123456"
+        event: send_keys
+      - step_name: 输入验证码
+        arguments:
+          locator:
+            - id
+            - verify_code
+          value: "1234"
+        event: send_keys
+      - step_name: 点击登录按钮
+        arguments:
+          locator:
+            - name
+            - sbtbutton
+        event: click
+      - step_name: 获取昵称
+        arguments:
+          locator:
+            - xpath
+            - "//div[@class='layui-layer-content layui-layer-padding']"
+        event: get_text
+        is_assert: true
+        expect: '验证码错误'
+
+  - story: '登录失败-账号格式不匹配'
+    steps:
+      - step_name: 输入用户名
+        arguments:
+          locator:
+            - id
+            - username
+          value: "1380013800"
+        event: send_keys
+      - step_name: 输入用户密码
+        arguments:
+          locator:
+            - id
+            - password
+          value: "123456"
+        event: send_keys
+      - step_name: 输入验证码
+        arguments:
+          locator:
+            - id
+            - verify_code
+          value: "crxy"
+        event: send_keys
+      - step_name: 点击登录按钮
+        arguments:
+          locator:
+            - name
+            - sbtbutton
+        event: click
+      - step_name: 获取昵称
+        arguments:
+          locator:
+            - xpath
+            - "//div[@class='layui-layer-content layui-layer-padding']"
+        event: get_text
+        is_assert: true
+        expect: '账号格式不匹配!'

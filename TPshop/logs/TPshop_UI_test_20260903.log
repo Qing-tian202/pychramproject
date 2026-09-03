@@ -1,0 +1,124 @@
+2026-09-03 15:09:11 - tools.Logger - INFO - 发现测试数据文件: D:\pycharmproject\Python_Project\TPshop\data\login_data.yaml
+2026-09-03 15:09:11 - tools.Logger - INFO - 初始化测试文件: D:\pycharmproject\Python_Project\TPshop\data\login_data.yaml
+2026-09-03 15:09:14 - tools.Logger - INFO - ✅ Chrome浏览器启动成功
+2026-09-03 15:09:14 - tools.Logger - INFO - 📄 加载YAML文件: D:\pycharmproject\Python_Project\TPshop\data\login_data.yaml
+2026-09-03 15:09:14 - tools.Logger - INFO - 基础数据: 用户认证
+2026-09-03 15:09:14 - tools.Logger - INFO - 测试用例数量: 4
+2026-09-03 15:09:14 - tools.Logger - INFO - 生成测试项 [1/4]: 登录成功
+2026-09-03 15:09:14 - tools.Logger - INFO - 创建测试项: 登录成功
+2026-09-03 15:09:14 - tools.Logger - INFO - 生成测试项 [2/4]: 登录失败-密码错误
+2026-09-03 15:09:14 - tools.Logger - INFO - 创建测试项: 登录失败-密码错误
+2026-09-03 15:09:14 - tools.Logger - INFO - 生成测试项 [3/4]: 登录失败-验证码错误
+2026-09-03 15:09:14 - tools.Logger - INFO - 创建测试项: 登录失败-验证码错误
+2026-09-03 15:09:14 - tools.Logger - INFO - 生成测试项 [4/4]: 登录失败-账号格式不匹配
+2026-09-03 15:09:14 - tools.Logger - INFO - 创建测试项: 登录失败-账号格式不匹配
+2026-09-03 15:09:14 - tools.Logger - INFO - 🔧 设置测试: 登录成功
+2026-09-03 15:09:14 - tools.Logger - INFO - Feature: 用户认证
+2026-09-03 15:09:14 - tools.Logger - INFO - Description: 验证用户登录功能是否正常
+2026-09-03 15:09:14 - tools.Logger - INFO - ========== 开始执行测试: data/login_data.yaml::登录成功 ==========
+2026-09-03 15:09:14 - tools.Logger - INFO - 🌐 访问页面: http://192.168.44.140/Home/user/login.html
+2026-09-03 15:09:15 - tools.Logger - INFO - 页面标题: 登录-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城
+2026-09-03 15:09:15 - tools.Logger - INFO - 📋 开始执行测试步骤，共 5 步
+2026-09-03 15:09:15 - tools.Logger - INFO -   ▶️ 执行步骤 [1/5]: 输入用户名
+2026-09-03 15:09:17 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="34e5821ebb1248a80262d535d55fd03d", element="f.468E1CFDEE45C1096D23A7F3173CB64A.d.AB97085650800B599D952CA456B54F77.e.1")>, 定位器:['id', 'username']
+2026-09-03 15:09:17 - tools.Logger - INFO -   ✅ 步骤执行成功
+2026-09-03 15:09:17 - tools.Logger - INFO -   ▶️ 执行步骤 [2/5]: 输入用户密码
+2026-09-03 15:09:19 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="34e5821ebb1248a80262d535d55fd03d", element="f.468E1CFDEE45C1096D23A7F3173CB64A.d.AB97085650800B599D952CA456B54F77.e.3")>, 定位器:['id', 'password']
+2026-09-03 15:09:19 - tools.Logger - INFO -   ✅ 步骤执行成功
+2026-09-03 15:09:19 - tools.Logger - INFO -   ▶️ 执行步骤 [3/5]: 输入验证码
+2026-09-03 15:09:21 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="34e5821ebb1248a80262d535d55fd03d", element="f.468E1CFDEE45C1096D23A7F3173CB64A.d.AB97085650800B599D952CA456B54F77.e.4")>, 定位器:['id', 'verify_code']
+2026-09-03 15:09:21 - tools.Logger - INFO -   ✅ 步骤执行成功
+2026-09-03 15:09:21 - tools.Logger - INFO -   ▶️ 执行步骤 [4/5]: 点击登录按钮
+2026-09-03 15:09:23 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="34e5821ebb1248a80262d535d55fd03d", element="f.468E1CFDEE45C1096D23A7F3173CB64A.d.AB97085650800B599D952CA456B54F77.e.29")>, 定位器:['name', 'sbtbutton']
+2026-09-03 15:09:23 - tools.Logger - INFO -   ✅ 步骤执行成功
+2026-09-03 15:09:23 - tools.Logger - INFO -   ▶️ 执行步骤 [5/5]: 获取昵称
+2026-09-03 15:09:25 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="34e5821ebb1248a80262d535d55fd03d", element="f.468E1CFDEE45C1096D23A7F3173CB64A.d.4166008C62A307EEAF9E4F3E5C43D4E2.e.144")>, 定位器:['xpath', "//div[2]/a[1][contains(@href, '/Home/User/index.html') and @class='mu-m-phone']"]
+2026-09-03 15:09:25 - tools.Logger - INFO -   🔍 断言验证: 期望=王然啊啊啊啊啊啊, 实际=王然啊啊啊啊啊啊
+2026-09-03 15:09:25 - tools.Logger - INFO -   ✅ 断言通过
+2026-09-03 15:09:25 - tools.Logger - INFO - 📊 测试完成，总步骤: 5
+2026-09-03 15:09:25 - tools.Logger - INFO -    ✅ 成功: 5, ❌ 失败: 0
+2026-09-03 15:09:25 - tools.Logger - INFO - 🍪 Cookies已清除
+2026-09-03 15:09:25 - tools.Logger - INFO - ✅ 测试通过: data/login_data.yaml::登录成功
+2026-09-03 15:09:25 - tools.Logger - INFO - 🔧 设置测试: 登录失败-密码错误
+2026-09-03 15:09:25 - tools.Logger - INFO - Feature: 用户认证
+2026-09-03 15:09:25 - tools.Logger - INFO - Description: 验证用户登录功能是否正常
+2026-09-03 15:09:25 - tools.Logger - INFO - ========== 开始执行测试: data/login_data.yaml::登录失败-密码错误 ==========
+2026-09-03 15:09:25 - tools.Logger - INFO - 🌐 访问页面: http://192.168.44.140/Home/user/login.html
+2026-09-03 15:09:25 - tools.Logger - INFO - 页面标题: 登录-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城
+2026-09-03 15:09:25 - tools.Logger - INFO - 📋 开始执行测试步骤，共 5 步
+2026-09-03 15:09:25 - tools.Logger - INFO -   ▶️ 执行步骤 [1/5]: 输入用户名
+2026-09-03 15:09:27 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="34e5821ebb1248a80262d535d55fd03d", element="f.468E1CFDEE45C1096D23A7F3173CB64A.d.31B7BF1724AD005EAEAAB99DA36BD468.e.146")>, 定位器:['id', 'username']
+2026-09-03 15:09:27 - tools.Logger - INFO -   ✅ 步骤执行成功
+2026-09-03 15:09:27 - tools.Logger - INFO -   ▶️ 执行步骤 [2/5]: 输入用户密码
+2026-09-03 15:09:29 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="34e5821ebb1248a80262d535d55fd03d", element="f.468E1CFDEE45C1096D23A7F3173CB64A.d.31B7BF1724AD005EAEAAB99DA36BD468.e.147")>, 定位器:['id', 'password']
+2026-09-03 15:09:29 - tools.Logger - INFO -   ✅ 步骤执行成功
+2026-09-03 15:09:29 - tools.Logger - INFO -   ▶️ 执行步骤 [3/5]: 输入验证码
+2026-09-03 15:09:31 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="34e5821ebb1248a80262d535d55fd03d", element="f.468E1CFDEE45C1096D23A7F3173CB64A.d.31B7BF1724AD005EAEAAB99DA36BD468.e.148")>, 定位器:['id', 'verify_code']
+2026-09-03 15:09:31 - tools.Logger - INFO -   ✅ 步骤执行成功
+2026-09-03 15:09:31 - tools.Logger - INFO -   ▶️ 执行步骤 [4/5]: 点击登录按钮
+2026-09-03 15:09:33 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="34e5821ebb1248a80262d535d55fd03d", element="f.468E1CFDEE45C1096D23A7F3173CB64A.d.31B7BF1724AD005EAEAAB99DA36BD468.e.173")>, 定位器:['name', 'sbtbutton']
+2026-09-03 15:09:33 - tools.Logger - INFO -   ✅ 步骤执行成功
+2026-09-03 15:09:33 - tools.Logger - INFO -   ▶️ 执行步骤 [5/5]: 获取昵称
+2026-09-03 15:09:35 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="34e5821ebb1248a80262d535d55fd03d", element="f.468E1CFDEE45C1096D23A7F3173CB64A.d.31B7BF1724AD005EAEAAB99DA36BD468.e.268")>, 定位器:['xpath', "//div[@class='layui-layer-content layui-layer-padding']"]
+2026-09-03 15:09:35 - tools.Logger - INFO -   🔍 断言验证: 期望=密码错误!, 实际=密码错误!
+2026-09-03 15:09:35 - tools.Logger - INFO -   ✅ 断言通过
+2026-09-03 15:09:35 - tools.Logger - INFO - 📊 测试完成，总步骤: 5
+2026-09-03 15:09:35 - tools.Logger - INFO -    ✅ 成功: 5, ❌ 失败: 0
+2026-09-03 15:09:35 - tools.Logger - INFO - 🍪 Cookies已清除
+2026-09-03 15:09:35 - tools.Logger - INFO - ✅ 测试通过: data/login_data.yaml::登录失败-密码错误
+2026-09-03 15:09:35 - tools.Logger - INFO - 🔧 设置测试: 登录失败-验证码错误
+2026-09-03 15:09:35 - tools.Logger - INFO - Feature: 用户认证
+2026-09-03 15:09:35 - tools.Logger - INFO - Description: 验证用户登录功能是否正常
+2026-09-03 15:09:35 - tools.Logger - INFO - ========== 开始执行测试: data/login_data.yaml::登录失败-验证码错误 ==========
+2026-09-03 15:09:35 - tools.Logger - INFO - 🌐 访问页面: http://192.168.44.140/Home/user/login.html
+2026-09-03 15:09:35 - tools.Logger - INFO - 页面标题: 登录-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城
+2026-09-03 15:09:35 - tools.Logger - INFO - 📋 开始执行测试步骤，共 5 步
+2026-09-03 15:09:35 - tools.Logger - INFO -   ▶️ 执行步骤 [1/5]: 输入用户名
+2026-09-03 15:09:37 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="34e5821ebb1248a80262d535d55fd03d", element="f.468E1CFDEE45C1096D23A7F3173CB64A.d.AE39FCE434707DB496B4D942F2926245.e.271")>, 定位器:['id', 'username']
+2026-09-03 15:09:37 - tools.Logger - INFO -   ✅ 步骤执行成功
+2026-09-03 15:09:37 - tools.Logger - INFO -   ▶️ 执行步骤 [2/5]: 输入用户密码
+2026-09-03 15:09:39 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="34e5821ebb1248a80262d535d55fd03d", element="f.468E1CFDEE45C1096D23A7F3173CB64A.d.AE39FCE434707DB496B4D942F2926245.e.272")>, 定位器:['id', 'password']
+2026-09-03 15:09:39 - tools.Logger - INFO -   ✅ 步骤执行成功
+2026-09-03 15:09:39 - tools.Logger - INFO -   ▶️ 执行步骤 [3/5]: 输入验证码
+2026-09-03 15:09:41 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="34e5821ebb1248a80262d535d55fd03d", element="f.468E1CFDEE45C1096D23A7F3173CB64A.d.AE39FCE434707DB496B4D942F2926245.e.273")>, 定位器:['id', 'verify_code']
+2026-09-03 15:09:41 - tools.Logger - INFO -   ✅ 步骤执行成功
+2026-09-03 15:09:41 - tools.Logger - INFO -   ▶️ 执行步骤 [4/5]: 点击登录按钮
+2026-09-03 15:09:43 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="34e5821ebb1248a80262d535d55fd03d", element="f.468E1CFDEE45C1096D23A7F3173CB64A.d.AE39FCE434707DB496B4D942F2926245.e.298")>, 定位器:['name', 'sbtbutton']
+2026-09-03 15:09:43 - tools.Logger - INFO -   ✅ 步骤执行成功
+2026-09-03 15:09:43 - tools.Logger - INFO -   ▶️ 执行步骤 [5/5]: 获取昵称
+2026-09-03 15:09:45 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="34e5821ebb1248a80262d535d55fd03d", element="f.468E1CFDEE45C1096D23A7F3173CB64A.d.AE39FCE434707DB496B4D942F2926245.e.393")>, 定位器:['xpath', "//div[@class='layui-layer-content layui-layer-padding']"]
+2026-09-03 15:09:45 - tools.Logger - INFO -   🔍 断言验证: 期望=验证码错误, 实际=验证码错误
+2026-09-03 15:09:45 - tools.Logger - INFO -   ✅ 断言通过
+2026-09-03 15:09:45 - tools.Logger - INFO - 📊 测试完成，总步骤: 5
+2026-09-03 15:09:45 - tools.Logger - INFO -    ✅ 成功: 5, ❌ 失败: 0
+2026-09-03 15:09:45 - tools.Logger - INFO - 🍪 Cookies已清除
+2026-09-03 15:09:45 - tools.Logger - INFO - ✅ 测试通过: data/login_data.yaml::登录失败-验证码错误
+2026-09-03 15:09:45 - tools.Logger - INFO - 🔧 设置测试: 登录失败-账号格式不匹配
+2026-09-03 15:09:45 - tools.Logger - INFO - Feature: 用户认证
+2026-09-03 15:09:45 - tools.Logger - INFO - Description: 验证用户登录功能是否正常
+2026-09-03 15:09:45 - tools.Logger - INFO - ========== 开始执行测试: data/login_data.yaml::登录失败-账号格式不匹配 ==========
+2026-09-03 15:09:45 - tools.Logger - INFO - 🌐 访问页面: http://192.168.44.140/Home/user/login.html
+2026-09-03 15:09:45 - tools.Logger - INFO - 页面标题: 登录-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城
+2026-09-03 15:09:45 - tools.Logger - INFO - 📋 开始执行测试步骤，共 5 步
+2026-09-03 15:09:45 - tools.Logger - INFO -   ▶️ 执行步骤 [1/5]: 输入用户名
+2026-09-03 15:09:47 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="34e5821ebb1248a80262d535d55fd03d", element="f.468E1CFDEE45C1096D23A7F3173CB64A.d.C4FEE46D66881F380CC1B6364C483BEC.e.396")>, 定位器:['id', 'username']
+2026-09-03 15:09:47 - tools.Logger - INFO -   ✅ 步骤执行成功
+2026-09-03 15:09:47 - tools.Logger - INFO -   ▶️ 执行步骤 [2/5]: 输入用户密码
+2026-09-03 15:09:49 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="34e5821ebb1248a80262d535d55fd03d", element="f.468E1CFDEE45C1096D23A7F3173CB64A.d.C4FEE46D66881F380CC1B6364C483BEC.e.397")>, 定位器:['id', 'password']
+2026-09-03 15:09:49 - tools.Logger - INFO -   ✅ 步骤执行成功
+2026-09-03 15:09:49 - tools.Logger - INFO -   ▶️ 执行步骤 [3/5]: 输入验证码
+2026-09-03 15:09:51 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="34e5821ebb1248a80262d535d55fd03d", element="f.468E1CFDEE45C1096D23A7F3173CB64A.d.C4FEE46D66881F380CC1B6364C483BEC.e.398")>, 定位器:['id', 'verify_code']
+2026-09-03 15:09:51 - tools.Logger - INFO -   ✅ 步骤执行成功
+2026-09-03 15:09:51 - tools.Logger - INFO -   ▶️ 执行步骤 [4/5]: 点击登录按钮
+2026-09-03 15:09:53 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="34e5821ebb1248a80262d535d55fd03d", element="f.468E1CFDEE45C1096D23A7F3173CB64A.d.C4FEE46D66881F380CC1B6364C483BEC.e.423")>, 定位器:['name', 'sbtbutton']
+2026-09-03 15:09:54 - tools.Logger - INFO -   ✅ 步骤执行成功
+2026-09-03 15:09:54 - tools.Logger - INFO -   ▶️ 执行步骤 [5/5]: 获取昵称
+2026-09-03 15:09:56 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="34e5821ebb1248a80262d535d55fd03d", element="f.468E1CFDEE45C1096D23A7F3173CB64A.d.C4FEE46D66881F380CC1B6364C483BEC.e.518")>, 定位器:['xpath', "//div[@class='layui-layer-content layui-layer-padding']"]
+2026-09-03 15:09:56 - tools.Logger - INFO -   🔍 断言验证: 期望=账号格式不匹配!, 实际=账号格式不匹配!
+2026-09-03 15:09:56 - tools.Logger - INFO -   ✅ 断言通过
+2026-09-03 15:09:56 - tools.Logger - INFO - 📊 测试完成，总步骤: 5
+2026-09-03 15:09:56 - tools.Logger - INFO -    ✅ 成功: 5, ❌ 失败: 0
+2026-09-03 15:09:56 - tools.Logger - INFO - 🍪 Cookies已清除
+2026-09-03 15:09:56 - tools.Logger - INFO - ✅ 测试通过: data/login_data.yaml::登录失败-账号格式不匹配
+2026-09-03 15:09:56 - tools.Logger - INFO - 关闭浏览器: D:\pycharmproject\Python_Project\TPshop\data\login_data.yaml
+2026-09-03 15:09:58 - tools.Logger - INFO - ✅ 浏览器已关闭

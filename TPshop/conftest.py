@@ -8,7 +8,7 @@ import time
 import logging
 from datetime import datetime
 from pathlib import Path
-from typing import Iterable
+from typing import Iterable,Generator
 
 import allure
 import pytest
@@ -25,6 +25,47 @@ from tools import TP_HOST,setup_logging,LOGS_DIR
 
 # 全局logger实例
 test_logger = setup_logging()
+
+
+# ==================== Fixture 定义 ====================
+@pytest.fixture(scope="session")
+def chrome_driver() -> Generator[webdriver.Chrome, None, None]:
+    """创建Chrome浏览器驱动"""
+    test_logger.info(" 启动Chrome浏览器 (Session级别)")
+    try:
+        service = Service(executable_path=r"D:\Google\Chrome\Application\chromedriver-win64\chromedriver.exe")
+        options = webdriver.ChromeOptions()
+        options.add_argument('--disable-blink-features=AutomationControlled')
+        options.add_experimental_option("excludeSwitches", ["enable-automation"])
+        # 可选：添加无头模式
+        # options.add_argument('--headless')
+
+        driver = webdriver.Chrome(service=service, options=options)
+        driver.maximize_window()
+        test_logger.info(" Chrome浏览器启动成功")
+
+        yield driver
+
+        test_logger.info(" 关闭Chrome浏览器")
+        driver.quit()
+        test_logger.info(" Chrome浏览器已关闭")
+    except Exception as e:
+        test_logger.error(f" 浏览器启动失败: {e}", exc_info=True)
+        raise
+
+
+@pytest.fixture(scope="function")
+def base_page(chrome_driver) -> Generator[BasePage, None, None]:
+    """创建BasePage实例，每个测试函数使用独立的实例"""
+    test_logger.info(" 创建BasePage实例")
+    page = BasePage(chrome_driver)
+    yield page
+    # 测试完成后清理
+    try:
+        chrome_driver.delete_all_cookies()
+        test_logger.info(" Cookies已清除")
+    except Exception as e:
+        test_logger.warning(f"清理Cookies失败: {e}")
 
 
 # ==================== 测试收集 ====================
@@ -195,6 +236,10 @@ class YamlItem(pytest.Item):
         test_logger.info(f"Description: {self.base_data.get('description', 'N/A')}")
 
     def runtest(self) -> None:
+
+        if not self.page:
+            raise RuntimeError("Page对象未初始化，请确保通过夹具注入")
+
         # 打开对应页面
         target_url = TP_HOST + self.base_data['host']
         test_logger.info(f" 访问页面: {target_url}")

@@ -4,9 +4,42 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="713bc543-929e-42df-bd6a-697482fe5177" name="更改" comment="python TPshop UI自动化 yaml数据文件驱动">
+    <list default="true" id="713bc543-929e-42df-bd6a-697482fe5177" name="更改" comment="python TPshop UI自动化 yaml数据文件驱动,失败截图保存并附加在报告中">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/data/attachments/4808e14b75802ca.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/data/attachments/77a2d419e87d195f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/data/attachments/98d440a53f85a96f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/data/attachments/e6984c305c8c700.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/data/behaviors.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/data/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/data/packages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/data/suites.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/data/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/data/test-cases/388820e2b053a20f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/data/test-cases/5ddf775d7b6570aa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/data/test-cases/be8a712804da698b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/data/test-cases/e2b3ece1ded452c5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/data/timeline.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/export/influxDbData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/export/prometheusData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/history/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/history/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/widgets/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/widgets/duration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/widgets/severity.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/widgets/status-chart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/widgets/summary.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TPshop/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/results/00c45e1f-75cc-4f93-832e-a873534db704-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/results/14850598-02d1-42ca-b734-be38ad51d8f4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/results/1fdbc2d4-4bd7-4b4d-8d11-9d8f489ac20d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/results/5198e866-e822-44dc-adf1-94f6a260ff6e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/results/5b0ae893-d850-49c6-aac2-057ac29e5395-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/results/a9aba2f6-40c3-4b8c-88bd-eeee356160e0-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/results/d21ecc02-6b64-43eb-9bc7-680965a68952-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/results/da692016-ad40-4514-a06f-117b66a86396-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/tools/tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/tools/tool.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +166,7 @@
       <recent name="E:\pychramproject\http_test\API_test\tools" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Appium_assignment">
     <configuration name="Appium_assignment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Project" />
       <option name="ENV_FILES" value="" />
@@ -314,14 +347,6 @@
       <workItem from="1784944969491" duration="389000" />
       <workItem from="1785042466126" duration="1655000" />
       <workItem from="1785067356964" duration="7620000" />
-    </task>
-    <task id="LOCAL-00003" summary="软件测试作业">
-      <option name="closed" value="true" />
-      <created>1783914346790</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1783914346790</updated>
     </task>
     <task id="LOCAL-00004" summary="软件测试作业">
       <option name="closed" value="true" />
@@ -707,7 +732,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788313541232</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="python TPshop UI自动化 yaml数据文件驱动,失败截图保存并附加在报告中">
+      <option name="closed" value="true" />
+      <created>1788419600973</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1788419600973</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -725,7 +758,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="python 智能网联接口自动化测试" />
     <MESSAGE value="python 智能网联接口自动化测试,添加json格式检验" />
     <MESSAGE value="python 重构学生管理系统，数据库操作" />
     <MESSAGE value="python 重构学生管理系统，数据库操作，添加日志" />
@@ -750,7 +782,8 @@
     <MESSAGE value="python requests + pytest + allure 接口自动化" />
     <MESSAGE value="python WeFinance UI自动化 重构" />
     <MESSAGE value="python TPshop UI自动化 yaml数据文件驱动" />
-    <option name="LAST_COMMIT_MESSAGE" value="python TPshop UI自动化 yaml数据文件驱动" />
+    <MESSAGE value="python TPshop UI自动化 yaml数据文件驱动,失败截图保存并附加在报告中" />
+    <option name="LAST_COMMIT_MESSAGE" value="python TPshop UI自动化 yaml数据文件驱动,失败截图保存并附加在报告中" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pychramproject$ApplicationInterface.coverage" NAME="ApplicationInterface 覆盖结果" MODIFIED="1785074997217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WeFinance/case" />

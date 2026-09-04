@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="713bc543-929e-42df-bd6a-697482fe5177" name="更改" comment="python TPshop UI自动化 yaml数据文件驱动,失败截图保存并附加在报告中">
-      <change afterPath="$PROJECT_DIR$/TPshop/cases/Testcases.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/export/influxDbData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/allure_report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/allure_report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPshop/logs/TPshop_UI_test_20260904.log" beforeDir="false" afterPath="$PROJECT_DIR$/TPshop/logs/TPshop_UI_test_20260904.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -313,14 +316,6 @@
       <workItem from="1784944969491" duration="389000" />
       <workItem from="1785042466126" duration="1655000" />
       <workItem from="1785067356964" duration="7620000" />
-    </task>
-    <task id="LOCAL-00005" summary="软件测试作业">
-      <option name="closed" value="true" />
-      <created>1783996852856</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1783996852856</updated>
     </task>
     <task id="LOCAL-00006" summary="学生管理系统 OPP">
       <option name="closed" value="true" />
@@ -706,7 +701,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788505706966</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="python TPshop UI自动化 yaml数据文件驱动,失败截图保存并附加在报告中">
+      <option name="closed" value="true" />
+      <created>1788506212291</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1788506212291</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

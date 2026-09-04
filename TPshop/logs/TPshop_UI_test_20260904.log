@@ -122,3 +122,1042 @@
 2026-09-04 15:08:10 - tools.Logger - INFO -  测试通过: data/login_data.yaml::登录失败-账号格式不匹配
 2026-09-04 15:08:10 - tools.Logger - INFO - 关闭浏览器: D:\pycharmproject\Python_Project\TPshop\data\login_data.yaml
 2026-09-04 15:08:12 - tools.Logger - INFO -  浏览器已关闭
+2026-09-04 15:20:03 - tools.Logger - INFO - 发现测试数据文件: D:\pycharmproject\Python_Project\TPshop\data\login_data.yaml
+2026-09-04 15:20:03 - tools.Logger - INFO - 初始化测试文件: D:\pycharmproject\Python_Project\TPshop\data\login_data.yaml
+2026-09-04 15:20:03 - tools.Logger - INFO - 📄 加载YAML文件: D:\pycharmproject\Python_Project\TPshop\data\login_data.yaml
+2026-09-04 15:20:03 - tools.Logger - INFO - 基础数据: 用户认证
+2026-09-04 15:20:03 - tools.Logger - INFO - 测试用例数量: 4
+2026-09-04 15:20:03 - tools.Logger - INFO - 生成测试项 [1/4]: 登录成功
+2026-09-04 15:20:03 - tools.Logger - INFO - 生成测试项 [2/4]: 登录失败-密码错误
+2026-09-04 15:20:03 - tools.Logger - INFO - 生成测试项 [3/4]: 登录失败-验证码错误
+2026-09-04 15:20:03 - tools.Logger - INFO - 生成测试项 [4/4]: 登录失败-账号格式不匹配
+2026-09-04 15:22:25 - tools.Logger - INFO - 发现测试数据文件: D:\pycharmproject\Python_Project\TPshop\data\login_data.yaml
+2026-09-04 15:22:25 - tools.Logger - INFO - 初始化测试文件: D:\pycharmproject\Python_Project\TPshop\data\login_data.yaml
+2026-09-04 15:22:25 - tools.Logger - INFO - 📄 加载YAML文件: D:\pycharmproject\Python_Project\TPshop\data\login_data.yaml
+2026-09-04 15:22:25 - tools.Logger - INFO - 基础数据: 用户认证
+2026-09-04 15:22:25 - tools.Logger - INFO - 测试用例数量: 4
+2026-09-04 15:22:25 - tools.Logger - INFO - 生成测试项 [1/4]: 登录成功
+2026-09-04 15:22:25 - tools.Logger - INFO - 生成测试项 [2/4]: 登录失败-密码错误
+2026-09-04 15:22:25 - tools.Logger - INFO - 生成测试项 [3/4]: 登录失败-验证码错误
+2026-09-04 15:22:25 - tools.Logger - INFO - 生成测试项 [4/4]: 登录失败-账号格式不匹配
+2026-09-04 15:22:25 - tools.Logger - INFO - 🔧 设置测试: 登录成功
+2026-09-04 15:22:25 - tools.Logger - INFO - Feature: 用户认证
+2026-09-04 15:22:25 - tools.Logger - INFO - Description: 验证用户登录功能是否正常
+2026-09-04 15:22:25 - tools.Logger - INFO - ========== 开始执行测试: data/login_data.yaml::登录成功 ==========
+2026-09-04 15:22:25 - tools.Logger - ERROR - Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:25 - tools.Logger - ERROR - ❌ 测试失败: data/login_data.yaml::登录成功
+2026-09-04 15:22:25 - tools.Logger - ERROR - 失败原因: D:\Python\lib\site-packages\_pytest\runner.py:353: in from_call
+    result: TResult | None = func()
+D:\Python\lib\site-packages\_pytest\runner.py:245: in <lambda>
+    lambda: runtest_hook(item=item, **kwds),
+D:\Python\lib\site-packages\pluggy\_hooks.py:512: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_manager.py:120: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_callers.py:167: in _multicall
+    raise exception
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\logging.py:850: in pytest_runtest_call
+    yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\capture.py:900: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\skipping.py:268: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:121: in _multicall
+    res = hook_impl.function(*args)
+D:\Python\lib\site-packages\_pytest\runner.py:179: in pytest_runtest_call
+    item.runtest()
+conftest.py:214: in runtest
+    raise RuntimeError(error_msg)
+E   RuntimeError: Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:26 - tools.Logger - INFO - 🔧 设置测试: 登录成功
+2026-09-04 15:22:26 - tools.Logger - INFO - Feature: 用户认证
+2026-09-04 15:22:26 - tools.Logger - INFO - Description: 验证用户登录功能是否正常
+2026-09-04 15:22:26 - tools.Logger - INFO - ========== 开始执行测试: data/login_data.yaml::登录成功 ==========
+2026-09-04 15:22:26 - tools.Logger - ERROR - Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:26 - tools.Logger - ERROR - ❌ 测试失败: data/login_data.yaml::登录成功
+2026-09-04 15:22:26 - tools.Logger - ERROR - 失败原因: D:\Python\lib\site-packages\_pytest\runner.py:353: in from_call
+    result: TResult | None = func()
+D:\Python\lib\site-packages\_pytest\runner.py:245: in <lambda>
+    lambda: runtest_hook(item=item, **kwds),
+D:\Python\lib\site-packages\pluggy\_hooks.py:512: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_manager.py:120: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_callers.py:167: in _multicall
+    raise exception
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\logging.py:850: in pytest_runtest_call
+    yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\capture.py:900: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\skipping.py:268: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:121: in _multicall
+    res = hook_impl.function(*args)
+D:\Python\lib\site-packages\_pytest\runner.py:179: in pytest_runtest_call
+    item.runtest()
+conftest.py:214: in runtest
+    raise RuntimeError(error_msg)
+E   RuntimeError: Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:27 - tools.Logger - INFO - 🔧 设置测试: 登录成功
+2026-09-04 15:22:27 - tools.Logger - INFO - Feature: 用户认证
+2026-09-04 15:22:27 - tools.Logger - INFO - Description: 验证用户登录功能是否正常
+2026-09-04 15:22:27 - tools.Logger - INFO - ========== 开始执行测试: data/login_data.yaml::登录成功 ==========
+2026-09-04 15:22:27 - tools.Logger - ERROR - Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:27 - tools.Logger - ERROR - ❌ 测试失败: data/login_data.yaml::登录成功
+2026-09-04 15:22:27 - tools.Logger - ERROR - 失败原因: D:\Python\lib\site-packages\_pytest\runner.py:353: in from_call
+    result: TResult | None = func()
+D:\Python\lib\site-packages\_pytest\runner.py:245: in <lambda>
+    lambda: runtest_hook(item=item, **kwds),
+D:\Python\lib\site-packages\pluggy\_hooks.py:512: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_manager.py:120: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_callers.py:167: in _multicall
+    raise exception
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\logging.py:850: in pytest_runtest_call
+    yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\capture.py:900: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\skipping.py:268: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:121: in _multicall
+    res = hook_impl.function(*args)
+D:\Python\lib\site-packages\_pytest\runner.py:179: in pytest_runtest_call
+    item.runtest()
+conftest.py:214: in runtest
+    raise RuntimeError(error_msg)
+E   RuntimeError: Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:29 - tools.Logger - INFO - 🔧 设置测试: 登录成功
+2026-09-04 15:22:29 - tools.Logger - INFO - Feature: 用户认证
+2026-09-04 15:22:29 - tools.Logger - INFO - Description: 验证用户登录功能是否正常
+2026-09-04 15:22:29 - tools.Logger - INFO - ========== 开始执行测试: data/login_data.yaml::登录成功 ==========
+2026-09-04 15:22:29 - tools.Logger - ERROR - Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:29 - tools.Logger - ERROR - ❌ 测试失败: data/login_data.yaml::登录成功
+2026-09-04 15:22:29 - tools.Logger - ERROR - 失败原因: D:\Python\lib\site-packages\_pytest\runner.py:353: in from_call
+    result: TResult | None = func()
+D:\Python\lib\site-packages\_pytest\runner.py:245: in <lambda>
+    lambda: runtest_hook(item=item, **kwds),
+D:\Python\lib\site-packages\pluggy\_hooks.py:512: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_manager.py:120: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_callers.py:167: in _multicall
+    raise exception
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\logging.py:850: in pytest_runtest_call
+    yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\capture.py:900: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\skipping.py:268: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:121: in _multicall
+    res = hook_impl.function(*args)
+D:\Python\lib\site-packages\_pytest\runner.py:179: in pytest_runtest_call
+    item.runtest()
+conftest.py:214: in runtest
+    raise RuntimeError(error_msg)
+E   RuntimeError: Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:29 - tools.Logger - INFO - 🔧 设置测试: 登录失败-密码错误
+2026-09-04 15:22:29 - tools.Logger - INFO - Feature: 用户认证
+2026-09-04 15:22:29 - tools.Logger - INFO - Description: 验证用户登录功能是否正常
+2026-09-04 15:22:29 - tools.Logger - INFO - ========== 开始执行测试: data/login_data.yaml::登录失败-密码错误 ==========
+2026-09-04 15:22:29 - tools.Logger - ERROR - Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:29 - tools.Logger - ERROR - ❌ 测试失败: data/login_data.yaml::登录失败-密码错误
+2026-09-04 15:22:29 - tools.Logger - ERROR - 失败原因: D:\Python\lib\site-packages\_pytest\runner.py:353: in from_call
+    result: TResult | None = func()
+D:\Python\lib\site-packages\_pytest\runner.py:245: in <lambda>
+    lambda: runtest_hook(item=item, **kwds),
+D:\Python\lib\site-packages\pluggy\_hooks.py:512: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_manager.py:120: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_callers.py:167: in _multicall
+    raise exception
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\logging.py:850: in pytest_runtest_call
+    yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\capture.py:900: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\skipping.py:268: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:121: in _multicall
+    res = hook_impl.function(*args)
+D:\Python\lib\site-packages\_pytest\runner.py:179: in pytest_runtest_call
+    item.runtest()
+conftest.py:214: in runtest
+    raise RuntimeError(error_msg)
+E   RuntimeError: Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:30 - tools.Logger - INFO - 🔧 设置测试: 登录失败-密码错误
+2026-09-04 15:22:30 - tools.Logger - INFO - Feature: 用户认证
+2026-09-04 15:22:30 - tools.Logger - INFO - Description: 验证用户登录功能是否正常
+2026-09-04 15:22:30 - tools.Logger - INFO - ========== 开始执行测试: data/login_data.yaml::登录失败-密码错误 ==========
+2026-09-04 15:22:30 - tools.Logger - ERROR - Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:30 - tools.Logger - ERROR - ❌ 测试失败: data/login_data.yaml::登录失败-密码错误
+2026-09-04 15:22:30 - tools.Logger - ERROR - 失败原因: D:\Python\lib\site-packages\_pytest\runner.py:353: in from_call
+    result: TResult | None = func()
+D:\Python\lib\site-packages\_pytest\runner.py:245: in <lambda>
+    lambda: runtest_hook(item=item, **kwds),
+D:\Python\lib\site-packages\pluggy\_hooks.py:512: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_manager.py:120: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_callers.py:167: in _multicall
+    raise exception
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\logging.py:850: in pytest_runtest_call
+    yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\capture.py:900: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\skipping.py:268: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:121: in _multicall
+    res = hook_impl.function(*args)
+D:\Python\lib\site-packages\_pytest\runner.py:179: in pytest_runtest_call
+    item.runtest()
+conftest.py:214: in runtest
+    raise RuntimeError(error_msg)
+E   RuntimeError: Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:31 - tools.Logger - INFO - 🔧 设置测试: 登录失败-密码错误
+2026-09-04 15:22:31 - tools.Logger - INFO - Feature: 用户认证
+2026-09-04 15:22:31 - tools.Logger - INFO - Description: 验证用户登录功能是否正常
+2026-09-04 15:22:31 - tools.Logger - INFO - ========== 开始执行测试: data/login_data.yaml::登录失败-密码错误 ==========
+2026-09-04 15:22:31 - tools.Logger - ERROR - Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:31 - tools.Logger - ERROR - ❌ 测试失败: data/login_data.yaml::登录失败-密码错误
+2026-09-04 15:22:31 - tools.Logger - ERROR - 失败原因: D:\Python\lib\site-packages\_pytest\runner.py:353: in from_call
+    result: TResult | None = func()
+D:\Python\lib\site-packages\_pytest\runner.py:245: in <lambda>
+    lambda: runtest_hook(item=item, **kwds),
+D:\Python\lib\site-packages\pluggy\_hooks.py:512: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_manager.py:120: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_callers.py:167: in _multicall
+    raise exception
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\logging.py:850: in pytest_runtest_call
+    yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\capture.py:900: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\skipping.py:268: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:121: in _multicall
+    res = hook_impl.function(*args)
+D:\Python\lib\site-packages\_pytest\runner.py:179: in pytest_runtest_call
+    item.runtest()
+conftest.py:214: in runtest
+    raise RuntimeError(error_msg)
+E   RuntimeError: Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:32 - tools.Logger - INFO - 🔧 设置测试: 登录失败-密码错误
+2026-09-04 15:22:32 - tools.Logger - INFO - Feature: 用户认证
+2026-09-04 15:22:32 - tools.Logger - INFO - Description: 验证用户登录功能是否正常
+2026-09-04 15:22:32 - tools.Logger - INFO - ========== 开始执行测试: data/login_data.yaml::登录失败-密码错误 ==========
+2026-09-04 15:22:32 - tools.Logger - ERROR - Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:32 - tools.Logger - ERROR - ❌ 测试失败: data/login_data.yaml::登录失败-密码错误
+2026-09-04 15:22:32 - tools.Logger - ERROR - 失败原因: D:\Python\lib\site-packages\_pytest\runner.py:353: in from_call
+    result: TResult | None = func()
+D:\Python\lib\site-packages\_pytest\runner.py:245: in <lambda>
+    lambda: runtest_hook(item=item, **kwds),
+D:\Python\lib\site-packages\pluggy\_hooks.py:512: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_manager.py:120: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_callers.py:167: in _multicall
+    raise exception
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\logging.py:850: in pytest_runtest_call
+    yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\capture.py:900: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\skipping.py:268: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:121: in _multicall
+    res = hook_impl.function(*args)
+D:\Python\lib\site-packages\_pytest\runner.py:179: in pytest_runtest_call
+    item.runtest()
+conftest.py:214: in runtest
+    raise RuntimeError(error_msg)
+E   RuntimeError: Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:32 - tools.Logger - INFO - 🔧 设置测试: 登录失败-验证码错误
+2026-09-04 15:22:32 - tools.Logger - INFO - Feature: 用户认证
+2026-09-04 15:22:32 - tools.Logger - INFO - Description: 验证用户登录功能是否正常
+2026-09-04 15:22:32 - tools.Logger - INFO - ========== 开始执行测试: data/login_data.yaml::登录失败-验证码错误 ==========
+2026-09-04 15:22:32 - tools.Logger - ERROR - Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:32 - tools.Logger - ERROR - ❌ 测试失败: data/login_data.yaml::登录失败-验证码错误
+2026-09-04 15:22:32 - tools.Logger - ERROR - 失败原因: D:\Python\lib\site-packages\_pytest\runner.py:353: in from_call
+    result: TResult | None = func()
+D:\Python\lib\site-packages\_pytest\runner.py:245: in <lambda>
+    lambda: runtest_hook(item=item, **kwds),
+D:\Python\lib\site-packages\pluggy\_hooks.py:512: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_manager.py:120: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_callers.py:167: in _multicall
+    raise exception
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\logging.py:850: in pytest_runtest_call
+    yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\capture.py:900: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\skipping.py:268: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:121: in _multicall
+    res = hook_impl.function(*args)
+D:\Python\lib\site-packages\_pytest\runner.py:179: in pytest_runtest_call
+    item.runtest()
+conftest.py:214: in runtest
+    raise RuntimeError(error_msg)
+E   RuntimeError: Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:33 - tools.Logger - INFO - 🔧 设置测试: 登录失败-验证码错误
+2026-09-04 15:22:33 - tools.Logger - INFO - Feature: 用户认证
+2026-09-04 15:22:33 - tools.Logger - INFO - Description: 验证用户登录功能是否正常
+2026-09-04 15:22:33 - tools.Logger - INFO - ========== 开始执行测试: data/login_data.yaml::登录失败-验证码错误 ==========
+2026-09-04 15:22:33 - tools.Logger - ERROR - Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:33 - tools.Logger - ERROR - ❌ 测试失败: data/login_data.yaml::登录失败-验证码错误
+2026-09-04 15:22:33 - tools.Logger - ERROR - 失败原因: D:\Python\lib\site-packages\_pytest\runner.py:353: in from_call
+    result: TResult | None = func()
+D:\Python\lib\site-packages\_pytest\runner.py:245: in <lambda>
+    lambda: runtest_hook(item=item, **kwds),
+D:\Python\lib\site-packages\pluggy\_hooks.py:512: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_manager.py:120: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_callers.py:167: in _multicall
+    raise exception
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\logging.py:850: in pytest_runtest_call
+    yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\capture.py:900: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\skipping.py:268: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:121: in _multicall
+    res = hook_impl.function(*args)
+D:\Python\lib\site-packages\_pytest\runner.py:179: in pytest_runtest_call
+    item.runtest()
+conftest.py:214: in runtest
+    raise RuntimeError(error_msg)
+E   RuntimeError: Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:34 - tools.Logger - INFO - 🔧 设置测试: 登录失败-验证码错误
+2026-09-04 15:22:34 - tools.Logger - INFO - Feature: 用户认证
+2026-09-04 15:22:34 - tools.Logger - INFO - Description: 验证用户登录功能是否正常
+2026-09-04 15:22:34 - tools.Logger - INFO - ========== 开始执行测试: data/login_data.yaml::登录失败-验证码错误 ==========
+2026-09-04 15:22:34 - tools.Logger - ERROR - Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:34 - tools.Logger - ERROR - ❌ 测试失败: data/login_data.yaml::登录失败-验证码错误
+2026-09-04 15:22:34 - tools.Logger - ERROR - 失败原因: D:\Python\lib\site-packages\_pytest\runner.py:353: in from_call
+    result: TResult | None = func()
+D:\Python\lib\site-packages\_pytest\runner.py:245: in <lambda>
+    lambda: runtest_hook(item=item, **kwds),
+D:\Python\lib\site-packages\pluggy\_hooks.py:512: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_manager.py:120: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_callers.py:167: in _multicall
+    raise exception
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\logging.py:850: in pytest_runtest_call
+    yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\capture.py:900: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\skipping.py:268: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:121: in _multicall
+    res = hook_impl.function(*args)
+D:\Python\lib\site-packages\_pytest\runner.py:179: in pytest_runtest_call
+    item.runtest()
+conftest.py:214: in runtest
+    raise RuntimeError(error_msg)
+E   RuntimeError: Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:35 - tools.Logger - INFO - 🔧 设置测试: 登录失败-验证码错误
+2026-09-04 15:22:35 - tools.Logger - INFO - Feature: 用户认证
+2026-09-04 15:22:35 - tools.Logger - INFO - Description: 验证用户登录功能是否正常
+2026-09-04 15:22:35 - tools.Logger - INFO - ========== 开始执行测试: data/login_data.yaml::登录失败-验证码错误 ==========
+2026-09-04 15:22:35 - tools.Logger - ERROR - Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:35 - tools.Logger - ERROR - ❌ 测试失败: data/login_data.yaml::登录失败-验证码错误
+2026-09-04 15:22:35 - tools.Logger - ERROR - 失败原因: D:\Python\lib\site-packages\_pytest\runner.py:353: in from_call
+    result: TResult | None = func()
+D:\Python\lib\site-packages\_pytest\runner.py:245: in <lambda>
+    lambda: runtest_hook(item=item, **kwds),
+D:\Python\lib\site-packages\pluggy\_hooks.py:512: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_manager.py:120: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_callers.py:167: in _multicall
+    raise exception
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\logging.py:850: in pytest_runtest_call
+    yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\capture.py:900: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\skipping.py:268: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:121: in _multicall
+    res = hook_impl.function(*args)
+D:\Python\lib\site-packages\_pytest\runner.py:179: in pytest_runtest_call
+    item.runtest()
+conftest.py:214: in runtest
+    raise RuntimeError(error_msg)
+E   RuntimeError: Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:35 - tools.Logger - INFO - 🔧 设置测试: 登录失败-账号格式不匹配
+2026-09-04 15:22:35 - tools.Logger - INFO - Feature: 用户认证
+2026-09-04 15:22:35 - tools.Logger - INFO - Description: 验证用户登录功能是否正常
+2026-09-04 15:22:35 - tools.Logger - INFO - ========== 开始执行测试: data/login_data.yaml::登录失败-账号格式不匹配 ==========
+2026-09-04 15:22:35 - tools.Logger - ERROR - Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:35 - tools.Logger - ERROR - ❌ 测试失败: data/login_data.yaml::登录失败-账号格式不匹配
+2026-09-04 15:22:35 - tools.Logger - ERROR - 失败原因: D:\Python\lib\site-packages\_pytest\runner.py:353: in from_call
+    result: TResult | None = func()
+D:\Python\lib\site-packages\_pytest\runner.py:245: in <lambda>
+    lambda: runtest_hook(item=item, **kwds),
+D:\Python\lib\site-packages\pluggy\_hooks.py:512: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_manager.py:120: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_callers.py:167: in _multicall
+    raise exception
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\logging.py:850: in pytest_runtest_call
+    yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\capture.py:900: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\skipping.py:268: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:121: in _multicall
+    res = hook_impl.function(*args)
+D:\Python\lib\site-packages\_pytest\runner.py:179: in pytest_runtest_call
+    item.runtest()
+conftest.py:214: in runtest
+    raise RuntimeError(error_msg)
+E   RuntimeError: Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:36 - tools.Logger - INFO - 🔧 设置测试: 登录失败-账号格式不匹配
+2026-09-04 15:22:36 - tools.Logger - INFO - Feature: 用户认证
+2026-09-04 15:22:36 - tools.Logger - INFO - Description: 验证用户登录功能是否正常
+2026-09-04 15:22:36 - tools.Logger - INFO - ========== 开始执行测试: data/login_data.yaml::登录失败-账号格式不匹配 ==========
+2026-09-04 15:22:36 - tools.Logger - ERROR - Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:36 - tools.Logger - ERROR - ❌ 测试失败: data/login_data.yaml::登录失败-账号格式不匹配
+2026-09-04 15:22:36 - tools.Logger - ERROR - 失败原因: D:\Python\lib\site-packages\_pytest\runner.py:353: in from_call
+    result: TResult | None = func()
+D:\Python\lib\site-packages\_pytest\runner.py:245: in <lambda>
+    lambda: runtest_hook(item=item, **kwds),
+D:\Python\lib\site-packages\pluggy\_hooks.py:512: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_manager.py:120: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_callers.py:167: in _multicall
+    raise exception
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\logging.py:850: in pytest_runtest_call
+    yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\capture.py:900: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\skipping.py:268: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:121: in _multicall
+    res = hook_impl.function(*args)
+D:\Python\lib\site-packages\_pytest\runner.py:179: in pytest_runtest_call
+    item.runtest()
+conftest.py:214: in runtest
+    raise RuntimeError(error_msg)
+E   RuntimeError: Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:37 - tools.Logger - INFO - 🔧 设置测试: 登录失败-账号格式不匹配
+2026-09-04 15:22:37 - tools.Logger - INFO - Feature: 用户认证
+2026-09-04 15:22:37 - tools.Logger - INFO - Description: 验证用户登录功能是否正常
+2026-09-04 15:22:37 - tools.Logger - INFO - ========== 开始执行测试: data/login_data.yaml::登录失败-账号格式不匹配 ==========
+2026-09-04 15:22:37 - tools.Logger - ERROR - Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:37 - tools.Logger - ERROR - ❌ 测试失败: data/login_data.yaml::登录失败-账号格式不匹配
+2026-09-04 15:22:37 - tools.Logger - ERROR - 失败原因: D:\Python\lib\site-packages\_pytest\runner.py:353: in from_call
+    result: TResult | None = func()
+D:\Python\lib\site-packages\_pytest\runner.py:245: in <lambda>
+    lambda: runtest_hook(item=item, **kwds),
+D:\Python\lib\site-packages\pluggy\_hooks.py:512: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_manager.py:120: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_callers.py:167: in _multicall
+    raise exception
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\logging.py:850: in pytest_runtest_call
+    yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\capture.py:900: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\skipping.py:268: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:121: in _multicall
+    res = hook_impl.function(*args)
+D:\Python\lib\site-packages\_pytest\runner.py:179: in pytest_runtest_call
+    item.runtest()
+conftest.py:214: in runtest
+    raise RuntimeError(error_msg)
+E   RuntimeError: Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:38 - tools.Logger - INFO - 🔧 设置测试: 登录失败-账号格式不匹配
+2026-09-04 15:22:38 - tools.Logger - INFO - Feature: 用户认证
+2026-09-04 15:22:38 - tools.Logger - INFO - Description: 验证用户登录功能是否正常
+2026-09-04 15:22:38 - tools.Logger - INFO - ========== 开始执行测试: data/login_data.yaml::登录失败-账号格式不匹配 ==========
+2026-09-04 15:22:38 - tools.Logger - ERROR - Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:39 - tools.Logger - ERROR - ❌ 测试失败: data/login_data.yaml::登录失败-账号格式不匹配
+2026-09-04 15:22:39 - tools.Logger - ERROR - 失败原因: D:\Python\lib\site-packages\_pytest\runner.py:353: in from_call
+    result: TResult | None = func()
+D:\Python\lib\site-packages\_pytest\runner.py:245: in <lambda>
+    lambda: runtest_hook(item=item, **kwds),
+D:\Python\lib\site-packages\pluggy\_hooks.py:512: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_manager.py:120: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+D:\Python\lib\site-packages\pluggy\_callers.py:167: in _multicall
+    raise exception
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\logging.py:850: in pytest_runtest_call
+    yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\capture.py:900: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\pluggy\_callers.py:53: in run_old_style_hookwrapper
+    return result.get_result()
+D:\Python\lib\site-packages\pluggy\_result.py:103: in get_result
+    raise exc.with_traceback(tb)
+D:\Python\lib\site-packages\pluggy\_callers.py:38: in run_old_style_hookwrapper
+    res = yield
+D:\Python\lib\site-packages\pluggy\_callers.py:139: in _multicall
+    teardown.throw(exception)
+D:\Python\lib\site-packages\_pytest\skipping.py:268: in pytest_runtest_call
+    return (yield)
+D:\Python\lib\site-packages\pluggy\_callers.py:121: in _multicall
+    res = hook_impl.function(*args)
+D:\Python\lib\site-packages\_pytest\runner.py:179: in pytest_runtest_call
+    item.runtest()
+conftest.py:214: in runtest
+    raise RuntimeError(error_msg)
+E   RuntimeError: Page对象未初始化！请确保使用@pytest.fixture注入page
+2026-09-04 15:22:40 - tools.Logger - INFO - 🚀 启动Chrome浏览器
+2026-09-04 15:22:42 - tools.Logger - INFO - ✅ Chrome浏览器启动成功
+2026-09-04 15:22:42 - tools.Logger - INFO - 📄 创建BasePage实例
+2026-09-04 15:22:42 - tools.Logger - INFO - ========== 开始执行测试: scripts/TestLogin.py::TestLogin::test_login[case0] ==========
+2026-09-04 15:22:43 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="aafab7dc608c291ef09e334104ef6702", element="f.CDF50D92284A324617344F3A5083240A.d.12C5652990D03DCCD8B28013FEB29F3A.e.1")>, 定位器:('id', 'username')
+2026-09-04 15:22:44 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="aafab7dc608c291ef09e334104ef6702", element="f.CDF50D92284A324617344F3A5083240A.d.12C5652990D03DCCD8B28013FEB29F3A.e.3")>, 定位器:('id', 'password')
+2026-09-04 15:22:45 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="aafab7dc608c291ef09e334104ef6702", element="f.CDF50D92284A324617344F3A5083240A.d.12C5652990D03DCCD8B28013FEB29F3A.e.4")>, 定位器:('name', 'verify_code')
+2026-09-04 15:22:46 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="aafab7dc608c291ef09e334104ef6702", element="f.CDF50D92284A324617344F3A5083240A.d.12C5652990D03DCCD8B28013FEB29F3A.e.13")>, 定位器:('name', 'sbtbutton')
+2026-09-04 15:22:48 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="aafab7dc608c291ef09e334104ef6702", element="f.CDF50D92284A324617344F3A5083240A.d.4C7C1FBC009E2A8AF995EB397F0CDCB0.e.34")>, 定位器:('xpath', '//a[contains(@class,"userinfo")]')
+2026-09-04 15:22:48 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="aafab7dc608c291ef09e334104ef6702", element="f.CDF50D92284A324617344F3A5083240A.d.4C7C1FBC009E2A8AF995EB397F0CDCB0.e.35")>, 定位器:('css selector', "a[title='退出']")
+2026-09-04 15:22:50 - tools.Logger - INFO - ✅ 测试通过: scripts/TestLogin.py::TestLogin::test_login[case0]
+2026-09-04 15:22:50 - tools.Logger - INFO - 🍪 Cookies已清除
+2026-09-04 15:22:50 - tools.Logger - INFO - 🔚 关闭Chrome浏览器
+2026-09-04 15:22:52 - tools.Logger - INFO - ✅ Chrome浏览器已关闭
+2026-09-04 15:22:52 - tools.Logger - INFO - 🚀 启动Chrome浏览器
+2026-09-04 15:22:53 - tools.Logger - INFO - ✅ Chrome浏览器启动成功
+2026-09-04 15:22:53 - tools.Logger - INFO - 📄 创建BasePage实例
+2026-09-04 15:22:53 - tools.Logger - INFO - ========== 开始执行测试: scripts/TestLogin.py::TestLogin::test_login[case1] ==========
+2026-09-04 15:22:54 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="aafab7dc608c291ef09e334104ef6702", element="f.CDF50D92284A324617344F3A5083240A.d.2B0CFDF4CE5B3F20CDC4931A193DB28C.e.55")>, 定位器:('id', 'username')
+2026-09-04 15:22:55 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="aafab7dc608c291ef09e334104ef6702", element="f.CDF50D92284A324617344F3A5083240A.d.2B0CFDF4CE5B3F20CDC4931A193DB28C.e.56")>, 定位器:('id', 'password')
+2026-09-04 15:22:56 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="aafab7dc608c291ef09e334104ef6702", element="f.CDF50D92284A324617344F3A5083240A.d.2B0CFDF4CE5B3F20CDC4931A193DB28C.e.57")>, 定位器:('name', 'verify_code')
+2026-09-04 15:22:57 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="aafab7dc608c291ef09e334104ef6702", element="f.CDF50D92284A324617344F3A5083240A.d.2B0CFDF4CE5B3F20CDC4931A193DB28C.e.66")>, 定位器:('name', 'sbtbutton')
+2026-09-04 15:22:59 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="aafab7dc608c291ef09e334104ef6702", element="f.CDF50D92284A324617344F3A5083240A.d.2B0CFDF4CE5B3F20CDC4931A193DB28C.e.67")>, 定位器:('css selector', '.layui-layer-content.layui-layer-padding')
+2026-09-04 15:22:59 - tools.Logger - INFO - ✅ 测试通过: scripts/TestLogin.py::TestLogin::test_login[case1]
+2026-09-04 15:22:59 - tools.Logger - INFO - 🍪 Cookies已清除
+2026-09-04 15:22:59 - tools.Logger - INFO - 🔚 关闭Chrome浏览器
+2026-09-04 15:23:01 - tools.Logger - INFO - ✅ Chrome浏览器已关闭
+2026-09-04 15:23:01 - tools.Logger - INFO - 🚀 启动Chrome浏览器
+2026-09-04 15:23:02 - tools.Logger - INFO - ✅ Chrome浏览器启动成功
+2026-09-04 15:23:02 - tools.Logger - INFO - 📄 创建BasePage实例
+2026-09-04 15:23:02 - tools.Logger - INFO - ========== 开始执行测试: scripts/TestLogin.py::TestLogin::test_login[case2] ==========
+2026-09-04 15:23:04 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="aafab7dc608c291ef09e334104ef6702", element="f.CDF50D92284A324617344F3A5083240A.d.97FF9FD101F5FFC01B77154E5032ECB0.e.69")>, 定位器:('id', 'username')
+2026-09-04 15:23:05 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="aafab7dc608c291ef09e334104ef6702", element="f.CDF50D92284A324617344F3A5083240A.d.97FF9FD101F5FFC01B77154E5032ECB0.e.70")>, 定位器:('id', 'password')
+2026-09-04 15:23:06 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="aafab7dc608c291ef09e334104ef6702", element="f.CDF50D92284A324617344F3A5083240A.d.97FF9FD101F5FFC01B77154E5032ECB0.e.71")>, 定位器:('name', 'verify_code')
+2026-09-04 15:23:07 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="aafab7dc608c291ef09e334104ef6702", element="f.CDF50D92284A324617344F3A5083240A.d.97FF9FD101F5FFC01B77154E5032ECB0.e.80")>, 定位器:('name', 'sbtbutton')
+2026-09-04 15:23:09 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="aafab7dc608c291ef09e334104ef6702", element="f.CDF50D92284A324617344F3A5083240A.d.97FF9FD101F5FFC01B77154E5032ECB0.e.81")>, 定位器:('css selector', '.layui-layer-content.layui-layer-padding')
+2026-09-04 15:23:09 - tools.Logger - INFO - ✅ 测试通过: scripts/TestLogin.py::TestLogin::test_login[case2]
+2026-09-04 15:23:09 - tools.Logger - INFO - 🍪 Cookies已清除
+2026-09-04 15:23:09 - tools.Logger - INFO - 🔚 关闭Chrome浏览器
+2026-09-04 15:23:11 - tools.Logger - INFO - ✅ Chrome浏览器已关闭
+2026-09-04 15:23:11 - tools.Logger - INFO - 🚀 启动Chrome浏览器
+2026-09-04 15:23:12 - tools.Logger - INFO - ✅ Chrome浏览器启动成功
+2026-09-04 15:23:12 - tools.Logger - INFO - 📄 创建BasePage实例
+2026-09-04 15:23:12 - tools.Logger - INFO - ========== 开始执行测试: scripts/TestLogin.py::TestLogin::test_login[case3] ==========
+2026-09-04 15:23:13 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="aafab7dc608c291ef09e334104ef6702", element="f.CDF50D92284A324617344F3A5083240A.d.FB03945A3A6AE1533D9ECBAFD31FEE12.e.84")>, 定位器:('id', 'username')
+2026-09-04 15:23:14 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="aafab7dc608c291ef09e334104ef6702", element="f.CDF50D92284A324617344F3A5083240A.d.FB03945A3A6AE1533D9ECBAFD31FEE12.e.85")>, 定位器:('id', 'password')
+2026-09-04 15:23:15 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="aafab7dc608c291ef09e334104ef6702", element="f.CDF50D92284A324617344F3A5083240A.d.FB03945A3A6AE1533D9ECBAFD31FEE12.e.86")>, 定位器:('name', 'verify_code')
+2026-09-04 15:23:16 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="aafab7dc608c291ef09e334104ef6702", element="f.CDF50D92284A324617344F3A5083240A.d.FB03945A3A6AE1533D9ECBAFD31FEE12.e.95")>, 定位器:('name', 'sbtbutton')
+2026-09-04 15:23:18 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="aafab7dc608c291ef09e334104ef6702", element="f.CDF50D92284A324617344F3A5083240A.d.FB03945A3A6AE1533D9ECBAFD31FEE12.e.96")>, 定位器:('css selector', '.layui-layer-content.layui-layer-padding')
+2026-09-04 15:23:18 - tools.Logger - INFO - ✅ 测试通过: scripts/TestLogin.py::TestLogin::test_login[case3]
+2026-09-04 15:23:18 - tools.Logger - INFO - 🍪 Cookies已清除
+2026-09-04 15:23:18 - tools.Logger - INFO - 🔚 关闭Chrome浏览器
+2026-09-04 15:23:20 - tools.Logger - INFO - ✅ Chrome浏览器已关闭
+2026-09-04 15:23:25 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c2285df2cfe4e25314f24d0b468330d9", element="f.3015E3A87BEA944C4E7080EC3322C6C5.d.E90C328B7FEF5A288F1FA4C48EBE6972.e.1")>, 定位器:('id', 'username')
+2026-09-04 15:23:26 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c2285df2cfe4e25314f24d0b468330d9", element="f.3015E3A87BEA944C4E7080EC3322C6C5.d.E90C328B7FEF5A288F1FA4C48EBE6972.e.3")>, 定位器:('id', 'password')
+2026-09-04 15:23:27 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c2285df2cfe4e25314f24d0b468330d9", element="f.3015E3A87BEA944C4E7080EC3322C6C5.d.E90C328B7FEF5A288F1FA4C48EBE6972.e.4")>, 定位器:('name', 'verify_code')
+2026-09-04 15:23:28 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c2285df2cfe4e25314f24d0b468330d9", element="f.3015E3A87BEA944C4E7080EC3322C6C5.d.E90C328B7FEF5A288F1FA4C48EBE6972.e.13")>, 定位器:('name', 'sbtbutton')
+2026-09-04 15:23:30 - tools.Logger - INFO - 🚀 启动Chrome浏览器
+2026-09-04 15:23:31 - tools.Logger - INFO - ✅ Chrome浏览器启动成功
+2026-09-04 15:23:31 - tools.Logger - INFO - 📄 创建BasePage实例
+2026-09-04 15:23:31 - tools.Logger - INFO - ========== 开始执行测试: scripts/TestSearch.py::TestSearch::test_search[case0] ==========
+2026-09-04 15:23:33 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c2285df2cfe4e25314f24d0b468330d9", element="f.3015E3A87BEA944C4E7080EC3322C6C5.d.10BD142D8CD32CE736F2BFC943BF806D.e.42")>, 定位器:('id', 'q')
+2026-09-04 15:23:34 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c2285df2cfe4e25314f24d0b468330d9", element="f.3015E3A87BEA944C4E7080EC3322C6C5.d.10BD142D8CD32CE736F2BFC943BF806D.e.49")>, 定位器:('class name', 'ecsc-search-button')
+2026-09-04 15:23:36 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c2285df2cfe4e25314f24d0b468330d9", element="f.3015E3A87BEA944C4E7080EC3322C6C5.d.2645FB1E080E4EFF4BFA28E917FDC3E5.e.61")>, 定位器:('xpath', "//div[contains(@class, 'shop_name2')]//a")
+2026-09-04 15:23:36 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c2285df2cfe4e25314f24d0b468330d9", element="f.3015E3A87BEA944C4E7080EC3322C6C5.d.2645FB1E080E4EFF4BFA28E917FDC3E5.e.62")>, 定位器:('class name', 'all-sec')
+2026-09-04 15:23:36 - tools.Logger - INFO - ✅ 测试通过: scripts/TestSearch.py::TestSearch::test_search[case0]
+2026-09-04 15:23:36 - tools.Logger - INFO - 🍪 Cookies已清除
+2026-09-04 15:23:36 - tools.Logger - INFO - 🔚 关闭Chrome浏览器
+2026-09-04 15:23:39 - tools.Logger - INFO - ✅ Chrome浏览器已关闭
+2026-09-04 15:23:39 - tools.Logger - INFO - 🚀 启动Chrome浏览器
+2026-09-04 15:23:40 - tools.Logger - INFO - ✅ Chrome浏览器启动成功
+2026-09-04 15:23:40 - tools.Logger - INFO - 📄 创建BasePage实例
+2026-09-04 15:23:40 - tools.Logger - INFO - ========== 开始执行测试: scripts/TestSearch.py::TestSearch::test_search[case1] ==========
+2026-09-04 15:23:41 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c2285df2cfe4e25314f24d0b468330d9", element="f.3015E3A87BEA944C4E7080EC3322C6C5.d.0406110DCE8BE3A39E7FBF4D8C37DE2E.e.65")>, 定位器:('id', 'q')
+2026-09-04 15:23:42 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c2285df2cfe4e25314f24d0b468330d9", element="f.3015E3A87BEA944C4E7080EC3322C6C5.d.0406110DCE8BE3A39E7FBF4D8C37DE2E.e.74")>, 定位器:('class name', 'ecsc-search-button')
+2026-09-04 15:23:44 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c2285df2cfe4e25314f24d0b468330d9", element="f.3015E3A87BEA944C4E7080EC3322C6C5.d.83F0DE8B14BE92B7B7D2CFBAF7AF4F6A.e.80")>, 定位器:('class name', 'ncyekjl')
+2026-09-04 15:23:44 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c2285df2cfe4e25314f24d0b468330d9", element="f.3015E3A87BEA944C4E7080EC3322C6C5.d.83F0DE8B14BE92B7B7D2CFBAF7AF4F6A.e.81")>, 定位器:('class name', 'all-sec')
+2026-09-04 15:23:44 - tools.Logger - INFO - ✅ 测试通过: scripts/TestSearch.py::TestSearch::test_search[case1]
+2026-09-04 15:23:44 - tools.Logger - INFO - 🍪 Cookies已清除
+2026-09-04 15:23:44 - tools.Logger - INFO - 🔚 关闭Chrome浏览器
+2026-09-04 15:23:47 - tools.Logger - INFO - ✅ Chrome浏览器已关闭
+2026-09-04 15:25:28 - tools.Logger - INFO - 发现测试数据文件: D:\pycharmproject\Python_Project\TPshop\data\login_data.yaml
+2026-09-04 15:25:28 - tools.Logger - INFO - 初始化测试文件: D:\pycharmproject\Python_Project\TPshop\data\login_data.yaml
+2026-09-04 15:25:29 - tools.Logger - INFO -  Chrome浏览器启动成功
+2026-09-04 15:25:29 - tools.Logger - INFO -  加载YAML文件: D:\pycharmproject\Python_Project\TPshop\data\login_data.yaml
+2026-09-04 15:25:29 - tools.Logger - INFO - 基础数据: 用户认证
+2026-09-04 15:25:29 - tools.Logger - INFO - 测试用例数量: 4
+2026-09-04 15:25:29 - tools.Logger - INFO - 生成测试项 [1/4]: 登录成功
+2026-09-04 15:25:29 - tools.Logger - INFO - 创建测试项: 登录成功
+2026-09-04 15:25:29 - tools.Logger - INFO - 生成测试项 [2/4]: 登录失败-密码错误
+2026-09-04 15:25:29 - tools.Logger - INFO - 创建测试项: 登录失败-密码错误
+2026-09-04 15:25:29 - tools.Logger - INFO - 生成测试项 [3/4]: 登录失败-验证码错误
+2026-09-04 15:25:29 - tools.Logger - INFO - 创建测试项: 登录失败-验证码错误
+2026-09-04 15:25:29 - tools.Logger - INFO - 生成测试项 [4/4]: 登录失败-账号格式不匹配
+2026-09-04 15:25:29 - tools.Logger - INFO - 创建测试项: 登录失败-账号格式不匹配
+2026-09-04 15:25:29 - tools.Logger - INFO -  设置测试: 登录成功
+2026-09-04 15:25:29 - tools.Logger - INFO - Feature: 用户认证
+2026-09-04 15:25:29 - tools.Logger - INFO - Description: 验证用户登录功能是否正常
+2026-09-04 15:25:29 - tools.Logger - INFO - ========== 开始执行测试: data/login_data.yaml::登录成功 ==========
+2026-09-04 15:25:29 - tools.Logger - INFO -  访问页面: http://192.168.44.141/Home/user/login.html
+2026-09-04 15:25:29 - tools.Logger - INFO - 页面标题: 登录-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城
+2026-09-04 15:25:29 - tools.Logger - INFO -  开始执行测试步骤，共 5 步
+2026-09-04 15:25:29 - tools.Logger - INFO -    执行步骤 [1/5]: 输入用户名
+2026-09-04 15:25:31 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c4c582df07cd39b44b46ee704b91bc2a", element="f.595684CF326A9D7F5B759F2156014D56.d.03A1D6CBF30F99819F47D1C22194435A.e.1")>, 定位器:['id', 'username']
+2026-09-04 15:25:31 - tools.Logger - INFO -    步骤执行成功
+2026-09-04 15:25:31 - tools.Logger - INFO -    执行步骤 [2/5]: 输入用户密码
+2026-09-04 15:25:33 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c4c582df07cd39b44b46ee704b91bc2a", element="f.595684CF326A9D7F5B759F2156014D56.d.03A1D6CBF30F99819F47D1C22194435A.e.3")>, 定位器:['id', 'password']
+2026-09-04 15:25:33 - tools.Logger - INFO -    步骤执行成功
+2026-09-04 15:25:33 - tools.Logger - INFO -    执行步骤 [3/5]: 输入验证码
+2026-09-04 15:25:35 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c4c582df07cd39b44b46ee704b91bc2a", element="f.595684CF326A9D7F5B759F2156014D56.d.03A1D6CBF30F99819F47D1C22194435A.e.4")>, 定位器:['id', 'verify_code']
+2026-09-04 15:25:35 - tools.Logger - INFO -    步骤执行成功
+2026-09-04 15:25:35 - tools.Logger - INFO -    执行步骤 [4/5]: 点击登录按钮
+2026-09-04 15:25:37 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c4c582df07cd39b44b46ee704b91bc2a", element="f.595684CF326A9D7F5B759F2156014D56.d.03A1D6CBF30F99819F47D1C22194435A.e.29")>, 定位器:['name', 'sbtbutton']
+2026-09-04 15:25:37 - tools.Logger - INFO -    步骤执行成功
+2026-09-04 15:25:37 - tools.Logger - INFO -    执行步骤 [5/5]: 获取昵称
+2026-09-04 15:25:39 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c4c582df07cd39b44b46ee704b91bc2a", element="f.595684CF326A9D7F5B759F2156014D56.d.E75452A5592CD7549ECD48D0DED2C1C6.e.144")>, 定位器:['xpath', "//div[2]/a[1][contains(@href, '/Home/User/index.html') and @class='mu-m-phone']"]
+2026-09-04 15:25:39 - tools.Logger - INFO -    断言验证: 期望=王然啊啊啊啊啊啊, 实际=王然啊啊啊啊啊啊
+2026-09-04 15:25:39 - tools.Logger - INFO -    断言通过
+2026-09-04 15:25:39 - tools.Logger - INFO -  测试完成，总步骤: 5
+2026-09-04 15:25:39 - tools.Logger - INFO -     成功: 5,  失败: 0
+2026-09-04 15:25:39 - tools.Logger - INFO -  Cookies已清除
+2026-09-04 15:25:39 - tools.Logger - INFO -  测试通过: data/login_data.yaml::登录成功
+2026-09-04 15:25:39 - tools.Logger - INFO -  设置测试: 登录失败-密码错误
+2026-09-04 15:25:39 - tools.Logger - INFO - Feature: 用户认证
+2026-09-04 15:25:39 - tools.Logger - INFO - Description: 验证用户登录功能是否正常
+2026-09-04 15:25:39 - tools.Logger - INFO - ========== 开始执行测试: data/login_data.yaml::登录失败-密码错误 ==========
+2026-09-04 15:25:39 - tools.Logger - INFO -  访问页面: http://192.168.44.141/Home/user/login.html
+2026-09-04 15:25:39 - tools.Logger - INFO - 页面标题: 登录-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城
+2026-09-04 15:25:39 - tools.Logger - INFO -  开始执行测试步骤，共 5 步
+2026-09-04 15:25:39 - tools.Logger - INFO -    执行步骤 [1/5]: 输入用户名
+2026-09-04 15:25:41 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c4c582df07cd39b44b46ee704b91bc2a", element="f.595684CF326A9D7F5B759F2156014D56.d.2F4E0A38B12AF27CD91FEC0A268E6E06.e.146")>, 定位器:['id', 'username']
+2026-09-04 15:25:41 - tools.Logger - INFO -    步骤执行成功
+2026-09-04 15:25:41 - tools.Logger - INFO -    执行步骤 [2/5]: 输入用户密码
+2026-09-04 15:25:43 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c4c582df07cd39b44b46ee704b91bc2a", element="f.595684CF326A9D7F5B759F2156014D56.d.2F4E0A38B12AF27CD91FEC0A268E6E06.e.147")>, 定位器:['id', 'password']
+2026-09-04 15:25:43 - tools.Logger - INFO -    步骤执行成功
+2026-09-04 15:25:43 - tools.Logger - INFO -    执行步骤 [3/5]: 输入验证码
+2026-09-04 15:25:45 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c4c582df07cd39b44b46ee704b91bc2a", element="f.595684CF326A9D7F5B759F2156014D56.d.2F4E0A38B12AF27CD91FEC0A268E6E06.e.148")>, 定位器:['id', 'verify_code']
+2026-09-04 15:25:45 - tools.Logger - INFO -    步骤执行成功
+2026-09-04 15:25:45 - tools.Logger - INFO -    执行步骤 [4/5]: 点击登录按钮
+2026-09-04 15:25:47 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c4c582df07cd39b44b46ee704b91bc2a", element="f.595684CF326A9D7F5B759F2156014D56.d.2F4E0A38B12AF27CD91FEC0A268E6E06.e.173")>, 定位器:['name', 'sbtbutton']
+2026-09-04 15:25:47 - tools.Logger - INFO -    步骤执行成功
+2026-09-04 15:25:47 - tools.Logger - INFO -    执行步骤 [5/5]: 获取昵称
+2026-09-04 15:25:49 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c4c582df07cd39b44b46ee704b91bc2a", element="f.595684CF326A9D7F5B759F2156014D56.d.2F4E0A38B12AF27CD91FEC0A268E6E06.e.268")>, 定位器:['xpath', "//div[@class='layui-layer-content layui-layer-padding']"]
+2026-09-04 15:25:49 - tools.Logger - INFO -    断言验证: 期望=密码错误!, 实际=密码错误!
+2026-09-04 15:25:49 - tools.Logger - INFO -    断言通过
+2026-09-04 15:25:49 - tools.Logger - INFO -  测试完成，总步骤: 5
+2026-09-04 15:25:49 - tools.Logger - INFO -     成功: 5,  失败: 0
+2026-09-04 15:25:49 - tools.Logger - INFO -  Cookies已清除
+2026-09-04 15:25:49 - tools.Logger - INFO -  测试通过: data/login_data.yaml::登录失败-密码错误
+2026-09-04 15:25:49 - tools.Logger - INFO -  设置测试: 登录失败-验证码错误
+2026-09-04 15:25:49 - tools.Logger - INFO - Feature: 用户认证
+2026-09-04 15:25:49 - tools.Logger - INFO - Description: 验证用户登录功能是否正常
+2026-09-04 15:25:49 - tools.Logger - INFO - ========== 开始执行测试: data/login_data.yaml::登录失败-验证码错误 ==========
+2026-09-04 15:25:49 - tools.Logger - INFO -  访问页面: http://192.168.44.141/Home/user/login.html
+2026-09-04 15:25:50 - tools.Logger - INFO - 页面标题: 登录-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城
+2026-09-04 15:25:50 - tools.Logger - INFO -  开始执行测试步骤，共 5 步
+2026-09-04 15:25:50 - tools.Logger - INFO -    执行步骤 [1/5]: 输入用户名
+2026-09-04 15:25:52 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c4c582df07cd39b44b46ee704b91bc2a", element="f.595684CF326A9D7F5B759F2156014D56.d.5C130BF8107440B60C8E46C50B5E1E5E.e.271")>, 定位器:['id', 'username']
+2026-09-04 15:25:52 - tools.Logger - INFO -    步骤执行成功
+2026-09-04 15:25:52 - tools.Logger - INFO -    执行步骤 [2/5]: 输入用户密码
+2026-09-04 15:25:54 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c4c582df07cd39b44b46ee704b91bc2a", element="f.595684CF326A9D7F5B759F2156014D56.d.5C130BF8107440B60C8E46C50B5E1E5E.e.272")>, 定位器:['id', 'password']
+2026-09-04 15:25:54 - tools.Logger - INFO -    步骤执行成功
+2026-09-04 15:25:54 - tools.Logger - INFO -    执行步骤 [3/5]: 输入验证码
+2026-09-04 15:25:56 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c4c582df07cd39b44b46ee704b91bc2a", element="f.595684CF326A9D7F5B759F2156014D56.d.5C130BF8107440B60C8E46C50B5E1E5E.e.273")>, 定位器:['id', 'verify_code']
+2026-09-04 15:25:56 - tools.Logger - INFO -    步骤执行成功
+2026-09-04 15:25:56 - tools.Logger - INFO -    执行步骤 [4/5]: 点击登录按钮
+2026-09-04 15:25:58 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c4c582df07cd39b44b46ee704b91bc2a", element="f.595684CF326A9D7F5B759F2156014D56.d.5C130BF8107440B60C8E46C50B5E1E5E.e.298")>, 定位器:['name', 'sbtbutton']
+2026-09-04 15:25:58 - tools.Logger - INFO -    步骤执行成功
+2026-09-04 15:25:58 - tools.Logger - INFO -    执行步骤 [5/5]: 获取昵称
+2026-09-04 15:26:00 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c4c582df07cd39b44b46ee704b91bc2a", element="f.595684CF326A9D7F5B759F2156014D56.d.5C130BF8107440B60C8E46C50B5E1E5E.e.393")>, 定位器:['xpath', "//div[@class='layui-layer-content layui-layer-padding']"]
+2026-09-04 15:26:00 - tools.Logger - INFO -    断言验证: 期望=验证码错误, 实际=验证码错误
+2026-09-04 15:26:00 - tools.Logger - INFO -    断言通过
+2026-09-04 15:26:00 - tools.Logger - INFO -  测试完成，总步骤: 5
+2026-09-04 15:26:00 - tools.Logger - INFO -     成功: 5,  失败: 0
+2026-09-04 15:26:00 - tools.Logger - INFO -  Cookies已清除
+2026-09-04 15:26:00 - tools.Logger - INFO -  测试通过: data/login_data.yaml::登录失败-验证码错误
+2026-09-04 15:26:00 - tools.Logger - INFO -  设置测试: 登录失败-账号格式不匹配
+2026-09-04 15:26:00 - tools.Logger - INFO - Feature: 用户认证
+2026-09-04 15:26:00 - tools.Logger - INFO - Description: 验证用户登录功能是否正常
+2026-09-04 15:26:00 - tools.Logger - INFO - ========== 开始执行测试: data/login_data.yaml::登录失败-账号格式不匹配 ==========
+2026-09-04 15:26:00 - tools.Logger - INFO -  访问页面: http://192.168.44.141/Home/user/login.html
+2026-09-04 15:26:00 - tools.Logger - INFO - 页面标题: 登录-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城
+2026-09-04 15:26:00 - tools.Logger - INFO -  开始执行测试步骤，共 5 步
+2026-09-04 15:26:00 - tools.Logger - INFO -    执行步骤 [1/5]: 输入用户名
+2026-09-04 15:26:02 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c4c582df07cd39b44b46ee704b91bc2a", element="f.595684CF326A9D7F5B759F2156014D56.d.BD413B71C9D041A5178E5DF69B62468B.e.396")>, 定位器:['id', 'username']
+2026-09-04 15:26:02 - tools.Logger - INFO -    步骤执行成功
+2026-09-04 15:26:02 - tools.Logger - INFO -    执行步骤 [2/5]: 输入用户密码
+2026-09-04 15:26:04 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c4c582df07cd39b44b46ee704b91bc2a", element="f.595684CF326A9D7F5B759F2156014D56.d.BD413B71C9D041A5178E5DF69B62468B.e.397")>, 定位器:['id', 'password']
+2026-09-04 15:26:04 - tools.Logger - INFO -    步骤执行成功
+2026-09-04 15:26:04 - tools.Logger - INFO -    执行步骤 [3/5]: 输入验证码
+2026-09-04 15:26:06 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c4c582df07cd39b44b46ee704b91bc2a", element="f.595684CF326A9D7F5B759F2156014D56.d.BD413B71C9D041A5178E5DF69B62468B.e.398")>, 定位器:['id', 'verify_code']
+2026-09-04 15:26:06 - tools.Logger - INFO -    步骤执行成功
+2026-09-04 15:26:06 - tools.Logger - INFO -    执行步骤 [4/5]: 点击登录按钮
+2026-09-04 15:26:08 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c4c582df07cd39b44b46ee704b91bc2a", element="f.595684CF326A9D7F5B759F2156014D56.d.BD413B71C9D041A5178E5DF69B62468B.e.423")>, 定位器:['name', 'sbtbutton']
+2026-09-04 15:26:08 - tools.Logger - INFO -    步骤执行成功
+2026-09-04 15:26:08 - tools.Logger - INFO -    执行步骤 [5/5]: 获取昵称
+2026-09-04 15:26:10 - tools.Logger - INFO - 定位成功：<selenium.webdriver.remote.webelement.WebElement (session="c4c582df07cd39b44b46ee704b91bc2a", element="f.595684CF326A9D7F5B759F2156014D56.d.BD413B71C9D041A5178E5DF69B62468B.e.518")>, 定位器:['xpath', "//div[@class='layui-layer-content layui-layer-padding']"]
+2026-09-04 15:26:10 - tools.Logger - INFO -    断言验证: 期望=账号格式不匹配!, 实际=账号格式不匹配!
+2026-09-04 15:26:10 - tools.Logger - INFO -    断言通过
+2026-09-04 15:26:10 - tools.Logger - INFO -  测试完成，总步骤: 5
+2026-09-04 15:26:10 - tools.Logger - INFO -     成功: 5,  失败: 0
+2026-09-04 15:26:10 - tools.Logger - INFO -  Cookies已清除
+2026-09-04 15:26:10 - tools.Logger - INFO -  测试通过: data/login_data.yaml::登录失败-账号格式不匹配
+2026-09-04 15:26:10 - tools.Logger - INFO - 关闭浏览器: D:\pycharmproject\Python_Project\TPshop\data\login_data.yaml
+2026-09-04 15:26:12 - tools.Logger - INFO -  浏览器已关闭

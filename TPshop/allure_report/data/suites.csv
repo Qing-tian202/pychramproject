@@ -1,5 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"验证用户登录功能是否正常","10209","登录失败-验证码错误","data","2026-09-04","passed","2026-09-04","","login_data","",""
-"验证用户登录功能是否正常","10217","登录失败-账号格式不匹配","data","2026-09-04","passed","2026-09-04","","login_data","",""
-"验证用户登录功能是否正常","10421","登录成功","data","2026-09-04","passed","2026-09-04","","login_data","",""
-"验证用户登录功能是否正常","10207","登录失败-密码错误","data","2026-09-04","passed","2026-09-04","","login_data","",""

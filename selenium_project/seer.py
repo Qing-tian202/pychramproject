@@ -42,7 +42,8 @@ class Seer(BaseAppium):
         self.__seer_btn_locator = (AppiumBy.ANDROID_UIAUTOMATOR,
                                     'new UiSelector().text("赛尔号巅峰之战")')
         self.__search_txt_locator = [(71,375)]
-        self.__search_config_locator = [(446,456)]
+        self.__search_1_locator = [(130,850)]
+        self.__search_config_locator = [(1270,350)]
         self.__chose_music_locator = [(646,748)]
         self.__fight_locator = [(random.randint(135,165),random.randint(661,701))]
         self.__skill_locator = [(random.randint(378,410),random.randint(786,820))]
@@ -72,15 +73,23 @@ class Seer(BaseAppium):
 
     def set_up(self):
         self.click(self.__seer_btn_locator)
+        print("点击应用")
         time.sleep(30)
         self.driver.tap(self.__search_config_locator)
+        print("点击登录")
         time.sleep(30)
         self.driver.tap(self.__search_txt_locator)
-        time.sleep(5)
+        print("点击获取")
+        time.sleep(10)
+        self.driver.tap(self.__search_1_locator)
+        print("点击收藏")
+        time.sleep(10)
         self.driver.tap(self.__search_config_locator)
-        time.sleep(5)
+        print("点击前往")
+        time.sleep(10)
         self.driver.tap(self.__chose_music_locator)
-        time.sleep(5)
+        print("点击第四关")
+        time.sleep(10)
 
     def run(self):
         self.driver.tap(self.__fight_locator)
